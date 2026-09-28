@@ -1,0 +1,13 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "SubtipoEstabelecimento",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/SubtipoEstabelecimento",
+  "version": "HEAD",
+  "name": "BRSubtipoEstabelecimento",
+  "title": "Subtipo Estabelecimento de Saúde",
+  "status": "active",
+  "experimental": false,
+  "publisher": "MS",
+  "caseSensitive": true,
+  "content": "not-present"
+}

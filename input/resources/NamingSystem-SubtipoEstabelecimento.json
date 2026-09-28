@@ -1,0 +1,16 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "SubtipoEstabelecimento",
+  "language": "pt",
+  "name": "BRSubtipoEstabelecimento",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Subtipo Estabelecimento de Saúde",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/SubtipoEstabelecimento",
+      "preferred": true
+    }
+  ]
+}
