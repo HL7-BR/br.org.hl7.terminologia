@@ -1,0 +1,30 @@
+{
+    "resourceType": "NamingSystem",
+    "id": "dsei",
+    "name": "NamingSystemDSEI",
+    "status": "active",
+    "kind": "identifier",
+    "date": "2026-09-28T00:00:00-03:00",
+    "publisher": "Ministério da Saúde do Brasil",
+    "contact": [
+        {
+            "name": "SECRETARIA DE SAÚDE INDÍGENA (SESAI)",
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "https://gov.br/saude"
+                }
+            ]
+        }
+    ],
+    "responsible": "Secretaria de Saúde Indígena (SESAI), responsável por atribuir o identificador do Distrito Sanitário Especial Indígena (DSEI)",
+    "description": "Identificador do Distrito Sanitário Especial Indígena (DSEI)",
+    "usage": "Identificador do Distrito Sanitário Especial Indígena (DSEI) no perfil br-core-organization (identifier:dsei)",
+    "uniqueId": [
+        {
+            "type": "uri",
+            "value": "https://saude.gov.br/fhir/sid/dsei",
+            "preferred": true
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+{
+    "resourceType": "NamingSystem",
+    "id": "polo-base",
+    "name": "NamingSystemPoloBase",
+    "status": "active",
+    "kind": "identifier",
+    "date": "2026-09-28T00:00:00-03:00",
+    "publisher": "Ministério da Saúde do Brasil",
+    "contact": [
+        {
+            "name": "SECRETARIA DE SAÚDE INDÍGENA (SESAI)",
+            "telecom": [
+                {
+                    "system": "url",
+                    "value": "https://gov.br/saude"
+                }
+            ]
+        }
+    ],
+    "responsible": "Secretaria de Saúde Indígena (SESAI), responsável por atribuir o identificador do Polo Base da Saúde Indígena",
+    "description": "Identificador do Polo Base da Saúde Indígena",
+    "usage": "Identificador do Polo Base da Saúde Indígena no perfil br-core-organization (identifier:poloBase)",
+    "uniqueId": [
+        {
+            "type": "uri",
+            "value": "https://saude.gov.br/fhir/sid/polo-base",
+            "preferred": true
+        }
+    ]
+}
