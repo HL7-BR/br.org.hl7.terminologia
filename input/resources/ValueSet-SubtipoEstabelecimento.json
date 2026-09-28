@@ -6,7 +6,9 @@
   "name": "BRSubtipoEstabelecimento",
   "title": "Subtipo Estabelecimento de Saúde",
   "status": "active",
+  "experimental": false,
   "publisher": "MS",
+  "description": "O Subtipo estabelecimento de saúde descreve se uma organização é um DSEI - Distrito Sanitário de Saúde Indígena; Polo-Base - Polo Base de Saúde Indígena. Serve apenas para qualificar os estabelecimentos que tem como type = 72 - UNIDADE DE ATENCAO A SAUDE INDIGENA",
   "compose": {
     "include": [
       {
