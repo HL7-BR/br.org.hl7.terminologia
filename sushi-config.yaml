@@ -16,7 +16,7 @@ description: Guia de Implementação Terminologias do Brasil.
 status: active
 license: CC0-1.0
 date: 2024-07-25
-version: 1.1.0
+version: 1.2.0
 
 # Although fhirVersions is 0..* in the ImplementationGuide resource
 # it can be a single item OR and array here (but so far SUSHI only
@@ -337,6 +337,8 @@ resources:
     description: "Via de Administração"
   CodeSystem/BRcondicao-amostra:
     description: "Condicao amostra"
+  CodeSystem/SubtipoEstabelecimento:
+    description: "Subtipo Estabelecimento de Saúde"
   CodeSystem/TipoConvenio:
     description: "Tipo de Convênio"
   ValueSet/BRAlergenos:
@@ -559,6 +561,8 @@ resources:
     description: "OCI Ortopedia"
   ValueSet/OCIOtorrino:
     description: "OCIOtorrinolaringologia"
+  ValueSet/SubtipoEstabelecimento:
+    description: "Subtipo Estabelecimento de Saúde"
   ValueSet/TipoConvenio:
     description: "Tipo de Convênio"
 
