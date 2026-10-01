@@ -1,0 +1,16 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRAldeia",
+  "language": "pt",
+  "name": "BRAldeia",
+  "status": "active",
+  "kind": "codesystem",
+  "description": "Aldeia Indígena (código co_seq_aldeia da SESAI/DATASUS)",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRAldeia",
+      "preferred": true
+    }
+  ]
+}

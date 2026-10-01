@@ -155,6 +155,8 @@ dependencies:
 
 
 resources:
+  CodeSystem/BRAldeia:
+    description: "Aldeia Indígena"
   CodeSystem/BRAlergenosCBARA:
     description: "BR Alérgenos CBARA"
   CodeSystem/BRAtendimentoPrestado:
@@ -341,6 +343,8 @@ resources:
     description: "Subtipo Estabelecimento de Saúde"
   CodeSystem/TipoConvenio:
     description: "Tipo de Convênio"
+  ValueSet/BRAldeia:
+    description: "Aldeia Indígena"
   ValueSet/BRAlergenos:
     description: "Alergenos"
   ValueSet/BRAtendimentoPrestado:
