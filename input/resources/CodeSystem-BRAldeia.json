@@ -1,0 +1,14 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRAldeia",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRAldeia",
+  "version": "HEAD",
+  "name": "BRAldeia",
+  "title": "Aldeia Indígena",
+  "status": "active",
+  "experimental": false,
+  "publisher": "MS",
+  "description": "Aldeias indígenas cadastradas pela SESAI/DATASUS. Código: co_seq_aldeia. Fonte: dados_aldeiasFinalout1.xlsx (telenordeste-docs, commit 0c2bac8).",
+  "caseSensitive": true,
+  "content": "not-present"
+}
