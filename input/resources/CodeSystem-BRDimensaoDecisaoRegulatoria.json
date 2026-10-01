@@ -1,0 +1,14 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRDimensaoDecisaoRegulatoria",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDimensaoDecisaoRegulatoria",
+  "version": "HEAD",
+  "name": "BRDimensaoDecisaoRegulatoria",
+  "title": "Dimensão da Decisão Regulatória",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "MS",
+  "description": "Dimensões avaliadas na decisão regulatória (seção 6 do guia do GT). Toda negativa DEVE indicar qual dimensão falhou. Origem: guia InspiraRIRA (refatoração do RIRA) e Guia de Implementação FHIR para Regulação e Processamento Financeiro no Brasil (WD 0.1, GT Financeiro HL7 Brasil). Espelha o OCL (org MS).",
+  "caseSensitive": true,
+  "content": "not-present"
+}

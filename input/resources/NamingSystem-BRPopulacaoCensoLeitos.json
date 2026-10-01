@@ -1,0 +1,16 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRPopulacaoCensoLeitos",
+  "language": "pt",
+  "name": "BRPopulacaoCensoLeitos",
+  "status": "draft",
+  "kind": "codesystem",
+  "description": "População do Censo de Leitos",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoCensoLeitos",
+      "preferred": true
+    }
+  ]
+}

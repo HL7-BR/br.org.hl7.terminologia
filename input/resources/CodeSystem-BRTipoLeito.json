@@ -1,0 +1,14 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRTipoLeito",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoLeito",
+  "version": "HEAD",
+  "name": "BRTipoLeito",
+  "title": "Tipo de Leito (CNES)",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "MS",
+  "description": "Tipos de leito hospitalar do Cadastro Nacional de Estabelecimentos de Saúde. Origem: guia InspiraRIRA (refatoração do RIRA) e Guia de Implementação FHIR para Regulação e Processamento Financeiro no Brasil (WD 0.1, GT Financeiro HL7 Brasil). Espelha o OCL (org MS).",
+  "caseSensitive": true,
+  "content": "not-present"
+}

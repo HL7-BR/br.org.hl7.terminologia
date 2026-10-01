@@ -1,0 +1,14 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRPopulacaoCensoLeitos",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoCensoLeitos",
+  "version": "HEAD",
+  "name": "BRPopulacaoCensoLeitos",
+  "title": "População do Censo de Leitos",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "MS",
+  "description": "Contagens do censo de leitos (MeasureReport.group.population.code). Origem: guia InspiraRIRA (refatoração do RIRA) e Guia de Implementação FHIR para Regulação e Processamento Financeiro no Brasil (WD 0.1, GT Financeiro HL7 Brasil). Espelha o OCL (org MS).",
+  "caseSensitive": true,
+  "content": "not-present"
+}

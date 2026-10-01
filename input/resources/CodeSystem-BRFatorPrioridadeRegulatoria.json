@@ -1,0 +1,14 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRFatorPrioridadeRegulatoria",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFatorPrioridadeRegulatoria",
+  "version": "HEAD",
+  "name": "BRFatorPrioridadeRegulatoria",
+  "title": "Fator de Prioridade Regulatória",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "MS",
+  "description": "Fatores componentes da prioridade (seções 6 e 7.3 do guia do GT). Fatores sociodemográficos DEVEM compensar vulnerabilidades, nunca reduzir acesso. Origem: guia InspiraRIRA (refatoração do RIRA) e Guia de Implementação FHIR para Regulação e Processamento Financeiro no Brasil (WD 0.1, GT Financeiro HL7 Brasil). Espelha o OCL (org MS).",
+  "caseSensitive": true,
+  "content": "not-present"
+}

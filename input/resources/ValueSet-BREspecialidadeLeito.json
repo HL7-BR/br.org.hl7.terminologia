@@ -1,0 +1,286 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BREspecialidadeLeito",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BREspecialidadeLeito",
+  "version": "HEAD",
+  "name": "BREspecialidadeLeito",
+  "title": "Especialidade de Leito (CNES)",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "MS",
+  "description": "Todas as especialidades de leito do CNES. Origem: guia InspiraRIRA (refatoração do RIRA) e Guia de Implementação FHIR para Regulação e Processamento Financeiro no Brasil (WD 0.1, GT Financeiro HL7 Brasil). Espelha o OCL (org MS).",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREspecialidadeLeito",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "01",
+            "display": "BUCO MAXILO FACIAL"
+          },
+          {
+            "code": "02",
+            "display": "CARDIOLOGIA"
+          },
+          {
+            "code": "03",
+            "display": "CIRURGIA GERAL"
+          },
+          {
+            "code": "04",
+            "display": "ENDOCRINOLOGIA"
+          },
+          {
+            "code": "05",
+            "display": "GASTROENTEROLOGIA"
+          },
+          {
+            "code": "06",
+            "display": "GINECOLOGIA"
+          },
+          {
+            "code": "07",
+            "display": "CIRURGICO/DIAGNOSTICO/TERAPEUTICO"
+          },
+          {
+            "code": "08",
+            "display": "NEFROLOGIAUROLOGIA"
+          },
+          {
+            "code": "09",
+            "display": "NEUROCIRURGIA"
+          },
+          {
+            "code": "10",
+            "display": "OBSTETRICIA CIRURGICA"
+          },
+          {
+            "code": "11",
+            "display": "OFTALMOLOGIA"
+          },
+          {
+            "code": "12",
+            "display": "ONCOLOGIA"
+          },
+          {
+            "code": "13",
+            "display": "ORTOPEDIATRAUMATOLOGIA"
+          },
+          {
+            "code": "14",
+            "display": "OTORRINOLARINGOLOGIA"
+          },
+          {
+            "code": "15",
+            "display": "PLASTICA"
+          },
+          {
+            "code": "16",
+            "display": "TORACICA"
+          },
+          {
+            "code": "31",
+            "display": "AIDS"
+          },
+          {
+            "code": "32",
+            "display": "CARDIOLOGIA"
+          },
+          {
+            "code": "33",
+            "display": "CLINICA GERAL"
+          },
+          {
+            "code": "34",
+            "display": "CRONICOS"
+          },
+          {
+            "code": "35",
+            "display": "DERMATOLOGIA"
+          },
+          {
+            "code": "36",
+            "display": "GERIATRIA"
+          },
+          {
+            "code": "37",
+            "display": "HANSENOLOGIA"
+          },
+          {
+            "code": "38",
+            "display": "HEMATOLOGIA"
+          },
+          {
+            "code": "40",
+            "display": "NEFROUROLOGIA"
+          },
+          {
+            "code": "41",
+            "display": "NEONATOLOGIA"
+          },
+          {
+            "code": "42",
+            "display": "NEUROLOGIA"
+          },
+          {
+            "code": "43",
+            "display": "OBSTETRICIA CLINICA"
+          },
+          {
+            "code": "44",
+            "display": "ONCOLOGIA"
+          },
+          {
+            "code": "45",
+            "display": "PEDIATRIA CLINICA"
+          },
+          {
+            "code": "46",
+            "display": "PNEUMOLOGIA"
+          },
+          {
+            "code": "47",
+            "display": "PSIQUIATRIA"
+          },
+          {
+            "code": "48",
+            "display": "REABILITACAO"
+          },
+          {
+            "code": "49",
+            "display": "PNEUMOLOGIA SANITARIA"
+          },
+          {
+            "code": "64",
+            "display": "UNIDADE INTERMEDIARIA"
+          },
+          {
+            "code": "65",
+            "display": "UNIDADE INTERMEDIARIA NEONATAL"
+          },
+          {
+            "code": "66",
+            "display": "UNIDADE ISOLAMENTO"
+          },
+          {
+            "code": "67",
+            "display": "TRANSPLANTE"
+          },
+          {
+            "code": "68",
+            "display": "PEDIATRIA CIRURGICA"
+          },
+          {
+            "code": "69",
+            "display": "AIDS"
+          },
+          {
+            "code": "70",
+            "display": "FIBROSE CISTICA"
+          },
+          {
+            "code": "71",
+            "display": "INTERCORRENCIA POS-TRANSPLANTE"
+          },
+          {
+            "code": "72",
+            "display": "GERIATRIA"
+          },
+          {
+            "code": "73",
+            "display": "SAUDE MENTAL"
+          },
+          {
+            "code": "74",
+            "display": "UTI ADULTO - TIPO I"
+          },
+          {
+            "code": "75",
+            "display": "UTI ADULTO - TIPO II"
+          },
+          {
+            "code": "76",
+            "display": "UTI ADULTO - TIPO III"
+          },
+          {
+            "code": "77",
+            "display": "UTI PEDIATRICA - TIPO I"
+          },
+          {
+            "code": "78",
+            "display": "UTI PEDIATRICA - TIPO II"
+          },
+          {
+            "code": "79",
+            "display": "UTI PEDIATRICA - TIPO III"
+          },
+          {
+            "code": "80",
+            "display": "UTI NEONATAL - TIPO I"
+          },
+          {
+            "code": "81",
+            "display": "UTI NEONATAL - TIPO II"
+          },
+          {
+            "code": "82",
+            "display": "UTI NEONATAL - TIPO III"
+          },
+          {
+            "code": "83",
+            "display": "UTI DE QUEIMADOS"
+          },
+          {
+            "code": "84",
+            "display": "ACOLHIMENTO NOTURNO"
+          },
+          {
+            "code": "85",
+            "display": "UTI CORONARIANA TIPO II - UCO TIPO II"
+          },
+          {
+            "code": "86",
+            "display": "UTI CORONARIANA TIPO III - UCO TIPO III"
+          },
+          {
+            "code": "87",
+            "display": "SAUDE MENTAL"
+          },
+          {
+            "code": "88",
+            "display": "QUEIMADO ADULTO"
+          },
+          {
+            "code": "89",
+            "display": "QUEIMADO PEDIATRICO"
+          },
+          {
+            "code": "90",
+            "display": "QUEIMADO ADULTO"
+          },
+          {
+            "code": "91",
+            "display": "QUEIMADO PEDIATRICO"
+          },
+          {
+            "code": "92",
+            "display": "UNIDADE DE CUIDADOS INTERMEDIARIOS NEONATAL CONVENCIONAL"
+          },
+          {
+            "code": "93",
+            "display": "UNIDADE DE CUIDADOS INTERMEDIARIOS NEONATAL CANGURU"
+          },
+          {
+            "code": "94",
+            "display": "UNIDADE DE CUIDADOS INTERMEDIARIOS PEDIATRICO"
+          },
+          {
+            "code": "95",
+            "display": "UNIDADE DE CUIDADOS INTERMEDIARIOS ADULTO"
+          }
+        ]
+      }
+    ]
+  }
+}

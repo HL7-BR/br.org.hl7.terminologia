@@ -1,0 +1,41 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BROCISUS",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BROCISUS",
+  "version": "HEAD",
+  "name": "BROCISUS",
+  "title": "Ofertas de Cuidados Integrados (OCI) SUS",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "MS",
+  "description": "União dos ValueSets de OCI publicados no guia de terminologia (grupo 09 do SIGTAP), incluindo o novo OCICardio. Bindings extensible para acomodar novas OCIs. Origem: guia InspiraRIRA (refatoração do RIRA) e Guia de Implementação FHIR para Regulação e Processamento Financeiro no Brasil (WD 0.1, GT Financeiro HL7 Brasil). Espelha o OCL (org MS).",
+  "compose": {
+    "include": [
+      {
+        "valueSet": [
+          "https://terminologia.saude.gov.br/fhir/ValueSet/OCIOnco"
+        ]
+      },
+      {
+        "valueSet": [
+          "https://terminologia.saude.gov.br/fhir/ValueSet/OCIOftalmo"
+        ]
+      },
+      {
+        "valueSet": [
+          "https://terminologia.saude.gov.br/fhir/ValueSet/OCIOrtopedia"
+        ]
+      },
+      {
+        "valueSet": [
+          "https://terminologia.saude.gov.br/fhir/ValueSet/OCIOtorrino"
+        ]
+      },
+      {
+        "valueSet": [
+          "https://terminologia.saude.gov.br/fhir/ValueSet/OCICardio"
+        ]
+      }
+    ]
+  }
+}

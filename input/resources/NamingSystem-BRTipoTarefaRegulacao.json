@@ -1,0 +1,16 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRTipoTarefaRegulacao",
+  "language": "pt",
+  "name": "BRTipoTarefaRegulacao",
+  "status": "draft",
+  "kind": "codesystem",
+  "description": "Tipo de Tarefa de Regulação",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoTarefaRegulacao",
+      "preferred": true
+    }
+  ]
+}

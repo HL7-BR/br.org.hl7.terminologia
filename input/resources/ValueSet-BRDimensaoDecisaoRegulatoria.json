@@ -1,0 +1,54 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRDimensaoDecisaoRegulatoria",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRDimensaoDecisaoRegulatoria",
+  "version": "HEAD",
+  "name": "BRDimensaoDecisaoRegulatoria",
+  "title": "Dimensão da Decisão Regulatória",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "MS",
+  "description": "Dimensões avaliadas na decisão regulatória. Origem: guia InspiraRIRA (refatoração do RIRA) e Guia de Implementação FHIR para Regulação e Processamento Financeiro no Brasil (WD 0.1, GT Financeiro HL7 Brasil). Espelha o OCL (org MS).",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDimensaoDecisaoRegulatoria",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "completude",
+            "display": "Completude"
+          },
+          {
+            "code": "pertinencia",
+            "display": "Pertinência"
+          },
+          {
+            "code": "prioridade",
+            "display": "Prioridade"
+          },
+          {
+            "code": "equidade",
+            "display": "Equidade"
+          },
+          {
+            "code": "destino",
+            "display": "Destino"
+          },
+          {
+            "code": "cobertura",
+            "display": "Cobertura"
+          },
+          {
+            "code": "capacidade",
+            "display": "Capacidade"
+          },
+          {
+            "code": "decisao",
+            "display": "Decisão"
+          }
+        ]
+      }
+    ]
+  }
+}

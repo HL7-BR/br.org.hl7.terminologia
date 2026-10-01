@@ -1,0 +1,16 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRFatorPrioridadeRegulatoria",
+  "language": "pt",
+  "name": "BRFatorPrioridadeRegulatoria",
+  "status": "draft",
+  "kind": "codesystem",
+  "description": "Fator de Prioridade Regulatória",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFatorPrioridadeRegulatoria",
+      "preferred": true
+    }
+  ]
+}

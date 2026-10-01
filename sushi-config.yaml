@@ -189,6 +189,8 @@ resources:
     description: "Classificação de dados ausentes ou desconhecidos - IPS"
   CodeSystem/BRDesfechoProcedimento:
     description: "Desfecho Procedimento"
+  CodeSystem/BRDimensaoDecisaoRegulatoria:
+    description: "Dimensão da Decisão Regulatória"
   CodeSystem/BRDireitoTitularDados:
     description: "Direito Titular Dados"
   CodeSystem/BRDivisaoGeograficaBrasil:
@@ -197,6 +199,8 @@ resources:
     description: "Dose de Vacina"
   CodeSystem/BRElegibilidadeImunobiologico:
     description: "ElegibilidadeImunobiologico"
+  CodeSystem/BREspecialidadeLeito:
+    description: "Especialidade de Leito (CNES)"
   CodeSystem/BREstadoCivil:
     description: "Estado Civil"
   CodeSystem/BREstrategiaVacinacao:
@@ -207,6 +211,8 @@ resources:
     description: "Exame HPVCEPHEID"
   CodeSystem/BRFabricantePNI:
     description: "Fabricante do Imunobiológico"
+  CodeSystem/BRFatorPrioridadeRegulatoria:
+    description: "Fator de Prioridade Regulatória"
   CodeSystem/BRFinalidadeTratamentoDados:
     description: "Finalidade Tratamento Dados"
   CodeSystem/BRFormaOrganizacaoTabelaSUS:
@@ -221,6 +227,8 @@ resources:
     description: "Imunobiológico"
   CodeSystem/BRInstalacoesFisicas:
     description: "Instalações Físicas"
+  CodeSystem/BRInstrumentoFinanceiroSUS:
+    description: "Instrumento Administrativo-Financeiro SUS"
   CodeSystem/BRJustificativaIndividuoNaoIdentificado:
     description: "Justificativa da Impossibilidade de Identificação do Indivíduo"
   CodeSystem/BRLocalAfericao:
@@ -237,6 +245,8 @@ resources:
     description: "Modalidade Financeira"
   CodeSystem/BRModalidadeTelessaude:
     description: "Modalidade Telessaude"
+  CodeSystem/BRMotivoDecisaoRegulatoria:
+    description: "Motivo da Decisão Regulatória"
   CodeSystem/BRMotivoDesfecho:
     description: "Motivo Desfecho"
   CodeSystem/BRMotivoProcedimentoNaoRealizado:
@@ -269,6 +279,8 @@ resources:
     description: "Países"
   CodeSystem/BRParentesco:
     description: "Parentesco"
+  CodeSystem/BRPopulacaoCensoLeitos:
+    description: "População do Censo de Leitos"
   CodeSystem/BRPopulacaoTradicional:
     description: "Populacao Tradicional"
   CodeSystem/BRPosicaoIndividuo:
@@ -285,10 +297,14 @@ resources:
     description: "BR Registro de Origem"
   CodeSystem/BRResponsabilidadeParticipante:
     description: "Responsabilidade Participante"
+  CodeSystem/BRResultadoDecisaoRegulatoria:
+    description: "Resultado da Decisão Regulatória"
   CodeSystem/BRResultadoQualitativoExame:
     description: "Resultado qualitativo do Exame"
   CodeSystem/BRServicoEspecializado:
     description: "Servico Especializado"
+  CodeSystem/BRSituacaoRegulatoria:
+    description: "Situação Regulatória"
   CodeSystem/BRSubgrupoTabelaSUS:
     description: "Subgrupo da Tabela SUS 1.1.0"
   CodeSystem/BRTabelaSUS:
@@ -309,6 +325,8 @@ resources:
     description: "Tipo de Estabelecimento de Saúde"
   CodeSystem/BRTipoIdentificador:
     description: "Tipo de Identificador"
+  CodeSystem/BRTipoLeito:
+    description: "Tipo de Leito (CNES)"
   CodeSystem/BRTipoLogradouro:
     description: "Tipo de Logradouro"
   CodeSystem/BRTipoObservacao:
@@ -331,6 +349,10 @@ resources:
     description: "Tipo de Resultado RSBAC"
   CodeSystem/BRTipoResultadoRSCUL:
     description: "Tipo de Resultado RSCUL 1.0"
+  CodeSystem/BRTipoSaidaTarefaRegulacao:
+    description: "Tipo de Saída da Tarefa de Regulação"
+  CodeSystem/BRTipoTarefaRegulacao:
+    description: "Tipo de Tarefa de Regulação"
   CodeSystem/BRTipoTeleconsultoria:
     description: "Tipo Teleconsultoria"
   CodeSystem/BRUnidadeMedida:
@@ -343,6 +365,8 @@ resources:
     description: "Subtipo Estabelecimento de Saúde"
   CodeSystem/TipoConvenio:
     description: "Tipo de Convênio"
+  ConceptMap/BRRIRAEventoParaFluxoNativo:
+    description: "RIRA: evento legado para estado nativo"
   ValueSet/BRAldeia:
     description: "Aldeia Indígena"
   ValueSet/BRAlergenos:
@@ -383,6 +407,8 @@ resources:
     description: "Deficiencias"
   ValueSet/BRDesfechoProcedimento:
     description: "Desfecho Procedimento"
+  ValueSet/BRDimensaoDecisaoRegulatoria:
+    description: "Dimensão da Decisão Regulatória"
   ValueSet/BRDireitoTitularDados:
     description: "Direito Titular Dados"
   ValueSet/BRDispositivo-Medico:
@@ -391,6 +417,8 @@ resources:
     description: "Dose de Vacina"
   ValueSet/BRElegibilidadeImunobiologico:
     description: "ElegibilidadeImunobiologico"
+  ValueSet/BREspecialidadeLeito:
+    description: "Especialidade de Leito (CNES)"
   ValueSet/BREstadoCivil:
     description: "Estado Civil"
   ValueSet/BREstadoEvento:
@@ -409,6 +437,8 @@ resources:
     description: "Exame HPV"
   ValueSet/BRFabricanteImunobiologico:
     description: "Fabricante Imunobiologico"
+  ValueSet/BRFatorPrioridadeRegulatoria:
+    description: "Fator de Prioridade Regulatória"
   ValueSet/BRFinalidadeTratamentoDados:
     description: "Finalidade Tratamento Dados"
   ValueSet/BRFormaOrganizacaoTabelaSUS:
@@ -425,6 +455,10 @@ resources:
     description: "Imunobiológico"
   ValueSet/BRInstalacoesFisicas:
     description: "Instalações Físicas"
+  ValueSet/BRInstrumentoAutorizacaoSUS:
+    description: "Instrumento de Autorização SUS"
+  ValueSet/BRInstrumentoProducaoSUS:
+    description: "Instrumento de Registro da Produção SUS"
   ValueSet/BRJustificativaIndividuoNaoIdentificado:
     description: "Justificativa da Impossibilidade de Identificação do Indivíduo"
   ValueSet/BRLocalAfericao:
@@ -441,6 +475,8 @@ resources:
     description: "Modalidade Imagem"
   ValueSet/BRModalidadeTelessaude:
     description: "Modalidade Telessaude"
+  ValueSet/BRMotivoDecisaoRegulatoria:
+    description: "Motivo da Decisão Regulatória"
   ValueSet/BRMotivoDesfecho:
     description: "Motivo Desfecho"
   ValueSet/BRMotivoProcedimentoNaoRealizado:
@@ -459,6 +495,8 @@ resources:
     description: "OCI IC"
   ValueSet/BRObservationReferencia:
     description: "Observation Referencia"
+  ValueSet/BROCISUS:
+    description: "Ofertas de Cuidados Integrados (OCI) SUS"
   ValueSet/BROcupacao:
     description: "Ocupacao"
   ValueSet/BROrgaoExpedidor:
@@ -469,6 +507,8 @@ resources:
     description: "Países"
   ValueSet/BRParentesco:
     description: "Parentesco"
+  ValueSet/BRPopulacaoCensoLeitos:
+    description: "População do Censo de Leitos"
   ValueSet/BRPopulacaoTradicional:
     description: "Populacao Tradicional"
   ValueSet/BRPosicaoIndividuo:
@@ -495,6 +535,8 @@ resources:
     description: "Responsabilidade Participante"
   ValueSet/BRObservationRestricaoIntervaloReferencia:
     description: "Restricao Intervalo Referencia"
+  ValueSet/BRResultadoDecisaoRegulatoria:
+    description: "Resultado da Decisão Regulatória"
   ValueSet/BRResultadoQualitativoExame:
     description: "Resultado qualitativo do Exame"
   ValueSet/BRResultadoQualitativoHPV:
@@ -507,6 +549,8 @@ resources:
     description: "Sexo Nascimento"
   ValueSet/BRSinaisVitais:
     description: "Sinais Vitais"
+  ValueSet/BRSituacaoRegulatoria:
+    description: "Situação Regulatória"
   ValueSet/BRSubgrupoTabelaSUS:
     description: "Subgrupo da Tabela SUS 1.1.0"
   ValueSet/BRTabelaSUS:
@@ -539,12 +583,18 @@ resources:
     description: "Tipo de Identificador"
   ValueSet/BRTipoIdentificadorProcedimento:
     description: "Tipo Identificador Procedimento"
+  ValueSet/BRTipoLeito:
+    description: "Tipo de Leito (CNES)"
   ValueSet/BRTipoLogradouro:
     description: "Tipo de Logradouro"
   ValueSet/BRTipoObservacao:
     description: "Tipo de Observação"
   ValueSet/BRTipoParticipante:
     description: "Tipo do Participante"
+  ValueSet/BRTipoSaidaTarefaRegulacao:
+    description: "Tipo de Saída da Tarefa de Regulação"
+  ValueSet/BRTipoTarefaRegulacao:
+    description: "Tipo de Tarefa de Regulação"
   ValueSet/BRTipoTeleconsultoria:
     description: "Tipo Teleconsultoria"
   ValueSet/BRUnidadeFederativa:
@@ -557,6 +607,8 @@ resources:
     description: "Condicao amostra"
   ValueSet/BRReasonEncounter:
     description: "Reason Encounter"
+  ValueSet/OCICardio:
+    description: "OCICardio"
   ValueSet/OCIOftalmo:
     description: "OCIOftalmologia"
   ValueSet/OCIOnco:

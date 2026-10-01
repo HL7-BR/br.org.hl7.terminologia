@@ -1,0 +1,14 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRResultadoDecisaoRegulatoria",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRResultadoDecisaoRegulatoria",
+  "version": "HEAD",
+  "name": "BRResultadoDecisaoRegulatoria",
+  "title": "Resultado da Decisão Regulatória",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "MS",
+  "description": "Resultados estruturados por dimensão (seção 6 do guia do GT). Origem: guia InspiraRIRA (refatoração do RIRA) e Guia de Implementação FHIR para Regulação e Processamento Financeiro no Brasil (WD 0.1, GT Financeiro HL7 Brasil). Espelha o OCL (org MS).",
+  "caseSensitive": true,
+  "content": "not-present"
+}

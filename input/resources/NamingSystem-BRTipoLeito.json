@@ -1,0 +1,16 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRTipoLeito",
+  "language": "pt",
+  "name": "BRTipoLeito",
+  "status": "draft",
+  "kind": "codesystem",
+  "description": "Tipo de Leito (CNES)",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoLeito",
+      "preferred": true
+    }
+  ]
+}

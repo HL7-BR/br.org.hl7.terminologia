@@ -1,0 +1,98 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRSituacaoRegulatoria",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRSituacaoRegulatoria",
+  "version": "HEAD",
+  "name": "BRSituacaoRegulatoria",
+  "title": "Situação Regulatória",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "MS",
+  "description": "Códigos para TarefaRegulacao.businessStatus. Origem: guia InspiraRIRA (refatoração do RIRA) e Guia de Implementação FHIR para Regulação e Processamento Financeiro no Brasil (WD 0.1, GT Financeiro HL7 Brasil). Espelha o OCL (org MS).",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRSituacaoRegulatoria",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "recebido",
+            "display": "Recebido"
+          },
+          {
+            "code": "qualificacao",
+            "display": "Em qualificação"
+          },
+          {
+            "code": "pendencia-documental",
+            "display": "Aguardando complemento"
+          },
+          {
+            "code": "fila-elegivel",
+            "display": "Elegível, aguardando oferta"
+          },
+          {
+            "code": "oferta-proposta",
+            "display": "Oferta em negociação"
+          },
+          {
+            "code": "agendado",
+            "display": "Agendado"
+          },
+          {
+            "code": "suspensao-clinica",
+            "display": "Pedido clínico suspenso"
+          },
+          {
+            "code": "cancelado-clinicamente",
+            "display": "Sem indicação após revisão"
+          },
+          {
+            "code": "executado",
+            "display": "Executado"
+          },
+          {
+            "code": "reprocessamento",
+            "display": "Falha operacional recuperável"
+          },
+          {
+            "code": "autorizacao-em-analise",
+            "display": "Autorização em análise"
+          },
+          {
+            "code": "autorizado",
+            "display": "Autorizado"
+          },
+          {
+            "code": "autorizacao-negada",
+            "display": "Autorização negada"
+          },
+          {
+            "code": "aguardando-leito",
+            "display": "Aguardando leito"
+          },
+          {
+            "code": "leito-reservado",
+            "display": "Leito reservado"
+          },
+          {
+            "code": "vaga-zero",
+            "display": "Vaga zero"
+          },
+          {
+            "code": "internado",
+            "display": "Internado"
+          },
+          {
+            "code": "transferido",
+            "display": "Transferido"
+          },
+          {
+            "code": "alta",
+            "display": "Alta"
+          }
+        ]
+      }
+    ]
+  }
+}

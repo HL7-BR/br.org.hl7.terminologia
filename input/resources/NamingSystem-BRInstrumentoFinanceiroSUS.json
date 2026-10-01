@@ -1,0 +1,16 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRInstrumentoFinanceiroSUS",
+  "language": "pt",
+  "name": "BRInstrumentoFinanceiroSUS",
+  "status": "draft",
+  "kind": "codesystem",
+  "description": "Instrumento Administrativo-Financeiro SUS",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstrumentoFinanceiroSUS",
+      "preferred": true
+    }
+  ]
+}

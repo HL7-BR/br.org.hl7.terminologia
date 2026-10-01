@@ -1,0 +1,16 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRMotivoDecisaoRegulatoria",
+  "language": "pt",
+  "name": "BRMotivoDecisaoRegulatoria",
+  "status": "draft",
+  "kind": "codesystem",
+  "description": "Motivo da Decisão Regulatória",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoDecisaoRegulatoria",
+      "preferred": true
+    }
+  ]
+}

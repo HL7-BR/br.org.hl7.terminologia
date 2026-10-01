@@ -1,0 +1,16 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRSituacaoRegulatoria",
+  "language": "pt",
+  "name": "BRSituacaoRegulatoria",
+  "status": "draft",
+  "kind": "codesystem",
+  "description": "Situação Regulatória",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRSituacaoRegulatoria",
+      "preferred": true
+    }
+  ]
+}

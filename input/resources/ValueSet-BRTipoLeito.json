@@ -1,0 +1,50 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRTipoLeito",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoLeito",
+  "version": "HEAD",
+  "name": "BRTipoLeito",
+  "title": "Tipo de Leito (CNES)",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "MS",
+  "description": "Todos os tipos de leito do CNES. Origem: guia InspiraRIRA (refatoração do RIRA) e Guia de Implementação FHIR para Regulação e Processamento Financeiro no Brasil (WD 0.1, GT Financeiro HL7 Brasil). Espelha o OCL (org MS).",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoLeito",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "1",
+            "display": "CIRURGICO"
+          },
+          {
+            "code": "2",
+            "display": "CLINICO"
+          },
+          {
+            "code": "3",
+            "display": "COMPLEMENTAR"
+          },
+          {
+            "code": "4",
+            "display": "OBSTETRICOS"
+          },
+          {
+            "code": "5",
+            "display": "PEDIATRICOS"
+          },
+          {
+            "code": "6",
+            "display": "OUTRAS ESPECIALIDADES"
+          },
+          {
+            "code": "7",
+            "display": "HOSPITAL DIA"
+          }
+        ]
+      }
+    ]
+  }
+}

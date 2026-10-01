@@ -1,0 +1,16 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRDimensaoDecisaoRegulatoria",
+  "language": "pt",
+  "name": "BRDimensaoDecisaoRegulatoria",
+  "status": "draft",
+  "kind": "codesystem",
+  "description": "Dimensão da Decisão Regulatória",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDimensaoDecisaoRegulatoria",
+      "preferred": true
+    }
+  ]
+}

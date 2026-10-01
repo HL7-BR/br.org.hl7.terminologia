@@ -1,0 +1,14 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRInstrumentoFinanceiroSUS",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstrumentoFinanceiroSUS",
+  "version": "HEAD",
+  "name": "BRInstrumentoFinanceiroSUS",
+  "title": "Instrumento Administrativo-Financeiro SUS",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "MS",
+  "description": "Instrumentos de autorização e de registro da produção do SUS, usados em Claim.subType e ClaimResponse.subType. BPA-C fica de fora: é agregado e não deve gerar recursos individuais artificiais (seção 7.2 do guia do GT). Origem: guia InspiraRIRA (refatoração do RIRA) e Guia de Implementação FHIR para Regulação e Processamento Financeiro no Brasil (WD 0.1, GT Financeiro HL7 Brasil). Espelha o OCL (org MS).",
+  "caseSensitive": true,
+  "content": "not-present"
+}

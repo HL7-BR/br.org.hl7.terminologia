@@ -1,0 +1,16 @@
+{
+  "resourceType": "NamingSystem",
+  "id": "BRTipoSaidaTarefaRegulacao",
+  "language": "pt",
+  "name": "BRTipoSaidaTarefaRegulacao",
+  "status": "draft",
+  "kind": "codesystem",
+  "description": "Tipo de Saída da Tarefa de Regulação",
+  "uniqueId": [
+    {
+      "type": "uri",
+      "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoSaidaTarefaRegulacao",
+      "preferred": true
+    }
+  ]
+}

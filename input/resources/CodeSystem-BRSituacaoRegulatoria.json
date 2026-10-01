@@ -1,0 +1,14 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRSituacaoRegulatoria",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRSituacaoRegulatoria",
+  "version": "HEAD",
+  "name": "BRSituacaoRegulatoria",
+  "title": "Situação Regulatória",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "MS",
+  "description": "Situação de negócio da Task de regulação (Task.businessStatus). Os dez primeiros códigos vêm do quadro 7.3 do guia do GT; os três de autorização cobrem o fluxo de autorização na Task. Origem: guia InspiraRIRA (refatoração do RIRA) e Guia de Implementação FHIR para Regulação e Processamento Financeiro no Brasil (WD 0.1, GT Financeiro HL7 Brasil). Espelha o OCL (org MS).",
+  "caseSensitive": true,
+  "content": "not-present"
+}

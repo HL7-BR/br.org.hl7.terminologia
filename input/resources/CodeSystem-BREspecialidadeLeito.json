@@ -1,0 +1,14 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BREspecialidadeLeito",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREspecialidadeLeito",
+  "version": "HEAD",
+  "name": "BREspecialidadeLeito",
+  "title": "Especialidade de Leito (CNES)",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "MS",
+  "description": "Especialidades de leito hospitalar do Cadastro Nacional de Estabelecimentos de Saúde, incluindo leitos complementares (UTI, unidades intermediárias e de cuidados intermediários). Origem: guia InspiraRIRA (refatoração do RIRA) e Guia de Implementação FHIR para Regulação e Processamento Financeiro no Brasil (WD 0.1, GT Financeiro HL7 Brasil). Espelha o OCL (org MS).",
+  "caseSensitive": true,
+  "content": "not-present"
+}

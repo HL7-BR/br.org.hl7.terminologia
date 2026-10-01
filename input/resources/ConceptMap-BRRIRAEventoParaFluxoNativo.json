@@ -1,0 +1,170 @@
+{
+  "resourceType": "ConceptMap",
+  "id": "BRRIRAEventoParaFluxoNativo",
+  "url": "https://terminologia.saude.gov.br/fhir/ConceptMap/BRRIRAEventoParaFluxoNativo",
+  "version": "HEAD",
+  "name": "BRRIRAEventoParaFluxoNativo",
+  "title": "RIRA: evento legado para estado nativo",
+  "status": "draft",
+  "experimental": true,
+  "publisher": "MS",
+  "description": "Mapeia cada slice de Composition.event do RIRA (BRRegulacaoAssistencial) para o status nativo de ServiceRequest, Task e Appointment. Origem: guia InspiraRIRA (refatoração do RIRA) e Guia de Implementação FHIR para Regulação e Processamento Financeiro no Brasil (WD 0.1, GT Financeiro HL7 Brasil). Espelha o OCL (org MS).",
+  "sourceUri": "https://terminologia.saude.gov.br/fhir/ValueSet/BRStatusRegulacaoAssistencial",
+  "targetUri": "https://terminologia.saude.gov.br/fhir/ValueSet/BRSituacaoRegulatoria",
+  "group": [
+    {
+      "source": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRStatusRegulacaoAssistencial",
+      "target": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRSituacaoRegulatoria",
+      "element": [
+        {
+          "code": "pending",
+          "target": [
+            {
+              "code": "recebido",
+              "equivalence": "wider",
+              "comment": "pending agregava recebido, qualificacao e fila-elegivel. O estado exato depende da etapa."
+            }
+          ]
+        },
+        {
+          "code": "returned-to-requester",
+          "target": [
+            {
+              "code": "pendencia-documental",
+              "equivalence": "equivalent",
+              "comment": "Devolução é pendência regulatória na Task (status on-hold), não negativa financeira em ClaimResponse."
+            }
+          ]
+        },
+        {
+          "code": "booked",
+          "target": [
+            {
+              "code": "agendado",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "attended",
+          "target": [
+            {
+              "code": "executado",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "excluded",
+          "target": [
+            {
+              "code": "cancelado-clinicamente",
+              "equivalence": "inexact",
+              "comment": "Depende da regra de negócio: exclusão clínica (revoked) ou erro de cadastro (entered-in-error). Decisão pendente."
+            }
+          ]
+        },
+        {
+          "code": "cancelled",
+          "target": [
+            {
+              "equivalence": "unmatched",
+              "comment": "Cancelamento é estado do Appointment (grupo 3), não da Task."
+            }
+          ]
+        },
+        {
+          "code": "absence",
+          "target": [
+            {
+              "equivalence": "unmatched",
+              "comment": "Falta é estado do Appointment (grupo 3), não da Task."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRStatusRegulacaoAssistencial",
+      "target": "http://hl7.org/fhir/request-status",
+      "element": [
+        {
+          "code": "pending",
+          "target": [
+            {
+              "code": "active",
+              "equivalence": "wider"
+            }
+          ]
+        },
+        {
+          "code": "attended",
+          "target": [
+            {
+              "code": "completed",
+              "equivalence": "inexact",
+              "comment": "completed somente quando o cuidado solicitado foi concluído, não a cada atendimento."
+            }
+          ]
+        },
+        {
+          "code": "excluded",
+          "target": [
+            {
+              "code": "revoked",
+              "equivalence": "inexact",
+              "comment": "Exclusão administrativa ou clínica."
+            },
+            {
+              "code": "entered-in-error",
+              "equivalence": "inexact",
+              "comment": "Exclusão por erro de cadastro."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRStatusRegulacaoAssistencial",
+      "target": "http://hl7.org/fhir/appointmentstatus",
+      "element": [
+        {
+          "code": "booked",
+          "target": [
+            {
+              "code": "booked",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "attended",
+          "target": [
+            {
+              "code": "fulfilled",
+              "equivalence": "equivalent"
+            }
+          ]
+        },
+        {
+          "code": "cancelled",
+          "target": [
+            {
+              "code": "cancelled",
+              "equivalence": "equal"
+            }
+          ]
+        },
+        {
+          "code": "absence",
+          "target": [
+            {
+              "code": "noshow",
+              "equivalence": "equivalent"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
