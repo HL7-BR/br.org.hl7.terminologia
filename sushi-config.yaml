@@ -289,7 +289,7 @@ resources:
     description: "Resultado qualitativo do Exame"
   CodeSystem/BRServicoEspecializado:
     description: "Servico Especializado"
-  CodeSystem/BRSubgrupoTabelaSUS:
+  CodeSystem/BRSubGrupoTabelaSUS:
     description: "Subgrupo da Tabela SUS 1.1.0"
   CodeSystem/BRTabelaSUS:
     description: "Tabela de procedimentos, medicamentos e OPM do SUS"

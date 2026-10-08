@@ -12,7 +12,7 @@
     "preferred": false
   }, {
     "type": "uri",
-    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRSubgrupoTabelaSUS",
+    "value": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRSubGrupoTabelaSUS",
     "preferred": true
   } ]
 }
