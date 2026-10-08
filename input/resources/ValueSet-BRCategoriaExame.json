@@ -14,7 +14,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRSubgrupoTabelaSUS",
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRSubGrupoTabelaSUS",
         "version": "HEAD",
         "concept": [
           {
