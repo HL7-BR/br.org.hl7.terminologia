@@ -331,6 +331,8 @@ resources:
     description: "Tipo de Resultado RSBAC"
   CodeSystem/BRTipoResultadoRSCUL:
     description: "Tipo de Resultado RSCUL 1.0"
+  CodeSystem/BRTipoSubstanciaUso:
+    description: "Tipo de Substância em Uso"
   CodeSystem/BRTipoTeleconsultoria:
     description: "Tipo Teleconsultoria"
   CodeSystem/BRUnidadeMedida:
@@ -545,6 +547,8 @@ resources:
     description: "Tipo de Observação"
   ValueSet/BRTipoParticipante:
     description: "Tipo do Participante"
+  ValueSet/BRTipoSubstanciaUso:
+    description: "Tipo de Substância em Uso"
   ValueSet/BRTipoTeleconsultoria:
     description: "Tipo Teleconsultoria"
   ValueSet/BRUnidadeFederativa:
