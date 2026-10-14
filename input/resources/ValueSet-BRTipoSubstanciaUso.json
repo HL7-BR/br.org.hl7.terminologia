@@ -1,0 +1,52 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRTipoSubstanciaUso",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoSubstanciaUso",
+  "version": "HEAD",
+  "name": "BRTipoSubstanciaUso",
+  "title": "Tipo de Substância em Uso",
+  "status": "active",
+  "experimental": false,
+  "publisher": "MS",
+  "description": "Identifica o tipo de substância em uso conforme declaração do indivíduo, de acordo com o especificado no modelo de informação do Registro de Atendimento Clínico da Resolução CIT nº 33/2018.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoSubstanciaUso",
+        "version": "HEAD",
+        "concept": [
+          {
+            "code": "opio"
+          },
+          {
+            "code": "alucinogeno"
+          },
+          {
+            "code": "hipno-seda"
+          },
+          {
+            "code": "inalante"
+          },
+          {
+            "code": "maconha"
+          },
+          {
+            "code": "anfetamina"
+          },
+          {
+            "code": "crack"
+          },
+          {
+            "code": "alcool"
+          },
+          {
+            "code": "cocaina"
+          },
+          {
+            "code": "deriv-tabaco"
+          }
+        ]
+      }
+    ]
+  }
+}
