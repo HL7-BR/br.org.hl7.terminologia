@@ -31,7 +31,11 @@ Erros corrigidos:
 - INF3 alta dosagem (117): o mapeamento usava o código de origem "INF3-alta dosagem", que não existe no CodeSystem.
 - Conceito 110: tem o sinônimo "IgG4, H chain", que não pertence ao conceito (corrigir no OCL; não está no lote).
 
-## Antes de importar
+## Importação
+
+Importado em 16/10/2026 no OCL (oclapi2.ips.hsl.org.br): os 32 mapeamentos novos pelo bulk import; as 49 atualizações, as 2 retiradas (307, 335) e a reativação do 290 (Sputnik V) pela API REST, com `importar_ocl.py --rest`, porque o bulk import desta instância não atualiza por `id`. Conferência: 115 mapeamentos SNOMED ativos (todos os conceitos menos 7, 115 e 116), nenhum duplicado; versões anteriores preservadas no histórico.
+
+## Notas da preparação
 
 1. Conferido em 16/10/2026: todos os alvos do lote estão na fonte `/orgs/SNOMED/sources/gps/`. Dois alvos propostos não estão e ficaram fora do lote até a conferência: 1396376000 (MenB+C only; o conceito 66 fica em 921000221108 com o tipo corrigido para NARROWER-THAN) e 58531000087106 (Nirsevimab only product; 115 e 116 ficam sem mapeamento). Os mapeamentos para o ATC (327 a 331) não são tocados.
 2. Conferir o formato da importação em lote na versão do OCL em uso (campos `id`, `retired` e `extras`) com um lote de teste.
