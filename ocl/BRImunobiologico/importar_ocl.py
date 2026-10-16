@@ -7,7 +7,7 @@ Uso (PowerShell):
 
 O token fica só na variável de ambiente; o script não grava nem imprime o token.
 """
-import json, os, pathlib, sys, time, urllib.request, urllib.error
+import json, os, pathlib, sys, time, urllib.request, urllib.error, uuid
 
 API = os.environ.get("OCL_API", "https://oclapi2.ips.hsl.org.br")
 LOTE = pathlib.Path(__file__).with_name("BRImunobiologico-mapeamentos.jsonl")
@@ -36,8 +36,11 @@ def importar():
     if st != 200:
         sys.exit(f"Token recusado ({st}).")
     print("Usuário:", quem.get("username"))
-    corpo = LOTE.read_bytes()
-    st, r = chamar("POST", "/importers/bulk-import/?update_if_exists=true", corpo)
+    limite = "----ocl" + uuid.uuid4().hex
+    corpo = (f"--{limite}\r\nContent-Disposition: form-data; name=\"file\"; filename=\"{LOTE.name}\"\r\n"
+             f"Content-Type: application/json\r\n\r\n").encode() + LOTE.read_bytes() + f"\r\n--{limite}--\r\n".encode()
+    st, r = chamar("POST", "/importers/bulk-import/?update_if_exists=true", corpo,
+                   tipo=f"multipart/form-data; boundary={limite}")
     print("POST bulk-import:", st)
     if st not in (200, 201, 202):
         sys.exit(str(r)[:2000])
