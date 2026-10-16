@@ -15,9 +15,10 @@ Revisão de 16/10/2026 dos mapeamentos do CodeSystem BRImunobiologico (org MS no
 | Mudança | Conceitos |
 |---|---|
 | Mantém | 33 |
-| Troca o alvo (produto mais específico, "only" no lugar de "containing", conceito inativo, erro) | 48 |
-| Troca só o tipo | 1 |
-| Novo | 34 |
+| Troca o alvo (produto mais específico, "only" no lugar de "containing", conceito inativo, erro) | 47 |
+| Troca só o tipo | 2 (VIP; MenB+C, 66) |
+| Novo | 32 |
+| Sem mapeamento | 2 (nirsevimabe, 115 e 116) |
 | Retira | 1 (SAR) |
 | Corrige a origem | 1 (117) |
 
@@ -32,6 +33,6 @@ Erros corrigidos:
 
 ## Antes de importar
 
-1. O lote aponta todos os alvos para a fonte `/orgs/SNOMED/sources/gps/`. Conferir se os conceitos novos estão nessa fonte; se não estiverem, trocar `to_source_url` pela fonte do SNOMED CT internacional.
+1. Conferido em 16/10/2026: todos os alvos do lote estão na fonte `/orgs/SNOMED/sources/gps/`. Dois alvos propostos não estão e ficaram fora do lote até a conferência: 1396376000 (MenB+C only; o conceito 66 fica em 921000221108 com o tipo corrigido para NARROWER-THAN) e 58531000087106 (Nirsevimab only product; 115 e 116 ficam sem mapeamento). Os mapeamentos para o ATC (327 a 331) não são tocados.
 2. Conferir o formato da importação em lote na versão do OCL em uso (campos `id`, `retired` e `extras`) com um lote de teste.
 3. Os diluentes ficam mapeados para o conceito genérico 74626007 (Drug diluent), que é `product`, não `medicinal product`. Não sobem para o IPS.
