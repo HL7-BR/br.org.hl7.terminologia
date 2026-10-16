@@ -4,6 +4,8 @@ Uso (PowerShell):
     $env:OCL_TOKEN = "<token da API>"     # OCL: menu do usuário > API Token
     python importar_ocl.py                # importa e confere
     python importar_ocl.py --so-conferir  # só confere
+    python importar_ocl.py --rest 225     # atualiza só o 225 pela API REST (teste)
+    python importar_ocl.py --rest         # atualiza e retira todos os que têm id
 
 O token fica só na variável de ambiente; o script não grava nem imprime o token.
 """
@@ -97,7 +99,34 @@ def conferir():
     print("Conferência:", "OK" if erros == 0 else f"{erros} problema(s)")
 
 
+def rest(so=None):
+    """Atualiza (PUT) e retira (DELETE) os mapeamentos com id, um a um.
+    O bulk import desta instância não atualiza por id (49 'failed')."""
+    if not os.environ.get("OCL_TOKEN"):
+        sys.exit("Defina OCL_TOKEN.")
+    for linha in LOTE.read_text(encoding="utf-8").splitlines():
+        l = json.loads(linha)
+        if "id" not in l or (so and l["id"] not in so):
+            continue
+        url = FONTE + f"mappings/{l['id']}/"
+        if l.get("retired"):
+            st, r = chamar("DELETE", url)
+        else:
+            corpo = {k: l[k] for k in ("map_type", "to_source_url", "to_concept_code", "to_concept_name")}
+            corpo["update_comment"] = l.get("extras", {}).get("motivo", "revisão 16/10/2026")
+            st, r = chamar("PUT", url, json.dumps(corpo).encode())
+        print(l["id"], "DELETE" if l.get("retired") else "PUT", st, "" if st in (200, 204) else str(r)[:300])
+    # 95: o mapeamento retirado 290 já tem o mesmo alvo; reativa em vez de criar
+    if not so or "290" in so:
+        st, r = chamar("PUT", FONTE + "mappings/290/", json.dumps({"retired": False, "update_comment": "reativado na revisão de 16/10/2026 (mesmo alvo do lote)"}).encode())
+        print("290 reativar", st, "" if st == 200 else str(r)[:300])
+
+
 if __name__ == "__main__":
-    if "--so-conferir" not in sys.argv:
+    if "--rest" in sys.argv:
+        i = sys.argv.index("--rest")
+        so = [x for x in sys.argv[i + 1:] if not x.startswith("--")] or None
+        rest(so)
+    elif "--so-conferir" not in sys.argv:
         importar()
     conferir()
