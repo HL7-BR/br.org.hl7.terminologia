@@ -6,6 +6,8 @@ Uso (PowerShell):
     python importar_ocl.py --so-conferir  # só confere
     python importar_ocl.py --rest 225     # atualiza só o 225 pela API REST (teste)
     python importar_ocl.py --rest         # atualiza e retira todos os que têm id
+    python importar_ocl.py --corrigir-369 # corrige a fonte de destino do mapeamento do SAR
+    python importar_ocl.py --versao 2026-10-16  # cria e libera a versão da fonte
 
 O token fica só na variável de ambiente; o script não grava nem imprime o token.
 """
@@ -122,7 +124,29 @@ def rest(so=None):
         print("290 reativar", st, "" if st == 200 else str(r)[:300])
 
 
+def corrigir_369():
+    """Mapeamento do SAR criado na tela com a fonte de destino errada (a própria BRImunobiologico)."""
+    corpo = {"map_type": "NARROWER-THAN", "to_source_url": "/orgs/SNOMED/sources/gps/", "to_concept_code": "80834004",
+             "to_concept_name": "Rabies human immune globulin-containing product",
+             "update_comment": "fonte de destino corrigida para SNOMED/gps"}
+    st, r = chamar("PUT", FONTE + "mappings/369/", json.dumps(corpo).encode())
+    print("369 PUT", st, "" if st == 200 else str(r)[:300])
+
+
+def versao(ident):
+    """Cria e libera uma versão da fonte, para a API FHIR (CodeSystem/ConceptMap) refletir o HEAD."""
+    corpo = {"id": ident, "description": "Revisão dos mapeamentos para o SNOMED CT (16/10/2026)", "released": True}
+    st, r = chamar("POST", FONTE + "versions/", json.dumps(corpo).encode())
+    print("versão", ident, st, "" if st in (200, 201) else str(r)[:300])
+
+
 if __name__ == "__main__":
+    if "--corrigir-369" in sys.argv:
+        corrigir_369()
+        sys.exit(0)
+    if "--versao" in sys.argv:
+        versao(sys.argv[sys.argv.index("--versao") + 1])
+        sys.exit(0)
     if "--rest" in sys.argv:
         i = sys.argv.index("--rest")
         so = [x for x in sys.argv[i + 1:] if not x.startswith("--")] or None
