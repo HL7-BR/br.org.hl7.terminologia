@@ -13,6 +13,7 @@ Uso (na raiz do repositório):
     python atualizar_do_ocl.py --vs-todos          # ValueSet com o mesmo id do CodeSystem passa a incluir o CodeSystem inteiro
     python atualizar_do_ocl.py --seco              # só mostra o que mudaria
     python atualizar_do_ocl.py --usar-head         # fonte sem versão liberada: lê o HEAD (version = HEAD)
+    python atualizar_do_ocl.py --liberar 2026-10-19  # cria e libera essa versão nas fontes sem versão liberada (precisa de OCL_TOKEN)
 
 Regras:
 - CodeSystem: mantém os metadados locais; troca version pela versão liberada no
@@ -182,7 +183,37 @@ def atualizar_vs(caminho, cs_por_url, vs_todos, seco):
     return {"arquivo": caminho.name, "mudou": mudou, "notas": notas} if (mudou or notas) else None
 
 
+def liberar(versao):
+    """Cria e libera a versão `versao` nas fontes sem versão liberada (lidas do último relatório)."""
+    import os
+    tok = os.environ.get("OCL_TOKEN")
+    if not tok:
+        sys.exit("Defina OCL_TOKEN.")
+    rel = json.loads(pathlib.Path("ocl-atualizacao.json").read_text(encoding="utf-8"))
+    alvos = [r for r in rel["codesystems"] if "sem versão liberada" in r.get("erro", "")]
+    print(len(alvos), "fontes sem versão liberada")
+    for r in alvos:
+        local = json.loads((RES / r["arquivo"]).read_text(encoding="utf-8"))
+        url = local["url"].rstrip("/")
+        fonte = fontes().get(url) or (fontes()["_por_id"].get(_norm(url.split("/")[-1])) or (None,))[0]
+        if not fonte:
+            print(r["arquivo"], "fonte não encontrada")
+            continue
+        corpo = json.dumps({"id": versao, "released": True,
+                            "description": "Versão liberada para o pacote de terminologia"}).encode()
+        req = urllib.request.Request(OCL + fonte + "versions/", data=corpo, method="POST",
+                                     headers={"Content-Type": "application/json", "Authorization": "Token " + tok})
+        try:
+            with urllib.request.urlopen(req, timeout=300) as resp:
+                print(fonte, versao, resp.status)
+        except urllib.error.HTTPError as e:
+            print(fonte, versao, e.code, e.read().decode("utf-8", "replace")[:200])
+
+
 def main():
+    if "--liberar" in sys.argv:
+        liberar(arg("--liberar"))
+        return
     seco = "--seco" in sys.argv
     maximo = int(arg("--max", "10000"))
     ids = arg("--ids")
