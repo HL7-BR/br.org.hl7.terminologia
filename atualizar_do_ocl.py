@@ -14,6 +14,7 @@ Uso (na raiz do repositório):
     python atualizar_do_ocl.py --seco              # só mostra o que mudaria
     python atualizar_do_ocl.py --usar-head         # fonte sem versão liberada: lê o HEAD (version = HEAD)
     python atualizar_do_ocl.py --liberar 2026-10-19  # cria e libera essa versão nas fontes sem versão liberada (precisa de OCL_TOKEN)
+    python atualizar_do_ocl.py --corrigir-urls [--seco]  # acerta a canonical_url das fontes do MS no OCL (precisa de OCL_TOKEN)
 
 Regras:
 - CodeSystem: mantém os metadados locais; troca version pela versão liberada no
@@ -210,7 +211,39 @@ def liberar(versao):
             print(fonte, versao, e.code, e.read().decode("utf-8", "replace")[:200])
 
 
+def corrigir_urls(seco):
+    """Acerta a canonical_url das fontes do MS no OCL para a URL do CodeSystem deste repositório."""
+    import os
+    tok = os.environ.get("OCL_TOKEN")
+    if not tok and not seco:
+        sys.exit("Defina OCL_TOKEN.")
+    n = 0
+    for f in sorted(RES.glob("CodeSystem-*.json")):
+        url = json.loads(f.read_text(encoding="utf-8"))["url"].rstrip("/")
+        if fontes().get(url):
+            continue
+        achado = fontes()["_por_id"].get(_norm(url.split("/")[-1]))
+        if not achado:
+            continue
+        fonte, can = achado
+        n += 1
+        print(f"{fonte}: {can or '(vazia)'} -> {url}")
+        if seco:
+            continue
+        req = urllib.request.Request(OCL + fonte, data=json.dumps({"canonical_url": url}).encode(), method="PUT",
+                                     headers={"Content-Type": "application/json", "Authorization": "Token " + tok})
+        try:
+            with urllib.request.urlopen(req, timeout=300) as resp:
+                print("   ", resp.status)
+        except urllib.error.HTTPError as e:
+            print("   ", e.code, e.read().decode("utf-8", "replace")[:200])
+    print(n, "fontes com canonical_url divergente" + (" (simulação)" if seco else " corrigidas"))
+
+
 def main():
+    if "--corrigir-urls" in sys.argv:
+        corrigir_urls("--seco" in sys.argv)
+        return
     if "--liberar" in sys.argv:
         liberar(arg("--liberar"))
         return
