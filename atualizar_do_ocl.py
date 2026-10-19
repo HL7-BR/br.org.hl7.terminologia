@@ -293,9 +293,9 @@ def semver(seco, novas):
         nome = f.get("short_code") or f.get("id")
         versoes, _h = _get(fonte + "versions/?limit=500")
         datas = [v for v in versoes if _DATA.match(v["id"]) and not v.get("retired")]
-        if not datas:
-            continue
         outras = [v for v in versoes if v["id"] != "HEAD" and not _DATA.match(v["id"])]
+        if not datas and (any(v.get("released") for v in outras) or not outras) and nome not in novas:
+            continue
         acoes = [("retirar", v["id"]) for v in datas]
         liberadas = [v for v in outras if v.get("released")]
         pendentes = sorted([v for v in outras if not v.get("released")], key=lambda v: _chave(v["id"]))
