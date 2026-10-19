@@ -1,17 +1,28 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRTipoDadoPessoalLGPD",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRTipoDadoPessoalLGPD</b></p><p>Title: BRTipoDadoPessoalLGPD</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDadoPessoalLGPD</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDadoPessoalLGPD",
-  "version": "HEAD",
   "name": "BRTipoDadoPessoalLGPD",
   "title": "BRTipoDadoPessoalLGPD",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.0.0",
+  "count": 3,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "PESSOAL",
+      "display": "Dado Pessoal"
+    },
+    {
+      "code": "ANONIM",
+      "display": "Dado Anonimizado"
+    },
+    {
+      "code": "SENSIVEL",
+      "display": "Dado Sensível"
+    }
+  ]
 }

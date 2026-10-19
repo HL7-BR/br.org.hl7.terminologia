@@ -9,21 +9,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDadoPessoalLGPD",
-        "concept": [
-          {
-            "code": "ANONIM",
-            "display": "Dado Anonimizado"
-          },
-          {
-            "code": "SENSIVEL",
-            "display": "Dado Sensível"
-          },
-          {
-            "code": "PESSOAL",
-            "display": "Dado Pessaoal"
-          }
-        ]
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDadoPessoalLGPD"
       }
     ]
   }

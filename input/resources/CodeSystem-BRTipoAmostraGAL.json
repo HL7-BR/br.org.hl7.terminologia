@@ -1,20 +1,220 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRTipoAmostraGAL",
-  "meta": {
-    "lastUpdated": "2025-07-17T17:33:34.370+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRTipoAmostraGAL</b></p><p>Title: BRTipoAmostraGAL</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
-  "version": "HEAD",
   "name": "BRTipoAmostraGAL",
   "title": "BRTipoAmostraGAL",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.2",
+  "count": 51,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "FRAGT",
+      "display": "Fragmento de tecido"
+    },
+    {
+      "code": "SWBAN",
+      "display": "Swab Anal"
+    },
+    {
+      "code": "SNOF",
+      "display": "Swab Naso-Orofaríngeo"
+    },
+    {
+      "code": "SWORO",
+      "display": "Swab Orofaríngeo"
+    },
+    {
+      "code": "SGCUMB",
+      "display": "Sangue do Cordão Umbilical"
+    },
+    {
+      "code": "FRAPLA",
+      "display": "Fragmento de Placenta"
+    },
+    {
+      "code": "SECORF",
+      "display": "Secreção Orofaríngea"
+    },
+    {
+      "code": "SGHEM",
+      "display": "Sangue"
+    },
+    {
+      "code": "FLUORA",
+      "display": "Fluido oral"
+    },
+    {
+      "code": "RASPEL",
+      "display": "Raspado de pele"
+    },
+    {
+      "code": "CORIZA",
+      "display": "Coriza"
+    },
+    {
+      "code": "FRBRON",
+      "display": "Fragmentos de brônquio"
+    },
+    {
+      "code": "SWAB",
+      "display": "Swab"
+    },
+    {
+      "code": "SWNAFA",
+      "display": "Swab Nasofaríngeo"
+    },
+    {
+      "code": "SWOCU",
+      "display": "Swab Ocular"
+    },
+    {
+      "code": "SWNAS",
+      "display": "Swab Nasal"
+    },
+    {
+      "code": "LAVBRO",
+      "display": "Lavado Brônquico"
+    },
+    {
+      "code": "LAVBRA",
+      "display": "Lavado Brônquico Alveolar"
+    },
+    {
+      "code": "SWRET",
+      "display": "Swab retal"
+    },
+    {
+      "code": "SWORA",
+      "display": "Swab Oral"
+    },
+    {
+      "code": "URIJ",
+      "display": "Urina 1º jato"
+    },
+    {
+      "code": "ASNAFA",
+      "display": "Aspirado Nasofaríngeo"
+    },
+    {
+      "code": "FRACOR",
+      "display": "Fragmentos de coração"
+    },
+    {
+      "code": "FRAFIG",
+      "display": "Fragmentos de fígado"
+    },
+    {
+      "code": "FRABAC",
+      "display": "Fragmentos de baço"
+    },
+    {
+      "code": "SGEDT",
+      "display": "Sangue com EDTA"
+    },
+    {
+      "code": "SECTRA",
+      "display": "Secreção Traqueal"
+    },
+    {
+      "code": "ASPBRO",
+      "display": "Aspirado Brônquico"
+    },
+    {
+      "code": "FRAAMI",
+      "display": "Fragmentos de ampigdalas"
+    },
+    {
+      "code": "FGMT",
+      "display": "Fragmento"
+    },
+    {
+      "code": "SECPEN",
+      "display": "Secreção peniana"
+    },
+    {
+      "code": "EXSORO",
+      "display": "Exsudato de Orofaringe"
+    },
+    {
+      "code": "SECBRO",
+      "display": "Secreção brônquica"
+    },
+    {
+      "code": "FGMP",
+      "display": "Fragmentos do pulmão"
+    },
+    {
+      "code": "SECONF",
+      "display": "Secreção Orofaríngea e Nasofaríngea"
+    },
+    {
+      "code": "SECNAS",
+      "display": "Secreção Nasofaríngea"
+    },
+    {
+      "code": "EXSNAS",
+      "display": "Exsudato de Nasofaringe"
+    },
+    {
+      "code": "SECOC",
+      "display": "Secreção ocular"
+    },
+    {
+      "code": "SNCCEB",
+      "display": "Fragmento do tecido do SNC - cérebro"
+    },
+    {
+      "code": "FRATRA",
+      "display": "Fragmentos de traquéia"
+    },
+    {
+      "code": "SWLES",
+      "display": "Swab de lesão"
+    },
+    {
+      "code": "FRAPAN",
+      "display": "Fragmentos de pâncreas"
+    },
+    {
+      "code": "FRAMOR",
+      "display": "Fragmentos de múltiplos órgãos"
+    },
+    {
+      "code": "FRARIM",
+      "display": "Fragmentos de rim"
+    },
+    {
+      "code": "INFP",
+      "display": "Infiltrado pulmonar"
+    },
+    {
+      "code": "SWLSP",
+      "display": "Swab de lesão de pele"
+    },
+    {
+      "code": "INODER",
+      "display": "Inoculação intradérmica"
+    },
+    {
+      "code": "LAVORO",
+      "display": "Lavado de orofaringe"
+    },
+    {
+      "code": "LAVTBR",
+      "display": "Lavado Traqueo-Brônquico"
+    },
+    {
+      "code": "TECPM",
+      "display": "Tecido pós-mortem"
+    },
+    {
+      "code": "MTBIO",
+      "display": "Material Não Biológico"
+    }
+  ]
 }

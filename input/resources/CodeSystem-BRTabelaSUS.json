@@ -1,20 +1,14 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRTabelaSUS",
-  "meta": {
-    "lastUpdated": "2025-07-16T16:51:33.410+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRTabelaSUS</b></p><p>Title: BRTabelaSUS</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS",
-  "version": "HEAD",
   "name": "BRTabelaSUS",
   "title": "BRTabelaSUS",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
+  "version": "1.0.0",
+  "count": 10175,
   "content": "not-present"
 }
