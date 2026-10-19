@@ -5,7 +5,7 @@ codigo	sigla	nome	classe	destino_ips	snomed_atual	tipo_atual	snomed	snomed_displ
 4	SAESCOR	Soro antiescorpiônico	soro	Medicamentos			16131008	Antivenom-containing product	NARROWER-THAN		novo	novo; sem produto para Tityus	
 5	DT	Vacina difteria e tétano infantil	vacina	Imunizações	775641005	NARROWER-THAN	775641005	Clostridium tetani toxoid adsorbed and Corynebacterium diphtheriae toxoid antigens only vaccine product	NARROWER-THAN		mantém		224
 6	SAELAP	Soro antielapídico	soro	Medicamentos			71289008	Snake antivenom immunoglobulin-containing product	NARROWER-THAN		novo	novo; sem produto para Micrurus spp. do Brasil	
-7	SAR	Soro antirrábico	soro	Medicamentos	422303009	NARROWER-THAN					retira	retirar 422303009: substância e imunoglobulina humana; o soro é heterólogo (equino). Sem produto no SNOMED CT	307
+7	SAR	Soro antirrábico	soro	Medicamentos	422303009	NARROWER-THAN	80834004	Rabies human immune globulin-containing product	NARROWER-THAN		troca	retira 422303009 (substância) e mapeia para o produto 80834004 (mapeamento 369). O alvo é imunoglobulina humana e o soro é equino: o código nacional vai sempre junto	307
 8	SABOTR	Soro antibotrópico (pentavalente)	soro	Medicamentos			71289008	Snake antivenom immunoglobulin-containing product	NARROWER-THAN		novo	novo; sem produto para Bothrops	
 9	HepB	Vacina hepatite B	vacina	Imunizações	836374004	SAME-AS	871822003	Hepatitis B virus antigen only vaccine product	SAME-AS		troca	"troca 836374004 (contendo) por produto ""only"""	225
 10	SAD	Soro antidiftérico	soro	Medicamentos	775640006	SAME-AS	871548002	Equine diphtheria antitoxin only product	SAME-AS		troca	troca 775640006 por antitoxina diftérica equina	323
