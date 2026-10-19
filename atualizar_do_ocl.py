@@ -58,21 +58,31 @@ def fontes():
             if not h.get("next") or not lote:
                 break
             pagina += 1
-        _FONTES = {}
+        _FONTES = {"_por_id": {}}
         for f in lista:
             can = (f.get("canonical_url") or "").rstrip("/")
             if can:
                 _FONTES.setdefault(can, f["url"])
+            if f.get("owner") == "MS":
+                _FONTES["_por_id"].setdefault(_norm(f.get("short_code") or f.get("id") or ""), (f["url"], can))
     return _FONTES
+
+
+def _norm(i):
+    return i.lower().replace("_", "-")
 
 
 def buscar_cs(url):
     """Lê a última versão liberada da fonte pela API REST do OCL (a busca FHIR
     por url falha para várias fontes e a leitura FHIR corta em 1000 conceitos)."""
     try:
-        fonte = fontes().get(url.rstrip("/"))
+        fonte, aviso = fontes().get(url.rstrip("/")), None
         if not fonte:
-            return None, "não está no OCL"
+            achado = fontes()["_por_id"].get(_norm(url.rstrip("/").split("/")[-1]))
+            if not achado:
+                return None, "não está no OCL"
+            fonte, can = achado
+            aviso = f"achado pelo id em {fonte}; canonical_url no OCL diverge: {can or '(vazia)'}"
         versoes, _h = _get(fonte + "versions/?limit=500")
         liberadas = [v for v in versoes if v.get("released") and v.get("id") != "HEAD"]
         if not liberadas:
@@ -89,7 +99,7 @@ def buscar_cs(url):
             if not h.get("next") or not lote:
                 break
             pagina += 1
-        cs = {"version": ver, "concept": [
+        cs = {"version": ver, "aviso": aviso, "concept": [
             {"code": c["id"], "display": c.get("display_name"),
              "property": [{"code": "inactive", "valueBoolean": True}] if c.get("retired") else []}
             for c in conceitos]}
@@ -137,7 +147,8 @@ def atualizar_cs(caminho, maximo, seco):
     # ordem: concept por último
     if "concept" in novo:
         novo["concept"] = novo.pop("concept")
-    rel = {"arquivo": caminho.name, "url": local["url"], "versao_antes": local.get("version"),
+    rel = {"arquivo": caminho.name, "url": local["url"], **({"aviso": ocl["aviso"]} if ocl.get("aviso") else {}),
+           "versao_antes": local.get("version"),
            "versao_ocl": ocl.get("version"), "conceitos": n, "content": novo["content"],
            "inativos": sum(1 for _c, i in conceitos if i)}
     if not seco:
