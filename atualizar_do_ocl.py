@@ -12,6 +12,7 @@ Uso (na raiz do repositório):
     python atualizar_do_ocl.py --max 20000         # limite de conceitos para content = complete
     python atualizar_do_ocl.py --vs-todos          # ValueSet com o mesmo id do CodeSystem passa a incluir o CodeSystem inteiro
     python atualizar_do_ocl.py --seco              # só mostra o que mudaria
+    python atualizar_do_ocl.py --usar-head         # fonte sem versão liberada: lê o HEAD (version = HEAD)
 
 Regras:
 - CodeSystem: mantém os metadados locais; troca version pela versão liberada no
@@ -36,20 +37,60 @@ def arg(nome, padrao=None):
     return sys.argv[sys.argv.index(nome) + 1] if nome in sys.argv else padrao
 
 
+def _get(caminho):
+    req = urllib.request.Request(OCL + caminho, headers={"Accept": "application/json"})
+    with urllib.request.urlopen(req, timeout=300) as r:
+        return json.load(r), r.headers
+
+
+_FONTES = None
+
+
+def fontes():
+    """canonical_url -> URL da fonte no OCL (todas as organizações)."""
+    global _FONTES
+    if _FONTES is None:
+        lista, _h = _get("/sources/?limit=5000&verbose=true")
+        _FONTES = {}
+        for f in lista:
+            can = (f.get("canonical_url") or "").rstrip("/")
+            if can:
+                _FONTES.setdefault(can, f["url"])
+    return _FONTES
+
+
 def buscar_cs(url):
-    q = OCL + "/fhir/CodeSystem/?url=" + urllib.parse.quote(url, safe="")
-    req = urllib.request.Request(q, headers={"Accept": "application/fhir+json"})
+    """Lê a última versão liberada da fonte pela API REST do OCL (a busca FHIR
+    por url falha para várias fontes e a leitura FHIR corta em 1000 conceitos)."""
     try:
-        with urllib.request.urlopen(req, timeout=300) as r:
-            b = json.load(r)
+        fonte = fontes().get(url.rstrip("/"))
+        if not fonte:
+            return None, "não está no OCL"
+        versoes, _h = _get(fonte + "versions/?limit=200")
+        liberadas = [v for v in versoes if v.get("released") and v.get("id") != "HEAD"]
+        if not liberadas:
+            if "--usar-head" not in sys.argv:
+                return None, "sem versão liberada no OCL (use --usar-head para ler o HEAD)"
+            ver, caminho = "HEAD", fonte
+        else:
+            ver = liberadas[0]["id"]
+            caminho = fonte + urllib.parse.quote(ver) + "/"
+        conceitos, pagina = [], 1
+        while True:
+            lote, h = _get(caminho + f"concepts/?limit=1000&page={pagina}&includeRetired=true")
+            conceitos += lote
+            if not h.get("next") or not lote:
+                break
+            pagina += 1
+        cs = {"version": ver, "concept": [
+            {"code": c["id"], "display": c.get("display_name"),
+             "property": [{"code": "inactive", "valueBoolean": True}] if c.get("retired") else []}
+            for c in conceitos]}
+        return cs, None
     except urllib.error.HTTPError as e:
         return None, f"HTTP {e.code}"
     except Exception as e:  # rede
         return None, str(e)
-    ents = b.get("entry") or []
-    if not ents:
-        return None, "não está no OCL"
-    return ents[0]["resource"], None
 
 
 def limpar_conceito(c):
