@@ -272,7 +272,7 @@ def _post_versao(fonte, ident, tok):
         return f"{e.code} {e.read().decode('utf-8', 'replace')[:200]}"
 
 
-def semver(seco, novas):
+def semver(seco, novas, somente=None):
     """Troca as versões com data por versões SemVer nas fontes do MS.
     - retira (retired, não liberada) as versões com data;
     - se a fonte tem versão numérica criada e não liberada, libera a maior delas;
@@ -294,12 +294,18 @@ def semver(seco, novas):
         versoes, _h = _get(fonte + "versions/?limit=500")
         datas = [v for v in versoes if _DATA.match(v["id"]) and not v.get("retired")]
         outras = [v for v in versoes if v["id"] != "HEAD" and not _DATA.match(v["id"])]
-        if not datas and (any(v.get("released") for v in outras) or not outras) and nome not in novas:
+        if nome in novas and novas[nome].startswith("-"):
+            pass
+        elif not datas and (any(v.get("released") for v in outras) or not outras) and nome not in novas:
+            continue
+        elif somente and nome not in somente:
             continue
         acoes = [("retirar", v["id"]) for v in datas]
         liberadas = [v for v in outras if v.get("released")]
         pendentes = sorted([v for v in outras if not v.get("released")], key=lambda v: _chave(v["id"]))
-        if nome in novas:
+        if nome in novas and novas[nome].startswith("-"):
+            acoes = [("desliberar", novas[nome][1:])]
+        elif nome in novas:
             acoes.insert(0, ("criar", novas[nome]))
         elif pendentes:
             acoes.insert(0, ("liberar", pendentes[-1]["id"]))
@@ -315,6 +321,13 @@ def semver(seco, novas):
                 r = _post_versao(fonte, v, tok)
             elif a == "liberar":
                 r = _put(fonte + urllib.parse.quote(v) + "/", {"released": True}, tok)
+                if "content_type" in str(r):
+                    # content_type = "CodeSystem" na fonte é inválido; o valor certo é o do CodeSystem.content
+                    print("   ", a, v, r, "-> corrigindo content_type para complete")
+                    _put(fonte, {"content_type": "complete"}, tok)
+                    r = _put(fonte + urllib.parse.quote(v) + "/", {"released": True, "content_type": "complete"}, tok)
+            elif a == "desliberar":
+                r = _put(fonte + urllib.parse.quote(v) + "/", {"released": False}, tok)
             elif a == "retirar":
                 r = _put(fonte + urllib.parse.quote(v) + "/", {"released": False, "retired": True}, tok)
             else:
@@ -325,7 +338,8 @@ def semver(seco, novas):
 def main():
     if "--semver" in sys.argv:
         novas = dict(x.split("=", 1) for x in sys.argv if "=" in x and not x.startswith("-"))
-        semver("--seco" in sys.argv, novas)
+        so = arg("--so")
+        semver("--seco" in sys.argv, novas, set(so.split(",")) if so else None)
         return
     if "--corrigir-urls" in sys.argv:
         corrigir_urls("--seco" in sys.argv)
