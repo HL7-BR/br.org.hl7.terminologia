@@ -15,6 +15,7 @@ Uso (na raiz do repositório):
     python atualizar_do_ocl.py --usar-head         # fonte sem versão liberada: lê o HEAD (version = HEAD)
     python atualizar_do_ocl.py --liberar 2026-10-19  # cria e libera essa versão nas fontes sem versão liberada (precisa de OCL_TOKEN)
     python atualizar_do_ocl.py --corrigir-urls [--seco]  # acerta a canonical_url das fontes do MS no OCL (precisa de OCL_TOKEN)
+    python atualizar_do_ocl.py --semver [--seco] [BRImunobiologico=2.18.0]  # troca as versões com data por SemVer
 
 Regras:
 - CodeSystem: mantém os metadados locais; troca version pela versão liberada no
@@ -240,7 +241,92 @@ def corrigir_urls(seco):
     print(n, "fontes com canonical_url divergente" + (" (simulação)" if seco else " corrigidas"))
 
 
+_DATA = __import__("re").compile(r"^\d{4}-\d{2}-\d{2}")
+
+
+def _chave(v):
+    import re
+    n = [int(x) for x in re.findall(r"\d+", v)]
+    return n if re.match(r"^\d+(\.\d+)*$", v) else [-1]
+
+
+def _put(caminho, corpo, tok):
+    req = urllib.request.Request(OCL + caminho, data=json.dumps(corpo).encode(), method="PUT",
+                                 headers={"Content-Type": "application/json", "Authorization": "Token " + tok})
+    try:
+        with urllib.request.urlopen(req, timeout=300) as resp:
+            return resp.status
+    except urllib.error.HTTPError as e:
+        return f"{e.code} {e.read().decode('utf-8', 'replace')[:200]}"
+
+
+def _post_versao(fonte, ident, tok):
+    req = urllib.request.Request(OCL + fonte + "versions/", method="POST",
+                                 data=json.dumps({"id": ident, "released": True,
+                                                  "description": "Versão liberada para o pacote de terminologia"}).encode(),
+                                 headers={"Content-Type": "application/json", "Authorization": "Token " + tok})
+    try:
+        with urllib.request.urlopen(req, timeout=300) as resp:
+            return resp.status
+    except urllib.error.HTTPError as e:
+        return f"{e.code} {e.read().decode('utf-8', 'replace')[:200]}"
+
+
+def semver(seco, novas):
+    """Troca as versões com data por versões SemVer nas fontes do MS.
+    - retira (retired, não liberada) as versões com data;
+    - se a fonte tem versão numérica criada e não liberada, libera a maior delas;
+    - senão, se não sobra nenhuma liberada, cria a 1.0.0 (ou a versão de --nova FONTE=VERSAO)."""
+    import os
+    tok = os.environ.get("OCL_TOKEN")
+    if not tok and not seco:
+        sys.exit("Defina OCL_TOKEN.")
+    lista, pagina = [], 1
+    while True:
+        lote, h = _get(f"/orgs/MS/sources/?limit=500&page={pagina}")
+        lista += lote
+        if not h.get("next") or not lote:
+            break
+        pagina += 1
+    for f in lista:
+        fonte = f["url"]
+        nome = f.get("short_code") or f.get("id")
+        versoes, _h = _get(fonte + "versions/?limit=500")
+        datas = [v for v in versoes if _DATA.match(v["id"]) and not v.get("retired")]
+        if not datas:
+            continue
+        outras = [v for v in versoes if v["id"] != "HEAD" and not _DATA.match(v["id"])]
+        acoes = [("retirar", v["id"]) for v in datas]
+        liberadas = [v for v in outras if v.get("released")]
+        pendentes = sorted([v for v in outras if not v.get("released")], key=lambda v: _chave(v["id"]))
+        if nome in novas:
+            acoes.insert(0, ("criar", novas[nome]))
+        elif pendentes:
+            acoes.insert(0, ("liberar", pendentes[-1]["id"]))
+        elif not liberadas:
+            acoes.insert(0, ("criar", "1.0.0"))
+        else:
+            acoes.insert(0, ("manter", max(liberadas, key=lambda v: _chave(v["id"]))["id"]))
+        print(nome, "|", "; ".join(f"{a} {v}" for a, v in acoes))
+        if seco:
+            continue
+        for a, v in acoes:
+            if a == "criar":
+                r = _post_versao(fonte, v, tok)
+            elif a == "liberar":
+                r = _put(fonte + urllib.parse.quote(v) + "/", {"released": True}, tok)
+            elif a == "retirar":
+                r = _put(fonte + urllib.parse.quote(v) + "/", {"released": False, "retired": True}, tok)
+            else:
+                continue
+            print("   ", a, v, r)
+
+
 def main():
+    if "--semver" in sys.argv:
+        novas = dict(x.split("=", 1) for x in sys.argv if "=" in x and not x.startswith("-"))
+        semver("--seco" in sys.argv, novas)
+        return
     if "--corrigir-urls" in sys.argv:
         corrigir_urls("--seco" in sys.argv)
         return
