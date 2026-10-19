@@ -1,17 +1,44 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRMotivoRealizacaoExame",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRMotivoRealizacaoExame</b></p><p>Title: BRMotivoRealizacaoExame</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoRealizacaoExame</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoRealizacaoExame",
-  "version": "HEAD",
   "name": "BRMotivoRealizacaoExame",
   "title": "BRMotivoRealizacaoExame",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.0.0",
+  "count": 7,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "7",
+      "display": "Ignorado"
+    },
+    {
+      "code": "6",
+      "display": "Projeto"
+    },
+    {
+      "code": "5",
+      "display": "Protocolo"
+    },
+    {
+      "code": "4",
+      "display": "Programa"
+    },
+    {
+      "code": "3",
+      "display": "Investigação"
+    },
+    {
+      "code": "2",
+      "display": "Inquérito"
+    },
+    {
+      "code": "1",
+      "display": "Campanha"
+    }
+  ]
 }

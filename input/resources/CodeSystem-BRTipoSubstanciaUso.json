@@ -2,7 +2,6 @@
   "resourceType": "CodeSystem",
   "id": "BRTipoSubstanciaUso",
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoSubstanciaUso",
-  "version": "HEAD",
   "name": "BRTipoSubstanciaUso",
   "title": "Tipo de Substância em Uso",
   "status": "active",
@@ -10,5 +9,49 @@
   "publisher": "MS",
   "description": "Identifica o tipo de substância em uso conforme declaração do indivíduo, de acordo com o especificado no modelo de informação do Registro de Atendimento Clínico da Resolução CIT nº 33/2018.",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "201701A",
+  "count": 10,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "hipno-seda",
+      "display": "Hipnóticos ou Sedativos"
+    },
+    {
+      "code": "opio",
+      "display": "Opióides ou Opiáceos"
+    },
+    {
+      "code": "alucinogeno",
+      "display": "Alucinógenos"
+    },
+    {
+      "code": "inalante",
+      "display": "Inalantes"
+    },
+    {
+      "code": "maconha",
+      "display": "Maconha"
+    },
+    {
+      "code": "anfetamina",
+      "display": "Anfetaminas ou Êxtase"
+    },
+    {
+      "code": "crack",
+      "display": "Crack"
+    },
+    {
+      "code": "alcool",
+      "display": "Bebidas Alcóolicas"
+    },
+    {
+      "code": "cocaina",
+      "display": "Cocaína"
+    },
+    {
+      "code": "deriv-tabaco",
+      "display": "Derivados do Tabaco"
+    }
+  ]
 }

@@ -1,12 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BRAlergenos",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRAlergenos-1.0</b></p><p>Title: BRAlergenos-1.0</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRAlergenos</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRAlergenos",
-  "version": "HEAD",
   "name": "BRAlergenos",
   "title": "BR Alergenos",
   "status": "active",
@@ -15,7 +10,6 @@
     "include": [
       {
         "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRImunobiologico",
-        "version": "HEAD",
         "concept": [
           {
             "code": "76",
@@ -385,7 +379,6 @@
       },
       {
         "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedicamento",
-        "version": "HEAD",
         "concept": [
           {
             "code": "BR0299690-1",
@@ -4023,7 +4016,6 @@
       },
       {
         "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRAlergenosCBARA",
-        "version": "HEAD",
         "concept": [
           {
             "code": "veneno-vespa",

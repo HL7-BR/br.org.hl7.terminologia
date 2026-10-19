@@ -1,12 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BRFabricanteImunobiologico",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRFabricanteImunobiologico-1.0</b></p><p>Title: BRFabricanteImunobiologico-1.0</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRFabricanteImunobiologico</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRFabricanteImunobiologico",
-  "version": "HEAD",
   "name": "BRFabricanteImunobiologico",
   "title": "BR Fabricante Imunobiologico",
   "status": "active",
@@ -15,7 +10,6 @@
     "include": [
       {
         "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
-        "version": "HEAD",
         "concept": [
           {
             "code": "26313",

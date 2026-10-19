@@ -1,17 +1,24 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRTipoTeleconsultoria",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRTipoTeleconsultoria</b></p><p>Title: BRTipoTeleconsultoria</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoTeleconsultoria</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoTeleconsultoria",
-  "version": "HEAD",
   "name": "BRTipoTeleconsultoria",
   "title": "BRTipoTeleconsultoria",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.0.0",
+  "count": 2,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "assincrona",
+      "display": "assíncrona"
+    },
+    {
+      "code": "sincrona",
+      "display": "síncrona"
+    }
+  ]
 }

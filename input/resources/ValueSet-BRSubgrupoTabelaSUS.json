@@ -1,12 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BRSubgrupoTabelaSUS",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRSubgrupoTabelaSUS</b></p><p>Title: BRSubgrupoTabelaSUS</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRSubgrupoTabelaSUS</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRSubgrupoTabelaSUS",
-  "version": "HEAD",
   "name": "BRSubgrupoTabelaSUS",
   "title": "BR Subgrupo Tabela SUS",
   "status": "active",
@@ -15,7 +10,6 @@
     "include": [
       {
         "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRSubGrupoTabelaSUS",
-        "version": "HEAD",
         "concept": [
           {
             "code": "0202",

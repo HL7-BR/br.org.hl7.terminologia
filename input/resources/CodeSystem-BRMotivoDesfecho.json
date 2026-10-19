@@ -1,20 +1,56 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRMotivoDesfecho",
-  "meta": {
-    "lastUpdated": "2025-06-03T12:01:17.410+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRMotivoDesfecho</b></p><p>Title: BRMotivoDesfecho</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoDesfecho</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoDesfecho",
-  "version": "HEAD",
   "name": "BRMotivoDesfecho",
   "title": "BRMotivoDesfecho",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "201701A",
+  "count": 10,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "09",
+      "display": "Transferência"
+    },
+    {
+      "code": "01",
+      "display": "Alta clínica"
+    },
+    {
+      "code": "99",
+      "display": "Sem registro no modelo de informação de origem"
+    },
+    {
+      "code": "08",
+      "display": "Retorno"
+    },
+    {
+      "code": "07",
+      "display": "Permanência"
+    },
+    {
+      "code": "06",
+      "display": "Óbito"
+    },
+    {
+      "code": "05",
+      "display": "Ordem Judicial"
+    },
+    {
+      "code": "04",
+      "display": "Evasão"
+    },
+    {
+      "code": "03",
+      "display": "Encaminhamento"
+    },
+    {
+      "code": "02",
+      "display": "Alta Voluntária"
+    }
+  ]
 }

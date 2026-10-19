@@ -1,12 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BRResultadoQualitativoExame",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRResultadoQualitativoExame</b></p><p>Title: BRResultadoQualitativoExame</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRResultadoQualitativoExame</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRResultadoQualitativoExame",
-  "version": "HEAD",
   "name": "BRResultadoQualitativoExame",
   "title": "BR Resultado Qualitativo Exame",
   "status": "active",
@@ -15,7 +10,6 @@
     "include": [
       {
         "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoDTNT",
-        "version": "HEAD",
         "concept": [
           {
             "code": "1",
@@ -33,7 +27,6 @@
       },
       {
         "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoHISPT",
-        "version": "HEAD",
         "concept": [
           {
             "code": "2",
@@ -51,7 +44,6 @@
       },
       {
         "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPRAU",
-        "version": "HEAD",
         "concept": [
           {
             "code": "2",
@@ -69,7 +61,6 @@
       },
       {
         "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRSBAC",
-        "version": "HEAD",
         "concept": [
           {
             "code": "2",
@@ -87,7 +78,6 @@
       },
       {
         "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoAVIDEZ",
-        "version": "HEAD",
         "concept": [
           {
             "code": "2",
@@ -105,7 +95,6 @@
       },
       {
         "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRGNR",
-        "version": "HEAD",
         "concept": [
           {
             "code": "2",
@@ -123,7 +112,6 @@
       },
       {
         "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoRSCUL",
-        "version": "HEAD",
         "concept": [
           {
             "code": "2",
@@ -140,26 +128,10 @@
         ]
       },
       {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRResultadoQualitativoExame",
-        "version": "HEAD",
-        "concept": [
-          {
-            "code": "1",
-            "display": "Detectável"
-          },
-          {
-            "code": "3",
-            "display": "Inconclusivo"
-          },
-          {
-            "code": "2",
-            "display": "Não Detectável"
-          }
-        ]
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRResultadoQualitativoExame"
       },
       {
         "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoPSNG",
-        "version": "HEAD",
         "concept": [
           {
             "code": "2",

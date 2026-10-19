@@ -1,17 +1,176 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRcondicao-amostra",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRcondicao-amostra</b></p><p>Title: BRcondicao_amostra</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRcondicao-amostra</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRcondicao-amostra",
-  "version": "HEAD",
   "name": "BRcondicao_amostra",
   "title": "BRcondicao_amostra",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.0.0",
+  "count": 23,
+  "content": "complete",
+  "property": [
+    {
+      "code": "inactive",
+      "uri": "http://hl7.org/fhir/concept-properties#inactive",
+      "description": "Conceito inativo (retirado no OCL).",
+      "type": "boolean"
+    }
+  ],
+  "concept": [
+    {
+      "code": "2626259",
+      "display": "Hemolizada",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "2626261",
+      "display": "Congelado",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "2626263",
+      "display": "Centrifugada",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "2626265",
+      "display": "Autolisada",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "2626267",
+      "display": "Resfriada",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "2626269",
+      "display": "Coagulada",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "2626271",
+      "display": "Temperatura ambiente",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "2626273",
+      "display": "Contaminada",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "2626275",
+      "display": "Amostra não recebida",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "2626257",
+      "display": "Viva",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "QUE",
+      "display": "Recipiente quebrado"
+    },
+    {
+      "code": "TEC",
+      "display": "Incidente técnico"
+    },
+    {
+      "code": "CIN",
+      "display": "Coleta inadequada da amostra"
+    },
+    {
+      "code": "INS",
+      "display": "Amostra insuficiente"
+    },
+    {
+      "code": "INC",
+      "display": "Cadastro incorreto da amostra"
+    },
+    {
+      "code": "IMP",
+      "display": "Amostra imprópria para análise solicitada."
+    },
+    {
+      "code": "NCI",
+      "display": "Amostra não correpondente à identificada"
+    },
+    {
+      "code": "FPC",
+      "display": "Amostra fora do prazo de coleta"
+    },
+    {
+      "code": "SID",
+      "display": "Amostra sem identificação"
+    },
+    {
+      "code": "ILE",
+      "display": "Amostra com identificação ilegível"
+    },
+    {
+      "code": "INA",
+      "display": "Amostra com identificação inadequada"
+    },
+    {
+      "code": "VAZ",
+      "display": "Amostra vazada"
+    },
+    {
+      "code": "LIP",
+      "display": "Amostra lipêmica"
+    }
+  ]
 }

@@ -1,12 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BRAtendimentoPrestado",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRAtendimentoPrestado</b></p><p>Title: BRAtendimentoPrestado</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRAtendimentoPrestado</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRAtendimentoPrestado",
-  "version": "HEAD",
   "name": "BRAtendimentoPrestado",
   "title": "BR Atendimento Prestado",
   "status": "active",
@@ -14,38 +9,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRAtendimentoPrestado",
-        "version": "HEAD",
-        "concept": [
-          {
-            "code": "04",
-            "display": "URGENCIA"
-          },
-          {
-            "code": "03",
-            "display": "SADT"
-          },
-          {
-            "code": "07",
-            "display": "REGULACAO"
-          },
-          {
-            "code": "02",
-            "display": "AMBULATORIAL"
-          },
-          {
-            "code": "06",
-            "display": "VIGILANCIA EM SAUDE"
-          },
-          {
-            "code": "05",
-            "display": "OUTROS"
-          },
-          {
-            "code": "01",
-            "display": "INTERNACAO"
-          }
-        ]
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRAtendimentoPrestado"
       }
     ]
   }

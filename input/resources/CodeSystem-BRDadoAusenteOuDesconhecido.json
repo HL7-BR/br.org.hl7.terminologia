@@ -1,20 +1,76 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRDadoAusenteOuDesconhecido",
-  "meta": {
-    "lastUpdated": "2025-07-17T17:37:15.714+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRDadoAusenteOuDesconhecido</b></p><p>Title: BRDadoAusenteOuDesconhecido</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRDadoAusenteOuDesconhecido</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDadoAusenteOuDesconhecido",
-  "version": "HEAD",
   "name": "BRDadoAusenteOuDesconhecido",
   "title": "BRDadoAusenteOuDesconhecido",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.0",
+  "count": 15,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "no-procedure-info",
+      "display": "Nenhuma informação sobre procedimento."
+    },
+    {
+      "code": "no-problem-info",
+      "display": "Nenhuma informação sobre o problema."
+    },
+    {
+      "code": "no-known-devices",
+      "display": "Nenhum dispositivo em uso"
+    },
+    {
+      "code": "no-immunization-info",
+      "display": "Nenhuma informação sobre imunização"
+    },
+    {
+      "code": "no-known-allergies",
+      "display": "Nenhuma alergia conhecida."
+    },
+    {
+      "code": "no-known-procedures",
+      "display": "Nenhum procedimento conhecido."
+    },
+    {
+      "code": "no-device-info",
+      "display": "Nenhuma informação sobre algum dispositivo."
+    },
+    {
+      "code": "no-allergy-info",
+      "display": "Nenhuma informação sobre alergias"
+    },
+    {
+      "code": "no-known-immunizations",
+      "display": "Nenhuma informação sobre imunização."
+    },
+    {
+      "code": "no-known-medications",
+      "display": "Sem medicação."
+    },
+    {
+      "code": "no-known-problems",
+      "display": "Nenhum problema conhecido."
+    },
+    {
+      "code": "no-medication-info",
+      "display": "Sem informação de medicamentos."
+    },
+    {
+      "code": "no-known-food-allergies",
+      "display": "No known food allergies"
+    },
+    {
+      "code": "no-known-medication-allergies",
+      "display": "No known medication allergies"
+    },
+    {
+      "code": "no-known-environmental-allergies",
+      "display": "No known environmental allergies"
+    }
+  ]
 }

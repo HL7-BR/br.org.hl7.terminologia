@@ -1,12 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BREstrategiaVacinacao",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BREstrategiaVacinacao-1.0</b></p><p>Title: BREstrategiaVacinacao-1.0</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BREstrategiaVacinacao</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BREstrategiaVacinacao",
-  "version": "HEAD",
   "name": "BREstrategiaVacinacao",
   "title": "BR Estrategia Vacinacao",
   "status": "active",
@@ -14,62 +9,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREstrategiaVacinacao",
-        "version": "HEAD",
-        "concept": [
-          {
-            "code": "3",
-            "display": "Bloqueio"
-          },
-          {
-            "code": "2",
-            "display": "Especial"
-          },
-          {
-            "code": "9",
-            "display": "Monitoramento rápido de cobertura vacinal"
-          },
-          {
-            "code": "13",
-            "display": "Reexposição"
-          },
-          {
-            "code": "8",
-            "display": "Serviço Privado"
-          },
-          {
-            "code": "12",
-            "display": "Pós-exposição"
-          },
-          {
-            "code": "7",
-            "display": "Soroterapia"
-          },
-          {
-            "code": "11",
-            "display": "Pré-exposição"
-          },
-          {
-            "code": "6",
-            "display": "Campanha seletiva"
-          },
-          {
-            "code": "10",
-            "display": "Pesquisa"
-          },
-          {
-            "code": "5",
-            "display": "Campanha indiscriminada"
-          },
-          {
-            "code": "4",
-            "display": "Intensificação"
-          },
-          {
-            "code": "1",
-            "display": "Rotina"
-          }
-        ]
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREstrategiaVacinacao"
       }
     ]
   }

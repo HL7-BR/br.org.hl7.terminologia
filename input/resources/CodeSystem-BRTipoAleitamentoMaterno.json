@@ -1,20 +1,50 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRTipoAleitamentoMaterno",
-  "meta": {
-    "lastUpdated": "2025-07-17T17:29:46.277+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRTipoAleitamentoMaterno</b></p><p>Title: BRTipoAleitamentoMaterno</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAleitamentoMaterno</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAleitamentoMaterno",
-  "version": "HEAD",
   "name": "BRTipoAleitamentoMaterno",
   "title": "BRTipoAleitamentoMaterno",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.0.0",
+  "count": 5,
+  "content": "complete",
+  "property": [
+    {
+      "code": "inactive",
+      "uri": "http://hl7.org/fhir/concept-properties#inactive",
+      "description": "Conceito inativo (retirado no OCL).",
+      "type": "boolean"
+    }
+  ],
+  "concept": [
+    {
+      "code": "05",
+      "display": "Aleitamento materno misto ou parcial"
+    },
+    {
+      "code": "04",
+      "display": "Aleitamento materno complementado"
+    },
+    {
+      "code": "02",
+      "display": "Aleitamento materno predominante"
+    },
+    {
+      "code": "01",
+      "display": "Aleitamento materno  exclusivo"
+    },
+    {
+      "code": "03",
+      "display": "Aleitamento materno",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    }
+  ]
 }

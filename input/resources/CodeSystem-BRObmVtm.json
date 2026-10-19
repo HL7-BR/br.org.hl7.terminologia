@@ -1,20 +1,7232 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRObmVTM",
-  "meta": {
-    "lastUpdated": "2025-07-17T17:35:03.205+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRObmVTM</b></p><p>Title: BRObmVTM</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRObmVTM</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRObmVTM",
-  "version": "HEAD",
   "name": "BRObmVTM",
   "title": "BRObmVTM",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.0.0",
+  "count": 1804,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "@brasil10980047602",
+      "display": "Betametasona + Neomicina"
+    },
+    {
+      "code": "@brasil16057626432",
+      "display": "Azul de Metileno"
+    },
+    {
+      "code": "@brasil10978595102",
+      "display": "Betapeginterferona 1a"
+    },
+    {
+      "code": "@brasil16053818784",
+      "display": "Isofluorano"
+    },
+    {
+      "code": "@brasil10966366072",
+      "display": "Carfilzomibe"
+    },
+    {
+      "code": "@brasil16052091526",
+      "display": "Neostigmina"
+    },
+    {
+      "code": "@brasil10959846628",
+      "display": "Benzocaína + Tirotricina"
+    },
+    {
+      "code": "@brasil16040644612",
+      "display": "Azacitidina"
+    },
+    {
+      "code": "@brasil10958799645",
+      "display": "Rasagilina"
+    },
+    {
+      "code": "@brasil10956151215",
+      "display": "Etodolaco"
+    },
+    {
+      "code": "@brasil16039591342",
+      "display": "Ambroxol"
+    },
+    {
+      "code": "@brasil10944262156",
+      "display": "Fosaprepitanto Dimeglumina"
+    },
+    {
+      "code": "@brasil16033925092",
+      "display": "Fluormetolona"
+    },
+    {
+      "code": "@brasil10927707310",
+      "display": "Ranibizumabe"
+    },
+    {
+      "code": "@brasil16033035185",
+      "display": "Riociguate"
+    },
+    {
+      "code": "@brasil10919038494",
+      "display": "Benzocaína + Bicarbonato de Sódio + Cloreto de Potássio"
+    },
+    {
+      "code": "@brasil16028061447",
+      "display": "Telmisartana + Hidroclorotiazida"
+    },
+    {
+      "code": "@brasil10916759203",
+      "display": "Ácido épsilon-aminocaproico"
+    },
+    {
+      "code": "@brasil16027839746",
+      "display": "Pirenoxina Sódica"
+    },
+    {
+      "code": "@brasil10913475509",
+      "display": "Fluticasona + Vilanterol"
+    },
+    {
+      "code": "@brasil10912143876",
+      "display": "Tafamidis"
+    },
+    {
+      "code": "@brasil16024883784",
+      "display": "Progesterona"
+    },
+    {
+      "code": "@brasil10907648410",
+      "display": "Sulfametoxazol + Trimetoprima + Fenazopiridina"
+    },
+    {
+      "code": "@brasil16016693575",
+      "display": "Flufenazina"
+    },
+    {
+      "code": "@brasil10907296705",
+      "display": "Metilfenidato"
+    },
+    {
+      "code": "@brasil16012752404",
+      "display": "Tobramicina"
+    },
+    {
+      "code": "@brasil10900660585",
+      "display": "Brimonidina"
+    },
+    {
+      "code": "@brasil16002738125",
+      "display": "Ivabradina"
+    },
+    {
+      "code": "@brasil10890239700",
+      "display": "Ipratrópio + Salbutamol"
+    },
+    {
+      "code": "@brasil15997838903",
+      "display": "Pasireotida"
+    },
+    {
+      "code": "@brasil10881366785",
+      "display": "Cianocobalamina + Tiamina + Piridoxina + Diclofenaco Sódico"
+    },
+    {
+      "code": "@brasil15995186114",
+      "display": "Doxiciclina"
+    },
+    {
+      "code": "@brasil10879568280",
+      "display": "Ofloxacino"
+    },
+    {
+      "code": "@brasil15992779167",
+      "display": "Alfaporactanto"
+    },
+    {
+      "code": "@brasil10875021684",
+      "display": "Rifabutina"
+    },
+    {
+      "code": "@brasil15985985718",
+      "display": "Tensirolimo"
+    },
+    {
+      "code": "@brasil10871785934",
+      "display": "Adapaleno + Clindamicina"
+    },
+    {
+      "code": "@brasil10869256863",
+      "display": "Ácido Cítrico + Citrato de Sódio + Citrato de Potássio"
+    },
+    {
+      "code": "@brasil15973047748",
+      "display": "Ciclofosfamida"
+    },
+    {
+      "code": "@brasil10865725986",
+      "display": "Enalapril + Hidroclorotiazida"
+    },
+    {
+      "code": "@brasil10861428752",
+      "display": "Ácido Acetilsalicílico + Mononitrato de Isossorbida"
+    },
+    {
+      "code": "@brasil15963029949",
+      "display": "Dutasterida + Tansulosina"
+    },
+    {
+      "code": "@brasil10858089150",
+      "display": "Azatioprina"
+    },
+    {
+      "code": "@brasil15958942933",
+      "display": "Piridostigmina"
+    },
+    {
+      "code": "@brasil10857514654",
+      "display": "Anlodipino + Atorvastatina"
+    },
+    {
+      "code": "@brasil15958118237",
+      "display": "Hexafluoreto de Enxofre"
+    },
+    {
+      "code": "@brasil10851554032",
+      "display": "Vitis Vinifera"
+    },
+    {
+      "code": "@brasil15953070236",
+      "display": "Fosfato de Cálcio + Colecalciferol"
+    },
+    {
+      "code": "@brasil10830116225",
+      "display": "Água para Injetáveis"
+    },
+    {
+      "code": "@brasil15951782440",
+      "display": "Alfavelaglicerase"
+    },
+    {
+      "code": "@brasil10824172366",
+      "display": "Trametinibe"
+    },
+    {
+      "code": "@brasil15951502485",
+      "display": "Cipionato de Testosterona"
+    },
+    {
+      "code": "@brasil10822656834",
+      "display": "Bleomicina"
+    },
+    {
+      "code": "@brasil10817177667",
+      "display": "Bromocriptina"
+    },
+    {
+      "code": "@brasil15947394514",
+      "display": "Cloroquina"
+    },
+    {
+      "code": "@brasil10817018830",
+      "display": "Fenol + Mentol"
+    },
+    {
+      "code": "@brasil15946544254",
+      "display": "Dietilcarbamazina"
+    },
+    {
+      "code": "@brasil10816384907",
+      "display": "Fibrinogênio + Aprotinina + Trombina"
+    },
+    {
+      "code": "@brasil15939550310",
+      "display": "Cloreto de Potássio + Cloreto de Sódio + Glicose"
+    },
+    {
+      "code": "@brasil10806298795",
+      "display": "Denosumabe"
+    },
+    {
+      "code": "@brasil15939062819",
+      "display": "Petidina"
+    },
+    {
+      "code": "@brasil10788677855",
+      "display": "Mebendazol"
+    },
+    {
+      "code": "@brasil15938247846",
+      "display": "Rupatadina"
+    },
+    {
+      "code": "@brasil10788490017",
+      "display": "Alfalutropina"
+    },
+    {
+      "code": "@brasil15934981167",
+      "display": "Pindolol + Clopamida"
+    },
+    {
+      "code": "@brasil10786089105",
+      "display": "Meropeném"
+    },
+    {
+      "code": "@brasil15929644325",
+      "display": "Clemastina + Dexametasona"
+    },
+    {
+      "code": "@brasil10785976368",
+      "display": "Cumarina + Troxerrutina"
+    },
+    {
+      "code": "@brasil15925580108",
+      "display": "Olmesartana Medoxomila + Hidroclorotiazida"
+    },
+    {
+      "code": "@brasil10781076559",
+      "display": "Bisglicinato Ferroso"
+    },
+    {
+      "code": "@brasil15918156592",
+      "display": "Melfalana"
+    },
+    {
+      "code": "@brasil10777135807",
+      "display": "Carvão Vegetal Ativado"
+    },
+    {
+      "code": "@brasil15909920953",
+      "display": "Estradiol + Didrogesterona"
+    },
+    {
+      "code": "@brasil10766746606",
+      "display": "Propiltiouracila"
+    },
+    {
+      "code": "@brasil15899338549",
+      "display": "Lanatosídeo C"
+    },
+    {
+      "code": "@brasil10745277953",
+      "display": "Glibenclamida + Metformina"
+    },
+    {
+      "code": "@brasil15888356244",
+      "display": "Dronedarona"
+    },
+    {
+      "code": "@brasil10741650601",
+      "display": "Risperidona"
+    },
+    {
+      "code": "@brasil15887200547",
+      "display": "Baclofeno"
+    },
+    {
+      "code": "@brasil10725930593",
+      "display": "Sibutramina"
+    },
+    {
+      "code": "@brasil15882074343",
+      "display": "Imunoglobulina antitetânica"
+    },
+    {
+      "code": "@brasil10724245244",
+      "display": "Granisetrona"
+    },
+    {
+      "code": "@brasil1587591991",
+      "display": "Vacina Bcg"
+    },
+    {
+      "code": "@brasil10708335050",
+      "display": "Aminolevulinato"
+    },
+    {
+      "code": "@brasil10706060034",
+      "display": "Naltrexona"
+    },
+    {
+      "code": "@brasil15874446056",
+      "display": "Prednisona"
+    },
+    {
+      "code": "@brasil10701343034",
+      "display": "Nimesulida Betaciclodextrina"
+    },
+    {
+      "code": "@brasil15873823616",
+      "display": "Desoximetasona"
+    },
+    {
+      "code": "@brasil10699460124",
+      "display": "Acitretina"
+    },
+    {
+      "code": "@brasil15873415753",
+      "display": "Vinflunina"
+    },
+    {
+      "code": "@brasil10698299314",
+      "display": "Betacaroteno"
+    },
+    {
+      "code": "@brasil15871071837",
+      "display": "Alendronato de Sódio"
+    },
+    {
+      "code": "@brasil10697355260",
+      "display": "Medroxiprogesterona + Estradiol"
+    },
+    {
+      "code": "@brasil15865289079",
+      "display": "Glicosamina + Condroitina"
+    },
+    {
+      "code": "@brasil10697025097",
+      "display": "Ibrutinibe"
+    },
+    {
+      "code": "@brasil15864137657",
+      "display": "Nifedipino"
+    },
+    {
+      "code": "@brasil10692278509",
+      "display": "Meloxicam"
+    },
+    {
+      "code": "@brasil15853913160",
+      "display": "Ambrisentana"
+    },
+    {
+      "code": "@brasil15850156223",
+      "display": "Brometo de Pinavério"
+    },
+    {
+      "code": "@brasil10687671983",
+      "display": "Alirocumabe"
+    },
+    {
+      "code": "@brasil15848989211",
+      "display": "Fluoresceína"
+    },
+    {
+      "code": "@brasil10685241482",
+      "display": "Fumarato de Dimetila"
+    },
+    {
+      "code": "@brasil15841352710",
+      "display": "Indinavir"
+    },
+    {
+      "code": "@brasil10683167380",
+      "display": "Uncaria tomentosa"
+    },
+    {
+      "code": "@brasil15841036293",
+      "display": "Romiplostim"
+    },
+    {
+      "code": "@brasil10682506802",
+      "display": "Zafirlucaste"
+    },
+    {
+      "code": "@brasil15835614375",
+      "display": "Ácido Épsilon Aminocaproico + Benzoato de Sódio + Guaifenesina + Cloreto de Amônio"
+    },
+    {
+      "code": "@brasil10669801849",
+      "display": "Piperidolato + Hesperidina + Ácido Ascórbico"
+    },
+    {
+      "code": "@brasil15821654483",
+      "display": "Estreptomicina"
+    },
+    {
+      "code": "@brasil10666093946",
+      "display": "Nafazolina + Zinco"
+    },
+    {
+      "code": "@brasil15820353193",
+      "display": "Candesartana + Hidroclorotiazida"
+    },
+    {
+      "code": "@brasil10660069286",
+      "display": "Oleato de Etanolamina"
+    },
+    {
+      "code": "@brasil15813933996",
+      "display": "Fingolimode"
+    },
+    {
+      "code": "@brasil10656405891",
+      "display": "Omalizumabe"
+    },
+    {
+      "code": "@brasil15812690792",
+      "display": "Estavudina"
+    },
+    {
+      "code": "@brasil10653830216",
+      "display": "Felodipino"
+    },
+    {
+      "code": "@brasil15810005901",
+      "display": "Alcaftadina"
+    },
+    {
+      "code": "@brasil10646931491",
+      "display": "Riboflavina"
+    },
+    {
+      "code": "@brasil15801407158",
+      "display": "Norfloxacino"
+    },
+    {
+      "code": "@brasil10636350595",
+      "display": "Benzocaína + Dequalínio"
+    },
+    {
+      "code": "@brasil15801343036",
+      "display": "Desferroxamina"
+    },
+    {
+      "code": "@brasil10632068952",
+      "display": "Tenecteplase"
+    },
+    {
+      "code": "@brasil15796693176",
+      "display": "Óxido de Zinco"
+    },
+    {
+      "code": "@brasil10630300789",
+      "display": "Mirtazapina"
+    },
+    {
+      "code": "@brasil15790377412",
+      "display": "Enzalutamida"
+    },
+    {
+      "code": "@brasil10620870310",
+      "display": "Furazolidona"
+    },
+    {
+      "code": "@brasil15789840467",
+      "display": "Hidromorfona"
+    },
+    {
+      "code": "@brasil10614532250",
+      "display": "Piroxicam betaciclodextrina"
+    },
+    {
+      "code": "@brasil15789434615",
+      "display": "Mesna"
+    },
+    {
+      "code": "@brasil10610911435",
+      "display": "Imiglucerase"
+    },
+    {
+      "code": "@brasil15788545211",
+      "display": "Enfuvirtida"
+    },
+    {
+      "code": "@brasil10606865239",
+      "display": "Brimonidina + Timolol"
+    },
+    {
+      "code": "@brasil15780425075",
+      "display": "Alfaestradiol"
+    },
+    {
+      "code": "@brasil10604035760",
+      "display": "Amitriptilina + Clordiazepóxido"
+    },
+    {
+      "code": "@brasil15766299892",
+      "display": "Candesartana + Felodipino"
+    },
+    {
+      "code": "@brasil10579366981",
+      "display": "Ácido Tióctico"
+    },
+    {
+      "code": "@brasil15764546984",
+      "display": "Arginina"
+    },
+    {
+      "code": "@brasil10564383239",
+      "display": "Difenidramina + Cloreto de Amônio + Citrato de Sódio"
+    },
+    {
+      "code": "@brasil15763962514",
+      "display": "Echinacea purpurea"
+    },
+    {
+      "code": "@brasil10559701360",
+      "display": "Fenilefrina + Tetracaína"
+    },
+    {
+      "code": "@brasil15761526901",
+      "display": "Trimetazidina"
+    },
+    {
+      "code": "@brasil10542947863",
+      "display": "Clotrimazol + Dexametasona"
+    },
+    {
+      "code": "@brasil15737339662",
+      "display": "Sulfadiazina de Prata + Nitrato de Cério"
+    },
+    {
+      "code": "@brasil10538708799",
+      "display": "Extratos Alergênicos de Insetos Sugadores"
+    },
+    {
+      "code": "@brasil10534574007",
+      "display": "Palonosetrona"
+    },
+    {
+      "code": "@brasil15733897969",
+      "display": "Desmopressina"
+    },
+    {
+      "code": "@brasil10522088910",
+      "display": "Alfentanila"
+    },
+    {
+      "code": "@brasil15730286626",
+      "display": "Ácido Acetilsalicílico + Carbonato de Magnésio + Glicinato de Alumínio"
+    },
+    {
+      "code": "@brasil10514824734",
+      "display": "Lidocaína + Glicose"
+    },
+    {
+      "code": "@brasil15714371319",
+      "display": "Atenolol + Clortalidona"
+    },
+    {
+      "code": "@brasil10509796346",
+      "display": "Frações Peptídicas Alergênicas"
+    },
+    {
+      "code": "@brasil15711334472",
+      "display": "Bosentana"
+    },
+    {
+      "code": "@brasil10502597465",
+      "display": "Neomicina + Bacitracina"
+    },
+    {
+      "code": "@brasil15706343887",
+      "display": "Insulina Lispro"
+    },
+    {
+      "code": "@brasil10496247419",
+      "display": "Amissulprida"
+    },
+    {
+      "code": "@brasil15706150097",
+      "display": "Nadroparina"
+    },
+    {
+      "code": "@brasil10491206542",
+      "display": "Ciprofloxacino"
+    },
+    {
+      "code": "@brasil15703452968",
+      "display": "Ácido Zoledrônico"
+    },
+    {
+      "code": "@brasil10477563235",
+      "display": "Adapaleno + Peróxido de Benzoíla"
+    },
+    {
+      "code": "@brasil15695278853",
+      "display": "Loxoprofeno"
+    },
+    {
+      "code": "@brasil10476676346",
+      "display": "Desloratadina"
+    },
+    {
+      "code": "@brasil15684523949",
+      "display": "Hialuronidase + Lidocaína + Neomicina"
+    },
+    {
+      "code": "@brasil10471653909",
+      "display": "Aceponato de Metilprednisolona"
+    },
+    {
+      "code": "@brasil15645427064",
+      "display": "Ácido Ibandrônico"
+    },
+    {
+      "code": "@brasil10461127077",
+      "display": "Pantoprazol"
+    },
+    {
+      "code": "@brasil15641232844",
+      "display": "Ácido Salicílico + Coaltar"
+    },
+    {
+      "code": "@brasil10460264831",
+      "display": "Sulfato de Glicosamina + Sulfato de Condroitina"
+    },
+    {
+      "code": "@brasil10453647570",
+      "display": "Metoprolol + Hidroclorotiazida"
+    },
+    {
+      "code": "@brasil15636533949",
+      "display": "Losartana"
+    },
+    {
+      "code": "@brasil10447801276",
+      "display": "Azilsartana Medoxomila + Clortalidona"
+    },
+    {
+      "code": "@brasil15635684275",
+      "display": "Perindopril Erbumina + Indapamida"
+    },
+    {
+      "code": "@brasil10442385225",
+      "display": "Nesiritida"
+    },
+    {
+      "code": "@brasil15628322282",
+      "display": "Nepafenaco"
+    },
+    {
+      "code": "@brasil10437137567",
+      "display": "Dienogeste"
+    },
+    {
+      "code": "@brasil15610683740",
+      "display": "Ferro Quelato + Ácido Fólico"
+    },
+    {
+      "code": "@brasil15604665031",
+      "display": "Proximetacaína"
+    },
+    {
+      "code": "@brasil10435971058",
+      "display": "Abiraterona"
+    },
+    {
+      "code": "@brasil10435773664",
+      "display": "Sapropterina"
+    },
+    {
+      "code": "@brasil15599755834",
+      "display": "Betainterferona 1b"
+    },
+    {
+      "code": "@brasil15583636429",
+      "display": "Pinus pinaster"
+    },
+    {
+      "code": "@brasil10430882069",
+      "display": "Zolmitriptana"
+    },
+    {
+      "code": "@brasil15581966251",
+      "display": "Hidroxocobalamina + Citidina + Uridina"
+    },
+    {
+      "code": "@brasil10430115125",
+      "display": "Oximetolona"
+    },
+    {
+      "code": "@brasil15574606940",
+      "display": "Sulfiram"
+    },
+    {
+      "code": "@brasil10429590250",
+      "display": "Rilmenidina"
+    },
+    {
+      "code": "@brasil15573325263",
+      "display": "Bifonazol"
+    },
+    {
+      "code": "@brasil10428701266",
+      "display": "Solifenacina"
+    },
+    {
+      "code": "@brasil15569746358",
+      "display": "Cisplatina"
+    },
+    {
+      "code": "@brasil10421082535",
+      "display": "Citrato Férrico Amoniacal"
+    },
+    {
+      "code": "@brasil10420185084",
+      "display": "Ciclobenzaprina"
+    },
+    {
+      "code": "@brasil15568793503",
+      "display": "Tropicamida"
+    },
+    {
+      "code": "@brasil10407749022",
+      "display": "Difenidramina"
+    },
+    {
+      "code": "@brasil15566391585",
+      "display": "Insulina Asparte bifásica"
+    },
+    {
+      "code": "@brasil10400496413",
+      "display": "Retapamulina"
+    },
+    {
+      "code": "@brasil15564804974",
+      "display": "Metadona"
+    },
+    {
+      "code": "@brasil10399874895",
+      "display": "Nicergolina"
+    },
+    {
+      "code": "@brasil15564420413",
+      "display": "Bimatoprosta"
+    },
+    {
+      "code": "@brasil10388370816",
+      "display": "Podofilina"
+    },
+    {
+      "code": "@brasil15561403682",
+      "display": "Benazepril + Hidroclorotiazida"
+    },
+    {
+      "code": "@brasil10384371475",
+      "display": "Tobramicina + Dexametasona"
+    },
+    {
+      "code": "@brasil15549571787",
+      "display": "Epirrubicina"
+    },
+    {
+      "code": "@brasil10383620373",
+      "display": "Di-hidroergotamina + Paracetamol + Cafeína + Metoclopramida"
+    },
+    {
+      "code": "@brasil15547448903",
+      "display": "Levodopa + Carbidopa"
+    },
+    {
+      "code": "@brasil10380987533",
+      "display": "Teniposídeo"
+    },
+    {
+      "code": "@brasil15539381908",
+      "display": "Paracetamol + Codeína"
+    },
+    {
+      "code": "@brasil10372897572",
+      "display": "Benzocaína"
+    },
+    {
+      "code": "@brasil15538296116",
+      "display": "Clorpromazina"
+    },
+    {
+      "code": "@brasil10353874591",
+      "display": "Primaquina"
+    },
+    {
+      "code": "@brasil15535066736",
+      "display": "Desonida"
+    },
+    {
+      "code": "@brasil10352276749",
+      "display": "Urofolitropina"
+    },
+    {
+      "code": "@brasil15530299026",
+      "display": "Ácido Aminocaproico"
+    },
+    {
+      "code": "@brasil10351210235",
+      "display": "Vimpocetina"
+    },
+    {
+      "code": "@brasil10350301050",
+      "display": "Oxamniquina"
+    },
+    {
+      "code": "@brasil15527746653",
+      "display": "Vancomicina"
+    },
+    {
+      "code": "@brasil10337677569",
+      "display": "Insulina Glargina"
+    },
+    {
+      "code": "@brasil15520325651",
+      "display": "Timostimulina"
+    },
+    {
+      "code": "@brasil10332344751",
+      "display": "Brinzolamida"
+    },
+    {
+      "code": "@brasil15509693626",
+      "display": "Tribenosídeo"
+    },
+    {
+      "code": "@brasil10325818098",
+      "display": "Tiocolchicosídeo"
+    },
+    {
+      "code": "@brasil15504697173",
+      "display": "Polimixina B + Neomicina + Bacitracina + Óxido de Zinco"
+    },
+    {
+      "code": "@brasil10322563908",
+      "display": "Sildenafila"
+    },
+    {
+      "code": "@brasil10321729070",
+      "display": "Modafinila"
+    },
+    {
+      "code": "@brasil15502122253",
+      "display": "Silimarina + Metionina"
+    },
+    {
+      "code": "@brasil10313013986",
+      "display": "Flucitosina"
+    },
+    {
+      "code": "@brasil15490830739",
+      "display": "Divalproato de Sódio"
+    },
+    {
+      "code": "@brasil15487034324",
+      "display": "Estradiol + Acetato de Noretisterona"
+    },
+    {
+      "code": "@brasil10306395300",
+      "display": "Carmelose Sódica + Glicerol"
+    },
+    {
+      "code": "@brasil10303276729",
+      "display": "Cabazitaxel"
+    },
+    {
+      "code": "@brasil15485880555",
+      "display": "Alginato de Sódio + Bicarbonato de Potássio + Carbonato de Cálcio"
+    },
+    {
+      "code": "@brasil10302014331",
+      "display": "Famotidina"
+    },
+    {
+      "code": "@brasil15481968805",
+      "display": "Picossulfato de Sódio"
+    },
+    {
+      "code": "@brasil10298364850",
+      "display": "Penciclovir"
+    },
+    {
+      "code": "@brasil15466373184",
+      "display": "Tenofovir + Lamivudina"
+    },
+    {
+      "code": "@brasil10296720824",
+      "display": "Alogliptina + Metformina"
+    },
+    {
+      "code": "@brasil15464763775",
+      "display": "Penicilamina"
+    },
+    {
+      "code": "@brasil10295676942",
+      "display": "Empagliflozina"
+    },
+    {
+      "code": "@brasil15459706051",
+      "display": "Metronidazol"
+    },
+    {
+      "code": "@brasil10295172938",
+      "display": "Oxcarbazepina"
+    },
+    {
+      "code": "@brasil15458050206",
+      "display": "Glicinato de Magnésio + Piridoxina"
+    },
+    {
+      "code": "@brasil10289349694",
+      "display": "Fenticonazol"
+    },
+    {
+      "code": "@brasil15451455324",
+      "display": "Ibuprofeno + Paracetamol + Carisoprodol + Piridoxina"
+    },
+    {
+      "code": "@brasil10272056571",
+      "display": "Tirotricina + Hidroxiquinolina + Fluoreto de Sódio"
+    },
+    {
+      "code": "@brasil15450217904",
+      "display": "Dipirona + Cafeína"
+    },
+    {
+      "code": "@brasil10250349453",
+      "display": "Anlodipino + Benazepril"
+    },
+    {
+      "code": "@brasil15446919876",
+      "display": "Hipromelose + Dextrana + Glicerol"
+    },
+    {
+      "code": "@brasil10248206368",
+      "display": "Subgalato de Bismuto + Timol + Óxido de Zinco"
+    },
+    {
+      "code": "@brasil10247705633",
+      "display": "Paracetamol + Carisoprodol + Fenilbutazona"
+    },
+    {
+      "code": "@brasil15445304013",
+      "display": "Ciproeptadina + Cobamamida"
+    },
+    {
+      "code": "@brasil10246592768",
+      "display": "Propatilnitrato"
+    },
+    {
+      "code": "@brasil15442466571",
+      "display": "Morfina"
+    },
+    {
+      "code": "@brasil10241973753",
+      "display": "Clopidogrel + Ácido Acetilsalicílico"
+    },
+    {
+      "code": "@brasil15440778791",
+      "display": "Dipirona"
+    },
+    {
+      "code": "@brasil10240904473",
+      "display": "Ertapeném"
+    },
+    {
+      "code": "@brasil15439712194",
+      "display": "Ferro Quelato + Piridoxina + Nicotinamida"
+    },
+    {
+      "code": "@brasil10235945236",
+      "display": "Nitazoxanida"
+    },
+    {
+      "code": "@brasil15431554507",
+      "display": "Magaldrato"
+    },
+    {
+      "code": "@brasil10222123562",
+      "display": "Levetiracetam"
+    },
+    {
+      "code": "@brasil15425589106",
+      "display": "Tofacitinibe"
+    },
+    {
+      "code": "@brasil10213644596",
+      "display": "Nivolumabe"
+    },
+    {
+      "code": "@brasil15421482980",
+      "display": "Pazopanibe"
+    },
+    {
+      "code": "@brasil10208180601",
+      "display": "Varfarina"
+    },
+    {
+      "code": "@brasil15407121846",
+      "display": "Propofol"
+    },
+    {
+      "code": "@brasil10193999343",
+      "display": "Amilorida + Clortalidona"
+    },
+    {
+      "code": "@brasil15402834167",
+      "display": "Ebastina"
+    },
+    {
+      "code": "@brasil10180213627",
+      "display": "Articaína + Epinefrina"
+    },
+    {
+      "code": "@brasil15400574741",
+      "display": "Verapamil"
+    },
+    {
+      "code": "@brasil10158683535",
+      "display": "Hidroxiureia"
+    },
+    {
+      "code": "@brasil15396844543",
+      "display": "Orlistate"
+    },
+    {
+      "code": "@brasil10148189476",
+      "display": "Metronidazol + Nistatina + Benzalcônio"
+    },
+    {
+      "code": "@brasil10139621160",
+      "display": "Fibrinogênio + Aprotinina + Trombina"
+    },
+    {
+      "code": "@brasil15393509803",
+      "display": "Fluvoxamina"
+    },
+    {
+      "code": "@brasil10138055923",
+      "display": "Osimertinibe"
+    },
+    {
+      "code": "@brasil15384233299",
+      "display": "Gonadotropina Coriônica"
+    },
+    {
+      "code": "@brasil10124974957",
+      "display": "Midodrina"
+    },
+    {
+      "code": "@brasil15381438521",
+      "display": "Ioxitalamato de Meglumina"
+    },
+    {
+      "code": "@brasil10120851648",
+      "display": "Lidocaína + Tetracaína"
+    },
+    {
+      "code": "@brasil15379650745",
+      "display": "Cefalotina"
+    },
+    {
+      "code": "@brasil10114837632",
+      "display": "Insulina Detemir"
+    },
+    {
+      "code": "@brasil15377923905",
+      "display": "Eritropoietina"
+    },
+    {
+      "code": "@brasil10113238952",
+      "display": "Pioglitazona"
+    },
+    {
+      "code": "@brasil15374254308",
+      "display": "Extratos Alergênicos de Insetos Sugadores"
+    },
+    {
+      "code": "@brasil10111078265",
+      "display": "Lidocaína + Norepinefrina"
+    },
+    {
+      "code": "@brasil10106890247",
+      "display": "Alogliptina"
+    },
+    {
+      "code": "@brasil15369519203",
+      "display": "Oxiconazol"
+    },
+    {
+      "code": "@brasil10105234821",
+      "display": "Exemestano"
+    },
+    {
+      "code": "@brasil15358967644",
+      "display": "Ombitasvir + Veruprevir + Ritonavir + Dasabuvir"
+    },
+    {
+      "code": "@brasil10096037275",
+      "display": "Somatostatina"
+    },
+    {
+      "code": "@brasil15356381240",
+      "display": "Fenoterol + Ipratrópio"
+    },
+    {
+      "code": "@brasil10095144770",
+      "display": "Teclozana"
+    },
+    {
+      "code": "@brasil15334243545",
+      "display": "Flutamida"
+    },
+    {
+      "code": "@brasil10092162656",
+      "display": "Brinzolamida + Brimonidina"
+    },
+    {
+      "code": "@brasil15330262811",
+      "display": "Nadroparina"
+    },
+    {
+      "code": "@brasil10082767716",
+      "display": "Sorbitol + Manitol"
+    },
+    {
+      "code": "@brasil10082116861",
+      "display": "Betametildigoxina"
+    },
+    {
+      "code": "@brasil15325540195",
+      "display": "Policresuleno"
+    },
+    {
+      "code": "@brasil10051378578",
+      "display": "Alfafolitropina + Alfalutropina"
+    },
+    {
+      "code": "@brasil15323683855",
+      "display": "Sofosbuvir"
+    },
+    {
+      "code": "@brasil10037854042",
+      "display": "Dipirona + Isometepteno + Cafeína"
+    },
+    {
+      "code": "@brasil15303233101",
+      "display": "Ciprofibrato"
+    },
+    {
+      "code": "@brasil10016405339",
+      "display": "Oxomemazina + Guaifenesina + Benzoato de Sódio + Paracetamol"
+    },
+    {
+      "code": "@brasil15296412411",
+      "display": "Alantoína"
+    },
+    {
+      "code": "@brasil068040655",
+      "display": "abacavir + abatacepte"
+    },
+    {
+      "code": "@brasil15294872404",
+      "display": "Bromazepam"
+    },
+    {
+      "code": "@brasil0601300057",
+      "display": "Vacina Adsorvida Difteria, Tétano e Pertussis"
+    },
+    {
+      "code": "@brasil9776777851",
+      "display": "Vacina Febre Tifóide (Polissacarídica)"
+    },
+    {
+      "code": "@brasil9758162131",
+      "display": "Alfavestronidase"
+    },
+    {
+      "code": "@brasil9548264039",
+      "display": "Alantoína + Aloe Vera + Ácidos Graxos Essenciais + Vitaminas A e E"
+    },
+    {
+      "code": "@brasil8970625262",
+      "display": "Vacina febre amarela"
+    },
+    {
+      "code": "@brasil8913842964",
+      "display": "Associações com aminoácidos"
+    },
+    {
+      "code": "@brasil8109044762",
+      "display": "Ácidos Graxos Essenciais"
+    },
+    {
+      "code": "@brasil7479050577",
+      "display": "Amoxicilina + Clavulanato de Potássio"
+    },
+    {
+      "code": "@brasil6934457821",
+      "display": "Vacina Humana Contra Hepatite A, Adsorvida e Inativada"
+    },
+    {
+      "code": "@brasil6799686094",
+      "display": "Vacina Humana, Anti-hpv (Papiloma Vírus), Tetravalente"
+    },
+    {
+      "code": "@brasil6139153492",
+      "display": "Amburana Cearensis (Cumaru)"
+    },
+    {
+      "code": "@brasil612077536",
+      "display": "abacavir + abatacepte"
+    },
+    {
+      "code": "@brasil594649765",
+      "display": "acetanilida + acetato de alumínio"
+    },
+    {
+      "code": "@brasil4854167140",
+      "display": "Vacina Papilomavírus Humano 16 e 18 (recombinante)"
+    },
+    {
+      "code": "@brasil4769087513",
+      "display": "Vacina Humana Contra Difteria, Tétano e Pertussis + Haemophilus Influenzae Tipo B"
+    },
+    {
+      "code": "@brasil4728093414",
+      "display": "Vacina adsorvida difteria e tétano adulto"
+    },
+    {
+      "code": "@brasil4302151451",
+      "display": "Vacina Adsorvida Difteria, Tétano e Pertussis (Acelular)"
+    },
+    {
+      "code": "@brasil3984469245",
+      "display": "Vacina Humana, Adsorvida, Difteria, Tétano, Pertussis + Hepatite B + Haemophilus Influenzae Tipo B"
+    },
+    {
+      "code": "@brasil3698268204",
+      "display": "Vacina Febre Tifóide (Atenuada)"
+    },
+    {
+      "code": "@brasil3258395871",
+      "display": "Vacina Hepatite B (Recombinante)"
+    },
+    {
+      "code": "@brasil19999361241",
+      "display": "Acarbose"
+    },
+    {
+      "code": "@brasil19999055050",
+      "display": "Clodronato Dissódico"
+    },
+    {
+      "code": "@brasil19996816662",
+      "display": "Tribenosídeo + Lidocaína"
+    },
+    {
+      "code": "@brasil19987824389",
+      "display": "Fentanila + Droperidol"
+    },
+    {
+      "code": "@brasil19985337143",
+      "display": "Nicotina"
+    },
+    {
+      "code": "@brasil19979470984",
+      "display": "Asenapina"
+    },
+    {
+      "code": "@brasil19976672937",
+      "display": "Espironolactona + Hidroclorotiazida"
+    },
+    {
+      "code": "@brasil19969929361",
+      "display": "Deferasirox"
+    },
+    {
+      "code": "@brasil19969291833",
+      "display": "Sunitinibe"
+    },
+    {
+      "code": "@brasil19967144558",
+      "display": "Megestrol"
+    },
+    {
+      "code": "@brasil19965155532",
+      "display": "Meclozina"
+    },
+    {
+      "code": "@brasil19962594022",
+      "display": "Betametasona + Gentamicina + Tolnaftato + Clioquinol"
+    },
+    {
+      "code": "@brasil19959110084",
+      "display": "Miconazol"
+    },
+    {
+      "code": "@brasil19952819634",
+      "display": "Cetotifeno"
+    },
+    {
+      "code": "@brasil19941926261",
+      "display": "Glatirâmer"
+    },
+    {
+      "code": "@brasil19938355570",
+      "display": "Glimepirida + Metformina"
+    },
+    {
+      "code": "@brasil19931079324",
+      "display": "Nitroprusseto de Sódio"
+    },
+    {
+      "code": "@brasil19919338121",
+      "display": "Vardenafila"
+    },
+    {
+      "code": "@brasil19912055840",
+      "display": "Drospirenona + Etinilestradiol"
+    },
+    {
+      "code": "@brasil19911797091",
+      "display": "Valproato de Sódio"
+    },
+    {
+      "code": "@brasil19910711215",
+      "display": "Benzilpenicilina Potássica"
+    },
+    {
+      "code": "@brasil19906337454",
+      "display": "Fludroxicortida"
+    },
+    {
+      "code": "@brasil19904994338",
+      "display": "Betametasona + Formoterol"
+    },
+    {
+      "code": "@brasil19904882188",
+      "display": "Fralda adulta descartável"
+    },
+    {
+      "code": "@brasil19904576081",
+      "display": "Norgestimato + Etinilestradiol"
+    },
+    {
+      "code": "@brasil19901514423",
+      "display": "Ingenol"
+    },
+    {
+      "code": "@brasil19896949974",
+      "display": "Metilergometrina"
+    },
+    {
+      "code": "@brasil19890541339",
+      "display": "Ciprofloxacino + Hidrocortisona"
+    },
+    {
+      "code": "@brasil19889885119",
+      "display": "Mentha piperita (Hortelã)"
+    },
+    {
+      "code": "@brasil19879061400",
+      "display": "Ácido Fólico + Bisglicinato Ferroso"
+    },
+    {
+      "code": "@brasil19876027067",
+      "display": "Paracetamol + Pseudoefedrina"
+    },
+    {
+      "code": "@brasil19875574277",
+      "display": "Dropropizina"
+    },
+    {
+      "code": "@brasil19872514882",
+      "display": "Promestrieno"
+    },
+    {
+      "code": "@brasil19867048540",
+      "display": "Triptorrelina"
+    },
+    {
+      "code": "@brasil19866183193",
+      "display": "Bambuterol"
+    },
+    {
+      "code": "@brasil19863650098",
+      "display": "Sinvastatina"
+    },
+    {
+      "code": "@brasil19861538445",
+      "display": "Lactato de Amônia + Alantoína"
+    },
+    {
+      "code": "@brasil19859573140",
+      "display": "Acetato de Sódio"
+    },
+    {
+      "code": "@brasil19858910467",
+      "display": "Isoniazida"
+    },
+    {
+      "code": "@brasil19858725646",
+      "display": "Oxibuprocaína"
+    },
+    {
+      "code": "@brasil19853710083",
+      "display": "Cetoconazol"
+    },
+    {
+      "code": "@brasil19852141912",
+      "display": "Ácido Mefenâmico"
+    },
+    {
+      "code": "@brasil19851765900",
+      "display": "Alfadarbepoetina"
+    },
+    {
+      "code": "@brasil19841128343",
+      "display": "Brinzolamida + Timolol"
+    },
+    {
+      "code": "@brasil19835802314",
+      "display": "Acetilcisteína + Tuaminoeptano"
+    },
+    {
+      "code": "@brasil19835580277",
+      "display": "Retinol + Colecalciferol + Óxido de Zinco"
+    },
+    {
+      "code": "@brasil19833197889",
+      "display": "Vareniclina"
+    },
+    {
+      "code": "@brasil19830346366",
+      "display": "Tranilcipromina"
+    },
+    {
+      "code": "@brasil19827834142",
+      "display": "Buspirona"
+    },
+    {
+      "code": "@brasil19826980445",
+      "display": "Doxorrubicina"
+    },
+    {
+      "code": "@brasil19824023309",
+      "display": "Cloreto de Sódio"
+    },
+    {
+      "code": "@brasil19822553375",
+      "display": "Desogestrel"
+    },
+    {
+      "code": "@brasil19820779932",
+      "display": "Cabergolina"
+    },
+    {
+      "code": "@brasil19816542628",
+      "display": "Óleo de Fígado de Bacalhau + Retinol + Colecalciferol"
+    },
+    {
+      "code": "@brasil19794348355",
+      "display": "Nafazolina + Zinco + Berberina"
+    },
+    {
+      "code": "@brasil19791214780",
+      "display": "Terbutalina + Guaifenesina"
+    },
+    {
+      "code": "@brasil19787424651",
+      "display": "Sulfato de Quinina"
+    },
+    {
+      "code": "@brasil19787149054",
+      "display": "Moclobemida"
+    },
+    {
+      "code": "@brasil19786561734",
+      "display": "Hidralazina"
+    },
+    {
+      "code": "@brasil19786426115",
+      "display": "Tigeciclina"
+    },
+    {
+      "code": "@brasil19772458679",
+      "display": "Adenosina + Racemetionina + Betaína + Piridoxina"
+    },
+    {
+      "code": "@brasil19771572293",
+      "display": "Benjoim"
+    },
+    {
+      "code": "@brasil19769069289",
+      "display": "Óleo de Cade + Alcatrão de Pinho + Alcatrão Mineral"
+    },
+    {
+      "code": "@brasil19766057923",
+      "display": "Lidocaína + Prilocaína"
+    },
+    {
+      "code": "@brasil19760121775",
+      "display": "Picossulfato de Sódio + Óxido de Magnésio + Ácido Cítrico"
+    },
+    {
+      "code": "@brasil19760008619",
+      "display": "Hipromelose + Dextrana"
+    },
+    {
+      "code": "@brasil19757936361",
+      "display": "Hidróxido de Magnésio"
+    },
+    {
+      "code": "@brasil19753268899",
+      "display": "Dacarbazina"
+    },
+    {
+      "code": "@brasil19749207196",
+      "display": "Zidovudina + Lamivudina"
+    },
+    {
+      "code": "@brasil19749029080",
+      "display": "Pasireotida"
+    },
+    {
+      "code": "@brasil19741067614",
+      "display": "Nateglinida + Metformina"
+    },
+    {
+      "code": "@brasil19738882284",
+      "display": "Sufentanila"
+    },
+    {
+      "code": "@brasil19737319897",
+      "display": "Filgrastim"
+    },
+    {
+      "code": "@brasil19734841955",
+      "display": "Anlodipino"
+    },
+    {
+      "code": "@brasil19731957072",
+      "display": "Tinidazol + Miconazol"
+    },
+    {
+      "code": "@brasil19716654734",
+      "display": "Isoflurano"
+    },
+    {
+      "code": "@brasil19709277905",
+      "display": "Eltrombopague Olamina"
+    },
+    {
+      "code": "@brasil19707578977",
+      "display": "Retinol + Colecalciferol + Óxido de Zinco + Óldeo de Fígado de Bacalhau"
+    },
+    {
+      "code": "@brasil19705128024",
+      "display": "Paracetamol + Fenilefrina + Carbinoxamina"
+    },
+    {
+      "code": "@brasil19701920773",
+      "display": "Codeína + Meloxicam + Paracetamol + Ranitidina"
+    },
+    {
+      "code": "@brasil15289323249",
+      "display": "Tramadol + Paracetamol"
+    },
+    {
+      "code": "@brasil19698214295",
+      "display": "Fusafungina"
+    },
+    {
+      "code": "@brasil15287899750",
+      "display": "Lapatinibe"
+    },
+    {
+      "code": "@brasil19697587161",
+      "display": "Teriflunomida"
+    },
+    {
+      "code": "@brasil15279405194",
+      "display": "Etanercepte"
+    },
+    {
+      "code": "@brasil19690446534",
+      "display": "Polimixina B + Neomicina + Hidrocortisona"
+    },
+    {
+      "code": "@brasil15266327079",
+      "display": "Lomustina"
+    },
+    {
+      "code": "@brasil15258252959",
+      "display": "Piridoxina"
+    },
+    {
+      "code": "@brasil19690375791",
+      "display": "Topiramato"
+    },
+    {
+      "code": "@brasil15252584781",
+      "display": "Nitrato de Prata"
+    },
+    {
+      "code": "@brasil19690124502",
+      "display": "Ziprasidona"
+    },
+    {
+      "code": "@brasil15252579835",
+      "display": "Tiotrópio"
+    },
+    {
+      "code": "@brasil19689349595",
+      "display": "Melilotus officinalis (Trevo Amarelo)"
+    },
+    {
+      "code": "@brasil15240912645",
+      "display": "Alisquireno"
+    },
+    {
+      "code": "@brasil19688924884",
+      "display": "Hidróxido de Alumínio + Hidróxido de Magnésio + Metilcelulose"
+    },
+    {
+      "code": "@brasil15232733249",
+      "display": "Escitalopram"
+    },
+    {
+      "code": "@brasil19687646476",
+      "display": "Sirolimo"
+    },
+    {
+      "code": "@brasil15217589497",
+      "display": "Hidrato de Cloral"
+    },
+    {
+      "code": "@brasil15212011675",
+      "display": "Gestodeno + Etinilestradiol"
+    },
+    {
+      "code": "@brasil19677299603",
+      "display": "Fludrocortisona"
+    },
+    {
+      "code": "@brasil15208218697",
+      "display": "Lacidipino"
+    },
+    {
+      "code": "@brasil19673640064",
+      "display": "Toxina Botulínica do Tipo A"
+    },
+    {
+      "code": "@brasil15204028583",
+      "display": "Ácido Salicílico"
+    },
+    {
+      "code": "@brasil19663548839",
+      "display": "Vincristina"
+    },
+    {
+      "code": "@brasil15202965842",
+      "display": "Biperideno"
+    },
+    {
+      "code": "@brasil19658279472",
+      "display": "Cloreto de Potássio"
+    },
+    {
+      "code": "@brasil15188394825",
+      "display": "Buflomedil"
+    },
+    {
+      "code": "@brasil19620397544",
+      "display": "Calcitriol"
+    },
+    {
+      "code": "@brasil15185432912",
+      "display": "Mucopolissacaridase + Alfamilase Bacteriana + Alfaquimotripsina"
+    },
+    {
+      "code": "@brasil19610974274",
+      "display": "Betaepoetina Metoxipolietilenoglicol"
+    },
+    {
+      "code": "@brasil15169897725",
+      "display": "Gentamicina + Desonida"
+    },
+    {
+      "code": "@brasil19610041033",
+      "display": "Betagalsidase"
+    },
+    {
+      "code": "@brasil15168032500",
+      "display": "Aztreonam"
+    },
+    {
+      "code": "@brasil15146753781",
+      "display": "Ciclosporina"
+    },
+    {
+      "code": "@brasil19608968819",
+      "display": "Imunoglobulina humana"
+    },
+    {
+      "code": "@brasil15143925979",
+      "display": "Lidocaína + Benzalcônio"
+    },
+    {
+      "code": "@brasil19600078470",
+      "display": "Inibidor de C1 esterase derivado de plasma humano"
+    },
+    {
+      "code": "@brasil15143404960",
+      "display": "Panitumumabe"
+    },
+    {
+      "code": "@brasil19599599360",
+      "display": "Harpagophytum procumbens (Garra do Diabo)"
+    },
+    {
+      "code": "@brasil15140392420",
+      "display": "Vitelinato de Prata"
+    },
+    {
+      "code": "@brasil19597481086",
+      "display": "Carbômer + Sorbitol"
+    },
+    {
+      "code": "@brasil15139213673",
+      "display": "Imunoglobulina anti-Rho (D)"
+    },
+    {
+      "code": "@brasil19592655876",
+      "display": "Pilocarpina"
+    },
+    {
+      "code": "@brasil15137986478",
+      "display": "Dextrometorfano + Guaifenesina"
+    },
+    {
+      "code": "@brasil15134658025",
+      "display": "Clonixinato de Lisina"
+    },
+    {
+      "code": "@brasil19578386608",
+      "display": "Mesalazina"
+    },
+    {
+      "code": "@brasil15129002755",
+      "display": "Arteméter + Lumefantrina"
+    },
+    {
+      "code": "@brasil19576171857",
+      "display": "Sotalol"
+    },
+    {
+      "code": "@brasil15127007359",
+      "display": "Cefazolina"
+    },
+    {
+      "code": "@brasil19551453960",
+      "display": "Erlotinibe"
+    },
+    {
+      "code": "@brasil15126850701",
+      "display": "Papaverina + Dipirona + Atropa belladona"
+    },
+    {
+      "code": "@brasil19550257192",
+      "display": "Di-hidroergotamina + Dipirona + Cafeína"
+    },
+    {
+      "code": "@brasil15121535401",
+      "display": "Prometazina + Sulfoguaiacol"
+    },
+    {
+      "code": "@brasil19546506542",
+      "display": "Rifampicina + Isoniazida + Pirazinamida + Etambutol"
+    },
+    {
+      "code": "@brasil15115104889",
+      "display": "Isotretinoína"
+    },
+    {
+      "code": "@brasil15114659809",
+      "display": "Voriconazol"
+    },
+    {
+      "code": "@brasil19537551987",
+      "display": "Carmelose Sódica"
+    },
+    {
+      "code": "@brasil15107994017",
+      "display": "Bimatoprosta + Timolol"
+    },
+    {
+      "code": "@brasil19535544605",
+      "display": "Beclometasona + Salbutamol"
+    },
+    {
+      "code": "@brasil15093992048",
+      "display": "Diltiazem"
+    },
+    {
+      "code": "@brasil19532864072",
+      "display": "Nafazolina + Mepiramina + Dexpantenol"
+    },
+    {
+      "code": "@brasil15090350865",
+      "display": "Alfanonacogue"
+    },
+    {
+      "code": "@brasil19525817825",
+      "display": "Metildopa"
+    },
+    {
+      "code": "@brasil15073295788",
+      "display": "Artesunato + Mefloquina"
+    },
+    {
+      "code": "@brasil19523113991",
+      "display": "Clorambucila"
+    },
+    {
+      "code": "@brasil15071934567",
+      "display": "Ácido Azeláico"
+    },
+    {
+      "code": "@brasil19521908590",
+      "display": "Agomelatina"
+    },
+    {
+      "code": "@brasil15070750958",
+      "display": "Escina + Polissulfato de Escina Sódica + Salicilato de Dietilamina"
+    },
+    {
+      "code": "@brasil19496084868",
+      "display": "Cefepima"
+    },
+    {
+      "code": "@brasil15069819142",
+      "display": "Diflucortolona"
+    },
+    {
+      "code": "@brasil19492375792",
+      "display": "Piperazina"
+    },
+    {
+      "code": "@brasil15062788905",
+      "display": "Metoxisaleno"
+    },
+    {
+      "code": "@brasil19489714873",
+      "display": "Nafazolina + Mepiramina + Pantenol"
+    },
+    {
+      "code": "@brasil15054880244",
+      "display": "Espiramicina + Metronidazol"
+    },
+    {
+      "code": "@brasil19488016532",
+      "display": "Gangliosídeo GM1"
+    },
+    {
+      "code": "@brasil15054417479",
+      "display": "Glicinato Férrico"
+    },
+    {
+      "code": "@brasil19482079881",
+      "display": "Citrato de Cálcio + Colecalciferol"
+    },
+    {
+      "code": "@brasil15043246749",
+      "display": "Alirocumabe"
+    },
+    {
+      "code": "@brasil19479393900",
+      "display": "Fondaparinux Sódico"
+    },
+    {
+      "code": "@brasil15038457245",
+      "display": "Simeprevir"
+    },
+    {
+      "code": "@brasil19477492130",
+      "display": "Vemurafenibe"
+    },
+    {
+      "code": "@brasil15037167690",
+      "display": "Pergolida"
+    },
+    {
+      "code": "@brasil15028957196",
+      "display": "Benciclano"
+    },
+    {
+      "code": "@brasil19456639715",
+      "display": "Dapagliflozina"
+    },
+    {
+      "code": "@brasil15026857530",
+      "display": "Darunavir"
+    },
+    {
+      "code": "@brasil19448303158",
+      "display": "Cetoconazol + Betametasona + Neomicina"
+    },
+    {
+      "code": "@brasil15012456247",
+      "display": "Bicarbonato de Sódio + Carbonato de Sódio + Ácido Cítrico"
+    },
+    {
+      "code": "@brasil19443449785",
+      "display": "Fentolamina"
+    },
+    {
+      "code": "@brasil15011515713",
+      "display": "Fluticasona"
+    },
+    {
+      "code": "@brasil19435028068",
+      "display": "Silimarina"
+    },
+    {
+      "code": "@brasil15005539919",
+      "display": "Bisacodil + Docusato de Sódio"
+    },
+    {
+      "code": "@brasil19434699748",
+      "display": "Mefloquina"
+    },
+    {
+      "code": "@brasil15000489403",
+      "display": "Natalizumabe"
+    },
+    {
+      "code": "@brasil19427871766",
+      "display": "Sulpirida + Bromazepam"
+    },
+    {
+      "code": "@brasil14993187592",
+      "display": "Glicinato Férrico + Ácido Fólico"
+    },
+    {
+      "code": "@brasil19418802379",
+      "display": "Bisoprolol"
+    },
+    {
+      "code": "@brasil14985239955",
+      "display": "Levomepromazina"
+    },
+    {
+      "code": "@brasil14979570771",
+      "display": "Mepivacaína + Norepinefrina"
+    },
+    {
+      "code": "@brasil19416904297",
+      "display": "Efavirenz"
+    },
+    {
+      "code": "@brasil14978595956",
+      "display": "Gencitabina"
+    },
+    {
+      "code": "@brasil19416140538",
+      "display": "Milrinona"
+    },
+    {
+      "code": "@brasil14978386911",
+      "display": "Pirazinamida"
+    },
+    {
+      "code": "@brasil19410050415",
+      "display": "Deltametrina"
+    },
+    {
+      "code": "@brasil14975542764",
+      "display": "Gentamicina"
+    },
+    {
+      "code": "@brasil19407975391",
+      "display": "Varfarina"
+    },
+    {
+      "code": "@brasil14970858705",
+      "display": "Alfaeftrenonacogue"
+    },
+    {
+      "code": "@brasil19404751879",
+      "display": "Brometo de Glicopirrônio"
+    },
+    {
+      "code": "@brasil14968884851",
+      "display": "Bezafibrato"
+    },
+    {
+      "code": "@brasil19403450086",
+      "display": "Hidroxietilamido + Cloreto de Sódio"
+    },
+    {
+      "code": "@brasil14965262779",
+      "display": "Tretinoína + Clindamicina"
+    },
+    {
+      "code": "@brasil19400832669",
+      "display": "Dexametasona + Neomicina + Fenilefrina"
+    },
+    {
+      "code": "@brasil14950845319",
+      "display": "Polietilenoglicol + Propilenoglicol"
+    },
+    {
+      "code": "@brasil19394430739",
+      "display": "Benzalcônio + Cetrimônio"
+    },
+    {
+      "code": "@brasil14948085661",
+      "display": "Ritonavir"
+    },
+    {
+      "code": "@brasil19392967426",
+      "display": "Mikania glomerata"
+    },
+    {
+      "code": "@brasil14944908836",
+      "display": "Zanamivir"
+    },
+    {
+      "code": "@brasil19391267576",
+      "display": "Paracetamol + Cafeína"
+    },
+    {
+      "code": "@brasil14931514890",
+      "display": "Lactase"
+    },
+    {
+      "code": "@brasil19386211864",
+      "display": "Mononitrato de Isossorbida"
+    },
+    {
+      "code": "@brasil14922113160",
+      "display": "Tegaserode"
+    },
+    {
+      "code": "@brasil14914992147",
+      "display": "Asparaginase"
+    },
+    {
+      "code": "@brasil19377654108",
+      "display": "Abacavir + Lamivudina"
+    },
+    {
+      "code": "@brasil14912212540",
+      "display": "Óxido de Zinco + Cloreto de Benzalcônio + Cânfora"
+    },
+    {
+      "code": "@brasil19369125019",
+      "display": "Ácido Acetilsalicílico + Dexcloferniramina + Fenilefrina + Cafeína"
+    },
+    {
+      "code": "@brasil14896318272",
+      "display": "Succinato Sódico de Hidrocortisona"
+    },
+    {
+      "code": "@brasil19365804863",
+      "display": "Indapamida"
+    },
+    {
+      "code": "@brasil14892286996",
+      "display": "Pamoato de Pirvínio"
+    },
+    {
+      "code": "@brasil19363494391",
+      "display": "Sucralfato"
+    },
+    {
+      "code": "@brasil14886176756",
+      "display": "Tafluprosta"
+    },
+    {
+      "code": "@brasil19357233110",
+      "display": "Cinacalcete"
+    },
+    {
+      "code": "@brasil14872920441",
+      "display": "Hidrosmina"
+    },
+    {
+      "code": "@brasil14870861594",
+      "display": "Vaccinium macrocarpon (Cranberry)"
+    },
+    {
+      "code": "@brasil19350286607",
+      "display": "Alfaepoetina"
+    },
+    {
+      "code": "@brasil14866157922",
+      "display": "Fenitoína Sódica"
+    },
+    {
+      "code": "@brasil19346318614",
+      "display": "Diazepam"
+    },
+    {
+      "code": "@brasil14851230507",
+      "display": "Pimozida"
+    },
+    {
+      "code": "@brasil19344942809",
+      "display": "Anastrozol"
+    },
+    {
+      "code": "@brasil14846430358",
+      "display": "Hipromelose"
+    },
+    {
+      "code": "@brasil19342491186",
+      "display": "Cloreto de Sódio + Glicose"
+    },
+    {
+      "code": "@brasil14845633910",
+      "display": "Metoclopramida"
+    },
+    {
+      "code": "@brasil19341156452",
+      "display": "Pimetixeno"
+    },
+    {
+      "code": "@brasil14841259981",
+      "display": "Salicilato de Bismuto Monobásico"
+    },
+    {
+      "code": "@brasil19340775997",
+      "display": "Formoterol + Fluticasona"
+    },
+    {
+      "code": "@brasil14838477776",
+      "display": "Clorfeniramina + Ácido Ascórbico + Dipirona"
+    },
+    {
+      "code": "@brasil14829214348",
+      "display": "Minociclina"
+    },
+    {
+      "code": "@brasil19340358914",
+      "display": "Brometo de Otilônio"
+    },
+    {
+      "code": "@brasil14824047827",
+      "display": "Hidroxocobalamina"
+    },
+    {
+      "code": "@brasil19338787977",
+      "display": "Colchicina"
+    },
+    {
+      "code": "@brasil14812278713",
+      "display": "Arginina + Ácido Ascórbico"
+    },
+    {
+      "code": "@brasil19326433303",
+      "display": "Glimepirida"
+    },
+    {
+      "code": "@brasil14797010322",
+      "display": "Ácido Paraminossalicílico"
+    },
+    {
+      "code": "@brasil19317044985",
+      "display": "Alfapeginterferona 2a"
+    },
+    {
+      "code": "@brasil14788597825",
+      "display": "Ácido Acetilsalicílico + Paracetamol + Cafeína"
+    },
+    {
+      "code": "@brasil19311860359",
+      "display": "Benzalcônio + Ácido Bórico"
+    },
+    {
+      "code": "@brasil14787579004",
+      "display": "Triexifenidil"
+    },
+    {
+      "code": "@brasil14783003323",
+      "display": "Glicerofosfato de sódio"
+    },
+    {
+      "code": "@brasil19298023597",
+      "display": "Pemetrexede"
+    },
+    {
+      "code": "@brasil14775534964",
+      "display": "Polimixina B"
+    },
+    {
+      "code": "@brasil19273869970",
+      "display": "Dopamina"
+    },
+    {
+      "code": "@brasil14769619268",
+      "display": "Benzoilmetronidazol"
+    },
+    {
+      "code": "@brasil19273513152",
+      "display": "Linagliptina"
+    },
+    {
+      "code": "@brasil14768326527",
+      "display": "Daratumumabe"
+    },
+    {
+      "code": "@brasil14766610165",
+      "display": "Venlafaxina"
+    },
+    {
+      "code": "@brasil19272631543",
+      "display": "Idursulfase"
+    },
+    {
+      "code": "@brasil14755097537",
+      "display": "Algestona + Estradiol"
+    },
+    {
+      "code": "@brasil19264718356",
+      "display": "Hidroxietilamido"
+    },
+    {
+      "code": "@brasil14737781866",
+      "display": "Pertuzumabe"
+    },
+    {
+      "code": "@brasil19257124520",
+      "display": "alfaquimotripsina"
+    },
+    {
+      "code": "@brasil14736908388",
+      "display": "Não existe ainda nenhuma associação de VTM para este VMP"
+    },
+    {
+      "code": "@brasil19253289631",
+      "display": "Linezolida"
+    },
+    {
+      "code": "@brasil14727246401",
+      "display": "Clordiazepóxido"
+    },
+    {
+      "code": "@brasil19250699120",
+      "display": "Difenidramina + Cloreto de Amônio"
+    },
+    {
+      "code": "@brasil14720466531",
+      "display": "Cimetidina"
+    },
+    {
+      "code": "@brasil19249948940",
+      "display": "Peróxido de Hidrogênio"
+    },
+    {
+      "code": "@brasil14718940437",
+      "display": "Levonorgestrel"
+    },
+    {
+      "code": "@brasil14716555451",
+      "display": "Dobutamina"
+    },
+    {
+      "code": "@brasil19246006763",
+      "display": "Tioridazina"
+    },
+    {
+      "code": "@brasil14702429178",
+      "display": "Extratos Alergênicos de Insetos Sugadores"
+    },
+    {
+      "code": "@brasil19244046488",
+      "display": "Metformina"
+    },
+    {
+      "code": "@brasil14697089905",
+      "display": "Pindolol"
+    },
+    {
+      "code": "@brasil19241805334",
+      "display": "Azilsartana Medoxomila"
+    },
+    {
+      "code": "@brasil14692843549",
+      "display": "Alginato de Sódio + Bicarbonato de Potássio"
+    },
+    {
+      "code": "@brasil19223095669",
+      "display": "Hidroxietilamido + Cloreto de Sódio"
+    },
+    {
+      "code": "@brasil14688508429",
+      "display": "Ceftriaxona Sódica"
+    },
+    {
+      "code": "@brasil19215562182",
+      "display": "Clomifeno"
+    },
+    {
+      "code": "@brasil14681481461",
+      "display": "Diclofenaco Resinato"
+    },
+    {
+      "code": "@brasil19206314764",
+      "display": "Cobimetinibe"
+    },
+    {
+      "code": "@brasil14680530031",
+      "display": "Bicarbonato de Sódio + Carbonato de Sódio"
+    },
+    {
+      "code": "@brasil19203001230",
+      "display": "Zolpidem"
+    },
+    {
+      "code": "@brasil14677467870",
+      "display": "Aspartato de Magnésio + Carbonato de Cálcio + Ranitidina + Colecalciferol"
+    },
+    {
+      "code": "@brasil19194255300",
+      "display": "Álcool Etílico"
+    },
+    {
+      "code": "@brasil14666078624",
+      "display": "Tiabendazol"
+    },
+    {
+      "code": "@brasil19193090048",
+      "display": "Eculizumabe"
+    },
+    {
+      "code": "@brasil14659317613",
+      "display": "Cloranfenicol"
+    },
+    {
+      "code": "@brasil19152470340",
+      "display": "Lansoprazol"
+    },
+    {
+      "code": "@brasil14643872029",
+      "display": "Vismodegibe"
+    },
+    {
+      "code": "@brasil19137512917",
+      "display": "Artesunato"
+    },
+    {
+      "code": "@brasil14643286553",
+      "display": "Ivermectina"
+    },
+    {
+      "code": "@brasil19135642328",
+      "display": "Testosterona"
+    },
+    {
+      "code": "@brasil14636566110",
+      "display": "Cordia verbenacea"
+    },
+    {
+      "code": "@brasil19133921356",
+      "display": "Sulfato de Magnésio"
+    },
+    {
+      "code": "@brasil14632145998",
+      "display": "Brentuximabe Vedotina"
+    },
+    {
+      "code": "@brasil19133435457",
+      "display": "Estazolam"
+    },
+    {
+      "code": "@brasil14631041682",
+      "display": "Esmolol"
+    },
+    {
+      "code": "@brasil19125081298",
+      "display": "Ebastina + Pseudoefedrina"
+    },
+    {
+      "code": "@brasil14625385155",
+      "display": "Benzoilmetronidazol + Nistatina + Benzalcônio"
+    },
+    {
+      "code": "@brasil19122982888",
+      "display": "Fator de von Willebrand"
+    },
+    {
+      "code": "@brasil14618295741",
+      "display": "Policresuleno + Cinchocaína"
+    },
+    {
+      "code": "@brasil19101407785",
+      "display": "Lisado bacteriano de Escherichia coli"
+    },
+    {
+      "code": "@brasil14615287308",
+      "display": "Lanreotida"
+    },
+    {
+      "code": "@brasil19093546063",
+      "display": "Acebrofilina"
+    },
+    {
+      "code": "@brasil14613836149",
+      "display": "Silodosina"
+    },
+    {
+      "code": "@brasil19084280791",
+      "display": "Cassia angustifolia + Tamarindus indica + Cassia fistula + Coriandrum sativum"
+    },
+    {
+      "code": "@brasil14611659788",
+      "display": "Benzoato de Benzila"
+    },
+    {
+      "code": "@brasil19074229800",
+      "display": "Cetorrelix"
+    },
+    {
+      "code": "@brasil14603962519",
+      "display": "Stryphnodendron barbatiman"
+    },
+    {
+      "code": "@brasil14588816504",
+      "display": "Triclosana"
+    },
+    {
+      "code": "@brasil19066591707",
+      "display": "Desoxirribonuclease + Fibrinolisina + Cloranfenicol"
+    },
+    {
+      "code": "@brasil14575997808",
+      "display": "Frutose"
+    },
+    {
+      "code": "@brasil19058119782",
+      "display": "Teicoplanina"
+    },
+    {
+      "code": "@brasil14574247750",
+      "display": "Fulvestranto"
+    },
+    {
+      "code": "@brasil19046741264",
+      "display": "Lenalidomida"
+    },
+    {
+      "code": "@brasil14562938551",
+      "display": "Racecadotrila"
+    },
+    {
+      "code": "@brasil19043047024",
+      "display": "Betanecol"
+    },
+    {
+      "code": "@brasil19038092146",
+      "display": "Levotiroxina Sódica"
+    },
+    {
+      "code": "@brasil14560615506",
+      "display": "Fenoximetilpenicilina"
+    },
+    {
+      "code": "@brasil14557797846",
+      "display": "Furosemida + Amilorida"
+    },
+    {
+      "code": "@brasil19031154361",
+      "display": "Retinol + Piridoxina + Colecalciferol"
+    },
+    {
+      "code": "@brasil14552211727",
+      "display": "Teofilina"
+    },
+    {
+      "code": "@brasil19030935090",
+      "display": "Naproxeno"
+    },
+    {
+      "code": "@brasil14546493341",
+      "display": "Timolol"
+    },
+    {
+      "code": "@brasil18999815179",
+      "display": "Bicarbonato de Sódio"
+    },
+    {
+      "code": "@brasil14545821699",
+      "display": "Vedolizumabe"
+    },
+    {
+      "code": "@brasil18992474225",
+      "display": "Cetoprofeno + Omeprazol"
+    },
+    {
+      "code": "@brasil14539892173",
+      "display": "Oxacilina"
+    },
+    {
+      "code": "@brasil14537942877",
+      "display": "Ácido Ascórbico + Alfatocoferol + Zinco + Selênio + Retinol"
+    },
+    {
+      "code": "@brasil18982088041",
+      "display": "Leflunomida"
+    },
+    {
+      "code": "@brasil14532236059",
+      "display": "Cidofovir"
+    },
+    {
+      "code": "@brasil18982004725",
+      "display": "Insulina Asparte"
+    },
+    {
+      "code": "@brasil14528015770",
+      "display": "Midazolam"
+    },
+    {
+      "code": "@brasil18976444589",
+      "display": "Sulfato Ferroso + Ácido Fosfórico"
+    },
+    {
+      "code": "@brasil14522081802",
+      "display": "Prednisolona"
+    },
+    {
+      "code": "@brasil14521496326",
+      "display": "Dexclorfeniramina + Pseudoefedrina + Guaifenesina"
+    },
+    {
+      "code": "@brasil18973380668",
+      "display": "Hidróxido de Alumínio + Hidróxido de Magnésio + Trissilicato de Magnésio"
+    },
+    {
+      "code": "@brasil14510314281",
+      "display": "Fenobarbital"
+    },
+    {
+      "code": "@brasil18966023453",
+      "display": "Dipirona + Prometazina + Adifenina"
+    },
+    {
+      "code": "@brasil14507730810",
+      "display": "Ureia"
+    },
+    {
+      "code": "@brasil18959710539",
+      "display": "Cafeína"
+    },
+    {
+      "code": "@brasil14500521703",
+      "display": "ioimbina"
+    },
+    {
+      "code": "@brasil18958264158",
+      "display": "Estriol"
+    },
+    {
+      "code": "@brasil14500093975",
+      "display": "Iodeto de Potássio"
+    },
+    {
+      "code": "@brasil18955102755",
+      "display": "Colina + Metionina"
+    },
+    {
+      "code": "@brasil14475307849",
+      "display": "Etexilato de Dabigatrana"
+    },
+    {
+      "code": "@brasil18951225371",
+      "display": "Pramipexol"
+    },
+    {
+      "code": "@brasil14470195474",
+      "display": "Valganciclovir"
+    },
+    {
+      "code": "@brasil14469676467",
+      "display": "Lisinopril"
+    },
+    {
+      "code": "@brasil18946030937",
+      "display": "Desvenlafaxina"
+    },
+    {
+      "code": "@brasil14468497133",
+      "display": "Fosamprenavir"
+    },
+    {
+      "code": "@brasil18939944418",
+      "display": "Colistina"
+    },
+    {
+      "code": "@brasil14467994806",
+      "display": "Nimodipino"
+    },
+    {
+      "code": "@brasil18938367196",
+      "display": "Isoniazida + Rifampicina"
+    },
+    {
+      "code": "@brasil14462040721",
+      "display": "Vitaminas do Complexo B (B1, B2, B3, B6, B12)"
+    },
+    {
+      "code": "@brasil18936744459",
+      "display": "Furosemida + Cloreto de Potássio"
+    },
+    {
+      "code": "@brasil14461043693",
+      "display": "Argipressina"
+    },
+    {
+      "code": "@brasil18935166231",
+      "display": "Atenolol + Nifedipino"
+    },
+    {
+      "code": "@brasil14461017710",
+      "display": "Lorazepam"
+    },
+    {
+      "code": "@brasil18933991256",
+      "display": "Tenofovir + Lamivudina + Efavirenz"
+    },
+    {
+      "code": "@brasil14457611891",
+      "display": "Vimblastina"
+    },
+    {
+      "code": "@brasil18932062831",
+      "display": "Etilefrina"
+    },
+    {
+      "code": "@brasil14450486603",
+      "display": "Omeprazol + Claritromicina + Amoxicilina"
+    },
+    {
+      "code": "@brasil18930960862",
+      "display": "Moxifloxacino"
+    },
+    {
+      "code": "@brasil14437513260",
+      "display": "Pirfenidona"
+    },
+    {
+      "code": "@brasil18930578480",
+      "display": "Nandrolona"
+    },
+    {
+      "code": "@brasil14434728038",
+      "display": "Alfasimoctocogue"
+    },
+    {
+      "code": "@brasil18914967018",
+      "display": "Dicloridrato de Manidipino"
+    },
+    {
+      "code": "@brasil14423221445",
+      "display": "Vortioxetina"
+    },
+    {
+      "code": "@brasil18910993995",
+      "display": "Sulfeto de Selênio"
+    },
+    {
+      "code": "@brasil14422443101",
+      "display": "Nafazolina + Benzalcônio"
+    },
+    {
+      "code": "@brasil14420600089",
+      "display": "Borago Officinalis L."
+    },
+    {
+      "code": "@brasil18904698432",
+      "display": "Ácido Fusídico + Hidrocortisona"
+    },
+    {
+      "code": "@brasil14403673757",
+      "display": "Flumazenil"
+    },
+    {
+      "code": "@brasil18899680941",
+      "display": "Olodaterol"
+    },
+    {
+      "code": "@brasil14400162662",
+      "display": "Mepartricina + Tetraciclina"
+    },
+    {
+      "code": "@brasil18897937086",
+      "display": "Gliclazida"
+    },
+    {
+      "code": "@brasil14393344067",
+      "display": "Memantina"
+    },
+    {
+      "code": "@brasil18884808427",
+      "display": "Difenidramina + Calamina + Cânfora"
+    },
+    {
+      "code": "@brasil14390260114",
+      "display": "Anagrelida"
+    },
+    {
+      "code": "@brasil18872090062",
+      "display": "Tramadol"
+    },
+    {
+      "code": "@brasil14384964343",
+      "display": "Estreptoquinase"
+    },
+    {
+      "code": "@brasil18872001969",
+      "display": "Fampridina"
+    },
+    {
+      "code": "@brasil14383533385",
+      "display": "Dimercaprol"
+    },
+    {
+      "code": "@brasil14380664427",
+      "display": "Fenofibrato"
+    },
+    {
+      "code": "@brasil18846759783",
+      "display": "Travoprosta"
+    },
+    {
+      "code": "@brasil14376553271",
+      "display": "Leuprorrelina"
+    },
+    {
+      "code": "@brasil18837077176",
+      "display": "Claritromicina"
+    },
+    {
+      "code": "@brasil14373767462",
+      "display": "Subcitrato de Bismuto Coloidal"
+    },
+    {
+      "code": "@brasil18834121550",
+      "display": "Pseudoefedrina + Triprolidina + Sulfaguaiacolato de Potássio"
+    },
+    {
+      "code": "@brasil14362641743",
+      "display": "Acetilcisteína"
+    },
+    {
+      "code": "@brasil18822098883",
+      "display": "Etomidato"
+    },
+    {
+      "code": "@brasil14359122433",
+      "display": "Bamifilina"
+    },
+    {
+      "code": "@brasil18817569219",
+      "display": "Folinato de Cálcio"
+    },
+    {
+      "code": "@brasil14353615523",
+      "display": "Subgalato de Bismuto + Óxido de Zinco"
+    },
+    {
+      "code": "@brasil18813969024",
+      "display": "Dimenidrinato + Piridoxina"
+    },
+    {
+      "code": "@brasil14345842481",
+      "display": "Penfluridol"
+    },
+    {
+      "code": "@brasil18808899062",
+      "display": "Piperacilina + Tazobactam"
+    },
+    {
+      "code": "@brasil14337048859",
+      "display": "Candesartana"
+    },
+    {
+      "code": "@brasil18806830324",
+      "display": "Vitaminas do Complexo B (B1, B2, B6, B12 e PP)"
+    },
+    {
+      "code": "@brasil14331762560",
+      "display": "Mupirocina"
+    },
+    {
+      "code": "@brasil188062502",
+      "display": "Sulfato de Abacavir"
+    },
+    {
+      "code": "@brasil14327871094",
+      "display": "Crizotinibe"
+    },
+    {
+      "code": "@brasil14325131804",
+      "display": "Telaprevir"
+    },
+    {
+      "code": "@brasil18804214835",
+      "display": "Homatropina"
+    },
+    {
+      "code": "@brasil14307299556",
+      "display": "Insulina Humana Isófana Bifásica"
+    },
+    {
+      "code": "@brasil18799205894",
+      "display": "Hidroxizina"
+    },
+    {
+      "code": "@brasil14296989061",
+      "display": "Letrozol"
+    },
+    {
+      "code": "@brasil18796336433",
+      "display": "Paracetamol + Amitriptilina + Meloxicam"
+    },
+    {
+      "code": "@brasil14286291741",
+      "display": "Pentoxifilina"
+    },
+    {
+      "code": "@brasil18794960376",
+      "display": "Cambendazol + Mebendazol"
+    },
+    {
+      "code": "@brasil14284936806",
+      "display": "Carboplatina"
+    },
+    {
+      "code": "@brasil18793995451",
+      "display": "Oxaliplatina"
+    },
+    {
+      "code": "@brasil14274649948",
+      "display": "Perindopril Arginina + Anlodipino"
+    },
+    {
+      "code": "@brasil18781911262",
+      "display": "Ácido Fólico + Ácido Ascórbico"
+    },
+    {
+      "code": "@brasil14269355351",
+      "display": "Lidocaína"
+    },
+    {
+      "code": "@brasil18760423163",
+      "display": "Isoxsuprina"
+    },
+    {
+      "code": "@brasil14266911943",
+      "display": "Digoxina"
+    },
+    {
+      "code": "@brasil18758646619",
+      "display": "Tolcapona"
+    },
+    {
+      "code": "@brasil14260752334",
+      "display": "Icatibanto"
+    },
+    {
+      "code": "@brasil18753467860",
+      "display": "Diclofenaco Dietilamônio"
+    },
+    {
+      "code": "@brasil14257448103",
+      "display": "Hedera helix"
+    },
+    {
+      "code": "@brasil18748749267",
+      "display": "Decanoato de Zuclopentixol"
+    },
+    {
+      "code": "@brasil14254725577",
+      "display": "Formoterol + Fluticasona"
+    },
+    {
+      "code": "@brasil14252536727",
+      "display": "Loteprednol + Tobramicina"
+    },
+    {
+      "code": "@brasil18747324847",
+      "display": "Glycine max (Isoflavona de Soja)"
+    },
+    {
+      "code": "@brasil14248405958",
+      "display": "Tirotricina + Hidroxiquinolina"
+    },
+    {
+      "code": "@brasil18746381296",
+      "display": "Didrogesterona"
+    },
+    {
+      "code": "@brasil14241257871",
+      "display": "Pentamidina"
+    },
+    {
+      "code": "@brasil18736712352",
+      "display": "Piracetam"
+    },
+    {
+      "code": "@brasil14233080737",
+      "display": "Atorvastatina Cálcica"
+    },
+    {
+      "code": "@brasil18723126628",
+      "display": "Fitomenadiona"
+    },
+    {
+      "code": "@brasil14232814947",
+      "display": "Curcuma longa"
+    },
+    {
+      "code": "@brasil18720220370",
+      "display": "Montelucaste"
+    },
+    {
+      "code": "@brasil14230465835",
+      "display": "Irinotecano"
+    },
+    {
+      "code": "@brasil18719905043",
+      "display": "Fexofenadina"
+    },
+    {
+      "code": "@brasil14228265921",
+      "display": "Benzilpenicilina Benzatina"
+    },
+    {
+      "code": "@brasil18718380626",
+      "display": "Vitaminas do Complexo B (B7, B9, B12)"
+    },
+    {
+      "code": "@brasil14219755188",
+      "display": "Alfapeginterferona 2b"
+    },
+    {
+      "code": "@brasil14212689998",
+      "display": "Ezetimiba + Sinvastatina"
+    },
+    {
+      "code": "@brasil18705973314",
+      "display": "Dextrometorfano"
+    },
+    {
+      "code": "@brasil14208170308",
+      "display": "Vasopressina"
+    },
+    {
+      "code": "@brasil18697449841",
+      "display": "Ciprofloxacino + Dexametasona"
+    },
+    {
+      "code": "@brasil14202943521",
+      "display": "Maytenus ilicifolia"
+    },
+    {
+      "code": "@brasil18688893343",
+      "display": "Aceclofenaco"
+    },
+    {
+      "code": "@brasil14195059167",
+      "display": "Estradiol + Trimegestona"
+    },
+    {
+      "code": "@brasil18688680023",
+      "display": "Ácido Fusídico + Betametasona"
+    },
+    {
+      "code": "@brasil14194861690",
+      "display": "Propionato de Testosterona + Fempropionato de Testosterona + Isocaproato de Testosterona + Decanoato de Testosterona"
+    },
+    {
+      "code": "@brasil18687560620",
+      "display": "Amiodarona"
+    },
+    {
+      "code": "@brasil14186942887",
+      "display": "Deflazacorte"
+    },
+    {
+      "code": "@brasil14183248814",
+      "display": "Abciximabe"
+    },
+    {
+      "code": "@brasil18681836786",
+      "display": "Colagenase"
+    },
+    {
+      "code": "@brasil14174845621",
+      "display": "Eritromicina"
+    },
+    {
+      "code": "@brasil18679203611",
+      "display": "Anlodipino + Enalapril"
+    },
+    {
+      "code": "@brasil14173119871",
+      "display": "Retinol + Colecalciferol + Óxido de Zinco"
+    },
+    {
+      "code": "@brasil18675514568",
+      "display": "Tianfenicol"
+    },
+    {
+      "code": "@brasil14171701402",
+      "display": "Micofenolato de Sódio"
+    },
+    {
+      "code": "@brasil14168184271",
+      "display": "Calendula officinalis + Óxido de Zinco"
+    },
+    {
+      "code": "@brasil18674986424",
+      "display": "Cinarizina"
+    },
+    {
+      "code": "@brasil14163509349",
+      "display": "Arginina + Ornitina + Citrulina"
+    },
+    {
+      "code": "@brasil18673563009",
+      "display": "Efedrina"
+    },
+    {
+      "code": "@brasil14158067230",
+      "display": "Levomentol + Cânfora"
+    },
+    {
+      "code": "@brasil18672637060",
+      "display": "Prednicarbato"
+    },
+    {
+      "code": "@brasil14154858135",
+      "display": "Lidocaína + Epinefrina"
+    },
+    {
+      "code": "@brasil18657993205",
+      "display": "Azelastina"
+    },
+    {
+      "code": "@brasil14152634332",
+      "display": "Lansoprazol + Claritromicina + Amoxicilina"
+    },
+    {
+      "code": "@brasil18646232808",
+      "display": "Alprazolam"
+    },
+    {
+      "code": "@brasil14152046425",
+      "display": "Fenazopiridina"
+    },
+    {
+      "code": "@brasil18639648236",
+      "display": "Canagliflozina"
+    },
+    {
+      "code": "@brasil14146895243",
+      "display": "Pancreatina + Dimeticona"
+    },
+    {
+      "code": "@brasil14141920751",
+      "display": "Nistatina + Óxido de Zinco"
+    },
+    {
+      "code": "@brasil18638982629",
+      "display": "Levonorgestrel + Etinilestradiol"
+    },
+    {
+      "code": "@brasil14140486104",
+      "display": "Metipranolol"
+    },
+    {
+      "code": "@brasil18625640819",
+      "display": "Rosuvastatina"
+    },
+    {
+      "code": "@brasil14139762327",
+      "display": "Daunorrubicina"
+    },
+    {
+      "code": "@brasil18621343669",
+      "display": "Coaltar"
+    },
+    {
+      "code": "@brasil14138600176",
+      "display": "Alfaeptacogue Ativado"
+    },
+    {
+      "code": "@brasil18608476944",
+      "display": "Permanganato de Potássio"
+    },
+    {
+      "code": "@brasil14138161216",
+      "display": "Ácido Bórico"
+    },
+    {
+      "code": "@brasil18599189796",
+      "display": "Glycine max + Persea gratissima"
+    },
+    {
+      "code": "@brasil14134010833",
+      "display": "Beclometasona"
+    },
+    {
+      "code": "@brasil14129545709",
+      "display": "Ácido Folínico"
+    },
+    {
+      "code": "@brasil18592689127",
+      "display": "Osimertinibe"
+    },
+    {
+      "code": "@brasil14129348902",
+      "display": "Hidroxicloroquina"
+    },
+    {
+      "code": "@brasil18586256770",
+      "display": "Extratos Alergênicos de Insetos Sugadores"
+    },
+    {
+      "code": "@brasil14125628091",
+      "display": "Posaconazol"
+    },
+    {
+      "code": "@brasil18583255714",
+      "display": "Exenatida"
+    },
+    {
+      "code": "@brasil14123268250",
+      "display": "Fluconazol"
+    },
+    {
+      "code": "@brasil18582860759",
+      "display": "Fosfato de Potássio"
+    },
+    {
+      "code": "@brasil14123161549",
+      "display": "Bumetanida"
+    },
+    {
+      "code": "@brasil18572683200",
+      "display": "Beractanto"
+    },
+    {
+      "code": "@brasil14119878693",
+      "display": "Ribavirina"
+    },
+    {
+      "code": "@brasil14117866198",
+      "display": "Alfacorifolitropina"
+    },
+    {
+      "code": "@brasil18571816763",
+      "display": "Carbonato de Cálcio + Colecalciferol"
+    },
+    {
+      "code": "@brasil14109658470",
+      "display": "Cloridrato de Quinina + Papaverina"
+    },
+    {
+      "code": "@brasil18564708825",
+      "display": "Cambendazol"
+    },
+    {
+      "code": "@brasil14101036090",
+      "display": "Carvedilol"
+    },
+    {
+      "code": "@brasil18563037558",
+      "display": "Difenidramina + Calamina + Cânfora"
+    },
+    {
+      "code": "@brasil14100301836",
+      "display": "Mepivacaína"
+    },
+    {
+      "code": "@brasil18554558508",
+      "display": "Betaepoetina"
+    },
+    {
+      "code": "@brasil14089238143",
+      "display": "Glicerol"
+    },
+    {
+      "code": "@brasil18537882879",
+      "display": "Imipramina"
+    },
+    {
+      "code": "@brasil14082953475",
+      "display": "Pegvisomanto"
+    },
+    {
+      "code": "@brasil18535108553",
+      "display": "Cladribina"
+    },
+    {
+      "code": "@brasil14081083138",
+      "display": "Hidroclorotiazida"
+    },
+    {
+      "code": "@brasil18524879195",
+      "display": "Tipranavir"
+    },
+    {
+      "code": "@brasil14080738138",
+      "display": "Misoprostol"
+    },
+    {
+      "code": "@brasil18523529625",
+      "display": "Mometasona + Ácido Fusídico"
+    },
+    {
+      "code": "@brasil14064915955",
+      "display": "Fosfato de Cálcio + Fluoreto de Sódio"
+    },
+    {
+      "code": "@brasil18517870331",
+      "display": "Tansulosina"
+    },
+    {
+      "code": "@brasil14058552414",
+      "display": "Metaraminol"
+    },
+    {
+      "code": "@brasil18516156316",
+      "display": "Bupivacaína + Epinefrina"
+    },
+    {
+      "code": "@brasil14046729069",
+      "display": "Propifenazona + Paracetamol + Cafeína"
+    },
+    {
+      "code": "@brasil18512788635",
+      "display": "Mitotano"
+    },
+    {
+      "code": "@brasil14042896276",
+      "display": "Clindamicina + Peróxido de Benzoíla"
+    },
+    {
+      "code": "@brasil18507511388",
+      "display": "Iodopovidona"
+    },
+    {
+      "code": "@brasil14038784785",
+      "display": "Estradiol + Didrogesterona"
+    },
+    {
+      "code": "@brasil18503670214",
+      "display": "Ramipril + Hidroclorotiazida"
+    },
+    {
+      "code": "@brasil14023976812",
+      "display": "Gemifloxacino"
+    },
+    {
+      "code": "@brasil14019009193",
+      "display": "Clorfeniramina + Ácido Acetilsalicílico + Cafeína"
+    },
+    {
+      "code": "@brasil18499468952",
+      "display": "Tioconazol + Tinidazol"
+    },
+    {
+      "code": "@brasil14010501981",
+      "display": "Dapagliflozina + Metformina"
+    },
+    {
+      "code": "@brasil18493315797",
+      "display": "Citrato de Colina + Raceometionina"
+    },
+    {
+      "code": "@brasil14008953257",
+      "display": "Levodopa + Carbidopa + Entacapona"
+    },
+    {
+      "code": "@brasil18488670882",
+      "display": "Lisados bacterianos"
+    },
+    {
+      "code": "@brasil14003657654",
+      "display": "Ganirrelix"
+    },
+    {
+      "code": "@brasil18483474856",
+      "display": "Ácido Acetilsalicílico"
+    },
+    {
+      "code": "@brasil14001099665",
+      "display": "Fenoxazolina"
+    },
+    {
+      "code": "@brasil18482386718",
+      "display": "Fexofenadina + Pseudoefedrina"
+    },
+    {
+      "code": "@brasil13998070696",
+      "display": "Hidróxido de Alumínio + Hidróxido de Magnésio"
+    },
+    {
+      "code": "@brasil18481610386",
+      "display": "Isoconazol"
+    },
+    {
+      "code": "@brasil13992731005",
+      "display": "Imunoglobulina antitimócito"
+    },
+    {
+      "code": "@brasil18472371768",
+      "display": "Secnidazol"
+    },
+    {
+      "code": "@brasil13984015418",
+      "display": "Cloreto de Sódio + Cloreto de Potássio + Cloreto de Cálcio + Lactato de Sódio"
+    },
+    {
+      "code": "@brasil18469105173",
+      "display": "Ciclopentolato"
+    },
+    {
+      "code": "@brasil13982535006",
+      "display": "Bussulfano"
+    },
+    {
+      "code": "@brasil13951742493",
+      "display": "Pravastatina"
+    },
+    {
+      "code": "@brasil18465871435",
+      "display": "Mesna"
+    },
+    {
+      "code": "@brasil13951093482",
+      "display": "Dextroalfatocoferol"
+    },
+    {
+      "code": "@brasil18464887064",
+      "display": "Certolizumabe Pegol"
+    },
+    {
+      "code": "@brasil13951085268",
+      "display": "Mebeverina"
+    },
+    {
+      "code": "@brasil18463803368",
+      "display": "Fenilefrina"
+    },
+    {
+      "code": "@brasil13948929610",
+      "display": "Dapsona"
+    },
+    {
+      "code": "@brasil18463577308",
+      "display": "Cetilpiridínio"
+    },
+    {
+      "code": "@brasil13940090055",
+      "display": "Fosinopril"
+    },
+    {
+      "code": "@brasil18463575799",
+      "display": "Dexmedetomidina"
+    },
+    {
+      "code": "@brasil13939461579",
+      "display": "Etinilestradiol + Acetato de Noretisterona"
+    },
+    {
+      "code": "@brasil18460575245",
+      "display": "Benzbromarona"
+    },
+    {
+      "code": "@brasil13936737545",
+      "display": "Buprenorfina"
+    },
+    {
+      "code": "@brasil13930123720",
+      "display": "Clomipramina"
+    },
+    {
+      "code": "@brasil18458338199",
+      "display": "Vildagliptina + Metformina"
+    },
+    {
+      "code": "@brasil13927410750",
+      "display": "Paracetamol + Famotidina + Tramadol"
+    },
+    {
+      "code": "@brasil18457588103",
+      "display": "Suxametônio"
+    },
+    {
+      "code": "@brasil13920496015",
+      "display": "Nafazolina"
+    },
+    {
+      "code": "@brasil18456801461",
+      "display": "Itraconazol"
+    },
+    {
+      "code": "@brasil13912218969",
+      "display": "Pancreatina"
+    },
+    {
+      "code": "@brasil18448019573",
+      "display": "Ibuprofeno + Arginina"
+    },
+    {
+      "code": "@brasil13902789915",
+      "display": "Cetoprofeno"
+    },
+    {
+      "code": "@brasil13902176108",
+      "display": "Verteporfina"
+    },
+    {
+      "code": "@brasil18445909010",
+      "display": "Lisdexanfetamina"
+    },
+    {
+      "code": "@brasil13883600470",
+      "display": "Tocilizumabe"
+    },
+    {
+      "code": "@brasil18445445323",
+      "display": "Omeprazol"
+    },
+    {
+      "code": "@brasil13880558090",
+      "display": "Tiamina"
+    },
+    {
+      "code": "@brasil18444721043",
+      "display": "Apixabana"
+    },
+    {
+      "code": "@brasil13874378364",
+      "display": "Dulaglutida"
+    },
+    {
+      "code": "@brasil18438590435",
+      "display": "Vitaminas do Complexo B (B1, B6, B12)"
+    },
+    {
+      "code": "@brasil13865466557",
+      "display": "Bisacodil"
+    },
+    {
+      "code": "@brasil18426042223",
+      "display": "Papaverina"
+    },
+    {
+      "code": "@brasil13848410055",
+      "display": "Atropina"
+    },
+    {
+      "code": "@brasil18425137816",
+      "display": "Benzocaína + Triclosana + Mentol"
+    },
+    {
+      "code": "@brasil13837321048",
+      "display": "Peróxido de Benzoíla"
+    },
+    {
+      "code": "@brasil13835880870",
+      "display": "Cumarina + Heparina sódica"
+    },
+    {
+      "code": "@brasil18421308879",
+      "display": "Dietilestilbestrol"
+    },
+    {
+      "code": "@brasil13834763646",
+      "display": "Não aplicável"
+    },
+    {
+      "code": "@brasil18419371737",
+      "display": "Sulpirida"
+    },
+    {
+      "code": "@brasil13832617879",
+      "display": "Infliximabe"
+    },
+    {
+      "code": "@brasil18414436305",
+      "display": "Pirimetamina"
+    },
+    {
+      "code": "@brasil13826818775",
+      "display": "Basiliximabe"
+    },
+    {
+      "code": "@brasil18408142669",
+      "display": "Clonixinato de Lisina + Ciclobenzaprina"
+    },
+    {
+      "code": "@brasil13826817602",
+      "display": "Papaína"
+    },
+    {
+      "code": "@brasil18398995079",
+      "display": "Anidulafungina"
+    },
+    {
+      "code": "@brasil13824750038",
+      "display": "Óleo de Cade + Alcatrão de Pinho + Alcatrão Mineral"
+    },
+    {
+      "code": "@brasil13816100584",
+      "display": "Terlipressina"
+    },
+    {
+      "code": "@brasil18383208435",
+      "display": "Levocloperastina"
+    },
+    {
+      "code": "@brasil18373945510",
+      "display": "Fenilefrina + Álcool Polivinílico"
+    },
+    {
+      "code": "@brasil13815285779",
+      "display": "Piper methysticum (Kava-Kava)"
+    },
+    {
+      "code": "@brasil18372379603",
+      "display": "Ferripolimaltose"
+    },
+    {
+      "code": "@brasil13814317083",
+      "display": "Saccharomyces boulardii"
+    },
+    {
+      "code": "@brasil13812008288",
+      "display": "Ciclopirox Olamina"
+    },
+    {
+      "code": "@brasil18369259188",
+      "display": "Artesunato de Sódio"
+    },
+    {
+      "code": "@brasil13806966657",
+      "display": "Carbonato de Lodenafila"
+    },
+    {
+      "code": "@brasil18368737163",
+      "display": "Amicacina"
+    },
+    {
+      "code": "@brasil13798282167",
+      "display": "Paracetamol + Pentoxiverina + Fenilefrina + Carbinoxamina"
+    },
+    {
+      "code": "@brasil18360533208",
+      "display": "Cloreto de Sódio + Cloreto de Potássio + Cloreto de Cálcio"
+    },
+    {
+      "code": "@brasil13797570040",
+      "display": "Dobesilato de Cálcio"
+    },
+    {
+      "code": "@brasil18356332533",
+      "display": "Fotemustina"
+    },
+    {
+      "code": "@brasil13797078945",
+      "display": "Macrogol 4000"
+    },
+    {
+      "code": "@brasil18355615210",
+      "display": "Ramipril + Anlodipino"
+    },
+    {
+      "code": "@brasil13787704037",
+      "display": "Entecavir"
+    },
+    {
+      "code": "@brasil18351571612",
+      "display": "Enflurano"
+    },
+    {
+      "code": "@brasil13783419208",
+      "display": "Polimixina B + Prednisolona + Benzocaína + Clioquinol"
+    },
+    {
+      "code": "@brasil18338637916",
+      "display": "Cefadroxila"
+    },
+    {
+      "code": "@brasil13780091509",
+      "display": "Pamidronato Dissódico"
+    },
+    {
+      "code": "@brasil13764512485",
+      "display": "Amoxicilina"
+    },
+    {
+      "code": "@brasil18335917905",
+      "display": "Ácido Ascórbico + Carbonato de Cálcio + Colecalciferol + Piridoxina"
+    },
+    {
+      "code": "@brasil13764076207",
+      "display": "Carbonato de Sevelâmer"
+    },
+    {
+      "code": "@brasil18332170104",
+      "display": "Cloreto de Sódio + Benzalcônio + Nafazolina"
+    },
+    {
+      "code": "@brasil13762848593",
+      "display": "Schinus terebenthifolius"
+    },
+    {
+      "code": "@brasil18330837885",
+      "display": "Sitagliptina"
+    },
+    {
+      "code": "@brasil13758740119",
+      "display": "Amoxicilina + Sulbactam"
+    },
+    {
+      "code": "@brasil18323872356",
+      "display": "Lamivudina"
+    },
+    {
+      "code": "@brasil13754533158",
+      "display": "Dorzolamida + Timolol"
+    },
+    {
+      "code": "@brasil18317382164",
+      "display": "Ácido Acetilsalicílico + Ácido Ascórbico"
+    },
+    {
+      "code": "@brasil13745585477",
+      "display": "Cefrtriaxona"
+    },
+    {
+      "code": "@brasil13745220026",
+      "display": "Estradiol"
+    },
+    {
+      "code": "@brasil18314656537",
+      "display": "Glicina"
+    },
+    {
+      "code": "@brasil13739424610",
+      "display": "Macitentana"
+    },
+    {
+      "code": "@brasil18314217660",
+      "display": "Glucagon"
+    },
+    {
+      "code": "@brasil13739383120",
+      "display": "Carbamida"
+    },
+    {
+      "code": "@brasil18300037492",
+      "display": "Sugamadex"
+    },
+    {
+      "code": "@brasil13730240391",
+      "display": "Alfasimoctocogue"
+    },
+    {
+      "code": "@brasil18295849390",
+      "display": "Insulina Humana"
+    },
+    {
+      "code": "@brasil13727485176",
+      "display": "Olmesartana Medoxomila + Anlodipino"
+    },
+    {
+      "code": "@brasil18294903995",
+      "display": "Diazóxido"
+    },
+    {
+      "code": "@brasil13724912099",
+      "display": "Amorolfina"
+    },
+    {
+      "code": "@brasil18287442509",
+      "display": "Lercanidipino"
+    },
+    {
+      "code": "@brasil13722098965",
+      "display": "Betametasona+ Clorfenesina + Tetracaína"
+    },
+    {
+      "code": "@brasil18279248025",
+      "display": "Fluvastatina"
+    },
+    {
+      "code": "@brasil13704496046",
+      "display": "Trimebutina"
+    },
+    {
+      "code": "@brasil18270837037",
+      "display": "Tenoxicam"
+    },
+    {
+      "code": "@brasil13703873438",
+      "display": "Parecoxibe"
+    },
+    {
+      "code": "@brasil18264888232",
+      "display": "Topotecana"
+    },
+    {
+      "code": "@brasil13691373590",
+      "display": "Heparina Sódica + Nicotinato de Benzila"
+    },
+    {
+      "code": "@brasil13681137191",
+      "display": "Salicilato de Metila + Cânfora + Mentol"
+    },
+    {
+      "code": "@brasil18261961775",
+      "display": "Senna alexandrina"
+    },
+    {
+      "code": "@brasil13678789252",
+      "display": "Cobamamida"
+    },
+    {
+      "code": "@brasil18248610828",
+      "display": "Alfacoriogonadotropina"
+    },
+    {
+      "code": "@brasil13669763200",
+      "display": "Bilastina"
+    },
+    {
+      "code": "@brasil18247049615",
+      "display": "Fibrinogênio + Aprotinina + Trombina"
+    },
+    {
+      "code": "@brasil13668272143",
+      "display": "Monossialogangliosídeo"
+    },
+    {
+      "code": "@brasil18242822202",
+      "display": "Undecanoato de Testosterona"
+    },
+    {
+      "code": "@brasil13665513072",
+      "display": "Decitabina"
+    },
+    {
+      "code": "@brasil18242096916",
+      "display": "Norepinefrina"
+    },
+    {
+      "code": "@brasil13663930820",
+      "display": "Hidrocortisona + Clioquinol"
+    },
+    {
+      "code": "@brasil13655946303",
+      "display": "Difenidramina + Nafazolina"
+    },
+    {
+      "code": "@brasil18241412282",
+      "display": "Gabapentina"
+    },
+    {
+      "code": "@brasil13650441404",
+      "display": "Idebenona"
+    },
+    {
+      "code": "@brasil18240702754",
+      "display": "Clortalidona"
+    },
+    {
+      "code": "@brasil13648483224",
+      "display": "Benzilpenicilina Procaína"
+    },
+    {
+      "code": "@brasil18239495089",
+      "display": "Ciclofenila"
+    },
+    {
+      "code": "@brasil13635253563",
+      "display": "Carnitina"
+    },
+    {
+      "code": "@brasil18238324556",
+      "display": "Dalteparina"
+    },
+    {
+      "code": "@brasil13632868828",
+      "display": "Cilostazol"
+    },
+    {
+      "code": "@brasil18229290960",
+      "display": "Clonidina"
+    },
+    {
+      "code": "@brasil13632435735",
+      "display": "Retinol + Colecalciferol + Racealfatocoferol + Alantoína"
+    },
+    {
+      "code": "@brasil18229105217",
+      "display": "Estearato de Eritromicina"
+    },
+    {
+      "code": "@brasil13621094266",
+      "display": "Ácido Tricloroacético"
+    },
+    {
+      "code": "@brasil13612278515",
+      "display": "Dimeticona"
+    },
+    {
+      "code": "@brasil18224311020",
+      "display": "Rituximabe"
+    },
+    {
+      "code": "@brasil13601876489",
+      "display": "Bronfeniramina + Pseudoefedrina"
+    },
+    {
+      "code": "@brasil18219741961",
+      "display": "Aprepitanto"
+    },
+    {
+      "code": "@brasil13595982251",
+      "display": "Cloranfenicol + Lidocaína"
+    },
+    {
+      "code": "@brasil18218191141",
+      "display": "Glicosamina"
+    },
+    {
+      "code": "@brasil13592646421",
+      "display": "Doxazosina"
+    },
+    {
+      "code": "@brasil18217535006",
+      "display": "Hetamido"
+    },
+    {
+      "code": "@brasil13589800179",
+      "display": "Ácido Valproico"
+    },
+    {
+      "code": "@brasil18210711885",
+      "display": "Neomicina"
+    },
+    {
+      "code": "@brasil13587054686",
+      "display": "Nintedanibe"
+    },
+    {
+      "code": "@brasil18208607776",
+      "display": "Bromexina"
+    },
+    {
+      "code": "@brasil13575758731",
+      "display": "Tiamazol"
+    },
+    {
+      "code": "@brasil18208468469",
+      "display": "Alfainterferona 2b"
+    },
+    {
+      "code": "@brasil13573535934",
+      "display": "Trastuzumabe"
+    },
+    {
+      "code": "@brasil18203864289",
+      "display": "Daclatasvir"
+    },
+    {
+      "code": "@brasil13561323920",
+      "display": "Ceftriaxona"
+    },
+    {
+      "code": "@brasil13557352155",
+      "display": "Alanilglutamina"
+    },
+    {
+      "code": "@brasil18180461764",
+      "display": "Cybara scolymus (Alcachofra)"
+    },
+    {
+      "code": "@brasil18178820671",
+      "display": "Piribedil"
+    },
+    {
+      "code": "@brasil13555748194",
+      "display": "Triprolidina + Pseudoefedrina"
+    },
+    {
+      "code": "@brasil18176074508",
+      "display": "Galantamina"
+    },
+    {
+      "code": "@brasil13554404240",
+      "display": "Lidocaína + Acetato de Hidrocortisona + Óxido de Zinco + Subacetato de Alumínio"
+    },
+    {
+      "code": "@brasil18170874962",
+      "display": "Nitrendipino"
+    },
+    {
+      "code": "@brasil13553934015",
+      "display": "Anfepramona"
+    },
+    {
+      "code": "@brasil18154721023",
+      "display": "Regorafenibe"
+    },
+    {
+      "code": "@brasil13551446518",
+      "display": "Paracetamol + Amitriptilina + Ciclobenzaprina + Meloxicam"
+    },
+    {
+      "code": "@brasil18144088495",
+      "display": "Ácido Fólico + Racealfatocoferol"
+    },
+    {
+      "code": "@brasil13545452283",
+      "display": "Lixisenatida"
+    },
+    {
+      "code": "@brasil18137438628",
+      "display": "Dutasterida"
+    },
+    {
+      "code": "@brasil13543615054",
+      "display": "Golimumabe"
+    },
+    {
+      "code": "@brasil18128545848",
+      "display": "Ticarcilina + Ácido Clavulânico"
+    },
+    {
+      "code": "@brasil13523906098",
+      "display": "Aripiprazol"
+    },
+    {
+      "code": "@brasil18121063910",
+      "display": "Nilotinibe"
+    },
+    {
+      "code": "@brasil13519979177",
+      "display": "Hypericum perforatum"
+    },
+    {
+      "code": "@brasil13518349316",
+      "display": "Ampicilina + Sulbactam"
+    },
+    {
+      "code": "@brasil18119205307",
+      "display": "Ciclesonida"
+    },
+    {
+      "code": "@brasil13517529230",
+      "display": "Entricitabina + Tenofovir"
+    },
+    {
+      "code": "@brasil18110262990",
+      "display": "Nebivolol"
+    },
+    {
+      "code": "@brasil13513191428",
+      "display": "Travoprosta + Timolol"
+    },
+    {
+      "code": "@brasil18102462707",
+      "display": "Butenafina"
+    },
+    {
+      "code": "@brasil13508431932",
+      "display": "Riluzol"
+    },
+    {
+      "code": "@brasil18090817226",
+      "display": "Limeciclina"
+    },
+    {
+      "code": "@brasil13500390501",
+      "display": "Loratadina + Pseudoefedrina"
+    },
+    {
+      "code": "@brasil18089673347",
+      "display": "Naproxeno Sódico"
+    },
+    {
+      "code": "@brasil13499881636",
+      "display": "Lisados bacterianos"
+    },
+    {
+      "code": "@brasil18088956695",
+      "display": "Sulfadiazina"
+    },
+    {
+      "code": "@brasil13493054324",
+      "display": "Colina + Betaína + Racemetionina"
+    },
+    {
+      "code": "@brasil18075031085",
+      "display": "Codeína"
+    },
+    {
+      "code": "@brasil13492324596",
+      "display": "Frações Peptídicas Alergênicas"
+    },
+    {
+      "code": "@brasil18066027077",
+      "display": "Gestrinona"
+    },
+    {
+      "code": "@brasil13491208462",
+      "display": "Levobupivacaína"
+    },
+    {
+      "code": "@brasil18064404592",
+      "display": "Nonoxinol"
+    },
+    {
+      "code": "@brasil13483521837",
+      "display": "Levodropropizina"
+    },
+    {
+      "code": "@brasil13483057312",
+      "display": "Emboato de Pirvínio"
+    },
+    {
+      "code": "@brasil18062409531",
+      "display": "Poliestirenossulfonato de Cálcio"
+    },
+    {
+      "code": "@brasil13476500066",
+      "display": "Benzocaína + Tirotricina"
+    },
+    {
+      "code": "@brasil18061639905",
+      "display": "Frações Peptídicas Alergênicas"
+    },
+    {
+      "code": "@brasil13475535392",
+      "display": "Azelastina + Fluticasona"
+    },
+    {
+      "code": "@brasil18059562198",
+      "display": "Desflurano"
+    },
+    {
+      "code": "@brasil13473912488",
+      "display": "Mepiramina + Hidróxido de Alumínio + Ácido Acetilsalicílico + Cafeína"
+    },
+    {
+      "code": "@brasil18057058692",
+      "display": "Ticlopidina"
+    },
+    {
+      "code": "@brasil13465231435",
+      "display": "Etravirina"
+    },
+    {
+      "code": "@brasil18055728735",
+      "display": "Cianocobalamina + Piridoxina + Tiamina"
+    },
+    {
+      "code": "@brasil13463234530",
+      "display": "Everolimo"
+    },
+    {
+      "code": "@brasil18041863978",
+      "display": "Olanzapina"
+    },
+    {
+      "code": "@brasil13459803398",
+      "display": "Metronidazol + Nistatina"
+    },
+    {
+      "code": "@brasil13453967163",
+      "display": "Fanciclovir"
+    },
+    {
+      "code": "@brasil18033722048",
+      "display": "Terbutalina"
+    },
+    {
+      "code": "@brasil13448926705",
+      "display": "Atazanavir"
+    },
+    {
+      "code": "@brasil18030658463",
+      "display": "Fibrinogênio"
+    },
+    {
+      "code": "@brasil13446383301",
+      "display": "Acetato de Ciproterona + Valerato de Estradiol"
+    },
+    {
+      "code": "@brasil18029455408",
+      "display": "Domperidona"
+    },
+    {
+      "code": "@brasil13443909047",
+      "display": "Halobetasol"
+    },
+    {
+      "code": "@brasil18023558069",
+      "display": "Espironolactona"
+    },
+    {
+      "code": "@brasil13435564443",
+      "display": "Diclofenaco Potássico"
+    },
+    {
+      "code": "@brasil18022688530",
+      "display": "Irbesartana"
+    },
+    {
+      "code": "@brasil13417950879",
+      "display": "Alfainterferona 2a"
+    },
+    {
+      "code": "@brasil18012408042",
+      "display": "Anlodipino + Atenolol"
+    },
+    {
+      "code": "@brasil13417301449",
+      "display": "Primidona"
+    },
+    {
+      "code": "@brasil18011239521",
+      "display": "Concentrado de Complexo Protrombínico"
+    },
+    {
+      "code": "@brasil13415651723",
+      "display": "Ferrocarbonila"
+    },
+    {
+      "code": "@brasil13412170300",
+      "display": "Insulina Degludeca"
+    },
+    {
+      "code": "@brasil18010967612",
+      "display": "Clotrimazol"
+    },
+    {
+      "code": "@brasil13408257544",
+      "display": "Amilorida + Hidroclorotiazida"
+    },
+    {
+      "code": "@brasil18001287855",
+      "display": "Valsartana + Anlodipino"
+    },
+    {
+      "code": "@brasil13406910991",
+      "display": "Ipratrópio"
+    },
+    {
+      "code": "@brasil17988544764",
+      "display": "Hidróxido de Alumínio + Hidróxido de Magnésio + Simeticona"
+    },
+    {
+      "code": "@brasil13402419883",
+      "display": "Levofloxacino"
+    },
+    {
+      "code": "@brasil17987910253",
+      "display": "Ciclopirox"
+    },
+    {
+      "code": "@brasil13393694993",
+      "display": "Imiquimode"
+    },
+    {
+      "code": "@brasil17985289149",
+      "display": "Pegfilgrastim"
+    },
+    {
+      "code": "@brasil13376216461",
+      "display": "Dexpantenol"
+    },
+    {
+      "code": "@brasil17972522169",
+      "display": "Medroxiprogesterona"
+    },
+    {
+      "code": "@brasil13373188666",
+      "display": "Tioconazol"
+    },
+    {
+      "code": "@brasil17972304659",
+      "display": "Haloperidol"
+    },
+    {
+      "code": "@brasil13372810056",
+      "display": "Hidroquinona + Ácido Glicólico"
+    },
+    {
+      "code": "@brasil17960455581",
+      "display": "Ácido Undecilênico + Undecilenato de Zinco + Propionato de Zinco + Hexilresorcina"
+    },
+    {
+      "code": "@brasil13360357481",
+      "display": "Ciproterona + Etinilestradiol"
+    },
+    {
+      "code": "@brasil17957204492",
+      "display": "Vitaminas do Complexo B (B1, B2, B3, B5, B6)"
+    },
+    {
+      "code": "@brasil13355304116",
+      "display": "Ácido Nicotínico"
+    },
+    {
+      "code": "@brasil13354625014",
+      "display": "Doxazosina + Finasterida"
+    },
+    {
+      "code": "@brasil17956190366",
+      "display": "Sulfacetamida + Trietanolamina"
+    },
+    {
+      "code": "@brasil13350872436",
+      "display": "Alizaprida"
+    },
+    {
+      "code": "@brasil17956171004",
+      "display": "Peróxido de Uréia"
+    },
+    {
+      "code": "@brasil13337518472",
+      "display": "Ácido Ascórbico"
+    },
+    {
+      "code": "@brasil17954194048",
+      "display": "Escopolamina + Dipirona"
+    },
+    {
+      "code": "@brasil13327342925",
+      "display": "Paracetamol + Carisoprodol + Cafeína"
+    },
+    {
+      "code": "@brasil17948547830",
+      "display": "Terbinafina"
+    },
+    {
+      "code": "@brasil13320460880",
+      "display": "Quetiapina"
+    },
+    {
+      "code": "@brasil17942955844",
+      "display": "Estradiol + Enantato de Noretisterona"
+    },
+    {
+      "code": "@brasil13320121496",
+      "display": "Dexametasona + Cianocobalamina + Tiamina + Piridoxina"
+    },
+    {
+      "code": "@brasil13318625243",
+      "display": "Ácido Ascórbico + Zinco"
+    },
+    {
+      "code": "@brasil17933739522",
+      "display": "Ciclobenzaprina + Cafeína"
+    },
+    {
+      "code": "@brasil13312309730",
+      "display": "Paroxetina"
+    },
+    {
+      "code": "@brasil17919011848",
+      "display": "Ácido Poliacrílico"
+    },
+    {
+      "code": "@brasil13312218870",
+      "display": "Permetrina"
+    },
+    {
+      "code": "@brasil17911876669",
+      "display": "Dexametasona + Cloranfenicol + Tetrizolina"
+    },
+    {
+      "code": "@brasil13306707015",
+      "display": "Benfotiamina"
+    },
+    {
+      "code": "@brasil17905128398",
+      "display": "Hidroxietilamido + Cloreto de Sódio"
+    },
+    {
+      "code": "@brasil13301473857",
+      "display": "Ureia + Ácido Salicílico"
+    },
+    {
+      "code": "@brasil17905073162",
+      "display": "Hialuronato de Sódio"
+    },
+    {
+      "code": "@brasil13297141251",
+      "display": "Oseltamivir"
+    },
+    {
+      "code": "@brasil17904909798",
+      "display": "Mifamurtida"
+    },
+    {
+      "code": "@brasil13295922942",
+      "display": "Latanoprosta"
+    },
+    {
+      "code": "@brasil17889105217",
+      "display": "Etoposídeo"
+    },
+    {
+      "code": "@brasil13284746261",
+      "display": "Metotrexato"
+    },
+    {
+      "code": "@brasil17882904285",
+      "display": "Acetato de Zinco"
+    },
+    {
+      "code": "@brasil13283762393",
+      "display": "Trazodona"
+    },
+    {
+      "code": "@brasil13277223419",
+      "display": "Hidróxido de Alumínio"
+    },
+    {
+      "code": "@brasil17877758132",
+      "display": "Polipeptídeo Dialisável de Extrato de Leucócito"
+    },
+    {
+      "code": "@brasil13275461794",
+      "display": "Praziquantel"
+    },
+    {
+      "code": "@brasil17872526818",
+      "display": "Bronfeniramina + Fenilefrina"
+    },
+    {
+      "code": "@brasil13275173541",
+      "display": "Nelfinavir"
+    },
+    {
+      "code": "@brasil17871303060",
+      "display": "Droperidol"
+    },
+    {
+      "code": "@brasil13272579844",
+      "display": "Secuquinumabe"
+    },
+    {
+      "code": "@brasil17845277167",
+      "display": "Tioguanina"
+    },
+    {
+      "code": "@brasil13271331444",
+      "display": "Idoxuridina"
+    },
+    {
+      "code": "@brasil17836989393",
+      "display": "Dolasetrona"
+    },
+    {
+      "code": "@brasil13269911214",
+      "display": "Polidocanol + Lidocaína + Tintura Camomila"
+    },
+    {
+      "code": "@brasil13263423705",
+      "display": "Mebendazol + Tiabendazol"
+    },
+    {
+      "code": "@brasil17830644292",
+      "display": "Aflibercepte"
+    },
+    {
+      "code": "@brasil13252562770",
+      "display": "Cetilpiridínio + Benzocaína"
+    },
+    {
+      "code": "@brasil17824541764",
+      "display": "Remifentanila"
+    },
+    {
+      "code": "@brasil13251441523",
+      "display": "Siltuximabe"
+    },
+    {
+      "code": "@brasil17820403115",
+      "display": "Etonogestrel + Etinilestradiol"
+    },
+    {
+      "code": "@brasil13251300204",
+      "display": "Frações Peptídicas Alergênicas"
+    },
+    {
+      "code": "@brasil17815577989",
+      "display": "Hexamidina + Tetracaína"
+    },
+    {
+      "code": "@brasil13246268128",
+      "display": "Heparina Sódica"
+    },
+    {
+      "code": "@brasil13238473461",
+      "display": "Menotropina"
+    },
+    {
+      "code": "@brasil17814625972",
+      "display": "Cilazapril"
+    },
+    {
+      "code": "@brasil13236205234",
+      "display": "Acetazolamida"
+    },
+    {
+      "code": "@brasil17810187755",
+      "display": "Ustequinumabe"
+    },
+    {
+      "code": "@brasil13226463619",
+      "display": "Tiopental"
+    },
+    {
+      "code": "@brasil17797092707",
+      "display": "Betaxolol"
+    },
+    {
+      "code": "@brasil13212230225",
+      "display": "Atenolol"
+    },
+    {
+      "code": "@brasil17792237155",
+      "display": "Dolutegravir"
+    },
+    {
+      "code": "@brasil13210768589",
+      "display": "Ulipristal"
+    },
+    {
+      "code": "@brasil17778089759",
+      "display": "Dantroleno"
+    },
+    {
+      "code": "@brasil13207982361",
+      "display": "Ocriplasmina"
+    },
+    {
+      "code": "@brasil17775742072",
+      "display": "Nitrazepam"
+    },
+    {
+      "code": "@brasil13207493696",
+      "display": "Clioquinol + Hidrocortisona"
+    },
+    {
+      "code": "@brasil17768442440",
+      "display": "Mitoxantrona"
+    },
+    {
+      "code": "@brasil13193263068",
+      "display": "Tolterodina"
+    },
+    {
+      "code": "@brasil17762334547",
+      "display": "Ampicilina"
+    },
+    {
+      "code": "@brasil13170630169",
+      "display": "Clostebol + Neomicina"
+    },
+    {
+      "code": "@brasil17758135381",
+      "display": "Ramipril"
+    },
+    {
+      "code": "@brasil13169535660",
+      "display": "Propranolol + Hidroclorotiazida"
+    },
+    {
+      "code": "@brasil13160792581",
+      "display": "Álcool Polivinílico"
+    },
+    {
+      "code": "@brasil17733127387",
+      "display": "Rivastigmina"
+    },
+    {
+      "code": "@brasil13155793949",
+      "display": "Belatacepte"
+    },
+    {
+      "code": "@brasil17726612888",
+      "display": "Alcatrão Mineral"
+    },
+    {
+      "code": "@brasil13154575807",
+      "display": "Trifluoperazina"
+    },
+    {
+      "code": "@brasil17718599034",
+      "display": "Beclometasona + Formoterol"
+    },
+    {
+      "code": "@brasil13153218107",
+      "display": "Benzocaína + Borato de Sódio + Cetilpiridínio"
+    },
+    {
+      "code": "@brasil17715283488",
+      "display": "Bicalutamida"
+    },
+    {
+      "code": "@brasil13147641291",
+      "display": "Alfataliglicerase"
+    },
+    {
+      "code": "@brasil17712554760",
+      "display": "Clemastina"
+    },
+    {
+      "code": "@brasil13138442823",
+      "display": "Lactulose"
+    },
+    {
+      "code": "@brasil13129942567",
+      "display": "Nimotuzumabe"
+    },
+    {
+      "code": "@brasil17707722676",
+      "display": "Frações Peptídicas Alergênicas"
+    },
+    {
+      "code": "@brasil13125089781",
+      "display": "Alfasimoctocogue"
+    },
+    {
+      "code": "@brasil17694146675",
+      "display": "Trioxisaleno"
+    },
+    {
+      "code": "@brasil17691441248",
+      "display": "Ácido Gamaminobutírico"
+    },
+    {
+      "code": "@brasil13123119950",
+      "display": "Nomegestrol"
+    },
+    {
+      "code": "@brasil13121493525",
+      "display": "Escina + Salicilato de Dietilamina"
+    },
+    {
+      "code": "@brasil17682738151",
+      "display": "Desogestrel + Etinilestradiol"
+    },
+    {
+      "code": "@brasil13118295997",
+      "display": "Cefaclor"
+    },
+    {
+      "code": "@brasil17678429601",
+      "display": "Ginkgo biloba"
+    },
+    {
+      "code": "@brasil13114347533",
+      "display": "Ceftarolina Fosamila"
+    },
+    {
+      "code": "@brasil17660550750",
+      "display": "Xilometazolina"
+    },
+    {
+      "code": "@brasil13093955034",
+      "display": "Propranolol"
+    },
+    {
+      "code": "@brasil17658619811",
+      "display": "Salicilato de Metila + Levomentol"
+    },
+    {
+      "code": "@brasil13082094138",
+      "display": "Fosfato de Sódio Monobásico + Fosfato de Sódio Dibásico"
+    },
+    {
+      "code": "@brasil17657812466",
+      "display": "Extratos Alergênicos de Insetos Sugadores"
+    },
+    {
+      "code": "@brasil13078941201",
+      "display": "Alfatirotropina"
+    },
+    {
+      "code": "@brasil17655088683",
+      "display": "Saquinavir"
+    },
+    {
+      "code": "@brasil13071713151",
+      "display": "Rotigotina"
+    },
+    {
+      "code": "@brasil17642813050",
+      "display": "Valeriana officinalis"
+    },
+    {
+      "code": "@brasil13070274397",
+      "display": "Diflucortolona + Clorquinaldol"
+    },
+    {
+      "code": "@brasil17629361605",
+      "display": "Montelucaste + Levocetirizina"
+    },
+    {
+      "code": "@brasil13065156323",
+      "display": "Latanoprosta + Benzalcônio"
+    },
+    {
+      "code": "@brasil17620170512",
+      "display": "Ranolazina"
+    },
+    {
+      "code": "@brasil13049573527",
+      "display": "Ácido Fólico + Dextroalfatocoferol"
+    },
+    {
+      "code": "@brasil17612470896",
+      "display": "Budesonida"
+    },
+    {
+      "code": "@brasil13041719181",
+      "display": "Nistatina"
+    },
+    {
+      "code": "@brasil13041480213",
+      "display": "Alentuzumabe"
+    },
+    {
+      "code": "@brasil17608463341",
+      "display": "Orfenadrina + Paracetamol + Cafeína"
+    },
+    {
+      "code": "@brasil13036495662",
+      "display": "Naproxeno + Esomeprazol"
+    },
+    {
+      "code": "@brasil17602723665",
+      "display": "Alisquireno + Hidroclorotiazida"
+    },
+    {
+      "code": "@brasil13035954946",
+      "display": "Fenilbutazona"
+    },
+    {
+      "code": "@brasil17592937374",
+      "display": "Lenvatinibe"
+    },
+    {
+      "code": "@brasil13034153340",
+      "display": "Noretisterona"
+    },
+    {
+      "code": "@brasil17592687174",
+      "display": "Benazepril"
+    },
+    {
+      "code": "@brasil13023588705",
+      "display": "Minoxidil"
+    },
+    {
+      "code": "@brasil13021238419",
+      "display": "Donepezila + Memantina"
+    },
+    {
+      "code": "@brasil17592679546",
+      "display": "Magaldrato + Simeticona"
+    },
+    {
+      "code": "@brasil13018908334",
+      "display": "Paracetamol + Meloxicam + Ciclobenzaprina"
+    },
+    {
+      "code": "@brasil17588890256",
+      "display": "Azul de Trypan"
+    },
+    {
+      "code": "@brasil13018637263",
+      "display": "Zidovudina"
+    },
+    {
+      "code": "@brasil17587190909",
+      "display": "Passiflora incarnata + Crataegus oxyacantha + Salix alba"
+    },
+    {
+      "code": "@brasil13012906891",
+      "display": "Nimesulida"
+    },
+    {
+      "code": "@brasil12998564449",
+      "display": "Fosfato de Histamina"
+    },
+    {
+      "code": "@brasil17586984546",
+      "display": "Trifolium pratense"
+    },
+    {
+      "code": "@brasil12994497298",
+      "display": "Metoprolol"
+    },
+    {
+      "code": "@brasil17570615360",
+      "display": "Olmesartana Medoxomila"
+    },
+    {
+      "code": "@brasil12990825103",
+      "display": "Talidomida"
+    },
+    {
+      "code": "@brasil17568340679",
+      "display": "Betametasona + Hialuronidase"
+    },
+    {
+      "code": "@brasil12986965488",
+      "display": "Paracetamol"
+    },
+    {
+      "code": "@brasil17556329076",
+      "display": "Sulfato Ferroso"
+    },
+    {
+      "code": "@brasil12986177589",
+      "display": "Albendazol"
+    },
+    {
+      "code": "@brasil17552431408",
+      "display": "Di-hidroergocristina + Flunarizina"
+    },
+    {
+      "code": "@brasil12976830761",
+      "display": "Ácido Salicílico + Enxofre"
+    },
+    {
+      "code": "@brasil17548509096",
+      "display": "Pasireotida"
+    },
+    {
+      "code": "@brasil12975020857",
+      "display": "Cloperastina"
+    },
+    {
+      "code": "@brasil12972447780",
+      "display": "Butoconazol"
+    },
+    {
+      "code": "@brasil17547980282",
+      "display": "Olapatadina"
+    },
+    {
+      "code": "@brasil12971118159",
+      "display": "Clorpropamida"
+    },
+    {
+      "code": "@brasil17540283599",
+      "display": "Varfarina Sódica"
+    },
+    {
+      "code": "@brasil12970405445",
+      "display": "Ácidos Graxos Poliinsaturados Marinhos"
+    },
+    {
+      "code": "@brasil17538319300",
+      "display": "Racemetionina + Cloreto de Colina + Inositol + Cianobobalamina"
+    },
+    {
+      "code": "@brasil12954395088",
+      "display": "Flurbiprofeno"
+    },
+    {
+      "code": "@brasil17537498293",
+      "display": "Polidocanol + Lidocaína + Tintura Camomila"
+    },
+    {
+      "code": "@brasil12954183445",
+      "display": "Dexametasona + Neomicina"
+    },
+    {
+      "code": "@brasil17535957112",
+      "display": "Perampanel"
+    },
+    {
+      "code": "@brasil12953049625",
+      "display": "Fator VIII + Fator de von Willebrand"
+    },
+    {
+      "code": "@brasil12946980122",
+      "display": "Ferripolimaltose + Ácido Fólico"
+    },
+    {
+      "code": "@brasil17535452689",
+      "display": "Amprenavir"
+    },
+    {
+      "code": "@brasil12942310899",
+      "display": "Vecurônio"
+    },
+    {
+      "code": "@brasil17532717507",
+      "display": "Atorvastatina"
+    },
+    {
+      "code": "@brasil12936041570",
+      "display": "Prometazina + Sulfoguaiacol de Potássio"
+    },
+    {
+      "code": "@brasil17531681168",
+      "display": "Polypodium leucotomos"
+    },
+    {
+      "code": "@brasil12928860039",
+      "display": "Hipromelose + Cetrimida"
+    },
+    {
+      "code": "@brasil17527148905",
+      "display": "Nitrofurantoína"
+    },
+    {
+      "code": "@brasil12924458534",
+      "display": "Metilcelulose"
+    },
+    {
+      "code": "@brasil17525028284",
+      "display": "Brometo de Umeclidíno"
+    },
+    {
+      "code": "@brasil12922037338",
+      "display": "Enoxaparina Sódica"
+    },
+    {
+      "code": "@brasil17518745377",
+      "display": "Sumatriptana + Naproxeno Sódico"
+    },
+    {
+      "code": "@brasil12919665930",
+      "display": "Cetuximabe"
+    },
+    {
+      "code": "@brasil12907249900",
+      "display": "Femprocumona"
+    },
+    {
+      "code": "@brasil17517937361",
+      "display": "Atomoxetina"
+    },
+    {
+      "code": "@brasil12902393593",
+      "display": "Policarbofila"
+    },
+    {
+      "code": "@brasil17515862505",
+      "display": "Piracetam + Cinarizina"
+    },
+    {
+      "code": "@brasil12896800349",
+      "display": "Ropivacaína"
+    },
+    {
+      "code": "@brasil17509304672",
+      "display": "Escopolamina"
+    },
+    {
+      "code": "@brasil12884124481",
+      "display": "Fluoxetina"
+    },
+    {
+      "code": "@brasil17504823958",
+      "display": "Passiflora incarnata"
+    },
+    {
+      "code": "@brasil12876414890",
+      "display": "Etionamida"
+    },
+    {
+      "code": "@brasil17504633269",
+      "display": "Sulfassalazina"
+    },
+    {
+      "code": "@brasil12874908579",
+      "display": "Oximetazolina"
+    },
+    {
+      "code": "@brasil12870358295",
+      "display": "Dissulfiram"
+    },
+    {
+      "code": "@brasil17502415082",
+      "display": "Betametasona + Gentamicina"
+    },
+    {
+      "code": "@brasil12867878928",
+      "display": "Levobupivacaína + Epinefrina"
+    },
+    {
+      "code": "@brasil17499565571",
+      "display": "Abatacepte"
+    },
+    {
+      "code": "@brasil12867279957",
+      "display": "Alfuzosina"
+    },
+    {
+      "code": "@brasil17498069066",
+      "display": "Tamoxifeno"
+    },
+    {
+      "code": "@brasil12859992898",
+      "display": "Mesilato de Codergocrina"
+    },
+    {
+      "code": "@brasil12856193214",
+      "display": "Colistimetato"
+    },
+    {
+      "code": "@brasil17486978215",
+      "display": "Lisina"
+    },
+    {
+      "code": "@brasil12855144302",
+      "display": "Mometasona + Formoterol"
+    },
+    {
+      "code": "@brasil17483827793",
+      "display": "Cetorolaco"
+    },
+    {
+      "code": "@brasil12850517827",
+      "display": "Ácido Acético"
+    },
+    {
+      "code": "@brasil17479726863",
+      "display": "Valeriana officinalis + Humulus lupulus"
+    },
+    {
+      "code": "@brasil12848325205",
+      "display": "Ubidecarenona"
+    },
+    {
+      "code": "@brasil17479548915",
+      "display": "Fludroxicortida + Clioquinol"
+    },
+    {
+      "code": "@brasil12830922865",
+      "display": "Ácido Tranexâmico"
+    },
+    {
+      "code": "@brasil12823384182",
+      "display": "Clobutinol"
+    },
+    {
+      "code": "@brasil17468526629",
+      "display": "Guaifenesina"
+    },
+    {
+      "code": "@brasil12812229796",
+      "display": "Diacereína"
+    },
+    {
+      "code": "@brasil17461028011",
+      "display": "Tinidazol"
+    },
+    {
+      "code": "@brasil12799412860",
+      "display": "Glicose"
+    },
+    {
+      "code": "@brasil17456663302",
+      "display": "Citrato de Potássio"
+    },
+    {
+      "code": "@brasil12799291658",
+      "display": "Tenofovir"
+    },
+    {
+      "code": "@brasil12798371158",
+      "display": "Alfasimoctocogue"
+    },
+    {
+      "code": "@brasil17456645113",
+      "display": "Epinefrina"
+    },
+    {
+      "code": "@brasil12797323336",
+      "display": "Flurazepam"
+    },
+    {
+      "code": "@brasil17451505750",
+      "display": "Ranelato de Estrôncio"
+    },
+    {
+      "code": "@brasil12793876362",
+      "display": "Genfibrozila"
+    },
+    {
+      "code": "@brasil17443267261",
+      "display": "Mirabegrona"
+    },
+    {
+      "code": "@brasil12791432870",
+      "display": "Isotretinoína + Eritromicina"
+    },
+    {
+      "code": "@brasil17435041680",
+      "display": "Ácido Acetilsalicílico"
+    },
+    {
+      "code": "@brasil12784023938",
+      "display": "Pregabalina"
+    },
+    {
+      "code": "@brasil17432619645",
+      "display": "Candesartana Cilexetila"
+    },
+    {
+      "code": "@brasil12783282055",
+      "display": "Acetilmetionina"
+    },
+    {
+      "code": "@brasil17429604004",
+      "display": "Afatinibe"
+    },
+    {
+      "code": "@brasil12778843838",
+      "display": "Cetoconazol + Betametasona"
+    },
+    {
+      "code": "@brasil17425809181",
+      "display": "Ácido Alendrônico + Carbonato de Cálcio + Colecalciferol"
+    },
+    {
+      "code": "@brasil12775422596",
+      "display": "Gosserrelina"
+    },
+    {
+      "code": "@brasil17420023237",
+      "display": "Bortezomibe"
+    },
+    {
+      "code": "@brasil12770917994",
+      "display": "Losartana + Hidroclorotiazida"
+    },
+    {
+      "code": "@brasil17407097002",
+      "display": "Fenoterol"
+    },
+    {
+      "code": "@brasil12756113290",
+      "display": "Glibenclamida"
+    },
+    {
+      "code": "@brasil17404959784",
+      "display": "Antimoniato de Meglumina"
+    },
+    {
+      "code": "@brasil12732160744",
+      "display": "Silybum marianum (L.) Gaertn."
+    },
+    {
+      "code": "@brasil12728227117",
+      "display": "Lisados bacterianos"
+    },
+    {
+      "code": "@brasil17393498118",
+      "display": "Abacavir"
+    },
+    {
+      "code": "@brasil12727900390",
+      "display": "Adefovir"
+    },
+    {
+      "code": "@brasil17383762705",
+      "display": "Trombina + Fibrinogênio"
+    },
+    {
+      "code": "@brasil12723635762",
+      "display": "Fenitoína"
+    },
+    {
+      "code": "@brasil17382562500",
+      "display": "Clofazimina"
+    },
+    {
+      "code": "@brasil12720461870",
+      "display": "Albumina Humana"
+    },
+    {
+      "code": "@brasil17375640557",
+      "display": "Cianocobalamina"
+    },
+    {
+      "code": "@brasil12718629419",
+      "display": "Cloranfenicol + Colagenase"
+    },
+    {
+      "code": "@brasil17351501347",
+      "display": "levamisol"
+    },
+    {
+      "code": "@brasil12706844044",
+      "display": "Dinoprostona"
+    },
+    {
+      "code": "@brasil17348653763",
+      "display": "Busserelina"
+    },
+    {
+      "code": "@brasil12703726479",
+      "display": "Cimicifuga racemosa"
+    },
+    {
+      "code": "@brasil17348499284",
+      "display": "Fluocinolona Acetonida + Hidroquinona + Tretinoína"
+    },
+    {
+      "code": "@brasil12703043521",
+      "display": "Vigabatrina"
+    },
+    {
+      "code": "@brasil17340852306",
+      "display": "Betametasona + Ácido Salicílico"
+    },
+    {
+      "code": "@brasil12701651958",
+      "display": "Ceftazidima"
+    },
+    {
+      "code": "@brasil17337612449",
+      "display": "Desloratadina + Pseudoefedrina"
+    },
+    {
+      "code": "@brasil12697425886",
+      "display": "Besifloxacino"
+    },
+    {
+      "code": "@brasil17336804685",
+      "display": "Carmustina"
+    },
+    {
+      "code": "@brasil12691419414",
+      "display": "Axetilcefuroxima"
+    },
+    {
+      "code": "@brasil17336423895",
+      "display": "Iloprosta"
+    },
+    {
+      "code": "@brasil12684301250",
+      "display": "Fludarabina"
+    },
+    {
+      "code": "@brasil17334132534",
+      "display": "Corynebacterium parvulan"
+    },
+    {
+      "code": "@brasil12679011850",
+      "display": "Indacaterol + Glicopirrônio"
+    },
+    {
+      "code": "@brasil17333630458",
+      "display": "Dicloridrato de Quinina"
+    },
+    {
+      "code": "@brasil12677413338",
+      "display": "Linagliptina + Metformina"
+    },
+    {
+      "code": "@brasil12675074200",
+      "display": "Xilazina"
+    },
+    {
+      "code": "@brasil17323127012",
+      "display": "Dextrocetamina"
+    },
+    {
+      "code": "@brasil12674966744",
+      "display": "Estrogênios Conjugados"
+    },
+    {
+      "code": "@brasil17318799854",
+      "display": "Dimenidrinato + Piridoxina + Glicose + Frutose"
+    },
+    {
+      "code": "@brasil12665409195",
+      "display": "Tirofibana"
+    },
+    {
+      "code": "@brasil17314306232",
+      "display": "Etonogestrel"
+    },
+    {
+      "code": "@brasil12652951005",
+      "display": "Ticagrelor"
+    },
+    {
+      "code": "@brasil17313493690",
+      "display": "Vildagliptina"
+    },
+    {
+      "code": "@brasil12644970008",
+      "display": "Anlodipino + Losartana"
+    },
+    {
+      "code": "@brasil12632241082",
+      "display": "Carmelose"
+    },
+    {
+      "code": "@brasil17296735835",
+      "display": "Pancurônio"
+    },
+    {
+      "code": "@brasil12629744448",
+      "display": "Calcitonina"
+    },
+    {
+      "code": "@brasil17285815724",
+      "display": "Lincomicina"
+    },
+    {
+      "code": "@brasil12623172953",
+      "display": "Bemiparina Sódica"
+    },
+    {
+      "code": "@brasil17276976337",
+      "display": "Entacapona"
+    },
+    {
+      "code": "@brasil12622658136",
+      "display": "Fluoruracila"
+    },
+    {
+      "code": "@brasil17276406619",
+      "display": "Alteplase"
+    },
+    {
+      "code": "@brasil12600574420",
+      "display": "Fator IX"
+    },
+    {
+      "code": "@brasil12599040615",
+      "display": "Calcipotriol"
+    },
+    {
+      "code": "@brasil17260593823",
+      "display": "Diosmina + Hesperidina"
+    },
+    {
+      "code": "@brasil12579439032",
+      "display": "Monossulfiram"
+    },
+    {
+      "code": "@brasil17259460506",
+      "display": "Rutosídeo"
+    },
+    {
+      "code": "@brasil12574759164",
+      "display": "Femproporex"
+    },
+    {
+      "code": "@brasil17257082225",
+      "display": "Caspofungina"
+    },
+    {
+      "code": "@brasil12565750210",
+      "display": "Clobazam"
+    },
+    {
+      "code": "@brasil17253105263",
+      "display": "Fator VIII"
+    },
+    {
+      "code": "@brasil12551408774",
+      "display": "Nafazolina + Dexametasona + Neomicina"
+    },
+    {
+      "code": "@brasil12515476812",
+      "display": "Rivaroxabana"
+    },
+    {
+      "code": "@brasil17252451139",
+      "display": "Rifamicina SV Sódica"
+    },
+    {
+      "code": "@brasil12493571463",
+      "display": "Nafarrelina"
+    },
+    {
+      "code": "@brasil17249687794",
+      "display": "Salicilato de Metila + Mentol"
+    },
+    {
+      "code": "@brasil12485352252",
+      "display": "Tadalafila"
+    },
+    {
+      "code": "@brasil17244551363",
+      "display": "Epinastina"
+    },
+    {
+      "code": "@brasil12476395853",
+      "display": "Micafungina"
+    },
+    {
+      "code": "@brasil17232094263",
+      "display": "Molgramostim"
+    },
+    {
+      "code": "@brasil12468846944",
+      "display": "Colecalciferol"
+    },
+    {
+      "code": "@brasil17222536965",
+      "display": "Citrato Férrico Amoniacal + Cianocobalamina"
+    },
+    {
+      "code": "@brasil12462933679",
+      "display": "Água"
+    },
+    {
+      "code": "@brasil17218661592",
+      "display": "Oxitetraciclina + Hidrocortisona"
+    },
+    {
+      "code": "@brasil12452023374",
+      "display": "Benzoato de Sódio"
+    },
+    {
+      "code": "@brasil17216004948",
+      "display": "Benznidazol"
+    },
+    {
+      "code": "@brasil12446635739",
+      "display": "Metilprednisolona"
+    },
+    {
+      "code": "@brasil12434314257",
+      "display": "Rifampicina"
+    },
+    {
+      "code": "@brasil17207766459",
+      "display": "Flunitrazepam"
+    },
+    {
+      "code": "@brasil12425548714",
+      "display": "Clobetasol"
+    },
+    {
+      "code": "@brasil17203372749",
+      "display": "Mitomicina"
+    },
+    {
+      "code": "@brasil12425380573",
+      "display": "Nateglinida"
+    },
+    {
+      "code": "@brasil17191011454",
+      "display": "Piretanida"
+    },
+    {
+      "code": "@brasil12422239539",
+      "display": "Cynara scolymus (Alcachofra)"
+    },
+    {
+      "code": "@brasil17189604468",
+      "display": "Fluticasona + Salmeterol"
+    },
+    {
+      "code": "@brasil12416513693",
+      "display": "Ácido Ursodesoxicólico"
+    },
+    {
+      "code": "@brasil17189278328",
+      "display": "Lopinavir + Ritonavir"
+    },
+    {
+      "code": "@brasil12415699475",
+      "display": "Salicilato de Metila + Terebintina + Cânfora + Mentol"
+    },
+    {
+      "code": "@brasil17187239514",
+      "display": "Ramipril + Anlodipino"
+    },
+    {
+      "code": "@brasil12405370372",
+      "display": "Tetraciclina + Anfotericina B"
+    },
+    {
+      "code": "@brasil12396652187",
+      "display": "Roflumilaste"
+    },
+    {
+      "code": "@brasil17185031804",
+      "display": "Frações Peptídicas Alergênicas"
+    },
+    {
+      "code": "@brasil12387350118",
+      "display": "Aldesleucina"
+    },
+    {
+      "code": "@brasil17172514773",
+      "display": "Picossulfato de Sódio + Óleo Mineral + Ágar-Ágar"
+    },
+    {
+      "code": "@brasil12380684410",
+      "display": "Ramucirumabe"
+    },
+    {
+      "code": "@brasil17171412469",
+      "display": "Violeta de Genciana"
+    },
+    {
+      "code": "@brasil12379701548",
+      "display": "Bendamustina"
+    },
+    {
+      "code": "@brasil17162422291",
+      "display": "Aspartato de Ornitina"
+    },
+    {
+      "code": "@brasil12365206052",
+      "display": "Protamina"
+    },
+    {
+      "code": "@brasil12359944145",
+      "display": "Octreotida"
+    },
+    {
+      "code": "@brasil17146102977",
+      "display": "Frações Peptídicas Alergênicas"
+    },
+    {
+      "code": "@brasil17137766671",
+      "display": "Nitroglicerina"
+    },
+    {
+      "code": "@brasil12357769125",
+      "display": "Carbamazepina"
+    },
+    {
+      "code": "@brasil12354300609",
+      "display": "Sulfametoxazol + Trimetoprima"
+    },
+    {
+      "code": "@brasil17136657075",
+      "display": "Trametinibe"
+    },
+    {
+      "code": "@brasil12350551300",
+      "display": "Enalapril"
+    },
+    {
+      "code": "@brasil17130905161",
+      "display": "Loteprednol"
+    },
+    {
+      "code": "@brasil12342058085",
+      "display": "Levocetirizina"
+    },
+    {
+      "code": "@brasil17130163698",
+      "display": "Cisatracúrio"
+    },
+    {
+      "code": "@brasil12340920158",
+      "display": "Betapeginterferona 1a"
+    },
+    {
+      "code": "@brasil17129024765",
+      "display": "Carbonato de Cálcio"
+    },
+    {
+      "code": "@brasil12338301903",
+      "display": "Cefalexina"
+    },
+    {
+      "code": "@brasil17122512529",
+      "display": "Betametasona"
+    },
+    {
+      "code": "@brasil12328068354",
+      "display": "Tirotricina + Lidocaína + Quinosol"
+    },
+    {
+      "code": "@brasil12326963535",
+      "display": "Periciazina"
+    },
+    {
+      "code": "@brasil1712151402",
+      "display": "Benzocaína + Benzoxiquina + Benzetônio + Mentol"
+    },
+    {
+      "code": "@brasil17115993420",
+      "display": "Metenamina + Cloreto de Metiltionínio"
+    },
+    {
+      "code": "@brasil12326762369",
+      "display": "Pizotifeno"
+    },
+    {
+      "code": "@brasil12326440756",
+      "display": "Timomodulina"
+    },
+    {
+      "code": "@brasil17114858427",
+      "display": "Polissulfato de Mucopolissacarídeo"
+    },
+    {
+      "code": "@brasil12324428680",
+      "display": "Ácido Micofenólico"
+    },
+    {
+      "code": "@brasil17114161388",
+      "display": "Zuclopentixol"
+    },
+    {
+      "code": "@brasil12324173116",
+      "display": "Sorbitol"
+    },
+    {
+      "code": "@brasil17113412381",
+      "display": "Cilazapril + Hidroclorotiazida"
+    },
+    {
+      "code": "@brasil12317432305",
+      "display": "Imunoglobulina G"
+    },
+    {
+      "code": "@brasil17112406217",
+      "display": "Cloreto de Potássio + Cloreto de Sódio + Citrato de Sódio + Glicose"
+    },
+    {
+      "code": "@brasil12309958665",
+      "display": "Axitinibe"
+    },
+    {
+      "code": "@brasil12304806142",
+      "display": "Valaciclovir"
+    },
+    {
+      "code": "@brasil17107591484",
+      "display": "Ergometrina"
+    },
+    {
+      "code": "@brasil12293110537",
+      "display": "Diclofenaco Sódico"
+    },
+    {
+      "code": "@brasil17082163389",
+      "display": "Ruxolitinibe"
+    },
+    {
+      "code": "@brasil12290880699",
+      "display": "Alopurinol"
+    },
+    {
+      "code": "@brasil17076977757",
+      "display": "Ácido Gamaminobutírico + Lisina + Tiamina + Piridoxina + Cálcio"
+    },
+    {
+      "code": "@brasil12290159604",
+      "display": "Clorzoxazona + Paracetamol"
+    },
+    {
+      "code": "@brasil17076872899",
+      "display": "Benzidamina"
+    },
+    {
+      "code": "@brasil12283540918",
+      "display": "Sulbutiamina"
+    },
+    {
+      "code": "@brasil17072481285",
+      "display": "Idarrubicina"
+    },
+    {
+      "code": "@brasil12271503667",
+      "display": "Cetamina"
+    },
+    {
+      "code": "@brasil17065646429",
+      "display": "Adalimumabe"
+    },
+    {
+      "code": "@brasil12266287106",
+      "display": "Fosfomicina"
+    },
+    {
+      "code": "@brasil17056869990",
+      "display": "Retinol + Colecalciferol + Racealfatocoferol"
+    },
+    {
+      "code": "@brasil12265012553",
+      "display": "Diatrizoato de Meglumina"
+    },
+    {
+      "code": "@brasil17054743250",
+      "display": "Betafolitropina"
+    },
+    {
+      "code": "@brasil12263107682",
+      "display": "Ácido Salicílico + Ácido Láctico"
+    },
+    {
+      "code": "@brasil17052032961",
+      "display": "Benzalcônio + Cloreto de Sódio"
+    },
+    {
+      "code": "@brasil12262892351",
+      "display": "Lanreotida"
+    },
+    {
+      "code": "@brasil17049046238",
+      "display": "Atosibana"
+    },
+    {
+      "code": "@brasil12252396029",
+      "display": "Fosfato de Sódio"
+    },
+    {
+      "code": "@brasil12245289265",
+      "display": "Hidróxido de Alumínio + Carbonato de Cálcio"
+    },
+    {
+      "code": "@brasil17043799166",
+      "display": "Dexbronfeniramina + Pseudoefedrina"
+    },
+    {
+      "code": "@brasil12240342936",
+      "display": "Coleselevam"
+    },
+    {
+      "code": "@brasil17040827782",
+      "display": "Miglustate"
+    },
+    {
+      "code": "@brasil12237704732",
+      "display": "Piracetam + Di-hidroergocristina"
+    },
+    {
+      "code": "@brasil17038914696",
+      "display": "Paricalcitol"
+    },
+    {
+      "code": "@brasil12224631142",
+      "display": "Ácido Undecilênico"
+    },
+    {
+      "code": "@brasil17036687708",
+      "display": "Oxicodona"
+    },
+    {
+      "code": "@brasil12223413336",
+      "display": "Buclizina"
+    },
+    {
+      "code": "@brasil12210653397",
+      "display": "Terconazol"
+    },
+    {
+      "code": "@brasil17030906123",
+      "display": "Amifostina"
+    },
+    {
+      "code": "@brasil12209221265",
+      "display": "Aloe vera"
+    },
+    {
+      "code": "@brasil17016498134",
+      "display": "Dexlansoprazol"
+    },
+    {
+      "code": "@brasil12201887770",
+      "display": "Iodo + Óleo Vegetal + Ácido Salicílico"
+    },
+    {
+      "code": "@brasil17010655612",
+      "display": "Lisinopril + Hidroclorotiazida"
+    },
+    {
+      "code": "@brasil12191100261",
+      "display": "Carbacol"
+    },
+    {
+      "code": "@brasil17010455453",
+      "display": "Amoxicilina + Ácido Clavulânico"
+    },
+    {
+      "code": "@brasil12188780904",
+      "display": "Clorexidina"
+    },
+    {
+      "code": "@brasil16995890638",
+      "display": "Indacaterol"
+    },
+    {
+      "code": "@brasil12165956060",
+      "display": "Carboximaltose Férrica"
+    },
+    {
+      "code": "@brasil12161083659",
+      "display": "Prasugrel"
+    },
+    {
+      "code": "@brasil16995804305",
+      "display": "Simeticona"
+    },
+    {
+      "code": "@brasil12145396341",
+      "display": "Polimixina B + Neomicina + Fluocinolona + Lidocaína"
+    },
+    {
+      "code": "@brasil16995366770",
+      "display": "Água Destilada"
+    },
+    {
+      "code": "@brasil12144569718",
+      "display": "Diclofenaco Colestiramina"
+    },
+    {
+      "code": "@brasil16984463674",
+      "display": "Paclitaxel"
+    },
+    {
+      "code": "@brasil12137246114",
+      "display": "Ofatumumabe"
+    },
+    {
+      "code": "@brasil16980074658",
+      "display": "Iotalamato de Meglumina"
+    },
+    {
+      "code": "@brasil12130555427",
+      "display": "Boceprevir"
+    },
+    {
+      "code": "@brasil16968122734",
+      "display": "Saxagliptina"
+    },
+    {
+      "code": "@brasil12129805247",
+      "display": "Formoterol"
+    },
+    {
+      "code": "@brasil12122138739",
+      "display": "Bicarbonato de Sódio + Carbonato de Cálcio + Carbonato de Magnésio + Carbonato de Bismuto"
+    },
+    {
+      "code": "@brasil16960893175",
+      "display": "Salmeterol"
+    },
+    {
+      "code": "@brasil12118659243",
+      "display": "Nortriptilina"
+    },
+    {
+      "code": "@brasil16957012438",
+      "display": "Polimixina B + Lidocaína"
+    },
+    {
+      "code": "@brasil12112491923",
+      "display": "Solifenacina + Tansulosina"
+    },
+    {
+      "code": "@brasil16952101145",
+      "display": "Teriparatida"
+    },
+    {
+      "code": "@brasil12111234134",
+      "display": "Lacosamida"
+    },
+    {
+      "code": "@brasil16944988430",
+      "display": "Lovastatina"
+    },
+    {
+      "code": "@brasil12111221981",
+      "display": "Bupivacaína + Glicose"
+    },
+    {
+      "code": "@brasil16944632954",
+      "display": "Zopiclona"
+    },
+    {
+      "code": "@brasil12110163849",
+      "display": "Micofenolato de Mofetila"
+    },
+    {
+      "code": "@brasil16943984110",
+      "display": "Levosimendana"
+    },
+    {
+      "code": "@brasil12104593320",
+      "display": "Aciclovir"
+    },
+    {
+      "code": "@brasil16927773174",
+      "display": "Tretinoína"
+    },
+    {
+      "code": "@brasil12102793809",
+      "display": "Rocurônio"
+    },
+    {
+      "code": "@brasil12100100536",
+      "display": "Raloxifeno"
+    },
+    {
+      "code": "@brasil16924190917",
+      "display": "Arteméter"
+    },
+    {
+      "code": "@brasil12099402575",
+      "display": "Cefotaxima"
+    },
+    {
+      "code": "@brasil16920478656",
+      "display": "Ezetimiba"
+    },
+    {
+      "code": "@brasil12095769774",
+      "display": "Degarrelix"
+    },
+    {
+      "code": "@brasil16916097351",
+      "display": "Ondansetrona"
+    },
+    {
+      "code": "@brasil12085373197",
+      "display": "Calcipotriol + Betametasona"
+    },
+    {
+      "code": "@brasil16915688817",
+      "display": "Salbutamol + Guaifenesina"
+    },
+    {
+      "code": "@brasil12081317865",
+      "display": "Delapril + Manidipino"
+    },
+    {
+      "code": "@brasil12081096331",
+      "display": "Triancinolona Hexacetonida"
+    },
+    {
+      "code": "@brasil16912521799",
+      "display": "Alfa-Aglicosidase"
+    },
+    {
+      "code": "@brasil12080995413",
+      "display": "Oxomemazina + Guaifenesina + Paracetamol"
+    },
+    {
+      "code": "@brasil16911446233",
+      "display": "Valerato de Estradiol + Dienogeste"
+    },
+    {
+      "code": "@brasil12077392452",
+      "display": "Bisoprolol + Hidroclorotiazida"
+    },
+    {
+      "code": "@brasil16906270575",
+      "display": "Pelargonium sidoides"
+    },
+    {
+      "code": "@brasil12071677670",
+      "display": "Aminobenzoato de Potássio"
+    },
+    {
+      "code": "@brasil16905231219",
+      "display": "Alfadrotrecogina"
+    },
+    {
+      "code": "@brasil12065717969",
+      "display": "Ácido Nalidíxico"
+    },
+    {
+      "code": "@brasil16904864176",
+      "display": "Rabeprazol"
+    },
+    {
+      "code": "@brasil12065640521",
+      "display": "Glucana"
+    },
+    {
+      "code": "@brasil16893321960",
+      "display": "Maytenus ilicifolia (Espinheira Santa)"
+    },
+    {
+      "code": "@brasil12063239441",
+      "display": "Sitagliptina + Metformina"
+    },
+    {
+      "code": "@brasil16892602960",
+      "display": "Canaquinumabe"
+    },
+    {
+      "code": "@brasil12045079041",
+      "display": "Nevirapina"
+    },
+    {
+      "code": "@brasil16886655413",
+      "display": "Capsaicina"
+    },
+    {
+      "code": "@brasil12023736118",
+      "display": "Ifosfamida"
+    },
+    {
+      "code": "@brasil16885975725",
+      "display": "Betainterferona 1a"
+    },
+    {
+      "code": "@brasil12021290865",
+      "display": "Liraglutida"
+    },
+    {
+      "code": "@brasil16868758625",
+      "display": "Benzilpenicilina Procaína + Benzilpenicilina Potássica"
+    },
+    {
+      "code": "@brasil12015937595",
+      "display": "Ácido Ascórbico + Glicose"
+    },
+    {
+      "code": "@brasil16866656779",
+      "display": "Tizanidina"
+    },
+    {
+      "code": "@brasil12012927989",
+      "display": "Polimixina B + Prednisolona + Neomicina"
+    },
+    {
+      "code": "@brasil16864409758",
+      "display": "Água do Mar"
+    },
+    {
+      "code": "@brasil12011993574",
+      "display": "Pidolato de Magnésio"
+    },
+    {
+      "code": "@brasil16859637103",
+      "display": "Insulina Lispro Bifásica"
+    },
+    {
+      "code": "@brasil12008758579",
+      "display": "Cefoxitina"
+    },
+    {
+      "code": "@brasil12003932363",
+      "display": "Clonazepam"
+    },
+    {
+      "code": "@brasil16859319848",
+      "display": "Telmisartana"
+    },
+    {
+      "code": "@brasil12002019026",
+      "display": "Ácido Alendrônico"
+    },
+    {
+      "code": "@brasil16852864357",
+      "display": "Latanoprosta + Timolol"
+    },
+    {
+      "code": "@brasil11972124633",
+      "display": "Fludroxicortida + Neomicina"
+    },
+    {
+      "code": "@brasil16824817420",
+      "display": "Lamotrigina"
+    },
+    {
+      "code": "@brasil11967837038",
+      "display": "Iobitridol"
+    },
+    {
+      "code": "@brasil16822072514",
+      "display": "Propafenona"
+    },
+    {
+      "code": "@brasil11943709813",
+      "display": "Lorcasserina"
+    },
+    {
+      "code": "@brasil16819346132",
+      "display": "Deferiprona"
+    },
+    {
+      "code": "@brasil11933486993",
+      "display": "Rasburicase"
+    },
+    {
+      "code": "@brasil16819223756",
+      "display": "Alfadornase"
+    },
+    {
+      "code": "@brasil11907620020",
+      "display": "Mesterolona"
+    },
+    {
+      "code": "@brasil16819188972",
+      "display": "Dimenidrinato"
+    },
+    {
+      "code": "@brasil11900384342",
+      "display": "Brometo de Umeclidíno + Vilanterol"
+    },
+    {
+      "code": "@brasil16814914369",
+      "display": "Alfa-Agalsidase"
+    },
+    {
+      "code": "@brasil11897841357",
+      "display": "Imatinibe"
+    },
+    {
+      "code": "@brasil16811687336",
+      "display": "Raltegravir"
+    },
+    {
+      "code": "@brasil11881243931",
+      "display": "Sultiamo"
+    },
+    {
+      "code": "@brasil16808463991",
+      "display": "Extrato de Allii cepae L. + Alantoína + Heparina Sódica"
+    },
+    {
+      "code": "@brasil11875347933",
+      "display": "Saxagliptina + Metformina"
+    },
+    {
+      "code": "@brasil16798124746",
+      "display": "Succinato Sódico de Metilprednisolona"
+    },
+    {
+      "code": "@brasil11867395099",
+      "display": "Hidróxido de Alumínio + Hidróxido de Magnésio + Oxetacaína"
+    },
+    {
+      "code": "@brasil11856355295",
+      "display": "Insulina Asparte bifásica"
+    },
+    {
+      "code": "@brasil16791036338",
+      "display": "Reboxetina"
+    },
+    {
+      "code": "@brasil11848323923",
+      "display": "Esomeprazol"
+    },
+    {
+      "code": "@brasil16787865045",
+      "display": "Hidroxiapatita"
+    },
+    {
+      "code": "@brasil11845504334",
+      "display": "Podofilotoxina"
+    },
+    {
+      "code": "@brasil16785395150",
+      "display": "Irbesartana + Hidroclorotiazida"
+    },
+    {
+      "code": "@brasil11843482032",
+      "display": "Betaistina"
+    },
+    {
+      "code": "@brasil16784691321",
+      "display": "Perindopril Arginina"
+    },
+    {
+      "code": "@brasil11842037495",
+      "display": "Alfaelosulfase"
+    },
+    {
+      "code": "@brasil11831859183",
+      "display": "Clobutinol + Doxilamina"
+    },
+    {
+      "code": "@brasil16780814020",
+      "display": "Alprostadil"
+    },
+    {
+      "code": "@brasil11827813992",
+      "display": "Trióxido de Arsênio"
+    },
+    {
+      "code": "@brasil16776296091",
+      "display": "Povidona"
+    },
+    {
+      "code": "@brasil11815396287",
+      "display": "Clindamicina"
+    },
+    {
+      "code": "@brasil16772971828",
+      "display": "Clozapina"
+    },
+    {
+      "code": "@brasil11812400511",
+      "display": "Bacillus cereus"
+    },
+    {
+      "code": "@brasil16753974747",
+      "display": "Griseofulvina"
+    },
+    {
+      "code": "@brasil16748153096",
+      "display": "Oxitetraciclina + Polimixina B"
+    },
+    {
+      "code": "@brasil11803917354",
+      "display": "Lornoxicam"
+    },
+    {
+      "code": "@brasil16735815354",
+      "display": "Selegina"
+    },
+    {
+      "code": "@brasil11802866599",
+      "display": "Capecitabina"
+    },
+    {
+      "code": "@brasil16733934120",
+      "display": "Fentanila"
+    },
+    {
+      "code": "@brasil11788586937",
+      "display": "Cetirizina"
+    },
+    {
+      "code": "@brasil16728690066",
+      "display": "Cloxazolam"
+    },
+    {
+      "code": "@brasil11780340653",
+      "display": "Colestiramina"
+    },
+    {
+      "code": "@brasil16728262589",
+      "display": "Hidroquinona"
+    },
+    {
+      "code": "@brasil11746518416",
+      "display": "Ranitidina"
+    },
+    {
+      "code": "@brasil16721911034",
+      "display": "Vandetanibe"
+    },
+    {
+      "code": "@brasil11745747952",
+      "display": "Escopolamina + Paracetamol"
+    },
+    {
+      "code": "@brasil16720105572",
+      "display": "Tianeptina"
+    },
+    {
+      "code": "@brasil11743111256",
+      "display": "Ácido Hialurônico"
+    },
+    {
+      "code": "@brasil16713705905",
+      "display": "Espiramicina"
+    },
+    {
+      "code": "@brasil11740239616",
+      "display": "Frações Peptídicas Alergênicas"
+    },
+    {
+      "code": "@brasil16710379798",
+      "display": "Colina + Betaína + Metionina"
+    },
+    {
+      "code": "@brasil11735898880",
+      "display": "Tibolona"
+    },
+    {
+      "code": "@brasil11727942107",
+      "display": "Adapaleno"
+    },
+    {
+      "code": "@brasil16701443348",
+      "display": "Betapeginterferona 1a"
+    },
+    {
+      "code": "@brasil11719405223",
+      "display": "Retinol + Piridoxina + Racealfatocoferol"
+    },
+    {
+      "code": "@brasil16698783351",
+      "display": "Plerixafor"
+    },
+    {
+      "code": "@brasil11716365525",
+      "display": "Almitrina"
+    },
+    {
+      "code": "@brasil16692744525",
+      "display": "Daptomicina"
+    },
+    {
+      "code": "@brasil11712478250",
+      "display": "Glipizida"
+    },
+    {
+      "code": "@brasil16686281659",
+      "display": "Clormadinona + Etinilestradiol"
+    },
+    {
+      "code": "@brasil16684707202",
+      "display": "Docetaxel"
+    },
+    {
+      "code": "@brasil11709852368",
+      "display": "Halotano"
+    },
+    {
+      "code": "@brasil16675596074",
+      "display": "Cefuroxima"
+    },
+    {
+      "code": "@brasil11692293538",
+      "display": "Azitromicina"
+    },
+    {
+      "code": "@brasil16652448861",
+      "display": "Polimixina B + Neomicina + Fludrocortisona + Lidocaína"
+    },
+    {
+      "code": "@brasil11681940546",
+      "display": "Dexametasona"
+    },
+    {
+      "code": "@brasil16651245471",
+      "display": "Citicolina"
+    },
+    {
+      "code": "@brasil11677313484",
+      "display": "Mercaptopurina"
+    },
+    {
+      "code": "@brasil16650820760",
+      "display": "Rhamnus purshiana"
+    },
+    {
+      "code": "@brasil11676586438",
+      "display": "Dextropropoxifeno"
+    },
+    {
+      "code": "@brasil16639145775",
+      "display": "Gelatina"
+    },
+    {
+      "code": "@brasil11673532240",
+      "display": "Olaparibe"
+    },
+    {
+      "code": "@brasil16635831319",
+      "display": "Hidróxido de Alumínio + Hidróxido de Magnésio + Carbonato de Cálcio"
+    },
+    {
+      "code": "@brasil11644599167",
+      "display": "Carbonato de Lítio"
+    },
+    {
+      "code": "@brasil16625839923",
+      "display": "Cianocobalamina + Piridoxina + Tiamina + Lidocaína"
+    },
+    {
+      "code": "@brasil11644248972",
+      "display": "Loperamida"
+    },
+    {
+      "code": "@brasil16623914097",
+      "display": "Sorbitol + Laurilsulfato de Sódio"
+    },
+    {
+      "code": "@brasil11633915091",
+      "display": "Carmelose Sódica + Glicerol + Polissorbato"
+    },
+    {
+      "code": "@brasil11629540324",
+      "display": "Mesilato de Pralidoxima"
+    },
+    {
+      "code": "@brasil16622618087",
+      "display": "Levanlodipino"
+    },
+    {
+      "code": "@brasil16607192703",
+      "display": "Nafazolina + Feniramina"
+    },
+    {
+      "code": "@brasil11619485812",
+      "display": "Dinitrato de Isossorbida"
+    },
+    {
+      "code": "@brasil16605943799",
+      "display": "Metronidazol + Miconazol"
+    },
+    {
+      "code": "@brasil11612832006",
+      "display": "Mucopolissacaridase"
+    },
+    {
+      "code": "@brasil16587831009",
+      "display": "Valsartana + Hidroclorotiazida + Anlodipino"
+    },
+    {
+      "code": "@brasil11606617914",
+      "display": "Hidrocortisona"
+    },
+    {
+      "code": "@brasil16587819107",
+      "display": "Deslanosídeo"
+    },
+    {
+      "code": "@brasil11600271053",
+      "display": "Betapeginterferona 1a"
+    },
+    {
+      "code": "@brasil16585450465",
+      "display": "Tetaepoetina"
+    },
+    {
+      "code": "@brasil11586022992",
+      "display": "Racealfatocoferol"
+    },
+    {
+      "code": "@brasil16584878233",
+      "display": "Tetraciclina"
+    },
+    {
+      "code": "@brasil11584441243",
+      "display": "Oxibutinina"
+    },
+    {
+      "code": "@brasil16580571108",
+      "display": "Ácido Fólico"
+    },
+    {
+      "code": "@brasil11575786089",
+      "display": "Paracetamol + Carbinoxamina"
+    },
+    {
+      "code": "@brasil16573781766",
+      "display": "Capreomicina"
+    },
+    {
+      "code": "@brasil11574721169",
+      "display": "Duloxetina"
+    },
+    {
+      "code": "@brasil16572161209",
+      "display": "Manitol"
+    },
+    {
+      "code": "@brasil11573454244",
+      "display": "Cloridrato de Sevelâmer"
+    },
+    {
+      "code": "@brasil16572049646",
+      "display": "Fenoprofeno"
+    },
+    {
+      "code": "@brasil11571610225",
+      "display": "Dexclorfeniramina"
+    },
+    {
+      "code": "@brasil16565813510",
+      "display": "Prucaloprida"
+    },
+    {
+      "code": "@brasil11556801162",
+      "display": "Prilocaína + Felipressina"
+    },
+    {
+      "code": "@brasil16554550747",
+      "display": "Ácido Ascórbico + Carbonato de Cálcio"
+    },
+    {
+      "code": "@brasil11553273722",
+      "display": "Captopril"
+    },
+    {
+      "code": "@brasil16550801102",
+      "display": "Naloxona"
+    },
+    {
+      "code": "@brasil11541121891",
+      "display": "Aesculus hippocastanum L. (Castanha da Índia)"
+    },
+    {
+      "code": "@brasil16546333716",
+      "display": "Ciproterona"
+    },
+    {
+      "code": "@brasil11536202468",
+      "display": "Donepezila"
+    },
+    {
+      "code": "@brasil16542250220",
+      "display": "Laronidase"
+    },
+    {
+      "code": "@brasil11536150835",
+      "display": "Flutrimazol"
+    },
+    {
+      "code": "@brasil16523314914",
+      "display": "Perindopril Erbumina"
+    },
+    {
+      "code": "@brasil11530005308",
+      "display": "Anfotericina B Lipossomal"
+    },
+    {
+      "code": "@brasil16520269014",
+      "display": "Moxifloxacino + Dexametasona"
+    },
+    {
+      "code": "@brasil11529351938",
+      "display": "Adenosina"
+    },
+    {
+      "code": "@brasil16517592421",
+      "display": "Sulfadiazina de Prata"
+    },
+    {
+      "code": "@brasil11519654160",
+      "display": "Bupivacaína"
+    },
+    {
+      "code": "@brasil16516838385",
+      "display": "Evolocumabe"
+    },
+    {
+      "code": "@brasil11517373277",
+      "display": "Pimecrolimo"
+    },
+    {
+      "code": "@brasil16502547492",
+      "display": "Glicerina"
+    },
+    {
+      "code": "@brasil11506279744",
+      "display": "Metoclopramida + Simeticona + Pepsina"
+    },
+    {
+      "code": "@brasil16500041554",
+      "display": "Etambutol"
+    },
+    {
+      "code": "@brasil11500210408",
+      "display": "Biotina"
+    },
+    {
+      "code": "@brasil16490107574",
+      "display": "Retinol + Ácido Ascórbico + Dextroalfatocoferol"
+    },
+    {
+      "code": "@brasil11499788463",
+      "display": "Multivitaminas e Sais Minerais"
+    },
+    {
+      "code": "@brasil16486325156",
+      "display": "Alfamoroctocogue"
+    },
+    {
+      "code": "@brasil11499626189",
+      "display": "Dactinomicina"
+    },
+    {
+      "code": "@brasil11490355218",
+      "display": "Dexrazoxano"
+    },
+    {
+      "code": "@brasil16481592063",
+      "display": "Sulfacetamida + Trolamina"
+    },
+    {
+      "code": "@brasil11490150196",
+      "display": "Cisteamina"
+    },
+    {
+      "code": "@brasil16478645489",
+      "display": "Tacrolimo"
+    },
+    {
+      "code": "@brasil11488717645",
+      "display": "Eribulina"
+    },
+    {
+      "code": "@brasil16478218598",
+      "display": "Bevacizumabe"
+    },
+    {
+      "code": "@brasil11474610232",
+      "display": "Alfa1antitripsina"
+    },
+    {
+      "code": "@brasil16477936464",
+      "display": "Danazol"
+    },
+    {
+      "code": "@brasil11472009830",
+      "display": "Carbonato de Cálcio + Lactogliconato de Cálcio"
+    },
+    {
+      "code": "@brasil16476225550",
+      "display": "Retinol + Colecalciferol"
+    },
+    {
+      "code": "@brasil11470249379",
+      "display": "Cambendazol + Mebendazol"
+    },
+    {
+      "code": "@brasil16459289998",
+      "display": "Aminaftona"
+    },
+    {
+      "code": "@brasil11465106997",
+      "display": "Hialuronidase"
+    },
+    {
+      "code": "@brasil11462064199",
+      "display": "Tapentadol"
+    },
+    {
+      "code": "@brasil16458241003",
+      "display": "Citarabina"
+    },
+    {
+      "code": "@brasil11444511991",
+      "display": "Dipiridamol"
+    },
+    {
+      "code": "@brasil16450764597",
+      "display": "Teofilina + Efedrina"
+    },
+    {
+      "code": "@brasil11430987119",
+      "display": "Alogliptina + Pioglitazona"
+    },
+    {
+      "code": "@brasil16445879875",
+      "display": "Extratos Alergênicos de Insetos Sugadores"
+    },
+    {
+      "code": "@brasil11427750615",
+      "display": "Quelato de Ferro + Ácido Fólico + Cianocobalamina"
+    },
+    {
+      "code": "@brasil16439556735",
+      "display": "Pancrelipase"
+    },
+    {
+      "code": "@brasil11417247252",
+      "display": "Somatropina"
+    },
+    {
+      "code": "@brasil16439463696",
+      "display": "Bupropiona"
+    },
+    {
+      "code": "@brasil11417246917",
+      "display": "Ocitocina"
+    },
+    {
+      "code": "@brasil16435347343",
+      "display": "Galsulfase"
+    },
+    {
+      "code": "@brasil11410142332",
+      "display": "Triflusal"
+    },
+    {
+      "code": "@brasil16418555541",
+      "display": "Amitriptilina"
+    },
+    {
+      "code": "@brasil11398808490",
+      "display": "Ipilimumabe"
+    },
+    {
+      "code": "@brasil16417010589",
+      "display": "Anfotericina B"
+    },
+    {
+      "code": "@brasil11392114786",
+      "display": "Formoterol + Budesonida"
+    },
+    {
+      "code": "@brasil16412188480",
+      "display": "Maprotilina"
+    },
+    {
+      "code": "@brasil11376287154",
+      "display": "Desoximetasona + Neomicina"
+    },
+    {
+      "code": "@brasil16399126876",
+      "display": "Hidroxiquinolina + Trolamina"
+    },
+    {
+      "code": "@brasil11374729210",
+      "display": "Darifenacina"
+    },
+    {
+      "code": "@brasil16399056971",
+      "display": "Carboximetilcelulose Sódica"
+    },
+    {
+      "code": "@brasil11366664143",
+      "display": "Colina + Betaína + Acetilmetionina"
+    },
+    {
+      "code": "@brasil16381036885",
+      "display": "Vinorelbina"
+    },
+    {
+      "code": "@brasil11360289286",
+      "display": "Succinilgelatina"
+    },
+    {
+      "code": "@brasil16378075140",
+      "display": "Repaglinida"
+    },
+    {
+      "code": "@brasil11343875257",
+      "display": "Insulina Glulisina"
+    },
+    {
+      "code": "@brasil16365162483",
+      "display": "Alfacalcidol"
+    },
+    {
+      "code": "@brasil11343498407",
+      "display": "Bicarbonato de Sódio + Carbonato de Sódio + Ácido Acetilsalicílico + Ácido Cítrico"
+    },
+    {
+      "code": "@brasil16363074970",
+      "display": "Celecoxibe"
+    },
+    {
+      "code": "@brasil11338880062",
+      "display": "Naratriptana"
+    },
+    {
+      "code": "@brasil16360210622",
+      "display": "Amiltrina"
+    },
+    {
+      "code": "@brasil11324173593",
+      "display": "Levobunolol"
+    },
+    {
+      "code": "@brasil16359860091",
+      "display": "Fosfato de Cloroquina"
+    },
+    {
+      "code": "@brasil11321204137",
+      "display": "Telmisartana + Anlodipino"
+    },
+    {
+      "code": "@brasil16358522255",
+      "display": "Amantadina"
+    },
+    {
+      "code": "@brasil11319776363",
+      "display": "Nitrofural"
+    },
+    {
+      "code": "@brasil16349200154",
+      "display": "Felodipino + Metoprolol"
+    },
+    {
+      "code": "@brasil11315585579",
+      "display": "Parafina + Psyllium plantago"
+    },
+    {
+      "code": "@brasil11315157767",
+      "display": "Extratos Alergênicos de Insetos Sugadores"
+    },
+    {
+      "code": "@brasil16344071602",
+      "display": "Tiabendazol + Neomicina"
+    },
+    {
+      "code": "@brasil11311553632",
+      "display": "Norelgestromina + Etinilestradiol"
+    },
+    {
+      "code": "@brasil16339587200",
+      "display": "Retinol"
+    },
+    {
+      "code": "@brasil11308686435",
+      "display": "Duloxetina + Tansulosina"
+    },
+    {
+      "code": "@brasil16336912535",
+      "display": "Lisados bacterianos"
+    },
+    {
+      "code": "@brasil11305179447",
+      "display": "Triancinolona + Neomicina + Gramicidina + Nistatina"
+    },
+    {
+      "code": "@brasil16331806866",
+      "display": "Linestrenol"
+    },
+    {
+      "code": "@brasil11301821908",
+      "display": "Ornitina"
+    },
+    {
+      "code": "@brasil16326787783",
+      "display": "Sulfato de Zinco + Sulfato Cúprico + Sulfato de Manganês + Cloreto Crômico"
+    },
+    {
+      "code": "@brasil11300888666",
+      "display": "Obinutuzumabe"
+    },
+    {
+      "code": "@brasil16315228552",
+      "display": "Dorzolamida"
+    },
+    {
+      "code": "@brasil11296479702",
+      "display": "Lipegfilgrastim"
+    },
+    {
+      "code": "@brasil16313887615",
+      "display": "Dexclorfeniramina + Betametasona"
+    },
+    {
+      "code": "@brasil11287923371",
+      "display": "Prometazina"
+    },
+    {
+      "code": "@brasil16302524772",
+      "display": "Tirotricina + Hidroxiquinolina + Benzocaína"
+    },
+    {
+      "code": "@brasil11287640985",
+      "display": "Etossuximida"
+    },
+    {
+      "code": "@brasil11284081693",
+      "display": "Furosemida"
+    },
+    {
+      "code": "@brasil16301230438",
+      "display": "Mentol + Cânfora + Óleo de Eucalipto"
+    },
+    {
+      "code": "@brasil11275862734",
+      "display": "Gelatina + Cloreto de Sódio + Cloreto de Potássio + Cloreto de Cálcio"
+    },
+    {
+      "code": "@brasil16297592944",
+      "display": "Palivizumabe"
+    },
+    {
+      "code": "@brasil11274475781",
+      "display": "Nalbufina"
+    },
+    {
+      "code": "@brasil16297422959",
+      "display": "Piroxicam"
+    },
+    {
+      "code": "@brasil11258049262",
+      "display": "Citalopram"
+    },
+    {
+      "code": "@brasil16295303762",
+      "display": "Dicicloverina"
+    },
+    {
+      "code": "@brasil11256842184",
+      "display": "Salbutamol"
+    },
+    {
+      "code": "@brasil16293762079",
+      "display": "Alfafolitropina"
+    },
+    {
+      "code": "@brasil11256499700",
+      "display": "Paracetamol + Clorfeniramina + Fenilefrina"
+    },
+    {
+      "code": "@brasil16287759798",
+      "display": "Lenvatinibe"
+    },
+    {
+      "code": "@brasil11251005195",
+      "display": "Peróxido de Carbamida"
+    },
+    {
+      "code": "@brasil16283129383",
+      "display": "Fluocortolona + Lidocaína"
+    },
+    {
+      "code": "@brasil11244263714",
+      "display": "Álcool Polivinílico + Povidona"
+    },
+    {
+      "code": "@brasil16270686029",
+      "display": "Piridoxina + Raceometionina"
+    },
+    {
+      "code": "@brasil11242763856",
+      "display": "Levodopa + Benserazida"
+    },
+    {
+      "code": "@brasil16269393707",
+      "display": "Mercaptamina"
+    },
+    {
+      "code": "@brasil11234156312",
+      "display": "Carbocisteína"
+    },
+    {
+      "code": "@brasil16264773434",
+      "display": "Amidotrizoato de Sódio + Amidotrizoato de Meglumina"
+    },
+    {
+      "code": "@brasil11229027258",
+      "display": "Orfenadrina + Dipirona + Cafeína"
+    },
+    {
+      "code": "@brasil16253389217",
+      "display": "Risedronato Sódico"
+    },
+    {
+      "code": "@brasil11225977418",
+      "display": "Maraviroque"
+    },
+    {
+      "code": "@brasil16252456814",
+      "display": "Gefitinibe"
+    },
+    {
+      "code": "@brasil11210518088",
+      "display": "Saccharomyces cerevisiae"
+    },
+    {
+      "code": "@brasil11205721125",
+      "display": "Levomentol + Cânfora + Eucalipto"
+    },
+    {
+      "code": "@brasil16252218768",
+      "display": "Finasterida"
+    },
+    {
+      "code": "@brasil11202278509",
+      "display": "Ibuprofeno"
+    },
+    {
+      "code": "@brasil16243806187",
+      "display": "Pitavastatina"
+    },
+    {
+      "code": "@brasil11195544488",
+      "display": "Extratos Alergênicos de Insetos Sugadores"
+    },
+    {
+      "code": "@brasil16223854240",
+      "display": "Peróxido de Benzoíla + Enxofre"
+    },
+    {
+      "code": "@brasil11189892068",
+      "display": "Carbonato de Cálcio + Lactogliconato de Cálcio + Ácido Ascórbico"
+    },
+    {
+      "code": "@brasil16222688653",
+      "display": "Daratumumabe"
+    },
+    {
+      "code": "@brasil11186152985",
+      "display": "Trometamol Cetorolaco"
+    },
+    {
+      "code": "@brasil16222065793",
+      "display": "Simeticona + Homatropina"
+    },
+    {
+      "code": "@brasil11168198697",
+      "display": "Brosimum gaudichaudii"
+    },
+    {
+      "code": "@brasil16215463368",
+      "display": "Ácido Fusídico"
+    },
+    {
+      "code": "@brasil11165236784",
+      "display": "Acetato de Noretisterona"
+    },
+    {
+      "code": "@brasil16207448928",
+      "display": "Silybum marianum"
+    },
+    {
+      "code": "@brasil11158859664",
+      "display": "Diclofenaco Sódico + Codeína"
+    },
+    {
+      "code": "@brasil16201014057",
+      "display": "Dapoxetina"
+    },
+    {
+      "code": "@brasil11141238473",
+      "display": "Canaglifozina"
+    },
+    {
+      "code": "@brasil16197267011",
+      "display": "Belimumabe"
+    },
+    {
+      "code": "@brasil11140053020",
+      "display": "Sultamicilina"
+    },
+    {
+      "code": "@brasil16191500010",
+      "display": "Dabrafenibe"
+    },
+    {
+      "code": "@brasil11122989142",
+      "display": "Ácido Alendrônico + Colecalciferol"
+    },
+    {
+      "code": "@brasil16176695138",
+      "display": "Temozolomida"
+    },
+    {
+      "code": "@brasil11122604664",
+      "display": "Sumatriptana"
+    },
+    {
+      "code": "@brasil11119206808",
+      "display": "Rizatriptana"
+    },
+    {
+      "code": "@brasil16172455069",
+      "display": "Sorafenibe"
+    },
+    {
+      "code": "@brasil11111135035",
+      "display": "Cidreira"
+    },
+    {
+      "code": "@brasil16156136006",
+      "display": "Ganciclovir"
+    },
+    {
+      "code": "@brasil11110673108",
+      "display": "Frações Peptídicas Alergênicas"
+    },
+    {
+      "code": "@brasil16151777249",
+      "display": "Dexametasona + Cianocobalamina + Piridoxina + Tiamina"
+    },
+    {
+      "code": "@brasil11109349271",
+      "display": "Indometacina"
+    },
+    {
+      "code": "@brasil16151511710",
+      "display": "Etofibrato"
+    },
+    {
+      "code": "@brasil11108016464",
+      "display": "Hidróxido Férrico"
+    },
+    {
+      "code": "@brasil16148399342",
+      "display": "Valsartana"
+    },
+    {
+      "code": "@brasil11104040341",
+      "display": "Rosmarinus officinalis (Alecrim)"
+    },
+    {
+      "code": "@brasil16136486562",
+      "display": "Ácido Acetilsalicílico + Cafeína"
+    },
+    {
+      "code": "@brasil11102363122",
+      "display": "Sertralina"
+    },
+    {
+      "code": "@brasil11098820427",
+      "display": "Nomegestrol + Estradiol"
+    },
+    {
+      "code": "@brasil16135332206",
+      "display": "Petasites hybridus"
+    },
+    {
+      "code": "@brasil11098256409",
+      "display": "Didanosina"
+    },
+    {
+      "code": "@brasil16131142763",
+      "display": "Cromoglicato Dissódico"
+    },
+    {
+      "code": "@brasil11092547494",
+      "display": "Imunoglobulina humana anti-hepatite B"
+    },
+    {
+      "code": "@brasil16124997906",
+      "display": "Ácido Fólico + Piridoxina + Cianocobalamina"
+    },
+    {
+      "code": "@brasil11078608306",
+      "display": "Fluocinolona Acetonida + Neomicina + Polimixina B + Lidocaína"
+    },
+    {
+      "code": "@brasil16114065138",
+      "display": "Sevoflurano"
+    },
+    {
+      "code": "@brasil11067135324",
+      "display": "Atracúrio"
+    },
+    {
+      "code": "@brasil16106636761",
+      "display": "Extratos Alergênicos de Insetos Sugadores"
+    },
+    {
+      "code": "@brasil11062283795",
+      "display": "Óleo de Soja"
+    },
+    {
+      "code": "@brasil16104428967",
+      "display": "Gatifloxacino + Prednisolona"
+    },
+    {
+      "code": "@brasil11051672054",
+      "display": "Morus nigra 500 (Amora)"
+    },
+    {
+      "code": "@brasil11051569376",
+      "display": "Flunarizina"
+    },
+    {
+      "code": "@brasil16099618425",
+      "display": "Pembrolizumabe"
+    },
+    {
+      "code": "@brasil11045285798",
+      "display": "Imipeném + Cilastatina"
+    },
+    {
+      "code": "@brasil16097181052",
+      "display": "Gliconato de Cálcio"
+    },
+    {
+      "code": "@brasil11040512807",
+      "display": "Paliperidona"
+    },
+    {
+      "code": "@brasil16091191009",
+      "display": "Bryophyllum Calycinum Argento Cultum"
+    },
+    {
+      "code": "@brasil11035287529",
+      "display": "Dexametasona + Neomicina + Polimixina B"
+    },
+    {
+      "code": "@brasil16086104283",
+      "display": "Terizidona"
+    },
+    {
+      "code": "@brasil11035182084",
+      "display": "Pipotiazina"
+    },
+    {
+      "code": "@brasil11025678096",
+      "display": "Triancinolona Acetonida"
+    },
+    {
+      "code": "@brasil16072668763",
+      "display": "Isotipendil"
+    },
+    {
+      "code": "@brasil11013645035",
+      "display": "Loratadina"
+    },
+    {
+      "code": "@brasil16072377743",
+      "display": "Gatifloxacino"
+    },
+    {
+      "code": "@brasil11010329071",
+      "display": "Espironolactona + Furosemida"
+    },
+    {
+      "code": "@brasil16070633385",
+      "display": "Di-hidroergocristina"
+    },
+    {
+      "code": "@brasil11010100329",
+      "display": "Dasatinibe"
+    },
+    {
+      "code": "@brasil16070484858",
+      "display": "Sulfato de Zinco"
+    },
+    {
+      "code": "@brasil11008962737",
+      "display": "Viminol"
+    },
+    {
+      "code": "@brasil16070279753",
+      "display": "Mometasona"
+    },
+    {
+      "code": "@brasil11006605746",
+      "display": "Valsartana + Hidroclorotiazida"
+    },
+    {
+      "code": "@brasil16068545285",
+      "display": "Udenafila"
+    },
+    {
+      "code": "@brasil10990991266",
+      "display": "Etoricoxibe"
+    },
+    {
+      "code": "@brasil16064811902",
+      "display": "Bromoprida"
+    },
+    {
+      "code": "@brasil10985417552",
+      "display": "Clopidogrel"
+    },
+    {
+      "code": "@brasil10980518664",
+      "display": "Aminofilina"
+    },
+    {
+      "code": "@brasil16064399596",
+      "display": "Eucaliptol + Terpina + Mentol"
+    }
+  ]
 }

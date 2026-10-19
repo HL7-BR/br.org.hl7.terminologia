@@ -1,12 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BRcondicao-amostra",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRcondicao-amostra</b></p><p>Title: BRcondicao_amostra</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRcondicao-amostra</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRcondicao-amostra",
-  "version": "HEAD",
   "name": "BRcondicao_amostra",
   "title": "BRcondicao_amostra",
   "status": "active",
@@ -15,7 +10,6 @@
     "include": [
       {
         "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRcondicao_amostra",
-        "version": "HEAD",
         "concept": [
           {
             "code": "QUE",

@@ -2,7 +2,6 @@
   "resourceType": "ValueSet",
   "id": "BRTipoSubstanciaUso",
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoSubstanciaUso",
-  "version": "HEAD",
   "name": "BRTipoSubstanciaUso",
   "title": "Tipo de Substância em Uso",
   "status": "active",
@@ -12,40 +11,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoSubstanciaUso",
-        "version": "HEAD",
-        "concept": [
-          {
-            "code": "opio"
-          },
-          {
-            "code": "alucinogeno"
-          },
-          {
-            "code": "hipno-seda"
-          },
-          {
-            "code": "inalante"
-          },
-          {
-            "code": "maconha"
-          },
-          {
-            "code": "anfetamina"
-          },
-          {
-            "code": "crack"
-          },
-          {
-            "code": "alcool"
-          },
-          {
-            "code": "cocaina"
-          },
-          {
-            "code": "deriv-tabaco"
-          }
-        ]
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoSubstanciaUso"
       }
     ]
   }

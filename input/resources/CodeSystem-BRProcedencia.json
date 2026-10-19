@@ -1,20 +1,36 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRProcedencia",
-  "meta": {
-    "lastUpdated": "2025-06-02T18:46:34.954+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRProcedencia</b></p><p>Title: BRProcedencia</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRProcedencia</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProcedencia",
-  "version": "HEAD",
   "name": "BRProcedencia",
   "title": "BRProcedencia",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "201701A",
+  "count": 5,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "99",
+      "display": "Informação ausente no modelo de origem"
+    },
+    {
+      "code": "12",
+      "display": "Demanda referenciada"
+    },
+    {
+      "code": "11",
+      "display": "Retorno"
+    },
+    {
+      "code": "10",
+      "display": "Ordem Judicial"
+    },
+    {
+      "code": "09",
+      "display": "Demanda espontânea"
+    }
+  ]
 }

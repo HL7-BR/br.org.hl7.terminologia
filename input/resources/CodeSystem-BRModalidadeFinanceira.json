@@ -1,20 +1,24 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRModalidadeFinanceira",
-  "meta": {
-    "lastUpdated": "2025-07-17T17:36:25.078+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRModalidadeFinanceira</b></p><p>Title: BRModalidadeFinanceira</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRModalidadeFinanceira</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRModalidadeFinanceira",
-  "version": "HEAD",
   "name": "BRModalidadeFinanceira",
   "title": "BRModalidadeFinanceira",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "01.10",
+  "count": 2,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "01",
+      "display": "Unidade de saúde pública ou privada, com pagamento pelo SUS"
+    },
+    {
+      "code": "02",
+      "display": "Drogaria comercial, com pagamento (gratuidade de copagamento) pelo Programa Farmácia Popular do Brasil"
+    }
+  ]
 }

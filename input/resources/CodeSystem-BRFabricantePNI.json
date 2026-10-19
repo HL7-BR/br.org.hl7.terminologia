@@ -1,20 +1,478 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRFabricantePNI",
-  "meta": {
-    "lastUpdated": "2025-07-17T17:36:08.639+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRFabricantePNI</b></p><p>Title: BRFabricantePNI</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFabricantePNI",
-  "version": "HEAD",
   "name": "BRFabricantePNI",
   "title": "BRFabricantePNI",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.19",
+  "count": 103,
+  "content": "complete",
+  "property": [
+    {
+      "code": "inactive",
+      "uri": "http://hl7.org/fhir/concept-properties#inactive",
+      "description": "Conceito inativo (retirado no OCL).",
+      "type": "boolean"
+    }
+  ],
+  "concept": [
+    {
+      "code": "47619",
+      "display": "LIBBS"
+    },
+    {
+      "code": "46263",
+      "display": "JIANGSU-DESA"
+    },
+    {
+      "code": "45915",
+      "display": "SINOVAC"
+    },
+    {
+      "code": "45686",
+      "display": "CORIXA-GSK"
+    },
+    {
+      "code": "44329",
+      "display": "PATHEON"
+    },
+    {
+      "code": "45240",
+      "display": "TAKEDA-JAPAO"
+    },
+    {
+      "code": "45086",
+      "display": "PFIZER- IRLANDA"
+    },
+    {
+      "code": "44781",
+      "display": "JUBILANT"
+    },
+    {
+      "code": "44805",
+      "display": "BEIJING"
+    },
+    {
+      "code": "44779",
+      "display": "MIBE"
+    },
+    {
+      "code": "44618",
+      "display": "BIONTECH"
+    },
+    {
+      "code": "31101",
+      "display": "FARMACE"
+    },
+    {
+      "code": "43499",
+      "display": "GC-BIOPHARMA"
+    },
+    {
+      "code": "KI BIOPHARMA",
+      "display": "KI BIOPHARMA LLC LIMITED.",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "BIONTECH",
+      "display": "BIONTECH MANUFACTURING GMBH",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "FARMACE",
+      "display": "FARMACE INDUSTRIA QUIMICO-FARMACEUTICA CEARENSE LTDA",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "43202",
+      "display": "GSK-FRANCA"
+    },
+    {
+      "code": "GSK-FRANCA",
+      "display": "GLAXOSMITHKLINE BIOLOGICALS S.A. - FRANCA",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "GLAXOSMITHKLINE VACCINES S.R.L",
+      "display": "GSK-FRANCA",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "GC-BIOPHARMA",
+      "display": "GC BIOPHARMA CORP.",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "43175",
+      "display": "GSK-SRL"
+    },
+    {
+      "code": "GSK-SRL",
+      "display": "GLAXOSMITHKLINE VACCINES S.R.L",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "26313",
+      "display": "MERCK-GO"
+    },
+    {
+      "code": "9406",
+      "display": "HALEXISTAR"
+    },
+    {
+      "code": "2560",
+      "display": "HEBER"
+    },
+    {
+      "code": "712",
+      "display": "BIOMERIEUX"
+    },
+    {
+      "code": "25538",
+      "display": "MERCK-CAMPI"
+    },
+    {
+      "code": "608",
+      "display": "BAXTER"
+    },
+    {
+      "code": "239",
+      "display": "BAYER"
+    },
+    {
+      "code": "42932",
+      "display": "MSD-LLC"
+    },
+    {
+      "code": "2355",
+      "display": "NOVARTIS"
+    },
+    {
+      "code": "42931",
+      "display": "MERCK-SP"
+    },
+    {
+      "code": "235",
+      "display": "INCQS"
+    },
+    {
+      "code": "42655",
+      "display": "SK-BIOSCEN"
+    },
+    {
+      "code": "22942",
+      "display": "LGLIFE"
+    },
+    {
+      "code": "42507",
+      "display": "ADIUM"
+    },
+    {
+      "code": "2263",
+      "display": "WYETH"
+    },
+    {
+      "code": "42490",
+      "display": "SINOVAC"
+    },
+    {
+      "code": "2260",
+      "display": "CSL"
+    },
+    {
+      "code": "42489",
+      "display": "CATALENT"
+    },
+    {
+      "code": "2250",
+      "display": "IIMUNO"
+    },
+    {
+      "code": "42488",
+      "display": "ROVI-PHARMA"
+    },
+    {
+      "code": "1913",
+      "display": "CPPI"
+    },
+    {
+      "code": "42430",
+      "display": "MODERNA"
+    },
+    {
+      "code": "18190",
+      "display": "BB-NCIPD"
+    },
+    {
+      "code": "39263",
+      "display": "TAKEDA"
+    },
+    {
+      "code": "18189",
+      "display": "INTERVAX"
+    },
+    {
+      "code": "39262",
+      "display": "IDT BIOLOGIKA"
+    },
+    {
+      "code": "17934",
+      "display": "BIOLOGICAL"
+    },
+    {
+      "code": "37646",
+      "display": "EMERGENT"
+    },
+    {
+      "code": "169",
+      "display": "FINLAY"
+    },
+    {
+      "code": "36271",
+      "display": "ABBOTT-HOLAN"
+    },
+    {
+      "code": "168",
+      "display": "BERNE"
+    },
+    {
+      "code": "35979",
+      "display": "BHARAT"
+    },
+    {
+      "code": "16763",
+      "display": "BIOFARMA"
+    },
+    {
+      "code": "35978",
+      "display": "MODERNA"
+    },
+    {
+      "code": "167",
+      "display": "SEVAC"
+    },
+    {
+      "code": "35977",
+      "display": "GAMALEYA"
+    },
+    {
+      "code": "166",
+      "display": "BIKEN"
+    },
+    {
+      "code": "3521",
+      "display": "BIOVET"
+    },
+    {
+      "code": "1659",
+      "display": "CYANAMID"
+    },
+    {
+      "code": "33713",
+      "display": "AMYIN"
+    },
+    {
+      "code": "165",
+      "display": "MERCK"
+    },
+    {
+      "code": "33502",
+      "display": "BAV-NORDIC"
+    },
+    {
+      "code": "164",
+      "display": "LGCHEMICAL"
+    },
+    {
+      "code": "30587",
+      "display": "JANSSEN"
+    },
+    {
+      "code": "163",
+      "display": "SERUM-INDIA"
+    },
+    {
+      "code": "30357",
+      "display": "EQUIPLEX"
+    },
+    {
+      "code": "162",
+      "display": "CHIRON SPA"
+    },
+    {
+      "code": "29909",
+      "display": "ASTRAZENECA"
+    },
+    {
+      "code": "161",
+      "display": "AVENTIS"
+    },
+    {
+      "code": "29501",
+      "display": "SINOVAC"
+    },
+    {
+      "code": "160",
+      "display": "GREENCROSS"
+    },
+    {
+      "code": "2901",
+      "display": "MERIAL"
+    },
+    {
+      "code": "159",
+      "display": "SMITHKLINE"
+    },
+    {
+      "code": "28738",
+      "display": "BOEHRINGER"
+    },
+    {
+      "code": "156",
+      "display": "DADO B."
+    },
+    {
+      "code": "2862",
+      "display": "SANPASTEUR"
+    },
+    {
+      "code": "153",
+      "display": "TECPAR"
+    },
+    {
+      "code": "28425",
+      "display": "BIOGENESIS"
+    },
+    {
+      "code": "152",
+      "display": "BUTANTAN"
+    },
+    {
+      "code": "28303",
+      "display": "PANACEA"
+    },
+    {
+      "code": "151",
+      "display": "F.A.P."
+    },
+    {
+      "code": "28290",
+      "display": "PFIZER-BELGICA"
+    },
+    {
+      "code": "150",
+      "display": "FUNED"
+    },
+    {
+      "code": "28289",
+      "display": "GLAXO-BIO"
+    },
+    {
+      "code": "149",
+      "display": "FIOCRUZ"
+    },
+    {
+      "code": "28283",
+      "display": "VINS"
+    },
+    {
+      "code": "142",
+      "display": "PFIZER"
+    },
+    {
+      "code": "28251",
+      "display": "SANMEDLEY"
+    },
+    {
+      "code": "141",
+      "display": "IVB"
+    },
+    {
+      "code": "28211",
+      "display": "KAMADA"
+    },
+    {
+      "code": "13688",
+      "display": "SHANTHA"
+    },
+    {
+      "code": "27883",
+      "display": "MERCK-RJ"
+    },
+    {
+      "code": "13219",
+      "display": "BIOGENESIS"
+    },
+    {
+      "code": "27880",
+      "display": "GSK-BRASIL"
+    },
+    {
+      "code": "12572",
+      "display": "KEDRION"
+    },
+    {
+      "code": "27816",
+      "display": "EUBIOLOGI"
+    },
+    {
+      "code": "12551",
+      "display": "GRIFOLS"
+    },
+    {
+      "code": "2769",
+      "display": "BERNA"
+    },
+    {
+      "code": "11347",
+      "display": "VIRBAC"
+    },
+    {
+      "code": "26513",
+      "display": "BEHRING"
+    },
+    {
+      "code": "10534",
+      "display": "CRUCELL"
+    }
+  ]
 }

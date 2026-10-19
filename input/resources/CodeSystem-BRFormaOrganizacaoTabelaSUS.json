@@ -1,17 +1,1668 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRFormaOrganizacaoTabelaSUS",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRFormaOrganizacaoTabelaSUS</b></p><p>Title: BRFormaOrganizacaoTabelaSUS</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRFormaOrganizacaoTabelaSUS</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFormaOrganizacaoTabelaSUS",
-  "version": "HEAD",
   "name": "BRFormaOrganizacaoTabelaSUS",
   "title": "BRFormaOrganizacaoTabelaSUS",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.0.0",
+  "count": 413,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "090601",
+      "display": "Ofertas de Cuidados Integrados em Saúde da Mulher- Ginecologia"
+    },
+    {
+      "code": "090501",
+      "display": "Ofertas de Cuidados Integrados em Oftalmologia"
+    },
+    {
+      "code": "090401",
+      "display": "Ofertas de Cuidados Integrados em Otorrinolaringologia"
+    },
+    {
+      "code": "090301",
+      "display": "Ofertas de Cuidados Integrados em Ortopedia"
+    },
+    {
+      "code": "090201",
+      "display": "Ofertas de Cuidados Integrados em Cardiologia"
+    },
+    {
+      "code": "090101",
+      "display": "Ofertas de Cuidados Integrados em Oncologia"
+    },
+    {
+      "code": "080404",
+      "display": "Transplante."
+    },
+    {
+      "code": "080403",
+      "display": "Ações de Vigilância em Saúde Mediadas por Tecnologias Digitais"
+    },
+    {
+      "code": "080402",
+      "display": "Atendimentos em Saúde Mediados por Tecnologias Digitais"
+    },
+    {
+      "code": "080401",
+      "display": "Ações de Telessaúde entre Profissionais de Saúde"
+    },
+    {
+      "code": "080301",
+      "display": "Deslocamento/Ajuda de custo"
+    },
+    {
+      "code": "080202",
+      "display": "Outras ações"
+    },
+    {
+      "code": "080201",
+      "display": "Diárias"
+    },
+    {
+      "code": "080101",
+      "display": "Incentivos"
+    },
+    {
+      "code": "070212",
+      "display": "OPM para transplantes"
+    },
+    {
+      "code": "070211",
+      "display": "OPM em queimados"
+    },
+    {
+      "code": "070210",
+      "display": "OPM em nefrologia"
+    },
+    {
+      "code": "070209",
+      "display": "OPM em cirurgia de otorrinolaringologia"
+    },
+    {
+      "code": "070208",
+      "display": "OPM em cirurgia plástica/reparadora"
+    },
+    {
+      "code": "070207",
+      "display": "OPM em cirurgias oftálmicas"
+    },
+    {
+      "code": "070206",
+      "display": "OPM em urologia"
+    },
+    {
+      "code": "070205",
+      "display": "OPM comuns"
+    },
+    {
+      "code": "070204",
+      "display": "OPM em assistência cardiovascular"
+    },
+    {
+      "code": "070203",
+      "display": "OPM em ortopedia"
+    },
+    {
+      "code": "070202",
+      "display": "OPM em cirurgia buco-maxilo-facial"
+    },
+    {
+      "code": "070201",
+      "display": "OPM em neurocirurgia"
+    },
+    {
+      "code": "070110",
+      "display": "OPM em queimados"
+    },
+    {
+      "code": "070109",
+      "display": "Substituição/Troca em órteses/próteses"
+    },
+    {
+      "code": "070108",
+      "display": "OPM de anomalias buco-maxilo-facial"
+    },
+    {
+      "code": "070107",
+      "display": "OPM em odontologia"
+    },
+    {
+      "code": "070106",
+      "display": "OPM em urologia"
+    },
+    {
+      "code": "070105",
+      "display": "OPM em gastroenterologia"
+    },
+    {
+      "code": "070104",
+      "display": "OPM oftalmológicas"
+    },
+    {
+      "code": "070103",
+      "display": "OPM auditivas"
+    },
+    {
+      "code": "070102",
+      "display": "OPM ortopédicas"
+    },
+    {
+      "code": "070101",
+      "display": "OPM auxiliares da locomoção"
+    },
+    {
+      "code": "060487",
+      "display": "Outros Medicamentos Afetando a Estrutura e Mineralização Óssea."
+    },
+    {
+      "code": "060486",
+      "display": "Outros Produtos para o Sistema Respiratório"
+    },
+    {
+      "code": "060485",
+      "display": "Adrenérgicos em combinação com anticolinérgicos, incluídas combinações triplas com corticosteroides"
+    },
+    {
+      "code": "060484",
+      "display": "Outras drogas sistêmicas para doenças respiratórias obstrutivas"
+    },
+    {
+      "code": "060483",
+      "display": "Agentes que atuam no sistema renina -angiotensina"
+    },
+    {
+      "code": "060482",
+      "display": "Inibidores do co-transportador 2 de sódio-glicose (SGLT2)"
+    },
+    {
+      "code": "060481",
+      "display": "Outros Aminoglicosídeos"
+    },
+    {
+      "code": "060480",
+      "display": "Agentes antitrombóticos"
+    },
+    {
+      "code": "060479",
+      "display": "Outras drogas para desordens do Sistema músculo esquelético"
+    },
+    {
+      "code": "060478",
+      "display": "Insulinas e análogas"
+    },
+    {
+      "code": "060477",
+      "display": "Outros Agentes Antiparatireoide"
+    },
+    {
+      "code": "060476",
+      "display": "Outros Antivirais"
+    },
+    {
+      "code": "060475",
+      "display": "Outros Anti-hipertensivos"
+    },
+    {
+      "code": "060474",
+      "display": "Agentes Beta Bloqueadores"
+    },
+    {
+      "code": "060473",
+      "display": "Parassimpaticomiméticos"
+    },
+    {
+      "code": "060472",
+      "display": "Derivados do Ácido Propriônico"
+    },
+    {
+      "code": "060471",
+      "display": "Corticoesteróides de Potência Muito Alta (Grupo IV)"
+    },
+    {
+      "code": "060470",
+      "display": "Outros Antipsoriaticos de Uso Tópico"
+    },
+    {
+      "code": "060469",
+      "display": "Inibidores de Interleucinas"
+    },
+    {
+      "code": "060468",
+      "display": "Anticorpos Monoclonais"
+    },
+    {
+      "code": "060467",
+      "display": "Simpatomiméticos na Terapia de Glaucoma"
+    },
+    {
+      "code": "060466",
+      "display": "Inibidores da Anidrase Carbonica"
+    },
+    {
+      "code": "060465",
+      "display": "Análogos das Prostaglandinas"
+    },
+    {
+      "code": "060464",
+      "display": "Inibidores de Protease"
+    },
+    {
+      "code": "060463",
+      "display": "Produtos diversos para o trato alimentar ou metabolismo"
+    },
+    {
+      "code": "060462",
+      "display": "Vitamina D e análogos, incluido combinação dos dois"
+    },
+    {
+      "code": "060461",
+      "display": "Somatropina e agonistas da somatropina"
+    },
+    {
+      "code": "060460",
+      "display": "Retinóides para tratamento da psoríase"
+    },
+    {
+      "code": "060459",
+      "display": "Retinóides para tratamento da acne"
+    },
+    {
+      "code": "060458",
+      "display": "Preparações de enzimas"
+    },
+    {
+      "code": "060457",
+      "display": "Preparações de calcitonina"
+    },
+    {
+      "code": "060456",
+      "display": "Penicilamina e agentes similares"
+    },
+    {
+      "code": "060455",
+      "display": "Outros relaxantes musculares de ação periférica"
+    },
+    {
+      "code": "060454",
+      "display": "Outros medicamentos do sistema nervoso"
+    },
+    {
+      "code": "060453",
+      "display": "Outros imunossupressores"
+    },
+    {
+      "code": "060452",
+      "display": "Outros imunoestimulantes"
+    },
+    {
+      "code": "060451",
+      "display": "Outros antipsicóticos"
+    },
+    {
+      "code": "060450",
+      "display": "Outros antiepilépticos"
+    },
+    {
+      "code": "060449",
+      "display": "Outros agentes dopaminérgicos"
+    },
+    {
+      "code": "060448",
+      "display": "Outros agentes citotóxicos"
+    },
+    {
+      "code": "060447",
+      "display": "Outras preparações antianêmicas"
+    },
+    {
+      "code": "060446",
+      "display": "Nucleosídeo e nucleotídeo, Inibidor da transcriptase reversa"
+    },
+    {
+      "code": "060445",
+      "display": "Nucleosídeo e nucleotídeo (excl. inibidores da transcriptase reversa)"
+    },
+    {
+      "code": "060444",
+      "display": "Mucolíticos"
+    },
+    {
+      "code": "060443",
+      "display": "Modulador seletivo de receptor de estrogênio"
+    },
+    {
+      "code": "060442",
+      "display": "Mineralocorticóides"
+    },
+    {
+      "code": "060441",
+      "display": "Medicamentos utilizados na dependência de opióides"
+    },
+    {
+      "code": "060440",
+      "display": "Medicamentos para tratamento da hipercalemia e hiperfosfatemia"
+    },
+    {
+      "code": "060439",
+      "display": "Interferonas"
+    },
+    {
+      "code": "060438",
+      "display": "Inibidores do fator de necrose tumoral alfa (TNF-a)"
+    },
+    {
+      "code": "060437",
+      "display": "Inibidores da monoamino oxidase tipo b"
+    },
+    {
+      "code": "060436",
+      "display": "Inibidores da HMG-CoA redutase"
+    },
+    {
+      "code": "060435",
+      "display": "Inibidores da fosfodiesterase"
+    },
+    {
+      "code": "060434",
+      "display": "Inibidores da calcineurina"
+    },
+    {
+      "code": "060433",
+      "display": "Inibidores da agregação plaquetária, excl. heparina"
+    },
+    {
+      "code": "060432",
+      "display": "Imunossupressores seletivos"
+    },
+    {
+      "code": "060431",
+      "display": "Imunoglobulinas, humana normal"
+    },
+    {
+      "code": "060430",
+      "display": "Imunoglobulinas específicas"
+    },
+    {
+      "code": "060429",
+      "display": "Somatostatina e Análogos"
+    },
+    {
+      "code": "060428",
+      "display": "Glicocorticóides"
+    },
+    {
+      "code": "060427",
+      "display": "Fibratos, Acido Nicotínico e seus derivados"
+    },
+    {
+      "code": "060426",
+      "display": "Ferro trivalente, preparações parenterais"
+    },
+    {
+      "code": "060425",
+      "display": "Fatores de estimulação de colônias"
+    },
+    {
+      "code": "060424",
+      "display": "Enzimas"
+    },
+    {
+      "code": "060423",
+      "display": "Diazepinas, oxazepinas e tiazepinas"
+    },
+    {
+      "code": "060422",
+      "display": "Derivados da succinimida"
+    },
+    {
+      "code": "060421",
+      "display": "Derivados do indol"
+    },
+    {
+      "code": "060420",
+      "display": "Derivados do adamantano"
+    },
+    {
+      "code": "060419",
+      "display": "Derivados de ácidos graxos"
+    },
+    {
+      "code": "060418",
+      "display": "Derivados da benzodiazepina"
+    },
+    {
+      "code": "060417",
+      "display": "Compostos de Alumínio"
+    },
+    {
+      "code": "060416",
+      "display": "Bisfosfonados"
+    },
+    {
+      "code": "060415",
+      "display": "Barbitúricos e derivados"
+    },
+    {
+      "code": "060414",
+      "display": "Antigonadotrofinas e agentes similares"
+    },
+    {
+      "code": "060413",
+      "display": "Anticolinesterases"
+    },
+    {
+      "code": "060412",
+      "display": "Antiandrogênios"
+    },
+    {
+      "code": "060411",
+      "display": "Análogos do hormônio liberador de gonadotrofina"
+    },
+    {
+      "code": "060410",
+      "display": "Vasopressina e Análogos"
+    },
+    {
+      "code": "060409",
+      "display": "Análogos da mostarda nitrogenada"
+    },
+    {
+      "code": "060408",
+      "display": "Aminoquinolinas"
+    },
+    {
+      "code": "060407",
+      "display": "Aminas Terciárias"
+    },
+    {
+      "code": "060406",
+      "display": "Alimentos dietéticos isentos de fenilalanina"
+    },
+    {
+      "code": "060405",
+      "display": "Alcalóides naturais do ópio"
+    },
+    {
+      "code": "060404",
+      "display": "Agonistas seletivos dos receptores beta 2 adrenérgicos"
+    },
+    {
+      "code": "060403",
+      "display": "Agonistas da Dopamina/inibidor da prolactina"
+    },
+    {
+      "code": "060402",
+      "display": "Agentes Quelantes de Ferro"
+    },
+    {
+      "code": "060401",
+      "display": "Acido Aminosalicilico e Similares"
+    },
+    {
+      "code": "060309",
+      "display": "Terapia Gênica"
+    },
+    {
+      "code": "060308",
+      "display": "Medicamentos para transplante"
+    },
+    {
+      "code": "060307",
+      "display": "Hemoderivados"
+    },
+    {
+      "code": "060306",
+      "display": "Tensiolítico alveolar"
+    },
+    {
+      "code": "060305",
+      "display": "Antitrombóticos"
+    },
+    {
+      "code": "060304",
+      "display": "Reguladores de atividade hormonal - inibidores da prolactina"
+    },
+    {
+      "code": "060303",
+      "display": "Imunoterápicos"
+    },
+    {
+      "code": "060302",
+      "display": "Imunossupressores"
+    },
+    {
+      "code": "060301",
+      "display": "Antiinflamatórios"
+    },
+    {
+      "code": "060201",
+      "display": "Procoagulantes em coagulopatias hereditárias"
+    },
+    {
+      "code": "060136",
+      "display": "Repositores enzimáticos"
+    },
+    {
+      "code": "060135",
+      "display": "Reguladores da homeostase do cálcio"
+    },
+    {
+      "code": "060134",
+      "display": "Reguladores da atividade hormonal-mineralocorticóides"
+    },
+    {
+      "code": "060133",
+      "display": "Reguladores da atividade hormonal-hormonios tireoidianos"
+    },
+    {
+      "code": "060132",
+      "display": "Reguladores da atividade hormonal-hormonios de crescimento"
+    },
+    {
+      "code": "060131",
+      "display": "Reguladores da atividade hormonal-inibidores de prolactina"
+    },
+    {
+      "code": "060130",
+      "display": "Reguladores da atividade hormonal-inibidores do hormônio do crescimento"
+    },
+    {
+      "code": "060129",
+      "display": "Reguladores da atividade hormonal-inibidores das gonadotrofinas"
+    },
+    {
+      "code": "060128",
+      "display": "Reguladores da atividade hormonal-antiandrogênicos"
+    },
+    {
+      "code": "060127",
+      "display": "Reguladores da atividade hormonal-analogos do GNRH"
+    },
+    {
+      "code": "060126",
+      "display": "Reguladores da atividade hormonal-agonistas da vasopressina"
+    },
+    {
+      "code": "060125",
+      "display": "Outros quelantes"
+    },
+    {
+      "code": "060124",
+      "display": "Quelantes do ferro"
+    },
+    {
+      "code": "060123",
+      "display": "Mucolíticos"
+    },
+    {
+      "code": "060122",
+      "display": "Inibidores da acetilcolinesterase"
+    },
+    {
+      "code": "060121",
+      "display": "Imunoterapicos"
+    },
+    {
+      "code": "060120",
+      "display": "Imunossupressores"
+    },
+    {
+      "code": "060119",
+      "display": "Imunomoduladores"
+    },
+    {
+      "code": "060118",
+      "display": "Hipolipemiantes"
+    },
+    {
+      "code": "060117",
+      "display": "Hipnoanalgésicos"
+    },
+    {
+      "code": "060116",
+      "display": "Fatores de crescimento mielóides"
+    },
+    {
+      "code": "060115",
+      "display": "Complementos alimentares para fenilcetonúricos"
+    },
+    {
+      "code": "060114",
+      "display": "Ceratolíticos sistêmicos"
+    },
+    {
+      "code": "060113",
+      "display": "Bloqueadores neuromusculares"
+    },
+    {
+      "code": "060112",
+      "display": "Antivirais"
+    },
+    {
+      "code": "060111",
+      "display": "Antipsicóticos"
+    },
+    {
+      "code": "060110",
+      "display": "Antiparkinsonianos"
+    },
+    {
+      "code": "060109",
+      "display": "Antiinflamatórios intestinais"
+    },
+    {
+      "code": "060108",
+      "display": "Antiinflamatórios"
+    },
+    {
+      "code": "060107",
+      "display": "Antiepiléticos"
+    },
+    {
+      "code": "060106",
+      "display": "Antibióticos"
+    },
+    {
+      "code": "060105",
+      "display": "Antiasmáticos"
+    },
+    {
+      "code": "060104",
+      "display": "Antianêmicos hormonais"
+    },
+    {
+      "code": "060103",
+      "display": "Antianêmicos não hormonais"
+    },
+    {
+      "code": "060102",
+      "display": "Antagonista do glutamato"
+    },
+    {
+      "code": "060101",
+      "display": "Agentes anticitocinas"
+    },
+    {
+      "code": "050602",
+      "display": "Intercorrência pós transplante"
+    },
+    {
+      "code": "050601",
+      "display": "Acompanhamento de paciente no pré e pós-transplante"
+    },
+    {
+      "code": "050502",
+      "display": "Transplante de orgãos"
+    },
+    {
+      "code": "050501",
+      "display": "Transplante de tecidos e células"
+    },
+    {
+      "code": "050405",
+      "display": "Processamento de Membrana Amniótica"
+    },
+    {
+      "code": "050404",
+      "display": "Processamento de pele humana"
+    },
+    {
+      "code": "050403",
+      "display": "Processamento de válvula/tubo valvado cardíaco humano"
+    },
+    {
+      "code": "050402",
+      "display": "Processamento de tecido ósteo-fascio-condro-ligamentoso humano"
+    },
+    {
+      "code": "050401",
+      "display": "Processamento de córnea/esclera"
+    },
+    {
+      "code": "050304",
+      "display": "Açõess complementares destinadas a doação de orgãos, tecidos e células."
+    },
+    {
+      "code": "050303",
+      "display": "Manutenção e retirada de orgãos e tecidos para transplante"
+    },
+    {
+      "code": "050302",
+      "display": "Cirurgias para transplante - doador vivo"
+    },
+    {
+      "code": "050301",
+      "display": "Ações relacionadas a doação de orgãos e tecidos para transpalnte"
+    },
+    {
+      "code": "050201",
+      "display": "Avaliação clínica de morte encefálica"
+    },
+    {
+      "code": "050108",
+      "display": "Exames complementares para pacientes transplantados"
+    },
+    {
+      "code": "050107",
+      "display": "Outros exames complementares para doação de orgãos, tecidos e células"
+    },
+    {
+      "code": "050106",
+      "display": "Exames gráficos ou por imagem para diagnóstico de morte encefálica"
+    },
+    {
+      "code": "050105",
+      "display": "Exames imunogenéticos/histocompatibilidade para identificação de receptor de orgãos"
+    },
+    {
+      "code": "050104",
+      "display": "Exames imunogenéticos/histocompatibilidade para identificação de doador de orgãos"
+    },
+    {
+      "code": "050103",
+      "display": "Coleta e exames para ident. de doador de célula-tronco hematopoéticas (busca internacional/nacional)"
+    },
+    {
+      "code": "050102",
+      "display": "Exames de histocompatibilidade para identificação de receptor de células-tronco hematopoéticas"
+    },
+    {
+      "code": "050101",
+      "display": "Coleta e exames para identificação de doador de células-tronco hematopoéticas (busca nacional)"
+    },
+    {
+      "code": "041802",
+      "display": "Intervençõess cirúrgicas em acessos para diálise"
+    },
+    {
+      "code": "041801",
+      "display": "Acessos para dialise"
+    },
+    {
+      "code": "041701",
+      "display": "Anestesias"
+    },
+    {
+      "code": "041613",
+      "display": "Otorrinolaringologia"
+    },
+    {
+      "code": "041612",
+      "display": "Mastologia"
+    },
+    {
+      "code": "041611",
+      "display": "Cirurgia torácica"
+    },
+    {
+      "code": "041610",
+      "display": "Neurocirurgia"
+    },
+    {
+      "code": "041609",
+      "display": "Ossos e partes moles"
+    },
+    {
+      "code": "041608",
+      "display": "Pele e cirurgia plástica"
+    },
+    {
+      "code": "041607",
+      "display": "Oftalmologia"
+    },
+    {
+      "code": "041606",
+      "display": "Ginecologia"
+    },
+    {
+      "code": "041605",
+      "display": "Colo-proctologia"
+    },
+    {
+      "code": "041604",
+      "display": "Esôfago-gastro duodenal e vísceras anexas e outros orgãos intra-abdominais"
+    },
+    {
+      "code": "041603",
+      "display": "Cabeça e pescoço"
+    },
+    {
+      "code": "041602",
+      "display": "Sistema linfático"
+    },
+    {
+      "code": "041601",
+      "display": "Urologia"
+    },
+    {
+      "code": "041504",
+      "display": "Procedimentos cirúrgicos gerais"
+    },
+    {
+      "code": "041503",
+      "display": "Politraumatizados"
+    },
+    {
+      "code": "041502",
+      "display": "Sequenciais"
+    },
+    {
+      "code": "041501",
+      "display": "Múltiplas"
+    },
+    {
+      "code": "041402",
+      "display": "Cirurgia oral"
+    },
+    {
+      "code": "041401",
+      "display": "Buco-maxilo-facial"
+    },
+    {
+      "code": "041304",
+      "display": "Outras cirurgias plásticas/reparadoras"
+    },
+    {
+      "code": "041303",
+      "display": "Reparadora para lipodistrofia"
+    },
+    {
+      "code": "041302",
+      "display": "Reparadora em oncológica"
+    },
+    {
+      "code": "041301",
+      "display": "Tratamento de queimados"
+    },
+    {
+      "code": "041205",
+      "display": "Pulmão"
+    },
+    {
+      "code": "041204",
+      "display": "Parede torácica"
+    },
+    {
+      "code": "041203",
+      "display": "Pleura"
+    },
+    {
+      "code": "041202",
+      "display": "Mediastino"
+    },
+    {
+      "code": "041201",
+      "display": "Traqueia e brônquios"
+    },
+    {
+      "code": "041102",
+      "display": "Outras cirurgias relacionadas com o estado gestacional"
+    },
+    {
+      "code": "041101",
+      "display": "Parto"
+    },
+    {
+      "code": "041001",
+      "display": "Mama"
+    },
+    {
+      "code": "040907",
+      "display": "Vagina, vulva e períneo"
+    },
+    {
+      "code": "040906",
+      "display": "Útero e anexos"
+    },
+    {
+      "code": "040905",
+      "display": "Pênis"
+    },
+    {
+      "code": "040904",
+      "display": "Bolsa escrotal, testículos e cordão espermático"
+    },
+    {
+      "code": "040903",
+      "display": "Próstata e vesicula seminal"
+    },
+    {
+      "code": "040902",
+      "display": "Uretra"
+    },
+    {
+      "code": "040901",
+      "display": "Rim, ureter e bexiga"
+    },
+    {
+      "code": "040806",
+      "display": "Gerais"
+    },
+    {
+      "code": "040805",
+      "display": "Membros inferiores"
+    },
+    {
+      "code": "040804",
+      "display": "Cintura pélvica"
+    },
+    {
+      "code": "040803",
+      "display": "Coluna vertebral e caixa torácica"
+    },
+    {
+      "code": "040802",
+      "display": "Membros superiores"
+    },
+    {
+      "code": "040801",
+      "display": "Cintura escapular"
+    },
+    {
+      "code": "040704",
+      "display": "Parede e cavidade abdominal"
+    },
+    {
+      "code": "040703",
+      "display": "Pancreas, baco, figado e vias biliares"
+    },
+    {
+      "code": "040702",
+      "display": "Intestinos , reto e anus"
+    },
+    {
+      "code": "040701",
+      "display": "Esôfago, estômago e duodeno"
+    },
+    {
+      "code": "040605",
+      "display": "Eletrofisiologia"
+    },
+    {
+      "code": "040604",
+      "display": "Cirurgia endovascular"
+    },
+    {
+      "code": "040603",
+      "display": "Cardiologia intervencionista"
+    },
+    {
+      "code": "040602",
+      "display": "Cirurgia vascular"
+    },
+    {
+      "code": "040601",
+      "display": "Cirurgia cardiovascular"
+    },
+    {
+      "code": "040505",
+      "display": "Conjuntiva, córnea, câmara anterior, íris, corpo ciliar e cristalino"
+    },
+    {
+      "code": "040504",
+      "display": "Cavidade orbitária e globo ocular"
+    },
+    {
+      "code": "040503",
+      "display": "Corpo vítreo, retina, coróide e esclera"
+    },
+    {
+      "code": "040502",
+      "display": "Músculos oculomotores"
+    },
+    {
+      "code": "040501",
+      "display": "Palpebras e vias lacrimais"
+    },
+    {
+      "code": "040403",
+      "display": "Anomalia Crânio e bucomaxilo facial"
+    },
+    {
+      "code": "040402",
+      "display": "Cirurgia da face e do sistema estomatognático"
+    },
+    {
+      "code": "040401",
+      "display": "Cirurgia das vias aéreas superiores e do pescoço"
+    },
+    {
+      "code": "040308",
+      "display": "Neurocirurgia funcional estereotáxica"
+    },
+    {
+      "code": "040307",
+      "display": "Tratamento neuro-endovascular"
+    },
+    {
+      "code": "040306",
+      "display": "Investigação e cirurgia da epilepsia"
+    },
+    {
+      "code": "040305",
+      "display": "Tratamento neurocirúrgico da dor funcional"
+    },
+    {
+      "code": "040304",
+      "display": "Neurocirurgias vasculares"
+    },
+    {
+      "code": "040303",
+      "display": "Tumores do sistema nervoso"
+    },
+    {
+      "code": "040302",
+      "display": "Coluna e nervos periféricos"
+    },
+    {
+      "code": "040301",
+      "display": "Trauma e anomalias do desenvolvimento"
+    },
+    {
+      "code": "040202",
+      "display": "Cirurgia da suprarrenal"
+    },
+    {
+      "code": "040201",
+      "display": "Cirurgia de tireóide e paratireóide"
+    },
+    {
+      "code": "040102",
+      "display": "Cirurgias de pele, tecido subcutâneo e mucosa"
+    },
+    {
+      "code": "040101",
+      "display": "Pequenas cirurgias"
+    },
+    {
+      "code": "031102",
+      "display": "Ações Matriciais"
+    },
+    {
+      "code": "031101",
+      "display": "Ações Assistenciais"
+    },
+    {
+      "code": "031001",
+      "display": "Parto e nascimento"
+    },
+    {
+      "code": "030908",
+      "display": "Terapia Gênica"
+    },
+    {
+      "code": "030907",
+      "display": "Angiologia"
+    },
+    {
+      "code": "030906",
+      "display": "Acessos venosos"
+    },
+    {
+      "code": "030905",
+      "display": "Práticas integrativas e complementares"
+    },
+    {
+      "code": "030904",
+      "display": "Terapias do aparelho cardiovascular"
+    },
+    {
+      "code": "030903",
+      "display": "Terapias do aparelho geniturinário"
+    },
+    {
+      "code": "030902",
+      "display": "Terapias em doenças alérgicas"
+    },
+    {
+      "code": "030901",
+      "display": "Terapia nutricional"
+    },
+    {
+      "code": "030804",
+      "display": "Complicações consequentes a procedimentos em saúde"
+    },
+    {
+      "code": "030803",
+      "display": "Outras consequências de causas externas"
+    },
+    {
+      "code": "030802",
+      "display": "Intoxicações e envenenamentos"
+    },
+    {
+      "code": "030801",
+      "display": "Traumatismos"
+    },
+    {
+      "code": "030705",
+      "display": "Estomatologia"
+    },
+    {
+      "code": "030704",
+      "display": "Moldagem/Manutenção"
+    },
+    {
+      "code": "030703",
+      "display": "Periodontia clínica"
+    },
+    {
+      "code": "030702",
+      "display": "Endodontia"
+    },
+    {
+      "code": "030701",
+      "display": "Dentística"
+    },
+    {
+      "code": "030602",
+      "display": "Medicina transfusional"
+    },
+    {
+      "code": "030601",
+      "display": "Procedimentos destinados a obtenção do sangue para fins de assistência hemoterapica"
+    },
+    {
+      "code": "030502",
+      "display": "Tratamento em nefrologia em geral"
+    },
+    {
+      "code": "030501",
+      "display": "Tratamento dialítico"
+    },
+    {
+      "code": "030410",
+      "display": "Gerais em oncologia"
+    },
+    {
+      "code": "030409",
+      "display": "Medicina nuclear - terapêutica oncológica"
+    },
+    {
+      "code": "030408",
+      "display": "Quimioterapia - procedimentos especiais"
+    },
+    {
+      "code": "030407",
+      "display": "Quimioterapia de tumores de crianca e adolescente"
+    },
+    {
+      "code": "030406",
+      "display": "Quimioterapia curativa - adulto"
+    },
+    {
+      "code": "030405",
+      "display": "Quimioterapia adjuvante (profilática) - adulto"
+    },
+    {
+      "code": "030404",
+      "display": "Quimioterapia prévia (neoadjuvante/citorredutora)- adulto"
+    },
+    {
+      "code": "030403",
+      "display": "Quimioterapia para controle temporário de doença - adulto"
+    },
+    {
+      "code": "030402",
+      "display": "Quimioterapia paliativa - adulto"
+    },
+    {
+      "code": "030401",
+      "display": "Radioterapia"
+    },
+    {
+      "code": "030319",
+      "display": "Reabilitação"
+    },
+    {
+      "code": "030318",
+      "display": "Tratamento HIV/Aids"
+    },
+    {
+      "code": "030317",
+      "display": "Tratamento dos transtornos mentais e comportamentais"
+    },
+    {
+      "code": "030316",
+      "display": "Tratamento de algumas afecçõess originadas no período neonatal"
+    },
+    {
+      "code": "030315",
+      "display": "Tratamento das doenças do aparelho geniturinário"
+    },
+    {
+      "code": "030314",
+      "display": "Tratamento de doenças do ouvido/apófise mastóide e vias aéreas"
+    },
+    {
+      "code": "030313",
+      "display": "Tratamento de pacientes sob cuidados prolongados"
+    },
+    {
+      "code": "030312",
+      "display": "Tratamentos por medicina nuclear in vivo"
+    },
+    {
+      "code": "030311",
+      "display": "Tratamento de malformações congênitas, deformidades e anomalias cromossômicas"
+    },
+    {
+      "code": "030310",
+      "display": "Tratamento durante a gestação, parto e puerpério"
+    },
+    {
+      "code": "030309",
+      "display": "Tratamento de doenças do sistema osteomuscular e do tecido conjuntivo"
+    },
+    {
+      "code": "030308",
+      "display": "Tratamento de doenças da pele e do tecido  subcutâneo"
+    },
+    {
+      "code": "030307",
+      "display": "Tratamento de doenças do aparelho digestivo"
+    },
+    {
+      "code": "030306",
+      "display": "Tratamento de doenças cardiovasculares"
+    },
+    {
+      "code": "030305",
+      "display": "Tratamento de doenças do aparelho da visão"
+    },
+    {
+      "code": "030304",
+      "display": "Tratamento de doenças do sistema nervoso central e periférico"
+    },
+    {
+      "code": "030303",
+      "display": "Tratamento de doenças endocrinas, metabólicas e nutricionais"
+    },
+    {
+      "code": "030302",
+      "display": "Tratamento de doenças do sangue, orgãos hematopoéticos e alguns transtornos imunitários"
+    },
+    {
+      "code": "030301",
+      "display": "Tratamento de doenças infecciosas e parasitárias"
+    },
+    {
+      "code": "030207",
+      "display": "Assistência fisioterapêutica em queimados"
+    },
+    {
+      "code": "030206",
+      "display": "Assistência fisioterapêutica nas alterações em neurologia"
+    },
+    {
+      "code": "030205",
+      "display": "Assistência fisioterapêutica nas disfunções musculo esqueleticas (todas as origens)"
+    },
+    {
+      "code": "030204",
+      "display": "Assistência fisioterapêutica cardiovasculares e pneumo-funcionais"
+    },
+    {
+      "code": "030203",
+      "display": "Assistência fisioterapêutica em oftalmologia"
+    },
+    {
+      "code": "030202",
+      "display": "Assistência fisioterapêutica em alterações oncológicas"
+    },
+    {
+      "code": "030201",
+      "display": "Assistência fisioterapêutica em alterações obstétricas, neonatais e uroginecológicas"
+    },
+    {
+      "code": "030116",
+      "display": "Atenção Especializada à Pessoa com Falência Intestinal"
+    },
+    {
+      "code": "030115",
+      "display": "Atenção Especializada à Saúde da População Trans."
+    },
+    {
+      "code": "030114",
+      "display": "Cuidados Paliativos"
+    },
+    {
+      "code": "030113",
+      "display": "Acompanhamento em outras especialidades"
+    },
+    {
+      "code": "030112",
+      "display": "Atendimento/acompanhamento de diagnóstico de doenças endocrinas/metabolicas e nutricionais"
+    },
+    {
+      "code": "030111",
+      "display": "Atendimento/Acompanhamento queimados"
+    },
+    {
+      "code": "030110",
+      "display": "Atendimentos de enfermagem (em geral)"
+    },
+    {
+      "code": "030109",
+      "display": "Atendimento/Acompanhamento em saúde do idoso"
+    },
+    {
+      "code": "030108",
+      "display": "Atendimento/Acompanhamento psicossocial"
+    },
+    {
+      "code": "030107",
+      "display": "Atendimento/acompanhamento em reabilitação física, mental, visual e múltiplas deficiências"
+    },
+    {
+      "code": "030106",
+      "display": "Consulta/Atendimento ás urgências (em geral)"
+    },
+    {
+      "code": "030105",
+      "display": "Atenção domiciliar"
+    },
+    {
+      "code": "030104",
+      "display": "Outros atendimentos realizados por profissionais de níveis superior"
+    },
+    {
+      "code": "030103",
+      "display": "Atendimento pré-hospitalar de urgência"
+    },
+    {
+      "code": "030102",
+      "display": "Atendimento/Acompanhamento em saúde do trabalhador"
+    },
+    {
+      "code": "030101",
+      "display": "Consultas médicas/outros profissionais  de nivel superior"
+    },
+    {
+      "code": "021401",
+      "display": "Teste realizado fora da estrutura de laboratório"
+    },
+    {
+      "code": "021302",
+      "display": "Exames relacionados ao meio ambiente"
+    },
+    {
+      "code": "021301",
+      "display": "Exames relacionados a doenças e agravos de notificação compulsória"
+    },
+    {
+      "code": "021202",
+      "display": "Procedimentos especiais em hemoterápica"
+    },
+    {
+      "code": "021201",
+      "display": "Exames do doador/receptor"
+    },
+    {
+      "code": "021112",
+      "display": "Diagnóstico em traumato-ortopedia"
+    },
+    {
+      "code": "021111",
+      "display": "Diagnóstico em cardiologia intervencionista"
+    },
+    {
+      "code": "021110",
+      "display": "Diagnóstico em psicologia-psiquiatria"
+    },
+    {
+      "code": "021109",
+      "display": "Diagnóstico em urologia"
+    },
+    {
+      "code": "021108",
+      "display": "Diagnóstico em pneumologia"
+    },
+    {
+      "code": "021107",
+      "display": "Diagnóstico em otorrinolaringologia/fonoaudiologia"
+    },
+    {
+      "code": "021106",
+      "display": "Diagnóstico em oftalmologia"
+    },
+    {
+      "code": "021105",
+      "display": "Diagnóstico em neurologia"
+    },
+    {
+      "code": "021104",
+      "display": "Diagnóstico em ginecologia-obstetrícia"
+    },
+    {
+      "code": "021103",
+      "display": "Diagnóstico cinético funcional"
+    },
+    {
+      "code": "021102",
+      "display": "Diagnóstico em cardiologia"
+    },
+    {
+      "code": "021101",
+      "display": "Diagnóstico em angiologia"
+    },
+    {
+      "code": "021002",
+      "display": "Vias biliares"
+    },
+    {
+      "code": "021001",
+      "display": "Exames radiológicos de vasos sangüíneos e linfáticos"
+    },
+    {
+      "code": "020904",
+      "display": "Aparelho respiratório"
+    },
+    {
+      "code": "020903",
+      "display": "Aparelho ginecológico"
+    },
+    {
+      "code": "020902",
+      "display": "Aparelho urinário"
+    },
+    {
+      "code": "020901",
+      "display": "Aparelho digestivo"
+    },
+    {
+      "code": "020809",
+      "display": "Outros métodos de diagnóstico em medicina nuclear in vivo"
+    },
+    {
+      "code": "020808",
+      "display": "Aparelho hematológico"
+    },
+    {
+      "code": "020807",
+      "display": "Aparelho respiratório"
+    },
+    {
+      "code": "020806",
+      "display": "Aparelho nervoso"
+    },
+    {
+      "code": "020805",
+      "display": "Aparelho esquelético"
+    },
+    {
+      "code": "020804",
+      "display": "Aparelho geniturinário"
+    },
+    {
+      "code": "020803",
+      "display": "Aparelho endócrino"
+    },
+    {
+      "code": "020802",
+      "display": "Aparelho digestivo"
+    },
+    {
+      "code": "020801",
+      "display": "Aparelho cardiovascular"
+    },
+    {
+      "code": "020703",
+      "display": "RM do abdomen, pelve e membros inferiores"
+    },
+    {
+      "code": "020702",
+      "display": "RM do torax e membros superiores"
+    },
+    {
+      "code": "020701",
+      "display": "RM da cabeça, pescoço e coluna vertebral"
+    },
+    {
+      "code": "020603",
+      "display": "Tomografia do abdomen, pelve e membros inferiores"
+    },
+    {
+      "code": "020602",
+      "display": "Tomografia do torax e membros superiores"
+    },
+    {
+      "code": "020601",
+      "display": "Tomografia da cabeça, pescoço e coluna vertebral"
+    },
+    {
+      "code": "020502",
+      "display": "Ultra-sonografias dos demais sistemas"
+    },
+    {
+      "code": "020501",
+      "display": "Ultra-sonografias do sistema circulatório (qualquer região anatômica)"
+    },
+    {
+      "code": "020406",
+      "display": "Exames radiológicos da cintura pélvica e dos membros inferiores"
+    },
+    {
+      "code": "020405",
+      "display": "Exames radiológicos do abdomen e pelve"
+    },
+    {
+      "code": "020404",
+      "display": "Exames radiológicos da cintura escapular e dos membros superiores"
+    },
+    {
+      "code": "020403",
+      "display": "Exames radiológicos do torax e mediastino"
+    },
+    {
+      "code": "020402",
+      "display": "Exames radiológicos da coluna vertebral"
+    },
+    {
+      "code": "020401",
+      "display": "Exames radiológicos da cabeça e pescoço"
+    },
+    {
+      "code": "020302",
+      "display": "Exames anatomopatológicos"
+    },
+    {
+      "code": "020301",
+      "display": "Exames citopatológicos"
+    },
+    {
+      "code": "020212",
+      "display": "Exames imunohematológicos"
+    },
+    {
+      "code": "020211",
+      "display": "Exames para triagem neonatal"
+    },
+    {
+      "code": "020210",
+      "display": "Exames de genética"
+    },
+    {
+      "code": "020209",
+      "display": "Exames em outros líquidos biológicos"
+    },
+    {
+      "code": "020208",
+      "display": "Exames microbiológicos"
+    },
+    {
+      "code": "020207",
+      "display": "Exames toxicológicos ou de monitorização terapêutica"
+    },
+    {
+      "code": "020206",
+      "display": "Exames hormonais"
+    },
+    {
+      "code": "020205",
+      "display": "Exames de uroanálise"
+    },
+    {
+      "code": "020204",
+      "display": "Exames coprológicos"
+    },
+    {
+      "code": "020203",
+      "display": "Exames sorológicos e imunológicos"
+    },
+    {
+      "code": "020202",
+      "display": "Exames hematológicos e hemostasia"
+    },
+    {
+      "code": "020201",
+      "display": "Exames bioquimicos"
+    },
+    {
+      "code": "020102",
+      "display": "Outras formas de coleta de material"
+    },
+    {
+      "code": "020101",
+      "display": "Coleta de material por meio de punção/biópsia"
+    },
+    {
+      "code": "010203",
+      "display": "Vigilância epidemiológica - vacinas"
+    },
+    {
+      "code": "010202",
+      "display": "Vigilância em Saúde do Trabalhador"
+    },
+    {
+      "code": "010201",
+      "display": "Vigilancia sanitária"
+    },
+    {
+      "code": "010105",
+      "display": "Praticas Integrativas/Complementares"
+    },
+    {
+      "code": "010104",
+      "display": "Alimentação e nutrição"
+    },
+    {
+      "code": "010103",
+      "display": "Visita domiciliar"
+    },
+    {
+      "code": "010102",
+      "display": "Saúde bucal"
+    },
+    {
+      "code": "010101",
+      "display": "Educação em saúde"
+    }
+  ]
 }

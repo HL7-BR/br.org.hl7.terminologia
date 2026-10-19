@@ -1,20 +1,296 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRViaAdministracao",
-  "meta": {
-    "lastUpdated": "2025-07-16T16:52:24.744+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRViaAdministracao</b></p><p>Title: BRViaAdministracao</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRViaAdministracao</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRViaAdministracao",
-  "version": "HEAD",
   "name": "BRViaAdministracao",
   "title": "BRViaAdministracao",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "02.00",
+  "count": 70,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "0",
+      "display": "Sem registro no sistema de informação de origem"
+    },
+    {
+      "code": "10911",
+      "display": "Perineural"
+    },
+    {
+      "code": "10913",
+      "display": "Perfusão Regional"
+    },
+    {
+      "code": "10900",
+      "display": "Intravesical"
+    },
+    {
+      "code": "10862",
+      "display": "Otológica"
+    },
+    {
+      "code": "10863",
+      "display": "Bucal"
+    },
+    {
+      "code": "10866",
+      "display": "Endosinusial"
+    },
+    {
+      "code": "10905",
+      "display": "Inalatória por Via Nasal"
+    },
+    {
+      "code": "10868",
+      "display": "Epidural"
+    },
+    {
+      "code": "10874",
+      "display": "Inalatória"
+    },
+    {
+      "code": "10894",
+      "display": "Intrapleural"
+    },
+    {
+      "code": "10897",
+      "display": "Intrauterina"
+    },
+    {
+      "code": "10898",
+      "display": "Intravenosa"
+    },
+    {
+      "code": "10896",
+      "display": "Intratecal"
+    },
+    {
+      "code": "464156",
+      "display": "Intrabronquial"
+    },
+    {
+      "code": "10889",
+      "display": "Intralinfática"
+    },
+    {
+      "code": "10928",
+      "display": "Parenteral"
+    },
+    {
+      "code": "10923",
+      "display": "Não disponível"
+    },
+    {
+      "code": "10916",
+      "display": "Subcutânea"
+    },
+    {
+      "code": "10871",
+      "display": "Gastroenteral"
+    },
+    {
+      "code": "10870",
+      "display": "Extraminiótica"
+    },
+    {
+      "code": "464158",
+      "display": "Tecidos Moles"
+    },
+    {
+      "code": "10895",
+      "display": "Intraesternal"
+    },
+    {
+      "code": "464159",
+      "display": "Mucosa Oral"
+    },
+    {
+      "code": "459120",
+      "display": "Espinhal"
+    },
+    {
+      "code": "10891",
+      "display": "Intraocular"
+    },
+    {
+      "code": "779038",
+      "display": "Mucosa"
+    },
+    {
+      "code": "10899",
+      "display": "Intraventricular cardíaca"
+    },
+    {
+      "code": "10901",
+      "display": "Intravitreal"
+    },
+    {
+      "code": "10907",
+      "display": "Oral"
+    },
+    {
+      "code": "10906",
+      "display": "Oftálmica"
+    },
+    {
+      "code": "10904",
+      "display": "Nasal"
+    },
+    {
+      "code": "10903",
+      "display": "Irrigação"
+    },
+    {
+      "code": "10902",
+      "display": "Iontoforese"
+    },
+    {
+      "code": "10912",
+      "display": "Retal"
+    },
+    {
+      "code": "10910",
+      "display": "Periarticular"
+    },
+    {
+      "code": "10908",
+      "display": "Inalatória por Via Oral"
+    },
+    {
+      "code": "10919",
+      "display": "Transdérmica"
+    },
+    {
+      "code": "10917",
+      "display": "Sublingual"
+    },
+    {
+      "code": "10915",
+      "display": "Subconjuntival"
+    },
+    {
+      "code": "10920",
+      "display": "Uretral"
+    },
+    {
+      "code": "10922",
+      "display": "Capilar"
+    },
+    {
+      "code": "10921",
+      "display": "Vaginal"
+    },
+    {
+      "code": "10926",
+      "display": "Local"
+    },
+    {
+      "code": "464157",
+      "display": "Subtenoniana"
+    },
+    {
+      "code": "459531",
+      "display": "Intratraqueal"
+    },
+    {
+      "code": "459530",
+      "display": "Subcapsular"
+    },
+    {
+      "code": "244899",
+      "display": "Peridural"
+    },
+    {
+      "code": "608808",
+      "display": "Infiltração"
+    },
+    {
+      "code": "608807",
+      "display": "Retrobulbar"
+    },
+    {
+      "code": "10867",
+      "display": "Endotraqueopulmonar"
+    },
+    {
+      "code": "10865",
+      "display": "Intracervical"
+    },
+    {
+      "code": "10864",
+      "display": "Dermatológica"
+    },
+    {
+      "code": "10869",
+      "display": "Epilesional"
+    },
+    {
+      "code": "10879",
+      "display": "Intracameral"
+    },
+    {
+      "code": "10878",
+      "display": "Intrabursal"
+    },
+    {
+      "code": "10877",
+      "display": "Intra-articular"
+    },
+    {
+      "code": "10876",
+      "display": "Intra-arterial"
+    },
+    {
+      "code": "10875",
+      "display": "Intra-aminiótica"
+    },
+    {
+      "code": "10881",
+      "display": "Intracavernosa"
+    },
+    {
+      "code": "10880",
+      "display": "Intracardíaca"
+    },
+    {
+      "code": "10885",
+      "display": "Intradérmica"
+    },
+    {
+      "code": "10884",
+      "display": "Intracoronariana"
+    },
+    {
+      "code": "10882",
+      "display": "Intracerebroventricular"
+    },
+    {
+      "code": "10888",
+      "display": "Intralesional"
+    },
+    {
+      "code": "10887",
+      "display": "Intraepidermal"
+    },
+    {
+      "code": "10886",
+      "display": "Intradiscal"
+    },
+    {
+      "code": "10893",
+      "display": "Intraperitoneal"
+    },
+    {
+      "code": "10892",
+      "display": "Intraóssea"
+    },
+    {
+      "code": "10890",
+      "display": "Intramuscular"
+    }
+  ]
 }

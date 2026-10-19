@@ -1,12 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BRElegibilidadeImunobiologico",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRElegibilidadeImunobiologico</b></p><p>Title: BRElegibilidadeImunobiologico</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRElegibilidadeImunobiologico</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRElegibilidadeImunobiologico",
-  "version": "HEAD",
   "name": "BRElegibilidadeImunobiologico",
   "title": "BR Elegibilidade Imunobiologico",
   "status": "active",
@@ -14,18 +9,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRElegibilidadeImunobiologico",
-        "version": "HEAD",
-        "concept": [
-          {
-            "code": "CNI-N",
-            "display": "Não pertence ao CNI"
-          },
-          {
-            "code": "CNI-S",
-            "display": "Pertence ao CNI"
-          }
-        ]
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRElegibilidadeImunobiologico"
       }
     ]
   }

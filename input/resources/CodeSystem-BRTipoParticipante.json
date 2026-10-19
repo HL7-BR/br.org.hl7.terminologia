@@ -1,20 +1,32 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRTipoParticipante",
-  "meta": {
-    "lastUpdated": "2025-07-17T17:30:08.808+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRTipoParticipante</b></p><p>Title: BRTipoParticipante</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoParticipante</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoParticipante",
-  "version": "HEAD",
   "name": "BRTipoParticipante",
   "title": "BRTipoParticipante",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.0.0",
+  "count": 4,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "PCT",
+      "display": "Paciente"
+    },
+    {
+      "code": "ESS",
+      "display": "Estabelecimento de saúde solicitante"
+    },
+    {
+      "code": "ESE",
+      "display": "Estabelecimento de saúde executante"
+    },
+    {
+      "code": "ESR",
+      "display": "Estabelecimento de saúde regulador"
+    }
+  ]
 }

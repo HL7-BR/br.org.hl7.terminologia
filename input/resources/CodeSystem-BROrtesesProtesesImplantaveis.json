@@ -1,20 +1,1156 @@
 {
   "resourceType": "CodeSystem",
   "id": "BROrtesesProtesesImplantaveis",
-  "meta": {
-    "lastUpdated": "2024-11-21T20:28:20.054+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BROrtesesProtesesImplantaveis</b></p><p>Title: BROrtesesProtesesImplantaveis</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
-  "version": "HEAD",
   "name": "BROrtesesProtesesImplantaveis",
   "title": "BROrtesesProtesesImplantaveis",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.0.0",
+  "count": 285,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "0000000143",
+      "display": "Órtese brônquica reta expansível sintética"
+    },
+    {
+      "code": "0000000142",
+      "display": "Órtese brônquica reta não\nexpansível sintética"
+    },
+    {
+      "code": "0000000285",
+      "display": "Válvula brônquica para\ntratamento de fuga aérea e  sintética"
+    },
+    {
+      "code": "0000000141",
+      "display": "Órtese auto-expansível de vias\nbilio-pancreáticas auto-expansível metálica"
+    },
+    {
+      "code": "0000000284",
+      "display": "Tubo de ventilação para\nouvido médio permanente sintético"
+    },
+    {
+      "code": "0000000140",
+      "display": "Órtese auto-expansível de vias\nbilio-pancreáticas auto-expansível\nvários tamanhos sintética"
+    },
+    {
+      "code": "0000000283",
+      "display": "Tubo de ventilação para\nouvido médio temporário sintético"
+    },
+    {
+      "code": "0000000139",
+      "display": "Órtese auto-expansível de  sintética"
+    },
+    {
+      "code": "0000000282",
+      "display": "Tela para correção de incontinência\nurinária masculina sintética"
+    },
+    {
+      "code": "0000000138",
+      "display": "Órtese auto-expansível de reto auto-expansível metálica"
+    },
+    {
+      "code": "0000000281",
+      "display": "Tela para correção de incontinência\nurinária feminina sintética"
+    },
+    {
+      "code": "0000000137",
+      "display": "Órtese auto-expansível de intestino delgado auto-expansível metálica"
+    },
+    {
+      "code": "0000000280",
+      "display": "Tela  absorvível"
+    },
+    {
+      "code": "0000000136",
+      "display": "Órtese auto-expansível de estômago auto-expansível metálica"
+    },
+    {
+      "code": "0000000279",
+      "display": "Tela  sintética / biológica"
+    },
+    {
+      "code": "0000000135",
+      "display": "Órtese auto-expansível de auto-expansível plástica"
+    },
+    {
+      "code": "0000000278",
+      "display": "Tela  inorgânica e sintética"
+    },
+    {
+      "code": "0000000134",
+      "display": "Órtese auto-expansível de esôfago auto-expansível metálica"
+    },
+    {
+      "code": "0000000277",
+      "display": "Suspensor palpebral vários tamanhos biológica/sintética"
+    },
+    {
+      "code": "0000000133",
+      "display": "Órtese auto-expansível de duodeno auto-expansível metálica"
+    },
+    {
+      "code": "0000000276",
+      "display": "Stent vascular vários tamanhos metálico/sintético"
+    },
+    {
+      "code": "0000000132",
+      "display": "Órtese auto-expansível de cólon auto-expansível metálica"
+    },
+    {
+      "code": "0000000275",
+      "display": "Stent vascular artérias ilíacas metálico/sintético"
+    },
+    {
+      "code": "0000000131",
+      "display": "Molde laríngeo  sintética"
+    },
+    {
+      "code": "0000000274",
+      "display": "Stent vascular artérias viscerais metálico/sintético"
+    },
+    {
+      "code": "0000000130",
+      "display": "Mini-clips para malformação  metálico"
+    },
+    {
+      "code": "0000000273",
+      "display": "Stent vascular artéria pulmonar metálico/sintético"
+    },
+    {
+      "code": "0000000129",
+      "display": "Micromolas de liberação livre  metálico"
+    },
+    {
+      "code": "0000000272",
+      "display": "Stent vascular aorta metálico/sintético"
+    },
+    {
+      "code": "0000000128",
+      "display": "Micro Stent  metálico"
+    },
+    {
+      "code": "0000000271",
+      "display": "Stent vascular artérias membros\ninferiores e metálico"
+    },
+    {
+      "code": "0000000127",
+      "display": "Marcapasso cardíaco tricameral eletrônico"
+    },
+    {
+      "code": "0000000270",
+      "display": "Stent vascular artérias ilíacas metálico"
+    },
+    {
+      "code": "0000000126",
+      "display": "Marcapasso cardíaco bicameral eletrônico"
+    },
+    {
+      "code": "0000000269",
+      "display": "Stent vascular artérias viscerais metálico"
+    },
+    {
+      "code": "0000000125",
+      "display": "Marcapasso cardíaco unicameral eletrônico"
+    },
+    {
+      "code": "0000000268",
+      "display": "Stent vascular artéria pulmonar metálico"
+    },
+    {
+      "code": "0000000124",
+      "display": "Lentes para olhos fácicos  vários materiais"
+    },
+    {
+      "code": "0000000267",
+      "display": "Stent vascular aorta metálico"
+    },
+    {
+      "code": "0000000123",
+      "display": "Lente intra-ocular para correção de\nafacia inorgânico"
+    },
+    {
+      "code": "0000000266",
+      "display": "Stent vascular troncos supra- aórticos metálico"
+    },
+    {
+      "code": "0000000122",
+      "display": "Lâmina de silicone para articulação temporo-\nmandibular  sintética"
+    },
+    {
+      "code": "0000000265",
+      "display": "Stent coronariano revestido metálico/sintético"
+    },
+    {
+      "code": "0000000121",
+      "display": "Implantes para reconstrução ocular, palpebral ou orbital  orgânico"
+    },
+    {
+      "code": "0000000264",
+      "display": "Stent coronariano metálico metálico"
+    },
+    {
+      "code": "0000000120",
+      "display": "Implantes para reconstrução ocular, palpebral ou orbital  sintético"
+    },
+    {
+      "code": "0000000263",
+      "display": "Stent coronariano farmacológico metálico"
+    },
+    {
+      "code": "0000000119",
+      "display": "Implante dentário  metálico"
+    },
+    {
+      "code": "0000000262",
+      "display": "Sistema de Parafusos para fixação transarticular C1-C2  metálica"
+    },
+    {
+      "code": "0000000118",
+      "display": "Implante coclear multicanal eletrônico"
+    },
+    {
+      "code": "0000000261",
+      "display": "Sistema de miniPlaca e Parafusos vários tipos, formatos e absorvível"
+    },
+    {
+      "code": "0000000117",
+      "display": "Implante auditivo de tronco  eletrônico"
+    },
+    {
+      "code": "0000000260",
+      "display": "Sistema de micro Placa e\nmicro Parafusos vários tipos,\nformatos e metálica"
+    },
+    {
+      "code": "0000000116",
+      "display": "Implante artificial para drenagem de humor aquoso  inorgânico"
+    },
+    {
+      "code": "0000000259",
+      "display": "Sistema de micro Placa e micro Parafusos  absorvível"
+    },
+    {
+      "code": "0000000115",
+      "display": "Haste interóssea metálico"
+    },
+    {
+      "code": "0000000258",
+      "display": "Sistema de fixação transversal de titânio  metálica"
+    },
+    {
+      "code": "0000000114",
+      "display": "Haste intramedular\nbloqueada de metálico"
+    },
+    {
+      "code": "0000000257",
+      "display": "Sistema de fixação occipito-  metálica"
+    },
+    {
+      "code": "0000000113",
+      "display": "Haste tipo Luque metálico"
+    },
+    {
+      "code": "0000000256",
+      "display": "Sistema de fixação dinâmica pedicular lombo-sacra e seus componentes  metálica"
+    },
+    {
+      "code": "0000000112",
+      "display": "Haste para associação\ncom Parafusos de metálico"
+    },
+    {
+      "code": "0000000255",
+      "display": "Sistema de fixação crânio- cervical e seus componentes  metálica"
+    },
+    {
+      "code": "0000000111",
+      "display": "Haste intramedular tíbio-\ntársica metálico"
+    },
+    {
+      "code": "0000000254",
+      "display": "Sistema de fixação com Parafusos pediculares torácico e/ou lombo-sacro e seus componentes  metálica"
+    },
+    {
+      "code": "0000000110",
+      "display": "Haste intramedular\nretrógrada metálico"
+    },
+    {
+      "code": "0000000253",
+      "display": "Sistema de fixação cervical posterior e seus componentes com Barras longitudinais ou Placa metálica"
+    },
+    {
+      "code": "0000000109",
+      "display": "Haste intramedular não\nbloqueada metálico"
+    },
+    {
+      "code": "0000000252",
+      "display": "Retângulo tipo Hartshill  metálico"
+    },
+    {
+      "code": "0000000108",
+      "display": "Haste intramedular\nflexível para uso metálico"
+    },
+    {
+      "code": "0000000251",
+      "display": "Prótese valvar cardíaca expansível biológica"
+    },
+    {
+      "code": "0000000107",
+      "display": "Haste intramedular\nbloqueada de metálico"
+    },
+    {
+      "code": "0000000250",
+      "display": "Prótese valvar cardíaca folheto metálica"
+    },
+    {
+      "code": "0000000106",
+      "display": "Haste intramedular\nbloqueada de tíbia metálico"
+    },
+    {
+      "code": "0000000249",
+      "display": "Prótese valvar cardíaca com suporte\npuanri coiaul duplo biológica"
+    },
+    {
+      "code": "0000000105",
+      "display": "Haste haste femoral de\nbloqueio cefálico metálico"
+    },
+    {
+      "code": "0000000248",
+      "display": "Prótese valvar cardíaca sem suporte biológica"
+    },
+    {
+      "code": "0000000104",
+      "display": "Haste haste de Rush metálico"
+    },
+    {
+      "code": "0000000247",
+      "display": "Prótese valvar cardíaca com suporte biológica"
+    },
+    {
+      "code": "0000000103",
+      "display": "Haste haste de Ender metálico"
+    },
+    {
+      "code": "0000000246",
+      "display": "Prótese ulna distal  pirocarbono"
+    },
+    {
+      "code": "0000000102",
+      "display": "Haste haste de distração metálico"
+    },
+    {
+      "code": "0000000245",
+      "display": "Prótese traqueo-esofágica  sintético"
+    },
+    {
+      "code": "0000000101",
+      "display": "Haste haste de\ncompressão metálico"
+    },
+    {
+      "code": "0000000244",
+      "display": "Prótese trapézio-metacarpiana  carbono"
+    },
+    {
+      "code": "0000000100",
+      "display": "Halo craniano halo craniano\nassociado a Dispositivo tipo metálico"
+    },
+    {
+      "code": "0000000243",
+      "display": "Prótese trapézio-metacarpiana  silicone"
+    },
+    {
+      "code": "0000000099",
+      "display": "Grampo  metálico"
+    },
+    {
+      "code": "0000000242",
+      "display": "Prótese trapézio-metacarpiana  metálica"
+    },
+    {
+      "code": "0000000098",
+      "display": "Gerador de Estimulos para\nmedula e encéfalo  eletrônico"
+    },
+    {
+      "code": "0000000241",
+      "display": "Prótese testicular  sintética"
+    },
+    {
+      "code": "0000000097",
+      "display": "Gerador (marcapasso) tricameral eletrônico"
+    },
+    {
+      "code": "0000000240",
+      "display": "Prótese peniana não inflável semi-rígida"
+    },
+    {
+      "code": "0000000096",
+      "display": "Gerador (marcapasso) bicameral eletrônico"
+    },
+    {
+      "code": "0000000239",
+      "display": "Prótese peniana inflável 3 volumes "
+    },
+    {
+      "code": "0000000095",
+      "display": "Gerador (marcapasso) unicameral eletrônico"
+    },
+    {
+      "code": "0000000238",
+      "display": "Prótese peniana inflável de 2 "
+    },
+    {
+      "code": "0000000094",
+      "display": "Gancho com Sistema sulcado\npara fixação de hastes  metálico"
+    },
+    {
+      "code": "0000000237",
+      "display": "Prótese para estapedectomia  sintética"
+    },
+    {
+      "code": "0000000093",
+      "display": "Gancho Gancho pedicular metálico"
+    },
+    {
+      "code": "0000000236",
+      "display": "Prótese não convencional diafisária metálica"
+    },
+    {
+      "code": "0000000092",
+      "display": "Gancho Gancho laminar metálico"
+    },
+    {
+      "code": "0000000235",
+      "display": "Prótese não convencional biarticulada metálica/sintética"
+    },
+    {
+      "code": "0000000091",
+      "display": "Gancho Gancho laminar metálico"
+    },
+    {
+      "code": "0000000234",
+      "display": "Prótese não convencional proximal membro\ninferior metálica/sintética"
+    },
+    {
+      "code": "0000000090",
+      "display": "Gaiola torácica ou lombo-sacra para substituição de corpo vertebral fixa ou expansível metálico/sintético"
+    },
+    {
+      "code": "0000000233",
+      "display": "Prótese não convencional proximal membro\nsuperior metálica/sintética"
+    },
+    {
+      "code": "0000000089",
+      "display": "Gaiola para artrodese intersomática lombar ou lombo-sacra  metálico/sintético"
+    },
+    {
+      "code": "0000000232",
+      "display": "Prótese não convencional distal membro\ninferior metálica/sintética"
+    },
+    {
+      "code": "0000000088",
+      "display": "Gaiola cervical para\nsubstituição de corpo vertebral fixa ou expansível metálico/sintético"
+    },
+    {
+      "code": "0000000231",
+      "display": "Prótese não convencional distal membro\nsuperior metálica/sintética"
+    },
+    {
+      "code": "0000000087",
+      "display": "Gaiola cervical para artrodese\nintersomática  metálico/sintético"
+    },
+    {
+      "code": "0000000230",
+      "display": "Prótese moldável para reconstrução de parede moldável metálica/sintética"
+    },
+    {
+      "code": "0000000086",
+      "display": "Fixador externo tipo plataforma metálico/sintético"
+    },
+    {
+      "code": "0000000229",
+      "display": "Prótese metacarpo-falangeana  silicone"
+    },
+    {
+      "code": "0000000085",
+      "display": "Fixador externo para punho metálico/sintético"
+    },
+    {
+      "code": "0000000228",
+      "display": "Prótese metacarpo-falangeana  pirocarbono"
+    },
+    {
+      "code": "0000000084",
+      "display": "Fixador externo linear metálico/sintético"
+    },
+    {
+      "code": "0000000227",
+      "display": "Prótese metacarpo-falangeana  metálica"
+    },
+    {
+      "code": "0000000083",
+      "display": "Fixador externo hibrido metálico/sintético"
+    },
+    {
+      "code": "0000000226",
+      "display": "Prótese mentoniana  sintética"
+    },
+    {
+      "code": "0000000082",
+      "display": "Fixador externo com sistema de alongamento metálico/sintético"
+    },
+    {
+      "code": "0000000225",
+      "display": "Prótese interfalangeana  silicone"
+    },
+    {
+      "code": "0000000081",
+      "display": "Fixador externo com Sistema de pequenos fragmentos com\nSistema de metálico/sintético"
+    },
+    {
+      "code": "0000000224",
+      "display": "Prótese de silicone panturrilha sintética"
+    },
+    {
+      "code": "0000000080",
+      "display": "Fixador externo com Sistema de correção angular\ne/ou rotacional metálico/sintético"
+    },
+    {
+      "code": "0000000223",
+      "display": "Prótese de silicone glútea sintética"
+    },
+    {
+      "code": "0000000079",
+      "display": "Fixador externo circular/semi- metálico/sintético"
+    },
+    {
+      "code": "0000000222",
+      "display": "Prótese de silicone mamária sintética, preenchida com gel de silicone"
+    },
+    {
+      "code": "0000000078",
+      "display": "Fixador externo mini fixador metálico/sintético"
+    },
+    {
+      "code": "0000000221",
+      "display": "Prótese de quadril resurfacing metálica/sintética"
+    },
+    {
+      "code": "0000000077",
+      "display": "Fixador externo pélvico metálico/sintético"
+    },
+    {
+      "code": "0000000220",
+      "display": "Prótese de quadril revisão metálica/sintética"
+    },
+    {
+      "code": "0000000076",
+      "display": "Fixador dinâmico p/  metálico"
+    },
+    {
+      "code": "0000000219",
+      "display": "Prótese de quadril parcial metálica/sintética"
+    },
+    {
+      "code": "0000000218",
+      "display": "Prótese de quadril primária metálica/sintética"
+    },
+    {
+      "code": "0000000075",
+      "display": "Fita para síntese esternal  aço - inorgânico"
+    },
+    {
+      "code": "0000000217",
+      "display": "Prótese de punho  metálica/sintética"
+    },
+    {
+      "code": "0000000074",
+      "display": "Fita para reconstrução  "
+    },
+    {
+      "code": "0000000073",
+      "display": "Fio de Kirschner  metálico"
+    },
+    {
+      "code": "0000000216",
+      "display": "Prótese de ombro reversa metálica/sintética"
+    },
+    {
+      "code": "0000000072",
+      "display": "Fio de cerclagem  metálico"
+    },
+    {
+      "code": "0000000215",
+      "display": "Prótese de ombro convencional metálica/sintética"
+    },
+    {
+      "code": "0000000071",
+      "display": "Expansor torácico posterior\npara escoliose (VEPTeR)  metálico"
+    },
+    {
+      "code": "0000000214",
+      "display": "Prótese de joelho revisão metálica/sintética"
+    },
+    {
+      "code": "0000000070",
+      "display": "Expansor tecidual  silicone"
+    },
+    {
+      "code": "0000000213",
+      "display": "Prótese de joelho total metálica/sintética"
+    },
+    {
+      "code": "0000000212",
+      "display": "Prótese de joelho unicompartimental metálica/sintética"
+    },
+    {
+      "code": "0000000069",
+      "display": "Expansor sacular  inorgânico"
+    },
+    {
+      "code": "0000000211",
+      "display": "Prótese de disco lombar  metálico ou inorgânico"
+    },
+    {
+      "code": "0000000068",
+      "display": "Espaçador interespinhoso  inorgânico"
+    },
+    {
+      "code": "0000000210",
+      "display": "Prótese de disco cervical  metálico ou inorgânico"
+    },
+    {
+      "code": "0000000067",
+      "display": "Espaçador de tendão  silicone"
+    },
+    {
+      "code": "0000000209",
+      "display": "Prótese de cotovelo  metálica/sintética"
+    },
+    {
+      "code": "0000000066",
+      "display": "Espaçador de tendão vários tamanhos e formas inorgânico"
+    },
+    {
+      "code": "0000000208",
+      "display": "Prótese de cadeia ossicular  sintética ou metálica"
+    },
+    {
+      "code": "0000000065",
+      "display": "Esfíncter urinário artificial flexível com ou\nsem \"cuff\" silicone/sintética"
+    },
+    {
+      "code": "0000000064",
+      "display": "Enxerto vascular tubular bifurcado sintética"
+    },
+    {
+      "code": "0000000207",
+      "display": "Prótese de cabeça do rádio  pirocarbono"
+    },
+    {
+      "code": "0000000063",
+      "display": "Enxerto vascular tubular ramificado orgânico"
+    },
+    {
+      "code": "0000000206",
+      "display": "Prótese de cabeça do rádio  metálico"
+    },
+    {
+      "code": "0000000062",
+      "display": "Enxerto vascular tubular reto sintética"
+    },
+    {
+      "code": "0000000205",
+      "display": "Prótese de cabeça do rádio  silicone"
+    },
+    {
+      "code": "0000000061",
+      "display": "Enxerto vascular tubular reto orgânico"
+    },
+    {
+      "code": "0000000204",
+      "display": "Prótese de articulação  metálico"
+    },
+    {
+      "code": "0000000060",
+      "display": "Enxerto vascular tubular valvado inorgânico com valva\nde metal"
+    },
+    {
+      "code": "0000000203",
+      "display": "Prego Steinman metálico"
+    },
+    {
+      "code": "0000000059",
+      "display": "Enxerto vascular tubular valvado orgânico com valva\nbiológica"
+    },
+    {
+      "code": "0000000202",
+      "display": "Porca  metálico"
+    },
+    {
+      "code": "0000000201",
+      "display": "Placa torácica e/ou lombo-\nsacra anterior e seus  metálico"
+    },
+    {
+      "code": "0000000058",
+      "display": "Endoprótese bifurcada sintética"
+    },
+    {
+      "code": "0000000057",
+      "display": "Endoprótese ramificada(visceral e ilíacas) sintética"
+    },
+    {
+      "code": "0000000200",
+      "display": "Placa sacral posterior  metálico"
+    },
+    {
+      "code": "0000000056",
+      "display": "Endoprótese fenestrada sintética"
+    },
+    {
+      "code": "0000000199",
+      "display": "Placa para laminoplastia\ncervical e seus componentes  metálico"
+    },
+    {
+      "code": "0000000198",
+      "display": "Placa para fixação craniana ou crânio maxilo-facial e\ncomponentes (miniPlaca e  metálica ou bioabsorvível"
+    },
+    {
+      "code": "0000000055",
+      "display": "Endoprótese reta sintética"
+    },
+    {
+      "code": "0000000197",
+      "display": "Placa cervical anterior e seus  metálico"
+    },
+    {
+      "code": "0000000054",
+      "display": "ECMO conjunto eletro-mecânico"
+    },
+    {
+      "code": "0000000196",
+      "display": "Placa bloqueada metálico"
+    },
+    {
+      "code": "0000000053",
+      "display": "ECLA conjunto eletro-mecânico"
+    },
+    {
+      "code": "0000000195",
+      "display": "Placa Placa toraco-lombo\nsacra metálico"
+    },
+    {
+      "code": "0000000052",
+      "display": "Distrator mandibular de titânio interno ou externo  metálico"
+    },
+    {
+      "code": "0000000194",
+      "display": "Placa Placa terço tubular metálico"
+    },
+    {
+      "code": "0000000051",
+      "display": "Dispositivo para correção de\n\"shunt\" intra-cardíaco para defeitos do\nsepto sintético"
+    },
+    {
+      "code": "0000000193",
+      "display": "Placa Placa semitubular metálico"
+    },
+    {
+      "code": "0000000050",
+      "display": "Dispositivo para correção de\n\"shunt\" intra-cardíaco para defeitos do\nsepto interatrial sintético"
+    },
+    {
+      "code": "0000000049",
+      "display": "Dispositivo para correção de\n\"shunt\" extra- para correção de\ncanal arterial sintético"
+    },
+    {
+      "code": "0000000192",
+      "display": "Placa Placa ponte metálico"
+    },
+    {
+      "code": "0000000048",
+      "display": "Dispositivo intersomático de\nmanutenção do espaço  metálico/sintético"
+    },
+    {
+      "code": "0000000191",
+      "display": "Placa Placa para\ncalcâneo metálico"
+    },
+    {
+      "code": "0000000047",
+      "display": "Dispositivo de bloqueio  metálico"
+    },
+    {
+      "code": "0000000190",
+      "display": "Placa Placa em trevo metálico"
+    },
+    {
+      "code": "0000000046",
+      "display": "Cordas artificiais  inorgânica"
+    },
+    {
+      "code": "0000000189",
+      "display": "Placa Placa em T metálico"
+    },
+    {
+      "code": "0000000188",
+      "display": "Placa Placa em L metálico"
+    },
+    {
+      "code": "0000000045",
+      "display": "Cordas artificiais  orgânica"
+    },
+    {
+      "code": "0000000044",
+      "display": "Constritor uretral  sintética"
+    },
+    {
+      "code": "0000000187",
+      "display": "Placa Placa de suporte\ntibial metálico"
+    },
+    {
+      "code": "0000000043",
+      "display": "Conjunto ventrículo artificial\ntemporário Biventricular\npulsátil eletro-mecânico"
+    },
+    {
+      "code": "0000000186",
+      "display": "Placa Placa de\nreconstrução de metálico"
+    },
+    {
+      "code": "0000000042",
+      "display": "Conjunto ventrículo artificial\ntemporário Biventricular\nrotativo eletro-mecânico"
+    },
+    {
+      "code": "0000000185",
+      "display": "Placa Placa de\ncompressão metálico"
+    },
+    {
+      "code": "0000000184",
+      "display": "Placa Placa condilea metálico"
+    },
+    {
+      "code": "0000000041",
+      "display": "Conjunto ventrículo artificial\ntemporário Univentricular\npulsátil eletro-mecânico"
+    },
+    {
+      "code": "0000000183",
+      "display": "Placa Placa com Parafuso\ndeslizante metálico"
+    },
+    {
+      "code": "0000000040",
+      "display": "Conjunto ventrículo artificial\ntemporário Univentricular\nrotativo eletro-mecânico"
+    },
+    {
+      "code": "0000000182",
+      "display": "Placa Placa cobra metálico"
+    },
+    {
+      "code": "0000000039",
+      "display": "Conjunto ventrículo artificial\ndefinitivo Biventricular\npulsátil eletro-mecânico"
+    },
+    {
+      "code": "0000000181",
+      "display": "Placa Placa occipito-\ncervical metálico"
+    },
+    {
+      "code": "0000000038",
+      "display": "Conjunto ventrículo artificial definitivo Biventricular rotativo eletro-mecânico"
+    },
+    {
+      "code": "0000000180",
+      "display": "Placa Placa cervical metálico"
+    },
+    {
+      "code": "0000000037",
+      "display": "Conjunto ventrículo artificial definitivo Univentricular pulsátil eletro-mecânico"
+    },
+    {
+      "code": "0000000179",
+      "display": "Placa Placa calço metálico"
+    },
+    {
+      "code": "0000000036",
+      "display": "Conjunto ventrículo artificial\ndefinitivo Univentricular\nrotativo eletro-mecânico"
+    },
+    {
+      "code": "0000000178",
+      "display": "Placa Placa angulada metálico"
+    },
+    {
+      "code": "0000000035",
+      "display": "Conjunto para vertebroplastia  sintético"
+    },
+    {
+      "code": "0000000177",
+      "display": "Placa reta e angulada de\nartrodese radio- metálico"
+    },
+    {
+      "code": "0000000034",
+      "display": "Conjunto para derivação ventricular Conjunto para derivação\nventrículo- inorgânico"
+    },
+    {
+      "code": "0000000176",
+      "display": "Placa circular de\nartrodese medio- metal ou radio\ntransparente"
+    },
+    {
+      "code": "0000000033",
+      "display": "Conjunto para derivação ventricular Conjunto para derivação\nventrículo-atrial inorgânico"
+    },
+    {
+      "code": "0000000175",
+      "display": "Pino pino de Shantz metálico"
+    },
+    {
+      "code": "0000000032",
+      "display": "Conjunto para derivação  inorgânico"
+    },
+    {
+      "code": "0000000174",
+      "display": "Pino pino de Knowles metálico"
+    },
+    {
+      "code": "0000000031",
+      "display": "Conjunto para cranioplastia e\ncomponentes ( tela e  titânio"
+    },
+    {
+      "code": "0000000173",
+      "display": "Peso palpebral  metálico"
+    },
+    {
+      "code": "0000000030",
+      "display": "Conjunto para cifoplastia  sintético"
+    },
+    {
+      "code": "0000000029",
+      "display": "Conjunto derivação pleuro-  sintética"
+    },
+    {
+      "code": "0000000172",
+      "display": "Patch cardiovascular vários tamanhos sintética/biológica"
+    },
+    {
+      "code": "0000000171",
+      "display": "Patch cardiovascular vários tamanhos sintética"
+    },
+    {
+      "code": "0000000028",
+      "display": "Conector de Barra para transição cervico-torácica  metálico"
+    },
+    {
+      "code": "0000000170",
+      "display": "Patch cardiovascular vários tamanhos orgânico"
+    },
+    {
+      "code": "0000000027",
+      "display": "Condutos permeabilizadores\nde vias lacrimais tubos e sondas sintético"
+    },
+    {
+      "code": "0000000169",
+      "display": "Parafusos translaminares  metálico"
+    },
+    {
+      "code": "0000000026",
+      "display": "Componente implantável para\nfixação de Prótese facial  metálico"
+    },
+    {
+      "code": "0000000168",
+      "display": "Parafusos para fixação no  metálico"
+    },
+    {
+      "code": "0000000025",
+      "display": "Clip de aneurisma cerebral  metálico"
+    },
+    {
+      "code": "0000000167",
+      "display": "Parafuso para fixação do  metálico"
+    },
+    {
+      "code": "0000000024",
+      "display": "Ceratoprótese  inorgânico"
+    },
+    {
+      "code": "0000000166",
+      "display": "Parafuso Para  C1-C2 metálico"
+    },
+    {
+      "code": "0000000023",
+      "display": "Cateter duplo J  metálico"
+    },
+    {
+      "code": "0000000165",
+      "display": "Parafuso bloqueado absorvível"
+    },
+    {
+      "code": "0000000022",
+      "display": "Cateter duplo J  não hidrofílico"
+    },
+    {
+      "code": "0000000021",
+      "display": "Cateter duplo J  hidrofílico"
+    },
+    {
+      "code": "0000000164",
+      "display": "Parafuso  absorvível"
+    },
+    {
+      "code": "0000000020",
+      "display": "Cardioversor/desfibrilador\nimplantável tricameral eletrônico"
+    },
+    {
+      "code": "0000000163",
+      "display": "Parafuso Parafuso maleolar metálico"
+    },
+    {
+      "code": "0000000162",
+      "display": "Parafuso Parafuso esponjoso metálico"
+    },
+    {
+      "code": "0000000019",
+      "display": "Cardioversor/desfibrilador\nimplantável bicameral eletrônico"
+    },
+    {
+      "code": "0000000018",
+      "display": "Cardioversor/desfibrilador\nimplantável unicameral eletrônico"
+    },
+    {
+      "code": "0000000161",
+      "display": "Parafuso Parafuso pedicular\npoli-axial metálico"
+    },
+    {
+      "code": "0000000160",
+      "display": "Parafuso Parafuso pedicular\nmono-axial metálico"
+    },
+    {
+      "code": "0000000017",
+      "display": "Cânula de traqueostomia vários modelos metálica ou sintética"
+    },
+    {
+      "code": "0000000016",
+      "display": "Cage (dispositivo  metálico/sintético"
+    },
+    {
+      "code": "0000000159",
+      "display": "Parafuso Parafuso de\ninterferência metálico/absorvível"
+    },
+    {
+      "code": "0000000015",
+      "display": "Cabos para amarrilha  metálico"
+    },
+    {
+      "code": "0000000158",
+      "display": "Parafuso Parafuso cortical metálico"
+    },
+    {
+      "code": "0000000014",
+      "display": "Bomba centrífuga  eletro-mecânico"
+    },
+    {
+      "code": "0000000157",
+      "display": "Parafuso Parafuso canulado\nmini metálico"
+    },
+    {
+      "code": "0000000156",
+      "display": "Parafuso Parafuso canulado auto-roscante para\nodontóide metálico"
+    },
+    {
+      "code": "0000000013",
+      "display": "Barra sacral  metálico"
+    },
+    {
+      "code": "0000000155",
+      "display": "Parafuso Parafuso canulado metálico"
+    },
+    {
+      "code": "0000000012",
+      "display": "Barra (haste) transversal  metálico"
+    },
+    {
+      "code": "0000000011",
+      "display": "Aparelho de vibração óssea\nimplantado na calota craniana parcialmente\nimplantável eletro-mecânico"
+    },
+    {
+      "code": "0000000154",
+      "display": "Parafuso Parafuso da Placa\ncervical/occipito- cervical metálico"
+    },
+    {
+      "code": "0000000010",
+      "display": "Aparelho de audição parcialmente\nimplantável eletrônica"
+    },
+    {
+      "code": "0000000153",
+      "display": "Parafuso Parafuso da Placa\ntoraco-lombo- metálico"
+    },
+    {
+      "code": "0000000152",
+      "display": "Parafuso mini-Parafuso de\nauto-compressão metálico"
+    },
+    {
+      "code": "0000000009",
+      "display": "Ânus artificial  sintética"
+    },
+    {
+      "code": "0000000151",
+      "display": "Órtese traqueal em T no ramo\nproximal e em Y no sintética"
+    },
+    {
+      "code": "0000000008",
+      "display": "Anel para anuloplastia valvar total absorvível"
+    },
+    {
+      "code": "0000000007",
+      "display": "Anel para anuloplastia valvar total rígido sintético"
+    },
+    {
+      "code": "0000000150",
+      "display": "Órtese traqueal em Y dinâmica sintética"
+    },
+    {
+      "code": "0000000006",
+      "display": "Anel para anuloplastia valvar total flexível sintético"
+    },
+    {
+      "code": "0000000149",
+      "display": "Órtese traqueal em T sintética"
+    },
+    {
+      "code": "0000000148",
+      "display": "Órtese traqueal reta expansível sintética"
+    },
+    {
+      "code": "0000000005",
+      "display": "Anel para anuloplastia valvar parcial absorvível"
+    },
+    {
+      "code": "0000000147",
+      "display": " flexível sintética"
+    },
+    {
+      "code": "0000000004",
+      "display": "Anel para anuloplastia valvar parcial rígido sintético"
+    },
+    {
+      "code": "0000000003",
+      "display": "Anel para anuloplastia valvar parcial flexível sintético"
+    },
+    {
+      "code": "0000000146",
+      "display": "Órtese de parede torácica para\npectus excavatum rígida sintética"
+    },
+    {
+      "code": "0000000145",
+      "display": " flexível sintética"
+    },
+    {
+      "code": "0000000002",
+      "display": "Anel corneano intraestromal  inorgânico"
+    },
+    {
+      "code": "0000000144",
+      "display": "Órtese de parede torácica para\npectus carinatum rígida sintética"
+    },
+    {
+      "code": "0000000001",
+      "display": "Âncora  metálica/absorvível"
+    }
+  ]
 }

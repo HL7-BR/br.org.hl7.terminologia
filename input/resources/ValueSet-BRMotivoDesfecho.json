@@ -1,12 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BRMotivoDesfecho",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRMotivoDesfecho</b></p><p>Title: BRMotivoDesfecho</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRMotivoDesfecho</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRMotivoDesfecho",
-  "version": "HEAD",
   "name": "BRMotivoDesfecho",
   "title": "BR Motivo Desfecho",
   "status": "active",
@@ -14,50 +9,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoDesfecho",
-        "version": "HEAD",
-        "concept": [
-          {
-            "code": "99",
-            "display": "Sem registro no modelo de informação de origem"
-          },
-          {
-            "code": "09",
-            "display": "Transferência"
-          },
-          {
-            "code": "08",
-            "display": "Retorno"
-          },
-          {
-            "code": "07",
-            "display": "Permanência"
-          },
-          {
-            "code": "06",
-            "display": "Óbito"
-          },
-          {
-            "code": "05",
-            "display": "Ordem Judicial"
-          },
-          {
-            "code": "04",
-            "display": "Evasão"
-          },
-          {
-            "code": "03",
-            "display": "Encaminhamento"
-          },
-          {
-            "code": "02",
-            "display": "Alta Voluntária"
-          },
-          {
-            "code": "01",
-            "display": "Alta clínica"
-          }
-        ]
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoDesfecho"
       }
     ]
   }

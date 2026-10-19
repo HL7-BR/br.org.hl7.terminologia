@@ -2,7 +2,6 @@
   "resourceType": "CodeSystem",
   "id": "SubtipoEstabelecimento",
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/SubtipoEstabelecimento",
-  "version": "HEAD",
   "name": "BRSubtipoEstabelecimento",
   "title": "Subtipo Estabelecimento de Saúde",
   "status": "active",
@@ -10,5 +9,17 @@
   "publisher": "MS",
   "description": "O Subtipo estabelecimento de saúde descreve se uma organização é um DSEI - Distrito Sanitário de Saúde Indígena; Polo-Base - Polo Base de Saúde Indígena. Serve apenas para qualificar os estabelecimentos que tem como type = 72 - UNIDADE DE ATENCAO A SAUDE INDIGENA",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.0.0",
+  "count": 2,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "PoloBase",
+      "display": "Polo-base Saúde Indígena"
+    },
+    {
+      "code": "DSEI",
+      "display": "Distrito Sanitário Especial Indígena"
+    }
+  ]
 }

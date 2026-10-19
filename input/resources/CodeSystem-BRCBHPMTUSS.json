@@ -1,20 +1,1336 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRCBHPMTUSS",
-  "meta": {
-    "lastUpdated": "2025-07-17T17:36:49.899+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRCBHPMTUSS</b></p><p>Title: BRCBHPMTUSS</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRCBHPMTUSS</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCBHPMTUSS",
-  "version": "HEAD",
   "name": "BRCBHPMTUSS",
   "title": "BRCBHPMTUSS",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.2.0",
+  "count": 330,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "021",
+      "display": "RADIOTERAPIA MEGAVOLTAGEM"
+    },
+    {
+      "code": "025",
+      "display": "TOMOGRAFIA COMPUTADORIZADA DIAGNÓSTICA"
+    },
+    {
+      "code": "029",
+      "display": "MATERIAIS E OPME"
+    },
+    {
+      "code": "100095720",
+      "display": "Família INSERTO Mobilidade Dupla Cabeça de Ceralepine - HQNOM856 Inserto T56 Ceralepine 12/14, colo"
+    },
+    {
+      "code": "100095780",
+      "display": "Família INSERTO Mobilidade Dupla Cabeça de Ceralepine - HQNOC856 Inserto T56 Ceralepine 12/14, colo"
+    },
+    {
+      "code": "100095798",
+      "display": "Família INSERTO Mobilidade Dupla Cabeça de Ceralepine - HQNOL862 Inserto T62 Ceralepine 12/14, colo"
+    },
+    {
+      "code": "100095810",
+      "display": "Família INSERTO Mobilidade Dupla Cabeça de Ceralepine - HQNOC860 Inserto T60 Ceralepine12/14, colo"
+    },
+    {
+      "code": "100095828",
+      "display": "Família INSERTO Mobilidade Dupla Cabeça de Ceralepine - HQNOL860 Inserto T60Ceralepine 12/14, colo"
+    },
+    {
+      "code": "100095836",
+      "display": "Família INSERTO Mobilidade Dupla Cabeça de Ceralepine - HQNOM858 Inserto T58 Ceralepine 12/14,colo"
+    },
+    {
+      "code": "100095860",
+      "display": "Família INSERTO Mobilidade Dupla Cabeça de Ceralepine - HQNOM852 Inserto T52Ceralepine 12/14, colo"
+    },
+    {
+      "code": "100095879",
+      "display": "Família INSERTO Mobilidade Dupla Cabeça de Ceralepine - HQNOM862 InsertoT62 Ceralepine 12/14, colo"
+    },
+    {
+      "code": "100095917",
+      "display": "Família INSERTO Mobilidade Dupla Cabeça de Ceralepine - HQNOL854 Inserto T54 Ceralepine 12/14, colo"
+    },
+    {
+      "code": "100095925",
+      "display": "Família INSERTO Mobilidade Dupla Cabeça de Ceralepine - HQNOM850 Inserto T50 Ceralepine 12/14, colo"
+    },
+    {
+      "code": "100095933",
+      "display": "Família INSERTO Mobilidade Dupla Cabeça de Ceralepine - HQNOC852 Inserto T52 Ceralepine 12/14, colo"
+    },
+    {
+      "code": "100104592",
+      "display": "INSERTE ACETABULAR CONSTRITO TRIDENT - 69-2244 - Inserte Constrito Trident All Poly22mm/ 44mm"
+    },
+    {
+      "code": "100104606",
+      "display": "INSERTE ACETABULAR CONSTRITO TRIDENT - 690-10-22E - Inserte Constrito Acetabular Trident 10 Deg 22m"
+    },
+    {
+      "code": "100104614",
+      "display": "INSERTE ACETABULAR CONSTRITO TRIDENT - 69-2248 -Inserte Constrito Trident All Poly 22mm/ 48mm"
+    },
+    {
+      "code": "100104622",
+      "display": "INSERTE ACETABULAR CONSTRITO TRIDENT - 690-00-32J - Inserte Constrito AcetabularTrident 0 Deg 32mm"
+    },
+    {
+      "code": "100104630",
+      "display": "INSERTE ACETABULAR CONSTRITO TRIDENT - 690-10-28K - InserteConstrito Acetabular Trident 10 Deg 28mm"
+    },
+    {
+      "code": "100104649",
+      "display": "INSERTE ACETABULAR CONSTRITO TRIDENT - 690-10-28J - Inserte Constrito Acetabular Trident 10 Deg 28m"
+    },
+    {
+      "code": "100104657",
+      "display": "INSERTE ACETABULAR CONSTRITO TRIDENT - 69-3260 - Inserte Constrito Trident All Poly 32mm/ 60mm"
+    },
+    {
+      "code": "100104665",
+      "display": "INSERTE ACETABULAR CONSTRITO TRIDENT - 690-10-28G - InserteConstrito Acetabular Trident 10 Deg 28mm"
+    },
+    {
+      "code": "100104690",
+      "display": "INSERTE ACETABULAR CONSTRITO TRIDENT - 690-00-22E - InserteConstrito Acetabular Trident 0 Deg 22mm"
+    },
+    {
+      "code": "100104711",
+      "display": "INSERTE ACETABULAR CONSTRITO TRIDENT - 69-2852 - Inserte Constrito Trident All Poly 28mm/ 52mm"
+    },
+    {
+      "code": "100104738",
+      "display": "INSERTE ACETABULAR CONSTRITO TRIDENT - 69-2850 - Inserte Constrito Trident AllPoly 28mm/ 50mm"
+    },
+    {
+      "code": "100104746",
+      "display": "INSERTE ACETABULAR CONSTRITO TRIDENT - 690-10-28H - Inserte Constrito AcetabularTrident 10 Deg 28mm"
+    },
+    {
+      "code": "100104894",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE"
+    },
+    {
+      "code": "100104916",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202624 Inserto de rolamento fixo UNI"
+    },
+    {
+      "code": "026",
+      "display": "TOMOGRAFIA COMPUTADORIZADA INTERVENCIONISTA"
+    },
+    {
+      "code": "027",
+      "display": "ULTRA-SONOGRAFIA DIAGNÓSTICA"
+    },
+    {
+      "code": "028",
+      "display": "ULTRA-SONOGRAFIA INTERVENCIONISTA"
+    },
+    {
+      "code": "031",
+      "display": "DIÁRIAS, TAXAS E GASES MEDICINAIS"
+    },
+    {
+      "code": "030",
+      "display": "MEDICAMENTOS"
+    },
+    {
+      "code": "100095844",
+      "display": "Família INSERTO Mobilidade Dupla Cabeça de Ceralepine - HQNOC850 Inserto T50 Ceralepine 12/14,colo"
+    },
+    {
+      "code": "100095895",
+      "display": "Família INSERTO Mobilidade Dupla Cabeça de Ceralepine - HQNOL858 Inserto T58 Ceralepine 12/14, colo"
+    },
+    {
+      "code": "100104720",
+      "display": "INSERTE ACETABULAR CONSTRITO TRIDENT - 69-2246 - Inserte Constrito Trident All Poly 22mm/ 46mm"
+    },
+    {
+      "code": "100105050",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202653 Inserto de rolamento fixo UNI"
+    },
+    {
+      "code": "100301002",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 422100006 COMPONENTE TIBIAL TAM 6"
+    },
+    {
+      "code": "100397840",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5182-006-10: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "016",
+      "display": "PROCEDIMENTOS DE FONOAUDIOLOGIA"
+    },
+    {
+      "code": "100104932",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202655 Inserto de rolamento fixo UNI"
+    },
+    {
+      "code": "100104967",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202651 Inserto de rolamento fixo UNI"
+    },
+    {
+      "code": "100104991",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202501 Base Tibial UNI SCORE para ins"
+    },
+    {
+      "code": "100105009",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202631 Inserto de rolamento fixo UNI"
+    },
+    {
+      "code": "100105025",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202506 Base Tibial UNI SCORE para ins"
+    },
+    {
+      "code": "100105068",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202621 Inserto de rolamento fixo UNI"
+    },
+    {
+      "code": "100105076",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202633 Inserto de rolamento fixo UNI"
+    },
+    {
+      "code": "100105084",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202307 Componente Femoral Unicomparti"
+    },
+    {
+      "code": "100105149",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202643 Inserto de rolamento fixo UNI"
+    },
+    {
+      "code": "100105173",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202644 Inserto de rolamento fixo UNI"
+    },
+    {
+      "code": "100105181",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202622 Inserto de rolamento fixo UNI"
+    },
+    {
+      "code": "100105203",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202303 Componente Femoral Unicomparti"
+    },
+    {
+      "code": "100196764",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN300R20C"
+    },
+    {
+      "code": "100196802",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN275R24C"
+    },
+    {
+      "code": "100196837",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN350R28C"
+    },
+    {
+      "code": "100196845",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN400R20C"
+    },
+    {
+      "code": "100196985",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN350R17C"
+    },
+    {
+      "code": "100197019",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN350R44C"
+    },
+    {
+      "code": "100197027",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN300R12C"
+    },
+    {
+      "code": "100197035",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN250R20C"
+    },
+    {
+      "code": "100300626",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 422100008 COMPONENTE TIBIAL TAM 8"
+    },
+    {
+      "code": "100300634",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 423100710 INSERTO TIBIAL CR TAM 7/10"
+    },
+    {
+      "code": "100300693",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 423100512 INSERTO TIBIAL CR TAM 5/12"
+    },
+    {
+      "code": "100300707",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 423100422 INSERTO TIBIAL CR TAM 4/22"
+    },
+    {
+      "code": "100300766",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 423100714 INSERTO TIBIAL CR TAM 7/14"
+    },
+    {
+      "code": "100300804",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 423100712 INSERTO TIBIAL CR TAM 7/12"
+    },
+    {
+      "code": "100300812",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 421100204 COMPONENTE FEMORAL CR, TAM D DIR"
+    },
+    {
+      "code": "100300847",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 423100722 INSERTO TIBIAL CR TAM 7/22"
+    },
+    {
+      "code": "100300863",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 421100205 COMPONENTE FEMORAL CR, TAM E DIR"
+    },
+    {
+      "code": "100300871",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 423100622 INSERTO TIBIAL CR TAM 6/22"
+    },
+    {
+      "code": "005",
+      "display": "ENDOSCOPIA DIAGNÓSTICA"
+    },
+    {
+      "code": "008",
+      "display": "GENÉTICA"
+    },
+    {
+      "code": "012",
+      "display": "MÉTODOS INTERVENCIONISTAS / TERAPÊUTICOS POR IMAGEM"
+    },
+    {
+      "code": "019",
+      "display": "PROCEDIMENTOS EM PSICOTERAPIA"
+    },
+    {
+      "code": "100300910",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 423100614 INSERTO TIBIAL CR TAM 6/14"
+    },
+    {
+      "code": "100300928",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 421100107 COMPONENTE FEMORAL CR, TAM G ESQ"
+    },
+    {
+      "code": "100300936",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 423100318 INSERTO TIBIAL CR TAM 3/18"
+    },
+    {
+      "code": "100300952",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 423100822 INSERTO TIBIAL CR TAM 8/22"
+    },
+    {
+      "code": "100300960",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 423100814 INSERTO TIBIAL CR TAM 8/14"
+    },
+    {
+      "code": "100300979",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 422100004 COMPONENTE TIBIAL TAM 4"
+    },
+    {
+      "code": "100300987",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 423100322 INSERTO TIBIAL CR TAM 3/22"
+    },
+    {
+      "code": "100300995",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 423100514 INSERTO TIBIAL CR TAM 5/14"
+    },
+    {
+      "code": "100301010",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 423100718 INSERTO TIBIAL CR TAM 7/18"
+    },
+    {
+      "code": "100397530",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5282-009-11: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "100397620",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5182-006-08: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "100397654",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5182-005-08: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "100397662",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5182-006-09: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "100397689",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5182-007-11: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "100397794",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5380-005-01: Persona Componente Tibial de Joelho Parcial, Me"
+    },
+    {
+      "code": "100397808",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5380-005-02: Persona Componente Tibial de Joelho Parcial, Me"
+    },
+    {
+      "code": "100397816",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5282-006-11: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "100397824",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5580-005-01: Persona Componente Femoral deJoelho Parcial Cim"
+    },
+    {
+      "code": "100397832",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5282-004-09: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "100397859",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5580-007-01: Persona Componente Femoral de Joelho Parcial Ci"
+    },
+    {
+      "code": "100397875",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5182-009-14: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "100397883",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5182-005-09: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "100397891",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5282-008-10: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "100397905",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5580-002-02: Persona Componente Femoral de Joelho Parcial Ci"
+    },
+    {
+      "code": "100397921",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5182-009-10: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "100397948",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5182-009-09: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "100397956",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5282-003-12: Persona Superfície Articular deJoelho Parcial V"
+    },
+    {
+      "code": "100397972",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5182-008-10: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "100397980",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5380-006-01: Persona Componente Tibial de Joelho Parcial, Me"
+    },
+    {
+      "code": "100397999",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5182-009-11: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "100398006",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5282-007-09: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "00000000",
+      "display": "Procedimento proveniente de tabela própria sem mapeamento para TUSS"
+    },
+    {
+      "code": "001",
+      "display": "ANATOMIA PATOLÓGICA E CITOPATOLOGIA"
+    },
+    {
+      "code": "002",
+      "display": "ANESTESIAS"
+    },
+    {
+      "code": "003",
+      "display": "DIAGNÓSTICO POR IMAGEM - OUTROS"
+    },
+    {
+      "code": "004",
+      "display": "DIAGNÓSTICO POR IMAGEM - RX"
+    },
+    {
+      "code": "006",
+      "display": "ENDOSCOPIA INTERVENCIONISTA"
+    },
+    {
+      "code": "007",
+      "display": "EXAMES RADIOLÓGICOS EM ODONTOLOGIA"
+    },
+    {
+      "code": "009",
+      "display": "MEDICINA LABORATORIAL"
+    },
+    {
+      "code": "010",
+      "display": "MEDICINA NUCLEAR"
+    },
+    {
+      "code": "011",
+      "display": "MEDICINA TRANSFUCIONAL"
+    },
+    {
+      "code": "013",
+      "display": "OUTROS EXAMES E PROCEDIMENTOS"
+    },
+    {
+      "code": "014",
+      "display": "PROCEDIMENTOS DE ASSISTÊNCIA SOCIAL"
+    },
+    {
+      "code": "015",
+      "display": "PROCEDIMENTOS DE ENFERMAGEM"
+    },
+    {
+      "code": "017",
+      "display": "PROCEDIMENTOS DE NUTRIÇÃO"
+    },
+    {
+      "code": "018",
+      "display": "PROCEDIMENTOS EM FISIOTERAPIA"
+    },
+    {
+      "code": "020",
+      "display": "PROCEDIMENTOS EM TERAPIA OCUPACIONAL"
+    },
+    {
+      "code": "022",
+      "display": "RADIOTERAPIA OUTRAS TÉCNICAS"
+    },
+    {
+      "code": "023",
+      "display": "RESSONÂNCIA MAGNÉTICA DIAGNÓSTICA"
+    },
+    {
+      "code": "024",
+      "display": "RESSONÂNCIA MAGNÉTICA INTERVENCIONISTA"
+    },
+    {
+      "code": "1",
+      "display": "ANATOMIA PATOLÓGICA E CITOPATOLOGIA"
+    },
+    {
+      "code": "100095771",
+      "display": "Família INSERTO Mobilidade Dupla Cabeça de Ceralepine - HQNOL848 Inserto T48 Ceralepine 12/14, colo"
+    },
+    {
+      "code": "26",
+      "display": "TOMOGRAFIA COMPUTADORIZADA INTERVENCIONISTA"
+    },
+    {
+      "code": "25",
+      "display": "TOMOGRAFIA COMPUTADORIZADA DIAGNÓSTICA"
+    },
+    {
+      "code": "100095909",
+      "display": "Família INSERTO Mobilidade Dupla Cabeça de Ceralepine - HQNOM848 Inserto T48 Ceralepine 12/14, colo"
+    },
+    {
+      "code": "100095887",
+      "display": "Família INSERTO Mobilidade Dupla Cabeça de Ceralepine - HQNOL850 Inserto T50 Ceralepine12/14, colo"
+    },
+    {
+      "code": "100095852",
+      "display": "Família INSERTO Mobilidade Dupla Cabeça de Ceralepine - HQNOM854 Inserto T54 Ceralepine 12/14, colo"
+    },
+    {
+      "code": "100095801",
+      "display": "Família INSERTO Mobilidade Dupla Cabeça de Ceralepine - HQNOL852 Inserto T52 Ceralepine 12/14, colo"
+    },
+    {
+      "code": "100095763",
+      "display": "Família INSERTO Mobilidade Dupla Cabeça de Ceralepine - HQNOC858 Inserto T58 Ceralepine 12/14, colo"
+    },
+    {
+      "code": "100095755",
+      "display": "Família INSERTO Mobilidade Dupla Cabeça de Ceralepine - HQNOC862 Inserto T62 Ceralepine 12/14, colo"
+    },
+    {
+      "code": "100095747",
+      "display": "Família INSERTO Mobilidade Dupla Cabeça de Ceralepine - HQNOC848 Inserto T48 Ceralepine 12/14, colo"
+    },
+    {
+      "code": "100095739",
+      "display": "Família INSERTO Mobilidade Dupla Cabeça de Ceralepine - HQNOC854 InsertoT54 Ceralepine 12/14, colo"
+    },
+    {
+      "code": "100095712",
+      "display": "Família INSERTO Mobilidade Dupla Cabeça de Ceralepine"
+    },
+    {
+      "code": "10",
+      "display": "MEDICINA NUCLEAR"
+    },
+    {
+      "code": "0",
+      "display": "Procedimento proveniente de tabela própria sem mapeamento para TUSS"
+    },
+    {
+      "code": "100104908",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202652 Inserto de rolamento fixo UNI"
+    },
+    {
+      "code": "100104770",
+      "display": "INSERTE ACETABULAR CONSTRITO TRIDENT - 690-00-32H - Inserte Constrito Acetabular Trident 0 Deg 32mm"
+    },
+    {
+      "code": "100104762",
+      "display": "INSERTE ACETABULAR CONSTRITO TRIDENT - 690-00-32I - InserteConstrito Acetabular Trident 0 Deg 32mm"
+    },
+    {
+      "code": "100104754",
+      "display": "INSERTE ACETABULAR CONSTRITO TRIDENT - 69-3256 - Inserte Constrito TridentAll Poly 32mm/ 56mm"
+    },
+    {
+      "code": "100104703",
+      "display": "INSERTE ACETABULAR CONSTRITO TRIDENT - 690-10-28I - Inserte Constrito Acetabular Trident 10 Deg 28m"
+    },
+    {
+      "code": "100104681",
+      "display": "INSERTE ACETABULAR CONSTRITO TRIDENT - 690-00-28G - Inserte Constrito Acetabular Trident 0 Deg 28mm"
+    },
+    {
+      "code": "100104673",
+      "display": "INSERTE ACETABULAR CONSTRITO TRIDENT - 690-00-22D - Inserte Constrito Acetabular Trident 0 Deg 22mm"
+    },
+    {
+      "code": "100104584",
+      "display": "INSERTE ACETABULAR CONSTRITO TRIDENT - 690-00-28F - Inserte Constrito AcetabularTrident 0 Deg 28mm"
+    },
+    {
+      "code": "100104576",
+      "display": "INSERTE ACETABULAR CONSTRITO TRIDENT - 690-10-22F - Inserte Constrito Acetabular Trident 10 Deg 22m"
+    },
+    {
+      "code": "100104568",
+      "display": "INSERTE ACETABULAR CONSTRITO TRIDENT - 69-2854- Inserte Constrito Trident All Poly 28mm/ 54mm"
+    },
+    {
+      "code": "100104550",
+      "display": "INSERTE ACETABULAR CONSTRITO TRIDENT - 69-3258 - Inserte Constrito Trident All Poly 32mm/ 58mm"
+    },
+    {
+      "code": "100104541",
+      "display": "INSERTE ACETABULAR CONSTRITO TRIDENT"
+    },
+    {
+      "code": "100104452",
+      "display": "BASE TIBIAL TRITANIUM TRIATHLON - 5536B600 - BASE TIBIAL TRITANIUM TRIATHLON S6"
+    },
+    {
+      "code": "100104444",
+      "display": "BASE TIBIAL TRITANIUM TRIATHLON - 5536B500 - BASE TIBIAL TRITANIUM TRIATHLON S5"
+    },
+    {
+      "code": "100104436",
+      "display": "BASE TIBIAL TRITANIUM TRIATHLON - 5536B200 - BASE TIBIAL TRITANIUM TRIATHLON S2"
+    },
+    {
+      "code": "100104428",
+      "display": "BASE TIBIAL TRITANIUM TRIATHLON - 5536B800 - BASE TIBIAL TRITANIUM TRIATHLON S8"
+    },
+    {
+      "code": "100104410",
+      "display": "BASE TIBIAL TRITANIUM TRIATHLON - 5536B100 - BASE TIBIAL TRITANIUM TRIATHLON S1"
+    },
+    {
+      "code": "100104401",
+      "display": "BASE TIBIAL TRITANIUM TRIATHLON - 5536B300 - BASE TIBIAL TRITANIUM TRIATHLON S3"
+    },
+    {
+      "code": "100104398",
+      "display": "BASE TIBIAL TRITANIUM TRIATHLON - 5536B400 - BASE TIBIAL TRITANIUM TRIATHLON S4"
+    },
+    {
+      "code": "100104380",
+      "display": "BASE TIBIAL TRITANIUM TRIATHLON - 5536B700 - BASE TIBIAL TRITANIUM TRIATHLON S7"
+    },
+    {
+      "code": "100104371",
+      "display": "BASE TIBIAL TRITANIUM TRIATHLON"
+    },
+    {
+      "code": "100095950",
+      "display": "Família INSERTO Mobilidade Dupla Cabeça de Ceralepine - HQNOL856 Inserto T56 Ceralepine 12/14, colo"
+    },
+    {
+      "code": "100105262",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202627 Inserto de rolamento fixo UNI"
+    },
+    {
+      "code": "100105254",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202625 Inserto de rolamento fixo UNI"
+    },
+    {
+      "code": "100105246",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202302 Componente Femoral Unicomparti"
+    },
+    {
+      "code": "100105238",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202502 Base Tibial UNI SCORE para ins"
+    },
+    {
+      "code": "100105220",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202626 Inserto de rolamento fixo UNI"
+    },
+    {
+      "code": "100105211",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202635 Inserto de rolamento fixo UNI"
+    },
+    {
+      "code": "100105190",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202654 Inserto de rolamento fixo UNI"
+    },
+    {
+      "code": "100105165",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202306 Componente Femoral Unicomparti"
+    },
+    {
+      "code": "100105157",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202641 Inserto de rolamento fixo UNI"
+    },
+    {
+      "code": "100105130",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202623 Inserto de rolamento fixo UNI"
+    },
+    {
+      "code": "100105122",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202645 Inserto de rolamento fixo UNI"
+    },
+    {
+      "code": "100105114",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202305 Componente Femoral Unicomparti"
+    },
+    {
+      "code": "100105106",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202504 Base Tibial UNI SCORE para ins"
+    },
+    {
+      "code": "100105092",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202657 Inserto de rolamento fixo UNI"
+    },
+    {
+      "code": "100105041",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202634 Inserto de rolamento fixo UNI"
+    },
+    {
+      "code": "100105033",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202656 Inserto de rolamento fixo UNI"
+    },
+    {
+      "code": "100105017",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202637 Inserto de rolamento fixo UNI"
+    },
+    {
+      "code": "100104983",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202304 Componente Femoral Unicomparti"
+    },
+    {
+      "code": "100104975",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202642 Inserto de rolamento fixo UNI"
+    },
+    {
+      "code": "100104959",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202503 Base Tibial UNI SCORE para ins"
+    },
+    {
+      "code": "100104940",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202646 Inserto de rolamento fixo UNI"
+    },
+    {
+      "code": "100104924",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202636 Inserto de rolamento fixo UNI"
+    },
+    {
+      "code": "100095941",
+      "display": "Família INSERTO Mobilidade Dupla Cabeça de Ceralepine - HQNOM860 Inserto T60 Ceralepine 12/14, colo"
+    },
+    {
+      "code": "9",
+      "display": "MEDICINA LABORATORIAL"
+    },
+    {
+      "code": "8",
+      "display": "GENÉTICA"
+    },
+    {
+      "code": "7",
+      "display": "EXAMES RADIOLÓGICOS EM ODONTOLOGIA"
+    },
+    {
+      "code": "6",
+      "display": "ENDOSCOPIA INTERVENCIONISTA"
+    },
+    {
+      "code": "5",
+      "display": "ENDOSCOPIA DIAGNÓSTICA"
+    },
+    {
+      "code": "4",
+      "display": "DIAGNÓSTICO POR IMAGEM - RX"
+    },
+    {
+      "code": "31",
+      "display": "DIÁRIAS, TAXAS E GASES MEDICINAIS"
+    },
+    {
+      "code": "30",
+      "display": "MEDICAMENTOS"
+    },
+    {
+      "code": "3",
+      "display": "DIAGNÓSTICO POR IMAGEM - OUTROS"
+    },
+    {
+      "code": "29",
+      "display": "MATERIAIS E OPME"
+    },
+    {
+      "code": "28",
+      "display": "ULTRA-SONOGRAFIA INTERVENCIONISTA"
+    },
+    {
+      "code": "27",
+      "display": "ULTRA-SONOGRAFIA DIAGNÓSTICA"
+    },
+    {
+      "code": "24",
+      "display": "RESSONÂNCIA MAGNÉTICA INTERVENCIONISTA"
+    },
+    {
+      "code": "23",
+      "display": "RESSONÂNCIA MAGNÉTICA DIAGNÓSTICA"
+    },
+    {
+      "code": "22",
+      "display": "RADIOTERAPIA OUTRAS TÉCNICAS"
+    },
+    {
+      "code": "21",
+      "display": "RADIOTERAPIA MEGAVOLTAGEM"
+    },
+    {
+      "code": "20",
+      "display": "PROCEDIMENTOS EM TERAPIA OCUPACIONAL"
+    },
+    {
+      "code": "2",
+      "display": "ANESTESIAS"
+    },
+    {
+      "code": "19",
+      "display": "PROCEDIMENTOS EM PSICOTERAPIA"
+    },
+    {
+      "code": "18",
+      "display": "PROCEDIMENTOS EM FISIOTERAPIA"
+    },
+    {
+      "code": "17",
+      "display": "PROCEDIMENTOS DE NUTRIÇÃO"
+    },
+    {
+      "code": "16",
+      "display": "PROCEDIMENTOS DE FONOAUDIOLOGIA"
+    },
+    {
+      "code": "15",
+      "display": "PROCEDIMENTOS DE ENFERMAGEM"
+    },
+    {
+      "code": "14",
+      "display": "PROCEDIMENTOS DE ASSISTÊNCIA SOCIAL"
+    },
+    {
+      "code": "13",
+      "display": "OUTROS EXAMES E PROCEDIMENTOS"
+    },
+    {
+      "code": "12",
+      "display": "MÉTODOS INTERVENCIONISTAS / TERAPÊUTICOS POR IMAGEM"
+    },
+    {
+      "code": "11",
+      "display": "MEDICINA TRANSFUCIONAL"
+    },
+    {
+      "code": "100196756",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN400R24C"
+    },
+    {
+      "code": "100196748",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN400R33C"
+    },
+    {
+      "code": "100196730",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN400R08C"
+    },
+    {
+      "code": "100196721",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN275R38C"
+    },
+    {
+      "code": "100196713",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN300R44C"
+    },
+    {
+      "code": "100196705",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir"
+    },
+    {
+      "code": "100105319",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202301 Componente Femoral Unicomparti"
+    },
+    {
+      "code": "100105300",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202507 Base Tibial UNI SCORE para ins"
+    },
+    {
+      "code": "100105297",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202632 Inserto de rolamento fixo UNI"
+    },
+    {
+      "code": "100105289",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202505 Base Tibial UNI SCORE para ins"
+    },
+    {
+      "code": "100105270",
+      "display": "JOELHO UNICOMPARTIMENTAL BASE FIXA CIMENTADO ¿ UNI SCORE - 1?0202647 Inserto de rolamento fixo UNI"
+    },
+    {
+      "code": "100300898",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 423100510 INSERTO TIBIAL CR TAM 5/10"
+    },
+    {
+      "code": "100300880",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 421100203 COMPONENTE FEMORAL CR, TAM C DIR"
+    },
+    {
+      "code": "100300855",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 423100412 INSERTO TIBIAL CR TAM 4/12"
+    },
+    {
+      "code": "100300839",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 421100106 COMPONENTE FEMORAL CR, TAM F ESQ"
+    },
+    {
+      "code": "100300820",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 423100810 INSERTO TIBIAL CR TAM 8/10"
+    },
+    {
+      "code": "100300790",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 424000038 PATELA TAM 38 MM"
+    },
+    {
+      "code": "100300782",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 423100418 INSERTO TIBIAL CR TAM 4/18"
+    },
+    {
+      "code": "100300774",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 423100618 INSERTO TIBIAL CR TAM 6/18"
+    },
+    {
+      "code": "100300758",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 424000034 PATELA TAM 34 MM"
+    },
+    {
+      "code": "100300740",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 422100005 COMPONENTE TIBIAL TAM 5"
+    },
+    {
+      "code": "100300731",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 423100522 INSERTO TIBIAL CR TAM 5/22"
+    },
+    {
+      "code": "100300723",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 423100312 INSERTO TIBIAL CR TAM 3/12"
+    },
+    {
+      "code": "100300715",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 423100410 INSERTO TIBIAL CR TAM 4/10"
+    },
+    {
+      "code": "100300685",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 423100812 INSERTO TIBIAL CR TAM 8/12"
+    },
+    {
+      "code": "100197000",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN300R15C"
+    },
+    {
+      "code": "100196993",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN350R15C"
+    },
+    {
+      "code": "100196977",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN250R28C"
+    },
+    {
+      "code": "100196969",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN400R17C"
+    },
+    {
+      "code": "100196950",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN350R24C"
+    },
+    {
+      "code": "100196942",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN250R24C"
+    },
+    {
+      "code": "100196934",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN250R17C"
+    },
+    {
+      "code": "100196926",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN400R38C"
+    },
+    {
+      "code": "100196918",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN400R12C"
+    },
+    {
+      "code": "100196900",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN275R28C"
+    },
+    {
+      "code": "100196896",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN350R33C"
+    },
+    {
+      "code": "100397964",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5182-004-12: Persona Superfície Articular de JoelhoParcial V"
+    },
+    {
+      "code": "100397930",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5282-009-08: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "100397913",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5282-008-08: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "100397867",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5282-005-12: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "100397786",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5282-004-10: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "100397778",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5380-009-02: Persona Componente Tibial de Joelho Parcial, Me"
+    },
+    {
+      "code": "100397760",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5580-007-02: Persona Componente Femoral de JoelhoParcial Cim"
+    },
+    {
+      "code": "100397751",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5182-003-09: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "100397735",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5380-004-02: Persona Componente Tibial de Joelho Parcial, Me"
+    },
+    {
+      "code": "100397727",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5282-006-14: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "100397719",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5182-004-09: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "100397700",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5580-003-01: Persona Componente Femoral de Joelho Parcial Ci"
+    },
+    {
+      "code": "100397697",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5182-005-12: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "100397670",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5182-006-14: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "100397646",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5580-001-01: Persona Componente Femoral de Joelho Parcial Ci"
+    },
+    {
+      "code": "100397638",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5282-006-08: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "100300677",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 423100310 INSERTO TIBIAL CR TAM 3/10"
+    },
+    {
+      "code": "100300669",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 423100314 INSERTO TIBIAL CR TAM 3/14"
+    },
+    {
+      "code": "100300650",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 423100610 INSERTO TIBIAL CR TAM 6/10"
+    },
+    {
+      "code": "100300642",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 424000030 PATELA TAM 30 MM"
+    },
+    {
+      "code": "100300618",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 424000026 PATELA TAM 26 MM"
+    },
+    {
+      "code": "100300600",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 421100105 COMPONENTE FEMORAL CR, TAM E ESQ"
+    },
+    {
+      "code": "100300596",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 423100818 INSERTO TIBIAL CR TAM 8/18"
+    },
+    {
+      "code": "100300588",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 422100003 COMPONENTE TIBIAL TAM 3"
+    },
+    {
+      "code": "100300570",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR"
+    },
+    {
+      "code": "100297480",
+      "display": "PRÓTESE DE QUADRIL UNION ALTO NITROGENIO ORTOSINTESE - 1171/09 - Haste Femoral Union Tamanho 18 Cem"
+    },
+    {
+      "code": "100297471",
+      "display": "PRÓTESE DE QUADRIL UNION ALTO NITROGENIO ORTOSINTESE - 1171/01 - Haste Femoral Union Tamanho 09 Cem"
+    },
+    {
+      "code": "100297463",
+      "display": "PRÓTESE DE QUADRIL UNION ALTO NITROGENIO ORTOSINTESE - 1171/02 - Haste Femoral Union Tamanho 10 Cem"
+    },
+    {
+      "code": "100297455",
+      "display": "PRÓTESE DE QUADRIL UNION ALTO NITROGENIO ORTOSINTESE - 1171/07 - Haste Femoral Union Tamanho 15 Cem"
+    },
+    {
+      "code": "100297447",
+      "display": "PRÓTESE DE QUADRIL UNION ALTO NITROGENIO ORTOSINTESE - 1171/05 - Haste Femoral Union Tamanho 13 Cem"
+    },
+    {
+      "code": "100297439",
+      "display": "PRÓTESE DE QUADRIL UNION ALTO NITROGENIO ORTOSINTESE - 1171/08 - Haste Femoral Union Tamanho 16 Cem"
+    },
+    {
+      "code": "100297420",
+      "display": "PRÓTESE DE QUADRIL UNION ALTO NITROGENIO ORTOSINTESE - 1171/04 - Haste Femoral Union Tamanho 12 Cem"
+    },
+    {
+      "code": "100297412",
+      "display": "PRÓTESE DE QUADRIL UNION ALTO NITROGENIO ORTOSINTESE - 1171/06 - Haste Femoral Union Tamanho 14 Cem"
+    },
+    {
+      "code": "100397611",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5580-005-02: Persona Componente Femoral de Joelho Parcial Ci"
+    },
+    {
+      "code": "100397603",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5282-005-14: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "100397590",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5380-003-02: Persona Componente Tibial de Joelho Parcial, Me"
+    },
+    {
+      "code": "100397581",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5580-006-02: Persona Componente Femoral de Joelho Parcial Ci"
+    },
+    {
+      "code": "100397573",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5182-008-11: Persona Superfície Articular de JoelhoParcial V"
+    },
+    {
+      "code": "100397565",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5282-006-09: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "100397557",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5282-003-10: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "100397549",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5182-007-09: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "100397522",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5282-008-14: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "100397514",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5282-005-09: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "100397506",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5282-008-12: Persona Superfície Articular de Joelho Parcial"
+    },
+    {
+      "code": "100397492",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5580-001-02: Persona Componente Femoral de Joelho Parcial Ci"
+    },
+    {
+      "code": "100397484",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5380-007-02: Persona Componente Tibial de Joelho Parcial, Me"
+    },
+    {
+      "code": "100397476",
+      "display": "Sistema de Joelho Parcial PERSONA"
+    },
+    {
+      "code": "100301088",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 423100414 INSERTO TIBIAL CR TAM 4/14"
+    },
+    {
+      "code": "100301070",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 421100104 COMPONENTE FEMORAL CR, TAM D ESQ"
+    },
+    {
+      "code": "100301061",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 421100206 COMPONENTE FEMORAL CR, TAM F DIR"
+    },
+    {
+      "code": "100301053",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 422100007 COMPONENTE TIBIAL TAM 7"
+    },
+    {
+      "code": "100301045",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 424000042 PATELA TAM 42 MM"
+    },
+    {
+      "code": "100301037",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 421100207 COMPONENTE FEMORAL CR, TAM G DIR"
+    },
+    {
+      "code": "100301029",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 423100518 INSERTO TIBIAL CR TAM 5/18"
+    },
+    {
+      "code": "100300944",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 423100612 INSERTO TIBIAL CR TAM 6/12"
+    },
+    {
+      "code": "100300901",
+      "display": "SISTEMA PARA ARTROPLASTIA DE JOELHO SANAT SWING CR - 421100103 COMPONENTE FEMORAL CR, TAM C ESQ"
+    },
+    {
+      "code": "100297404",
+      "display": "PRÓTESE DE QUADRIL UNION ALTO NITROGENIO ORTOSINTESE - 1171/03 - Haste Femoral Union Tamanho 11 Cem"
+    },
+    {
+      "code": "100297390",
+      "display": "PRÓTESE DE QUADRIL UNION ALTO NITROGENIO ORTOSINTESE"
+    },
+    {
+      "code": "100197183",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN250R12C"
+    },
+    {
+      "code": "100197175",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN275R15C"
+    },
+    {
+      "code": "100197167",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN400R28C"
+    },
+    {
+      "code": "100197159",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN275R44C"
+    },
+    {
+      "code": "100197140",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN275R33C"
+    },
+    {
+      "code": "100197132",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN350R08C"
+    },
+    {
+      "code": "100197124",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN275R17C"
+    },
+    {
+      "code": "100197116",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN400R15C"
+    },
+    {
+      "code": "100197108",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN350R20C"
+    },
+    {
+      "code": "100197094",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN300R38C"
+    },
+    {
+      "code": "100197086",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN300R17C"
+    },
+    {
+      "code": "100197078",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN300R08C"
+    },
+    {
+      "code": "100197060",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN300R28C"
+    },
+    {
+      "code": "100197051",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN300R33C"
+    },
+    {
+      "code": "100197043",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN350R38C"
+    },
+    {
+      "code": "100196888",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN350R12C"
+    },
+    {
+      "code": "100196870",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN400R44C"
+    },
+    {
+      "code": "100196861",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN275R20C"
+    },
+    {
+      "code": "100196853",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN275R08C"
+    },
+    {
+      "code": "100196829",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN300R24C"
+    },
+    {
+      "code": "100196810",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN275R12C"
+    },
+    {
+      "code": "100196799",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN250R15C"
+    },
+    {
+      "code": "100196780",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN250R33C"
+    },
+    {
+      "code": "100196772",
+      "display": "Stent Elunir Coronário de troca rápida com eluição de riderforolimus Elunir - LUN250R08C"
+    },
+    {
+      "code": "100397743",
+      "display": "Sistema de Joelho Parcial PERSONA - 42-5282-007-10: Persona Superfície Articular de Joelho Parcial"
+    }
+  ]
 }

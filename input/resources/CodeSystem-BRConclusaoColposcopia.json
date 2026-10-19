@@ -1,17 +1,36 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRConclusaoColposcopia",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRConclusaoColposcopia</b></p><p>Title: BRConclusaoColposcopia</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRConclusaoColposcopia</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRConclusaoColposcopia",
-  "version": "HEAD",
   "name": "BRConclusaoColposcopia",
   "title": "BRConclusaoColposcopia",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.0.0",
+  "count": 5,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "2663881",
+      "display": "Achados Colposcópicos Normais/Benignos"
+    },
+    {
+      "code": "2663879",
+      "display": "Achados colposcópicos não específicos"
+    },
+    {
+      "code": "2663877",
+      "display": "Achados Colposcópicos Anormais Grau 1"
+    },
+    {
+      "code": "2663875",
+      "display": "Achados Colposcópicos Anormais Grau 2"
+    },
+    {
+      "code": "2663873",
+      "display": "Achados Colposcópicos de Suspeita de Invasão"
+    }
+  ]
 }

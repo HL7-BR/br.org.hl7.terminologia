@@ -1,17 +1,40 @@
 {
   "resourceType": "CodeSystem",
   "id": "BREstadoCivil",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BREstadoCivil</b></p><p>Title: BREstadoCivil</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BREstadoCivil</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREstadoCivil",
-  "version": "HEAD",
   "name": "BREstadoCivil",
   "title": "BREstadoCivil",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.0.0",
+  "count": 6,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "4",
+      "display": "Separado/divorciado"
+    },
+    {
+      "code": "5",
+      "display": "União estável (consensual)"
+    },
+    {
+      "code": "9",
+      "display": "Ignorado"
+    },
+    {
+      "code": "3",
+      "display": "Viúvo"
+    },
+    {
+      "code": "2",
+      "display": "Casado"
+    },
+    {
+      "code": "1",
+      "display": "Solteiro"
+    }
+  ]
 }

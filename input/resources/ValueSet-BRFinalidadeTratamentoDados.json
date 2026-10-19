@@ -1,12 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BRFinalidadeTratamentoDados",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRFinalidadeTratamentoDados</b></p><p>Title: BRFinalidadeTratamentoDados</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRFinalidadeTratamentoDados</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRFinalidadeTratamentoDados",
-  "version": "HEAD",
   "name": "BRFinalidadeTratamentoDados",
   "title": "BRFinalidadeTratamentoDados",
   "status": "active",
@@ -14,34 +9,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFinalidadeTratamentoDados",
-        "version": "HEAD",
-        "concept": [
-          {
-            "code": "GESTAO",
-            "display": "Gestão em Saúde"
-          },
-          {
-            "code": "REGULA",
-            "display": "Regulação"
-          },
-          {
-            "code": "FATURA",
-            "display": "Faturamento"
-          },
-          {
-            "code": "PESQCIE",
-            "display": "Pesquisa científica"
-          },
-          {
-            "code": "VIGISAUDE",
-            "display": "Vigilância à saúde"
-          },
-          {
-            "code": "ASSAUDE",
-            "display": "Assistência à Saùde"
-          }
-        ]
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFinalidadeTratamentoDados"
       }
     ]
   }

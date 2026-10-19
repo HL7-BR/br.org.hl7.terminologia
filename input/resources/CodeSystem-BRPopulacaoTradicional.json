@@ -1,20 +1,128 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRPopulacaoTradicional",
-  "meta": {
-    "lastUpdated": "2024-08-30T12:26:42.606+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRPopulacaoTradicional</b></p><p>Title: BRPopulacaoTradicional</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
-  "version": "HEAD",
   "name": "BRPopulacaoTradicional",
   "title": "BRPopulacaoTradicional",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "0.1.0",
+  "count": 28,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "XXVIII",
+      "display": "Varjeiros"
+    },
+    {
+      "code": "XXVI",
+      "display": "Seringueiros"
+    },
+    {
+      "code": "X",
+      "display": "Extrativistas"
+    },
+    {
+      "code": "XXIII",
+      "display": "Quebradeiras de coco babaçu"
+    },
+    {
+      "code": "XXII",
+      "display": "Povos de terreiro/matriz africana"
+    },
+    {
+      "code": "XXI",
+      "display": "Povos quilombolas"
+    },
+    {
+      "code": "I",
+      "display": "Andirobeiras"
+    },
+    {
+      "code": "XXIV",
+      "display": "Retireiros"
+    },
+    {
+      "code": "III",
+      "display": "Caatingueiros"
+    },
+    {
+      "code": "II",
+      "display": "Agroextrativistas"
+    },
+    {
+      "code": "IX",
+      "display": "Comunidades de fundo e fecho de pasto"
+    },
+    {
+      "code": "IV",
+      "display": "Caiçaras"
+    },
+    {
+      "code": "VII",
+      "display": "Cerrado"
+    },
+    {
+      "code": "V",
+      "display": "Castanheiras"
+    },
+    {
+      "code": "VIII",
+      "display": "Ciganos"
+    },
+    {
+      "code": "XII",
+      "display": "Geraizeiros"
+    },
+    {
+      "code": "XI",
+      "display": "Faxinalenses"
+    },
+    {
+      "code": "XIV",
+      "display": "Isqueiros"
+    },
+    {
+      "code": "XIX",
+      "display": "Pomeranos"
+    },
+    {
+      "code": "XVI",
+      "display": "Marisqueiros"
+    },
+    {
+      "code": "XX",
+      "display": "Povos indígenas"
+    },
+    {
+      "code": "VI",
+      "display": "Catadores de mangaba"
+    },
+    {
+      "code": "XXV",
+      "display": "Ribeirinhos"
+    },
+    {
+      "code": "XXVII",
+      "display": "Vazanteiros"
+    },
+    {
+      "code": "XIII",
+      "display": "Jangadeiros"
+    },
+    {
+      "code": "XVII",
+      "display": "Pantaneiros"
+    },
+    {
+      "code": "XV",
+      "display": "Morroquianos"
+    },
+    {
+      "code": "XVIII",
+      "display": "Pescadores artesanais"
+    }
+  ]
 }

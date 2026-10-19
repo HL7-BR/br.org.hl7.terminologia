@@ -1,20 +1,28 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRTipoResultadoHISPT",
-  "meta": {
-    "lastUpdated": "2025-07-17T17:38:29.869+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRTipoResultadoHISPT</b></p><p>Title: BRTipoResultadoHISPT</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoHISPT</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoResultadoHISPT",
-  "version": "HEAD",
   "name": "BRTipoResultadoHISPT",
   "title": "BRTipoResultadoHISPT",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.0",
+  "count": 3,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "3",
+      "display": "Inconclusivo"
+    },
+    {
+      "code": "1",
+      "display": "Compatível"
+    },
+    {
+      "code": "2",
+      "display": "Não Compatível"
+    }
+  ]
 }

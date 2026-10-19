@@ -1,20 +1,146 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRMedDRA",
-  "meta": {
-    "lastUpdated": "2025-07-17T17:31:34.729+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRMedDRA</b></p><p>Title: BRMedDRA</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMedDRA",
-  "version": "HEAD",
   "name": "BRMedDRA",
   "title": "BRMedDRA",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.0.0",
+  "count": 29,
+  "content": "complete",
+  "property": [
+    {
+      "code": "inactive",
+      "uri": "http://hl7.org/fhir/concept-properties#inactive",
+      "description": "Conceito inativo (retirado no OCL).",
+      "type": "boolean"
+    }
+  ],
+  "concept": [
+    {
+      "code": "10013968",
+      "display": "Dispnéia"
+    },
+    {
+      "code": "10014184",
+      "display": "Eczema"
+    },
+    {
+      "code": "10023845",
+      "display": "Edema de Glote"
+    },
+    {
+      "code": "10028116",
+      "display": "Mucosite"
+    },
+    {
+      "code": "10002424",
+      "display": "Angioedema"
+    },
+    {
+      "code": "10037868",
+      "display": "Exantema maculopapular"
+    },
+    {
+      "code": "10029117",
+      "display": "Nefrite"
+    },
+    {
+      "code": "10003639",
+      "display": "Dermatite atópica"
+    },
+    {
+      "code": "10003553",
+      "display": "Asma"
+    },
+    {
+      "code": "10012735",
+      "display": "Diarréia"
+    },
+    {
+      "code": "10007617",
+      "display": "Parada Cardiorespiratória"
+    },
+    {
+      "code": "10042033",
+      "display": "Síndrome de Stevens-Johnson"
+    },
+    {
+      "code": "10012442",
+      "display": "Dermatite de contato"
+    },
+    {
+      "code": "10039083",
+      "display": "Rinite"
+    },
+    {
+      "code": "10046735",
+      "display": "Urticária"
+    },
+    {
+      "code": "10010741",
+      "display": "Conjuntivite"
+    },
+    {
+      "code": "10047115",
+      "display": "Vasculite"
+    },
+    {
+      "code": "10011224",
+      "display": "Tosse"
+    },
+    {
+      "code": "10006482",
+      "display": "Broncoespasmo"
+    },
+    {
+      "code": "10034972",
+      "display": "Fotossensibilidade"
+    },
+    {
+      "code": "10073508",
+      "display": "Síndrome de DRESS"
+    },
+    {
+      "code": "10037087",
+      "display": "Prurido"
+    },
+    {
+      "code": "10044223",
+      "display": "Síndrome de Lyell"
+    },
+    {
+      "code": "10015218",
+      "display": "Eritema Multiforme"
+    },
+    {
+      "code": "10012441",
+      "display": "Exantema bolhoso"
+    },
+    {
+      "code": "10003246",
+      "display": "Artrite"
+    },
+    {
+      "code": "10002198",
+      "display": "Anafilaxia"
+    },
+    {
+      "code": "10047700",
+      "display": "Vômito"
+    },
+    {
+      "code": "47700",
+      "display": "Vômito",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    }
+  ]
 }

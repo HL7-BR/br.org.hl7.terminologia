@@ -1,20 +1,556 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRImunobiologico",
-  "meta": {
-    "lastUpdated": "2025-07-16T16:49:13.383+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRImunobiologico</b></p><p>Title: BRImunobiologico</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRImunobiologico</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRImunobiologico",
-  "version": "HEAD",
   "name": "BRImunobiologico",
   "title": "BRImunobiologico",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "2.18.0",
+  "count": 124,
+  "content": "complete",
+  "property": [
+    {
+      "code": "inactive",
+      "uri": "http://hl7.org/fhir/concept-properties#inactive",
+      "description": "Conceito inativo (retirado no OCL).",
+      "type": "boolean"
+    }
+  ],
+  "concept": [
+    {
+      "code": "101",
+      "display": "VZR"
+    },
+    {
+      "code": "107",
+      "display": "VPC20"
+    },
+    {
+      "code": "INF3-alta dosagem",
+      "display": "Vacina influenza trivalente - alta dosagem",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "73",
+      "display": "Quadrupla Viral"
+    },
+    {
+      "code": "59",
+      "display": "VPC13"
+    },
+    {
+      "code": "56",
+      "display": "SCRV"
+    },
+    {
+      "code": "40",
+      "display": "Pncc7V"
+    },
+    {
+      "code": "39",
+      "display": "Tetra"
+    },
+    {
+      "code": "29",
+      "display": "PENTA acelular"
+    },
+    {
+      "code": "28",
+      "display": "VOP"
+    },
+    {
+      "code": "26",
+      "display": "VPC10"
+    },
+    {
+      "code": "24",
+      "display": "SCR"
+    },
+    {
+      "code": "67",
+      "display": "HPV4"
+    },
+    {
+      "code": "47",
+      "display": "DTPa"
+    },
+    {
+      "code": "37",
+      "display": "Vero"
+    },
+    {
+      "code": "36",
+      "display": "SR"
+    },
+    {
+      "code": "100",
+      "display": "VVBN"
+    },
+    {
+      "code": "93",
+      "display": "HPV9"
+    },
+    {
+      "code": "68",
+      "display": "HPV Bi"
+    },
+    {
+      "code": "83",
+      "display": "HEPAad"
+    },
+    {
+      "code": "77",
+      "display": "INF4"
+    },
+    {
+      "code": "33",
+      "display": "INF3"
+    },
+    {
+      "code": "65",
+      "display": "ROTA5"
+    },
+    {
+      "code": "66",
+      "display": "MEN BC"
+    },
+    {
+      "code": "62",
+      "display": "HAeHBped"
+    },
+    {
+      "code": "60",
+      "display": "HPV2"
+    },
+    {
+      "code": "57",
+      "display": "dTpa"
+    },
+    {
+      "code": "55",
+      "display": "HepAinf"
+    },
+    {
+      "code": "21",
+      "display": "VPP23"
+    },
+    {
+      "code": "22",
+      "display": "VIP"
+    },
+    {
+      "code": "25",
+      "display": "dT"
+    },
+    {
+      "code": "19",
+      "display": "IGHV"
+    },
+    {
+      "code": "18",
+      "display": "VR"
+    },
+    {
+      "code": "11",
+      "display": "SABOCR"
+    },
+    {
+      "code": "108",
+      "display": "VVSR-Rec"
+    },
+    {
+      "code": "110",
+      "display": "Vacina Influenza Tetravalente - Alta Dosagem"
+    },
+    {
+      "code": "109",
+      "display": "VVSR-RecAdj"
+    },
+    {
+      "code": "113",
+      "display": "CHIKUNGUNYA"
+    },
+    {
+      "code": "76",
+      "display": "VHZ"
+    },
+    {
+      "code": "82",
+      "display": "Dengue"
+    },
+    {
+      "code": "78",
+      "display": "MenB"
+    },
+    {
+      "code": "75",
+      "display": "COLERA"
+    },
+    {
+      "code": "74",
+      "display": "MenACWY"
+    },
+    {
+      "code": "71",
+      "display": "Rubeola"
+    },
+    {
+      "code": "70",
+      "display": "Sarampo"
+    },
+    {
+      "code": "72",
+      "display": "Gripe Sazonal"
+    },
+    {
+      "code": "61",
+      "display": "TT"
+    },
+    {
+      "code": "58",
+      "display": "TETRA acelular"
+    },
+    {
+      "code": "45",
+      "display": "ROTA"
+    },
+    {
+      "code": "44",
+      "display": "H1N1"
+    },
+    {
+      "code": "43",
+      "display": "HEXA"
+    },
+    {
+      "code": "42",
+      "display": "PENTA"
+    },
+    {
+      "code": "41",
+      "display": "MenC"
+    },
+    {
+      "code": "35",
+      "display": "HA"
+    },
+    {
+      "code": "34",
+      "display": "VAR"
+    },
+    {
+      "code": "30",
+      "display": "FTp"
+    },
+    {
+      "code": "23",
+      "display": "IGHR"
+    },
+    {
+      "code": "17",
+      "display": "Hib"
+    },
+    {
+      "code": "15",
+      "display": "BCG"
+    },
+    {
+      "code": "14",
+      "display": "VFA"
+    },
+    {
+      "code": "13",
+      "display": "Meningo AC"
+    },
+    {
+      "code": "2",
+      "display": "SAT"
+    },
+    {
+      "code": "10",
+      "display": "SAD"
+    },
+    {
+      "code": "9",
+      "display": "HepB"
+    },
+    {
+      "code": "46",
+      "display": "DTP"
+    },
+    {
+      "code": "92",
+      "display": "VRvero"
+    },
+    {
+      "code": "111",
+      "display": "dTpa/VIP"
+    },
+    {
+      "code": "106",
+      "display": "VPC15"
+    },
+    {
+      "code": "1",
+      "display": "IGHT"
+    },
+    {
+      "code": "DILMenACWY",
+      "display": "Diluent for meningococcal ACWY (conjugate) vaccine",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "display": "SARC"
+    },
+    {
+      "code": "114",
+      "display": "COVID-19 SINOPHARM"
+    },
+    {
+      "code": "112",
+      "display": "COVID-19 SERUM/ZALIKA"
+    },
+    {
+      "code": "104",
+      "display": "DNG"
+    },
+    {
+      "code": "38",
+      "display": "SBOTULTRI"
+    },
+    {
+      "code": "32",
+      "display": "SALONO"
+    },
+    {
+      "code": "31",
+      "display": "SALOXO"
+    },
+    {
+      "code": "27",
+      "display": "SLATRO"
+    },
+    {
+      "code": "20",
+      "display": "IGHHB"
+    },
+    {
+      "code": "8",
+      "display": "SABOTR"
+    },
+    {
+      "code": "16",
+      "display": "SACROT"
+    },
+    {
+      "code": "6",
+      "display": "SAELAP"
+    },
+    {
+      "code": "97",
+      "display": "COVID-19 MODERNA"
+    },
+    {
+      "code": "99",
+      "display": "COVID-19 PFIZER - COMIRNATY PEDIÁTRICA"
+    },
+    {
+      "code": "5",
+      "display": "DT"
+    },
+    {
+      "code": "51",
+      "display": "Fta"
+    },
+    {
+      "code": "98",
+      "display": "COVID-19 SINOVAC - CORONAVAC"
+    },
+    {
+      "code": "87",
+      "display": "COVID-19 PFIZER - COMIRNATY"
+    },
+    {
+      "code": "86",
+      "display": "COVID-19 SINOVAC/BUTANTAN - CORONAVAC"
+    },
+    {
+      "code": "85",
+      "display": "COVID-19 ASTRAZENECA/FIOCRUZ - COVISHIELD"
+    },
+    {
+      "code": "84",
+      "display": "VFA-F"
+    },
+    {
+      "code": "4",
+      "display": "SAESCOR"
+    },
+    {
+      "code": "88",
+      "display": "COVID-19 JANSSEN - Ad26.COV2.S"
+    },
+    {
+      "code": "89",
+      "display": "COVID-19 ASTRAZENECA - ChAdOx1-S"
+    },
+    {
+      "code": "105",
+      "display": "COVID-19 MODERNA - SPIKEVAX BIVALENTE"
+    },
+    {
+      "code": "96",
+      "display": "COVID-19 BHARAT - COVAXIN"
+    },
+    {
+      "code": "95",
+      "display": "COVID-19 GAMALEYA - SPUTNIK V"
+    },
+    {
+      "code": "64",
+      "display": "FLU ID"
+    },
+    {
+      "code": "63",
+      "display": "HAeHB"
+    },
+    {
+      "code": "103",
+      "display": "COVID-19 PFIZER - COMIRNATY BIVALENTE"
+    },
+    {
+      "code": "102",
+      "display": "COVID-19 PFIZER - COMIRNATY PEDIÁTRICA MENOR DE 5 ANOS"
+    },
+    {
+      "code": "69",
+      "display": "SABOT"
+    },
+    {
+      "code": "7",
+      "display": "SAR"
+    },
+    {
+      "code": "118",
+      "display": "DILMenACWY"
+    },
+    {
+      "code": "117",
+      "display": "INF3-alta dosagem"
+    },
+    {
+      "code": "116",
+      "display": "NIRSEVIMABE 1,0ml"
+    },
+    {
+      "code": "115",
+      "display": "NIRSEVIMABE 0,5ml"
+    },
+    {
+      "code": "CHIKUNGUNYA",
+      "display": "CHIKUNGUNYA",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "49",
+      "display": "DILVFA"
+    },
+    {
+      "code": "50",
+      "display": "DILHib"
+    },
+    {
+      "code": "52",
+      "display": "DilMengAC"
+    },
+    {
+      "code": "94",
+      "display": "DILCOV"
+    },
+    {
+      "code": "79",
+      "display": "DILBCG"
+    },
+    {
+      "code": "81",
+      "display": "DILMenC"
+    },
+    {
+      "code": "80",
+      "display": "DILVRvero"
+    },
+    {
+      "code": "91",
+      "display": "DILVR"
+    },
+    {
+      "code": "48",
+      "display": "DILSRC"
+    },
+    {
+      "code": "90",
+      "display": "DILSCRV"
+    },
+    {
+      "code": "BCG",
+      "display": "Vacina BCG",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "TESTE20241602",
+      "display": "Teste 2024-02-16",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "po",
+      "display": "VVBN",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "12",
+      "display": "SABOLA"
+    },
+    {
+      "code": "53",
+      "display": "DILSR"
+    },
+    {
+      "code": "54",
+      "display": "DILVAR"
+    }
+  ]
 }

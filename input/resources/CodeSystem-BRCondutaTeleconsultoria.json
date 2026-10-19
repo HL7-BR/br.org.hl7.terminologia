@@ -1,17 +1,74 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRCondutaTeleconsultoria",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRCondutaTeleconsultoria</b></p><p>Title: BRCondutaTeleconsultoria</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondutaTeleconsultoria</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondutaTeleconsultoria",
-  "version": "HEAD",
   "name": "BRCondutaTeleconsultoria",
   "title": "BRCondutaTeleconsultoria",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.0.1",
+  "count": 11,
+  "content": "complete",
+  "property": [
+    {
+      "code": "inactive",
+      "uri": "http://hl7.org/fhir/concept-properties#inactive",
+      "description": "Conceito inativo (retirado no OCL).",
+      "type": "boolean"
+    }
+  ],
+  "concept": [
+    {
+      "code": "retorno-servico",
+      "display": "Retorno no próprio serviço"
+    },
+    {
+      "code": "retorno-serviço",
+      "display": "Retorno no próprio serviço",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "atencao-domiciliar",
+      "display": "Encaminhamento para a Atenção Domiciliar"
+    },
+    {
+      "code": "internacao",
+      "display": "Encaminhamento para internação hospitalar"
+    },
+    {
+      "code": "saude-trabalhador",
+      "display": "Encaminhamento para serviço de referência em Saúde do Trabalhador"
+    },
+    {
+      "code": "caps",
+      "display": "Encaminhamento para CAPS"
+    },
+    {
+      "code": "alta",
+      "display": "Alta do caso ou episódio"
+    },
+    {
+      "code": "encaminhamento-teleconsultoria",
+      "display": "Encaminhamento para teleconsultoria em outra especialidade\""
+    },
+    {
+      "code": "exames-complementares",
+      "display": "Encaminhamento para realização de exames complementares"
+    },
+    {
+      "code": "urgencia",
+      "display": "Encaminhamento para serviço de urgência"
+    },
+    {
+      "code": "encaminhamento-especialista",
+      "display": "Encaminhamento para consulta presencial com especialista"
+    }
+  ]
 }

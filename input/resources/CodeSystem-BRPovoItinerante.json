@@ -1,20 +1,44 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRPovoItinerante",
-  "meta": {
-    "lastUpdated": "2025-07-17T17:28:24.765+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRPovoItinerante</b></p><p>Title: BRPovoItinerante</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRPovoItinerante</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPovoItinerante",
-  "version": "HEAD",
   "name": "BRPovoItinerante",
   "title": "BRPovoItinerante",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "0.1.0",
+  "count": 7,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "3",
+      "display": "Circenses"
+    },
+    {
+      "code": "4",
+      "display": "Andarilhos"
+    },
+    {
+      "code": "7",
+      "display": "Trabalhadores de área adstrita"
+    },
+    {
+      "code": "1",
+      "display": "Situação de rua"
+    },
+    {
+      "code": "6",
+      "display": "Assentados"
+    },
+    {
+      "code": "2",
+      "display": "Ciganos"
+    },
+    {
+      "code": "5",
+      "display": "Acampados"
+    }
+  ]
 }

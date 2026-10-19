@@ -1,20 +1,36 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRPosicaoIndividuo",
-  "meta": {
-    "lastUpdated": "2025-07-17T17:32:00.245+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRPosicaoIndividuo</b></p><p>Title: BRPosicaoIndividuo</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRPosicaoIndividuo</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPosicaoIndividuo",
-  "version": "HEAD",
   "name": "BRPosicaoIndividuo",
   "title": "BRPosicaoIndividuo",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.0",
+  "count": 5,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "5",
+      "display": "Deitado com inclinação para esquerda"
+    },
+    {
+      "code": "3",
+      "display": "Reclinado"
+    },
+    {
+      "code": "2",
+      "display": "Sentado"
+    },
+    {
+      "code": "1",
+      "display": "Em pé"
+    },
+    {
+      "code": "4",
+      "display": "Deitado"
+    }
+  ]
 }

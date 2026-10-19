@@ -1,12 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BRFormaOrganizacaoTabelaSUS",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRFormaOrganizacaoTabelaSUS</b></p><p>Title: BRFormaOrganizacaoTabelaSUS</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRFormaOrganizacaoTabelaSUS</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRFormaOrganizacaoTabelaSUS",
-  "version": "HEAD",
   "name": "BRFormaOrganizacaoTabelaSUS",
   "title": "BRFormaOrganizacaoTabelaSUS",
   "status": "active",
@@ -14,8 +9,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFormaOrganizacaoTabelaSUS",
-        "version": "HEAD"
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRFormaOrganizacaoTabelaSUS"
       }
     ]
   }

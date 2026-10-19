@@ -1,12 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BRProcedencia",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRProcedencia</b></p><p>Title: BRProcedencia</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRProcedencia</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRProcedencia",
-  "version": "HEAD",
   "name": "BRProcedencia",
   "title": "BR Procedencia",
   "status": "active",
@@ -14,30 +9,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProcedencia",
-        "version": "HEAD",
-        "concept": [
-          {
-            "code": "99",
-            "display": "Informação ausente no modelo de origem"
-          },
-          {
-            "code": "12",
-            "display": "Demanda referenciada"
-          },
-          {
-            "code": "11",
-            "display": "Retorno"
-          },
-          {
-            "code": "10",
-            "display": "Ordem Judicial"
-          },
-          {
-            "code": "09",
-            "display": "Demanda espontânea"
-          }
-        ]
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProcedencia"
       }
     ]
   }

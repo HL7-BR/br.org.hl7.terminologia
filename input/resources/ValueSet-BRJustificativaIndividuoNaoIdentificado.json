@@ -1,12 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BRJustificativaIndividuoNaoIdentificado",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRJustificativaIndividuoNaoIdentificado-1.0</b></p><p>Title: BRJustificativaIndividuoNaoIdentificado-1.0</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRJustificativaIndividuoNaoIdentificado</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRJustificativaIndividuoNaoIdentificado",
-  "version": "HEAD",
   "name": "BRJustificativaIndividuoNaoIdentificado",
   "title": "BR Justificativa Individuo Nao Identificado",
   "status": "active",
@@ -14,34 +9,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRJustificativaIndividuoNaoIdentificado",
-        "version": "HEAD",
-        "concept": [
-          {
-            "code": "99",
-            "display": "Sem registro no modelo de informação de origem"
-          },
-          {
-            "code": "3",
-            "display": "Indivíduo com problema neurológico grave ou comatoso"
-          },
-          {
-            "code": "2",
-            "display": "Indivíduo em sofrimento mental encontrado em via pública"
-          },
-          {
-            "code": "5",
-            "display": "Indivíduo doador de órgãos falecido"
-          },
-          {
-            "code": "4",
-            "display": "Indivíduo incapacitado por motivos sociais e/ou culturais"
-          },
-          {
-            "code": "1",
-            "display": "Indivíduo acidentado grave"
-          }
-        ]
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRJustificativaIndividuoNaoIdentificado"
       }
     ]
   }

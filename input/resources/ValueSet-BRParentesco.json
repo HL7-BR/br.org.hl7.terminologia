@@ -1,12 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BRParentesco",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRParentesco</b></p><p>Title: BRParentesco</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRParentesco</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRParentesco",
-  "version": "HEAD",
   "name": "BRParentesco",
   "title": "BR Parentesco",
   "status": "active",
@@ -14,18 +9,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRParentesco",
-        "version": "HEAD",
-        "concept": [
-          {
-            "code": "father",
-            "display": "Pai"
-          },
-          {
-            "code": "mother",
-            "display": "Mãe"
-          }
-        ]
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRParentesco"
       }
     ]
   }

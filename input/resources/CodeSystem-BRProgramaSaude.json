@@ -1,20 +1,1088 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRProgramaSaude",
-  "meta": {
-    "lastUpdated": "2024-12-18T20:40:39.501+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRProgramaSaude</b></p><p>Title: BRProgramaSaude</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRProgramaSaude",
-  "version": "HEAD",
   "name": "BRProgramaSaude",
   "title": "BRProgramaSaude",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.0.0",
+  "count": 152,
+  "content": "complete",
+  "property": [
+    {
+      "code": "inactive",
+      "uri": "http://hl7.org/fhir/concept-properties#inactive",
+      "description": "Conceito inativo (retirado no OCL).",
+      "type": "boolean"
+    }
+  ],
+  "concept": [
+    {
+      "code": "0000001421",
+      "display": "Órteses e Prósteses",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000765",
+      "display": "Administrativos",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000764",
+      "display": "Diversos",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000001401",
+      "display": "Multidroga Resistente",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000763",
+      "display": "Oncologia",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000001381",
+      "display": "SESAI",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000001361",
+      "display": "Calamidade Pública",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000762",
+      "display": "Alzheimer",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000001341",
+      "display": "DPOC",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000281",
+      "display": "Tabagismo",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000903",
+      "display": "Meningite",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000261",
+      "display": "Tuberculose",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000902",
+      "display": "Leishmaniose",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000008",
+      "display": "Hospitalar",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000901",
+      "display": "Tracoma",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000882",
+      "display": "Epidemias",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000007",
+      "display": "Saúde Mental",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000006",
+      "display": "Saúde da Mulher",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000881",
+      "display": "Edemias Focais",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000861",
+      "display": "Saúde Prisional",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000005",
+      "display": "Hipertensão",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000801",
+      "display": "Doença Enxerto Hospedeiro",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000004",
+      "display": "Judicialização",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000781",
+      "display": "Atenção Secundária",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000003",
+      "display": "DST/AIDS",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "981",
+      "display": "Alimentação e Nutrição"
+    },
+    {
+      "code": "961",
+      "display": "Estratégico"
+    },
+    {
+      "code": "1141",
+      "display": "Imunização"
+    },
+    {
+      "code": "1102",
+      "display": "Esquitossomose"
+    },
+    {
+      "code": "1101",
+      "display": "Dengue"
+    },
+    {
+      "code": "1021",
+      "display": "Insulino-Dependente- DM II"
+    },
+    {
+      "code": "1001",
+      "display": "Insulino-Dependente- DM I"
+    },
+    {
+      "code": "2",
+      "display": "Diabetes"
+    },
+    {
+      "code": "1421",
+      "display": "Órteses e Prósteses"
+    },
+    {
+      "code": "1381",
+      "display": "SESAI"
+    },
+    {
+      "code": "1361",
+      "display": "Calamidade Pública"
+    },
+    {
+      "code": "1321",
+      "display": "DPOC"
+    },
+    {
+      "code": "1301",
+      "display": "Assistência Farmacêutica SESAI"
+    },
+    {
+      "code": "1261",
+      "display": "Peste"
+    },
+    {
+      "code": "1241",
+      "display": "Micoses Sistêmicas"
+    },
+    {
+      "code": "1202",
+      "display": "Coagulopatias"
+    },
+    {
+      "code": "1201",
+      "display": "Filariose"
+    },
+    {
+      "code": "461",
+      "display": "Cólera"
+    },
+    {
+      "code": "441",
+      "display": "UPA"
+    },
+    {
+      "code": "401",
+      "display": "SAMU"
+    },
+    {
+      "code": "4",
+      "display": "Judicialização"
+    },
+    {
+      "code": "361",
+      "display": "Assitência Farmacêutica"
+    },
+    {
+      "code": "341",
+      "display": "Assistência Farmacêutica Básica"
+    },
+    {
+      "code": "5",
+      "display": "Hipertensão"
+    },
+    {
+      "code": "481",
+      "display": "Assistência Social"
+    },
+    {
+      "code": "421",
+      "display": "Especializado"
+    },
+    {
+      "code": "381",
+      "display": "Saúde da Criança"
+    },
+    {
+      "code": "281",
+      "display": "Tabagismo"
+    },
+    {
+      "code": "261",
+      "display": "Tuberculose"
+    },
+    {
+      "code": "1401",
+      "display": "Multidroga Resistente"
+    },
+    {
+      "code": "1341",
+      "display": "DPOC"
+    },
+    {
+      "code": "1281",
+      "display": "Assitência Farmacêutica SESAI"
+    },
+    {
+      "code": "1221",
+      "display": "Micoses Sistêmicas"
+    },
+    {
+      "code": "1181",
+      "display": "Remédio em Casa"
+    },
+    {
+      "code": "1161",
+      "display": "Toxoplasmose"
+    },
+    {
+      "code": "1121",
+      "display": "Nutrição"
+    },
+    {
+      "code": "1081",
+      "display": "Cólera"
+    },
+    {
+      "code": "1",
+      "display": "Hanseníase"
+    },
+    {
+      "code": "0000000767",
+      "display": "Suplementos Alimentares",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000002",
+      "display": "Diabetes",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000001",
+      "display": "Hanseníase",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000766",
+      "display": "Fraldas",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "3",
+      "display": "DST/AIDS"
+    },
+    {
+      "code": "941",
+      "display": "Malária"
+    },
+    {
+      "code": "501",
+      "display": "Estratégicos"
+    },
+    {
+      "code": "7",
+      "display": "Saúde Mental"
+    },
+    {
+      "code": "683",
+      "display": "Lúpus Eritematoso Sistêmico"
+    },
+    {
+      "code": "682",
+      "display": "Infecções Oportunistas DST/AIDS"
+    },
+    {
+      "code": "681",
+      "display": "Suplementos Alimentares"
+    },
+    {
+      "code": "662",
+      "display": "Insumos"
+    },
+    {
+      "code": "661",
+      "display": "Lúpus Eritematoso Sistêmico"
+    },
+    {
+      "code": "641",
+      "display": "Infecções Oportunistas DST/AIDS"
+    },
+    {
+      "code": "621",
+      "display": "Ação Civil Pública"
+    },
+    {
+      "code": "601",
+      "display": "Estratégicos - Estado"
+    },
+    {
+      "code": "6",
+      "display": "Saúde da Mulher"
+    },
+    {
+      "code": "581",
+      "display": "Suplementação de Ferro"
+    },
+    {
+      "code": "561",
+      "display": "Sem dor"
+    },
+    {
+      "code": "541",
+      "display": "Glaucoma"
+    },
+    {
+      "code": "521",
+      "display": "Urgência e Emergência"
+    },
+    {
+      "code": "882",
+      "display": "Epidemias"
+    },
+    {
+      "code": "881",
+      "display": "Edemias Focais"
+    },
+    {
+      "code": "861",
+      "display": "Saúde Prisional"
+    },
+    {
+      "code": "801",
+      "display": "Doença Enxerto Hospedeiro"
+    },
+    {
+      "code": "8",
+      "display": "Hospitalar"
+    },
+    {
+      "code": "781",
+      "display": "Atenção Secundária"
+    },
+    {
+      "code": "767",
+      "display": "Suplementos Alimentares"
+    },
+    {
+      "code": "766",
+      "display": "Fraldas"
+    },
+    {
+      "code": "765",
+      "display": "Administrativos"
+    },
+    {
+      "code": "764",
+      "display": "Diversos"
+    },
+    {
+      "code": "763",
+      "display": "Oncologia"
+    },
+    {
+      "code": "762",
+      "display": "Alzheimer"
+    },
+    {
+      "code": "761",
+      "display": "DPOC"
+    },
+    {
+      "code": "721",
+      "display": "Mieloma Múltiplo"
+    },
+    {
+      "code": "701",
+      "display": "Antimicrobianos"
+    },
+    {
+      "code": "923",
+      "display": "Infecções Oportunistas"
+    },
+    {
+      "code": "922",
+      "display": "Influenza"
+    },
+    {
+      "code": "921",
+      "display": "Chagas"
+    },
+    {
+      "code": "903",
+      "display": "Meningite"
+    },
+    {
+      "code": "902",
+      "display": "Leishmaniose"
+    },
+    {
+      "code": "901",
+      "display": "Tracoma"
+    },
+    {
+      "code": "0000000621",
+      "display": "Ação Civil Pública",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000001181",
+      "display": "Remédio em Casa",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000601",
+      "display": "Estratégicos - Estado",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000001161",
+      "display": "Toxoplasmose",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000581",
+      "display": "Suplementação de Ferro",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000001141",
+      "display": "Imunização",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000561",
+      "display": "Sem dor",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000001121",
+      "display": "Nutrição",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000541",
+      "display": "Glaucoma",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000001102",
+      "display": "Esquitossomose",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000521",
+      "display": "Urgência e Emergência",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000001101",
+      "display": "Dengue",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000501",
+      "display": "Estratégicos",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000001081",
+      "display": "Cólera",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000481",
+      "display": "Assistência Social",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000001021",
+      "display": "Insulino-Dependente- DM II",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000761",
+      "display": "DPOC",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000001321",
+      "display": "DPOC",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000721",
+      "display": "Mieloma Múltiplo",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000001301",
+      "display": "Assistência Farmacêutica SESAI",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000701",
+      "display": "Antimicrobianos",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000001281",
+      "display": "Assitência Farmacêutica SESAI",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000683",
+      "display": "Lúpus Eritematoso Sistêmico",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000001261",
+      "display": "Peste",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000682",
+      "display": "Infecções Oportunistas DST/AIDS",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000001241",
+      "display": "Micoses Sistêmicas",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000681",
+      "display": "Suplementos Alimentares",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000001221",
+      "display": "Micoses Sistêmicas",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000662",
+      "display": "Insumos",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000661",
+      "display": "Lúpus Eritematoso Sistêmico",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000001202",
+      "display": "Coagulopatias",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000641",
+      "display": "Infecções Oportunistas DST/AIDS",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000001201",
+      "display": "Filariose",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000461",
+      "display": "Cólera",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000001001",
+      "display": "Insulino-Dependente- DM I",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000441",
+      "display": "UPA",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000981",
+      "display": "Alimentação e Nutrição",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000421",
+      "display": "Especializado",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000961",
+      "display": "Estratégico",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000401",
+      "display": "SAMU",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000941",
+      "display": "Malária",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000381",
+      "display": "Saúde da Criança",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000923",
+      "display": "Infecções Oportunistas",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000361",
+      "display": "Assitência Farmacêutica",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000922",
+      "display": "Influenza",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000341",
+      "display": "Assistência Farmacêutica Básica",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "0000000921",
+      "display": "Chagas",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    }
+  ]
 }

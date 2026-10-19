@@ -1,20 +1,24 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRRegistroOrigem",
-  "meta": {
-    "lastUpdated": "2025-07-17T17:35:54.076+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRRegistroOrigem</b></p><p>Title: BRRegistroOrigem</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRRegistroOrigem</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRegistroOrigem",
-  "version": "HEAD",
   "name": "BRRegistroOrigem",
   "title": "BRRegistroOrigem",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "01.10",
+  "count": 2,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "1",
+      "display": "Previous vaccination record"
+    },
+    {
+      "code": "2",
+      "display": "Vaccination abroad"
+    }
+  ]
 }

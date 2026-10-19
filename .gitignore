@@ -48,3 +48,11 @@ firebase.json
 *.pem
 *.jks
 deploy.bat
+
+# relatórios dos scripts do OCL
+__pycache__/
+ocl-acerto.log
+ocl-acerto.txt
+ocl-atualizacao.json
+ocl-urls.log
+ocl/BRImunobiologico/importacao-relatorio.json

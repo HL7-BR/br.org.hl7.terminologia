@@ -1,20 +1,188 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRInstalacoesFisicas",
-  "meta": {
-    "lastUpdated": "2025-07-17T17:28:40.472+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRInstalacoesFisicas</b></p><p>Title: BRInstalacoesFisicas</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRInstalacoesFisicas",
-  "version": "HEAD",
   "name": "BRInstalacoesFisicas",
   "title": "BRInstalacoesFisicas",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.0.0",
+  "count": 43,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "35",
+      "display": "SALA DE PARTO NORMAL"
+    },
+    {
+      "code": "12",
+      "display": "SALA DE CURATIVO"
+    },
+    {
+      "code": "34",
+      "display": "SALA DE PREPARTO"
+    },
+    {
+      "code": "11",
+      "display": "SALA DE GESSO"
+    },
+    {
+      "code": "33",
+      "display": "SALA DE CIRURGIA AMBULATORIAL"
+    },
+    {
+      "code": "10",
+      "display": "SALA DE HIGIENIZACAO"
+    },
+    {
+      "code": "32",
+      "display": "SALA DE RECUPERACAO"
+    },
+    {
+      "code": "09",
+      "display": "ODONTOLOGIA"
+    },
+    {
+      "code": "31",
+      "display": "SALA DE CIRURGIA"
+    },
+    {
+      "code": "08",
+      "display": "SALA REPOUSO/OBSERVACAO - INDIFERENCIADO"
+    },
+    {
+      "code": "30",
+      "display": "SALA DE CIRURGIA AMBULATORIAL"
+    },
+    {
+      "code": "07",
+      "display": "SALA REPOUSO/OBSERVACAO - MASCULINO"
+    },
+    {
+      "code": "29",
+      "display": "SALA DE CURATIVO"
+    },
+    {
+      "code": "06",
+      "display": "SALA REPOUSO/OBSERVACAO - FEMININO"
+    },
+    {
+      "code": "28",
+      "display": "SALA DE GESSO"
+    },
+    {
+      "code": "05",
+      "display": "SALA REPOUSO/OBSERVACAO - PEDIATRICA"
+    },
+    {
+      "code": "27",
+      "display": "SALA DE NEBULIZACAO"
+    },
+    {
+      "code": "04",
+      "display": "SALA DE ATENDIMENTO INDIFERENCIADO"
+    },
+    {
+      "code": "26",
+      "display": "SALA DE IMUNIZACAO"
+    },
+    {
+      "code": "03",
+      "display": "SALA DE ATENDIMENTO MASCULINO"
+    },
+    {
+      "code": "25",
+      "display": "SALA DE ENFERMAGEM - SERVICOS"
+    },
+    {
+      "code": "02",
+      "display": "SALA DE ATENDIMENTO FEMININO"
+    },
+    {
+      "code": "24",
+      "display": "SALA DE PEQUENA CIRURGIA"
+    },
+    {
+      "code": "01",
+      "display": "SALA DE ATENDIMENTO PEDIATRICO"
+    },
+    {
+      "code": "22",
+      "display": "SALA DE REPOUSO/OBSERVACAO - INDIFERENCIADO"
+    },
+    {
+      "code": "21",
+      "display": "SALA REPOUSO/OBSERVACAO - PEDIATRICA"
+    },
+    {
+      "code": "43",
+      "display": "BRINQUEDOTECA"
+    },
+    {
+      "code": "20",
+      "display": "SALA REPOUSO/OBSERVACAO - MASCULINO"
+    },
+    {
+      "code": "42",
+      "display": "SALA DE ACOLHIMENTO COM CLASSIFICACAO DE RISCO"
+    },
+    {
+      "code": "19",
+      "display": "SALA REPOUSO/OBSERVACAO - FEMININO"
+    },
+    {
+      "code": "41",
+      "display": "SALA DE ATENDIMENTO A PACIENTE CRITICO/SALA DE ESTABILIZACAO"
+    },
+    {
+      "code": "18",
+      "display": "OUTROS CONSULTORIOS NAO MEDICOS"
+    },
+    {
+      "code": "40",
+      "display": "LEITOS DE ALOJAMENTO CONJUNTO"
+    },
+    {
+      "code": "39",
+      "display": "LEITOS RN PATOLOGICO"
+    },
+    {
+      "code": "16",
+      "display": "CLINICAS ESPECIALIZADAS"
+    },
+    {
+      "code": "38",
+      "display": "LEITOS RN NORMAL"
+    },
+    {
+      "code": "15",
+      "display": "CLINICAS BASICAS"
+    },
+    {
+      "code": "37",
+      "display": "SALA DE CIRURGIA"
+    },
+    {
+      "code": "14",
+      "display": "CONSULTORIOS MEDICOS"
+    },
+    {
+      "code": "36",
+      "display": "SALA DE CURETAGEM"
+    },
+    {
+      "code": "13",
+      "display": "SALA PEQUENA CIRURGIA"
+    },
+    {
+      "code": "17",
+      "display": "CLINICAS INDIFERENCIADO"
+    },
+    {
+      "code": "23",
+      "display": "ODONTOLOGIA"
+    }
+  ]
 }

@@ -1,12 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BRPopulacaoTradicional",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRPopulacaoTradicional</b></p><p>Title: BRPopulacaoTradicional</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRPopulacaoTradicional</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRPopulacaoTradicional",
-  "version": "HEAD",
   "name": "BRPopulacaoTradicional",
   "title": "BR Populacao Tradicional",
   "status": "active",
@@ -14,122 +9,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional",
-        "version": "HEAD",
-        "concept": [
-          {
-            "code": "XIV",
-            "display": "Isqueiros"
-          },
-          {
-            "code": "XXVIII",
-            "display": "Varjeiros"
-          },
-          {
-            "code": "XIII",
-            "display": "Jangadeiros"
-          },
-          {
-            "code": "XXVII",
-            "display": "Vazanteiros"
-          },
-          {
-            "code": "XII",
-            "display": "Geraizeiros"
-          },
-          {
-            "code": "XXVI",
-            "display": "Seringueiros"
-          },
-          {
-            "code": "XI",
-            "display": "Faxinalenses"
-          },
-          {
-            "code": "XXV",
-            "display": "Ribeirinhos"
-          },
-          {
-            "code": "X",
-            "display": "Extrativistas"
-          },
-          {
-            "code": "XXIV",
-            "display": "Retireiros"
-          },
-          {
-            "code": "VIII",
-            "display": "Ciganos"
-          },
-          {
-            "code": "XXIII",
-            "display": "Quebradeiras de coco babaçu"
-          },
-          {
-            "code": "VII",
-            "display": "Cerrado"
-          },
-          {
-            "code": "XXII",
-            "display": "Povos de terreiro/matriz africana"
-          },
-          {
-            "code": "XXI",
-            "display": "Povos quilombolas"
-          },
-          {
-            "code": "VI",
-            "display": "Catadores de mangaba"
-          },
-          {
-            "code": "XX",
-            "display": "Povos indígenas"
-          },
-          {
-            "code": "V",
-            "display": "Castanheiras"
-          },
-          {
-            "code": "XVIII",
-            "display": "Pescadores artesanais"
-          },
-          {
-            "code": "IX",
-            "display": "Comunidades de fundo e fecho de pasto"
-          },
-          {
-            "code": "XVII",
-            "display": "Pantaneiros"
-          },
-          {
-            "code": "IV",
-            "display": "Caiçaras"
-          },
-          {
-            "code": "XVI",
-            "display": "Marisqueiros"
-          },
-          {
-            "code": "III",
-            "display": "Caatingueiros"
-          },
-          {
-            "code": "XV",
-            "display": "Morroquianos"
-          },
-          {
-            "code": "II",
-            "display": "Agroextrativistas"
-          },
-          {
-            "code": "XIX",
-            "display": "Pomeranos"
-          },
-          {
-            "code": "I",
-            "display": "Andirobeiras"
-          }
-        ]
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRPopulacaoTradicional"
       }
     ]
   }

@@ -1,11 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Expanded ValueSet</div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRPrescricaoNaoEstruturada",
-  "version": "HEAD",
   "status": "active",
   "expansion": {
     "timestamp": "2025-07-21T15:18:39+00:00",
@@ -28,7 +23,6 @@
     "include": [
       {
         "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDadoAusenteOuDesconhecido",
-        "version": "HEAD",
         "concept": [
           {
             "code": "no-known-medications",

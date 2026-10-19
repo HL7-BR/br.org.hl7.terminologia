@@ -1,17 +1,174 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRBaseLegalLGPD",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRBaseLegalLGPD</b></p><p>Title: BRBaseLegalLGPD</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRBaseLegalLGPD</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRBaseLegalLGPD",
-  "version": "HEAD",
   "name": "BRBaseLegalLGPD",
   "title": "BRBaseLegalLGPD",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.0",
+  "count": 21,
+  "content": "complete",
+  "property": [
+    {
+      "code": "inactive",
+      "uri": "http://hl7.org/fhir/concept-properties#inactive",
+      "description": "Conceito inativo (retirado no OCL).",
+      "type": "boolean"
+    }
+  ],
+  "concept": [
+    {
+      "code": "2664642",
+      "display": "Proteção do Crédito",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "2664644",
+      "display": "Execução de Contrato",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "2664646",
+      "display": "Legítimo Interesse",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "2664648",
+      "display": "Tutela da Saude",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "2664650",
+      "display": "Proteção da Vida",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "2664652",
+      "display": "Exercício Regular de Direitos",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "2664654",
+      "display": "Estudos por órgão de pesquisa",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "2664656",
+      "display": "Execução de Políticas Públicas",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "2664658",
+      "display": "Obrigação Legal ou Regulatória",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "2664660",
+      "display": "Consentimento do Titular",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "PROTCRED",
+      "display": "Proteção do Crédito"
+    },
+    {
+      "code": "EXECONTRATO",
+      "display": "Execução de Contrato"
+    },
+    {
+      "code": "LEGINTER",
+      "display": "Legítimo Interesse"
+    },
+    {
+      "code": "TUTSAUDE",
+      "display": "Tutela da Saude"
+    },
+    {
+      "code": "PROTVIDA",
+      "display": "Proteção da Vida"
+    },
+    {
+      "code": "EXERDIREITO",
+      "display": "Exercício Regular de Direitos"
+    },
+    {
+      "code": "PESQUISA",
+      "display": "Estudos por órgão de pesquisa"
+    },
+    {
+      "code": "EXECPOLPUB",
+      "display": "Execução de Políticas Públicas"
+    },
+    {
+      "code": "OBRILEGAL",
+      "display": "Obrigação Legal ou Regulatória"
+    },
+    {
+      "code": "CONSENT",
+      "display": "Consentimento do Titular"
+    },
+    {
+      "code": "Consentimento do Titular F",
+      "display": "Consentimento do Titular",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    }
+  ]
 }

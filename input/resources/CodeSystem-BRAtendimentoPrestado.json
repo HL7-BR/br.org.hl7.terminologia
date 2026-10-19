@@ -1,20 +1,44 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRAtendimentoPrestado",
-  "meta": {
-    "lastUpdated": "2025-07-17T17:29:57.898+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRAtendimentoPrestado</b></p><p>Title: BRAtendimentoPrestado</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRAtendimentoPrestado</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRAtendimentoPrestado",
-  "version": "HEAD",
   "name": "BRAtendimentoPrestado",
   "title": "BRAtendimentoPrestado",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.0.0",
+  "count": 7,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "07",
+      "display": "REGULACAO"
+    },
+    {
+      "code": "05",
+      "display": "OUTROS"
+    },
+    {
+      "code": "06",
+      "display": "VIGILANCIA EM SAUDE"
+    },
+    {
+      "code": "01",
+      "display": "INTERNACAO"
+    },
+    {
+      "code": "03",
+      "display": "SADT"
+    },
+    {
+      "code": "04",
+      "display": "URGENCIA"
+    },
+    {
+      "code": "02",
+      "display": "AMBULATORIAL"
+    }
+  ]
 }

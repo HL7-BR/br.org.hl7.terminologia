@@ -1,12 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BREstadoSolicitacaoMedicamento",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BREstadoSolicitacaoMedicamento-1.0</b></p><p>Title: BREstadoSolicitacaoMedicamento-1.0</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BREstadoSolicitacaoMedicamento</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BREstadoSolicitacaoMedicamento",
-  "version": "HEAD",
   "name": "BREstadoSolicitacaoMedicamento",
   "title": "BR Estado Solicitacao Medicamento",
   "status": "active",

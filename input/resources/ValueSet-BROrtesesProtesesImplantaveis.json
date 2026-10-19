@@ -1,12 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BROrtesesProtesesImplantaveis",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BROrtesesProtesesImplantaveis</b></p><p>Title: BROrtesesProtesesImplantaveis</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BROrtesesProtesesImplantaveis</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BROrtesesProtesesImplantaveis",
-  "version": "HEAD",
   "name": "BROrtesesProtesesImplantaveis",
   "title": "BROrtesesProtesesImplantaveis",
   "status": "active",
@@ -14,110 +9,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis",
-        "version": "HEAD",
-        "concept": [
-          {
-            "code": "0000000143",
-            "display": "Órtese brônquica reta expansível sintética"
-          },
-          {
-            "code": "0000000142",
-            "display": "Órtese brônquica reta não\nexpansível sintética"
-          },
-          {
-            "code": "0000000285",
-            "display": "Válvula brônquica para\ntratamento de fuga aérea e  sintética"
-          },
-          {
-            "code": "0000000141",
-            "display": "Órtese auto-expansível de vias\nbilio-pancreáticas auto-expansível metálica"
-          },
-          {
-            "code": "0000000284",
-            "display": "Tubo de ventilação para\nouvido médio permanente sintético"
-          },
-          {
-            "code": "0000000140",
-            "display": "Órtese auto-expansível de vias\nbilio-pancreáticas auto-expansível\nvários tamanhos sintética"
-          },
-          {
-            "code": "0000000283",
-            "display": "Tubo de ventilação para\nouvido médio temporário sintético"
-          },
-          {
-            "code": "0000000139",
-            "display": "Órtese auto-expansível de  sintética"
-          },
-          {
-            "code": "0000000282",
-            "display": "Tela para correção de incontinência\nurinária masculina sintética"
-          },
-          {
-            "code": "0000000138",
-            "display": "Órtese auto-expansível de reto auto-expansível metálica"
-          },
-          {
-            "code": "0000000281",
-            "display": "Tela para correção de incontinência\nurinária feminina sintética"
-          },
-          {
-            "code": "0000000137",
-            "display": "Órtese auto-expansível de intestino delgado auto-expansível metálica"
-          },
-          {
-            "code": "0000000280",
-            "display": "Tela  absorvível"
-          },
-          {
-            "code": "0000000136",
-            "display": "Órtese auto-expansível de estômago auto-expansível metálica"
-          },
-          {
-            "code": "0000000279",
-            "display": "Tela  sintética / biológica"
-          },
-          {
-            "code": "0000000135",
-            "display": "Órtese auto-expansível de auto-expansível plástica"
-          },
-          {
-            "code": "0000000278",
-            "display": "Tela  inorgânica e sintética"
-          },
-          {
-            "code": "0000000134",
-            "display": "Órtese auto-expansível de esôfago auto-expansível metálica"
-          },
-          {
-            "code": "0000000277",
-            "display": "Suspensor palpebral vários tamanhos biológica/sintética"
-          },
-          {
-            "code": "0000000133",
-            "display": "Órtese auto-expansível de duodeno auto-expansível metálica"
-          },
-          {
-            "code": "0000000276",
-            "display": "Stent vascular vários tamanhos metálico/sintético"
-          },
-          {
-            "code": "0000000132",
-            "display": "Órtese auto-expansível de cólon auto-expansível metálica"
-          },
-          {
-            "code": "0000000275",
-            "display": "Stent vascular artérias ilíacas metálico/sintético"
-          },
-          {
-            "code": "0000000131",
-            "display": "Molde laríngeo  sintética"
-          },
-          {
-            "code": "0000000274",
-            "display": "Stent vascular artérias viscerais metálico/sintético"
-          }
-        ]
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BROrtesesProtesesImplantaveis"
       }
     ]
   }

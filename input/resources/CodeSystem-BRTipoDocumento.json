@@ -1,20 +1,52 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRTipoDocumento",
-  "meta": {
-    "lastUpdated": "2025-07-17T17:36:37.815+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRTipoDocumento</b></p><p>Title: BRTipoDocumento</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDocumento</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDocumento",
-  "version": "HEAD",
   "name": "BRTipoDocumento",
   "title": "BRTipoDocumento",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.1",
+  "count": 9,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "RAC",
+      "display": "Registro de Atendimento Clínico"
+    },
+    {
+      "code": "SA",
+      "display": "Sumário de Alta"
+    },
+    {
+      "code": "RIA",
+      "display": "Registro de Imunobiológico Administrado"
+    },
+    {
+      "code": "RPM",
+      "display": "Registro de Prescrição de Medicamento"
+    },
+    {
+      "code": "REL",
+      "display": "Resultado de Exame(s) Laboratoriais(s)"
+    },
+    {
+      "code": "CMD",
+      "display": "Conjunto Mínimo de Dados"
+    },
+    {
+      "code": "RA",
+      "display": "Regulação Assistencial"
+    },
+    {
+      "code": "RDM",
+      "display": "Registro de Dispensação de Medicamento"
+    },
+    {
+      "code": "ATM",
+      "display": "Atestado Médico/Odontológico"
+    }
+  ]
 }

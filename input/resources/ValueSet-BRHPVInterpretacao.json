@@ -1,12 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BRHPVInterpretacao",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRHPVInterpretacao</b></p><p>Title: BRHPVInterpretacao</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRHPVInterpretacao</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRHPVInterpretacao",
-  "version": "HEAD",
   "name": "BRHPVInterpretacao",
   "title": "BRHPVInterpretacao",
   "status": "active",
@@ -14,54 +9,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRHPVInterpretacao",
-        "version": "HEAD",
-        "concept": [
-          {
-            "code": "NAODET",
-            "display": "NÃO DETECTADO"
-          },
-          {
-            "code": "HPV16_18/45_OUT",
-            "display": "DETECTADOS DNA de HPV 16, DNA de HPV 18/45 e de um ou mais dos seguintes genótipos HPV 31, 33, 35, 39, 51, 52, 56, 58, 59, 66 e 68."
-          },
-          {
-            "code": "HPV18/45_OUT",
-            "display": "DETECTADOS DNA de HPV  18/45 e de um ou mais dos seguintes genótipos  HPV 31, 33, 35, 39, 51, 52, 56, 58, 59, 66 e 68."
-          },
-          {
-            "code": "HPV16_OUT",
-            "display": "DETECTADOS DNA de HPV 16 e de um ou mais dos seguintes genótipos  HPV 31, 33, 35, 39, 51, 52, 56, 58, 59, 66 e 68."
-          },
-          {
-            "code": "HPV16_18/45",
-            "display": "DETECTADOS DNA de HPV 16 e DNA de HPV 18/45"
-          },
-          {
-            "code": "OUTHPV",
-            "display": "DETECTADO DNA de um ou mais dos seguintes genótipos  HPV 31, 33, 35, 39, 51, 52, 56, 58, 59, 66 e 68."
-          },
-          {
-            "code": "HPV18_45",
-            "display": "DETECTADO DNA de HPV tipo 18/45"
-          },
-          {
-            "code": "HPV16",
-            "display": "DETECTADO DNA de HPV 16"
-          },
-          {
-            "code": "HPV16_18_45_OUT",
-            "display": "DETECTADOS DNA de HPV 16, DNA de HPV 18/45 e de um ou mais dos seguintes genótipos HPV 31, 33, 35, 39, 51, 52, 56, 58, 59, 66 e 68."
-          },
-          {
-            "code": "HPV16_18_45",
-            "display": "DETECTADOS DNA de HPV 16 e DNA de HPV 18/45"
-          },
-          {
-            "code": "HPV18_45_OUT",
-            "display": "DETECTADOS DNA de HPV  18/45 e de um ou mais dos seguintes genótipos  HPV 31, 33, 35, 39, 51, 52, 56, 58, 59, 66 e 68."
-          }
-        ]
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRHPVInterpretacao"
       }
     ]
   }

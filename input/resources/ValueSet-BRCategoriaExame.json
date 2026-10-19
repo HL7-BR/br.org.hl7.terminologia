@@ -1,12 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BRCategoriaExame",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRCategoriaExame-1.0</b></p><p>Title: BRCategoriaExame-1.0</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRCategoriaExame</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRCategoriaExame",
-  "version": "HEAD",
   "name": "BRCategoriaExame",
   "title": "BR Categoria Exame",
   "status": "active",
@@ -15,7 +10,6 @@
     "include": [
       {
         "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRSubGrupoTabelaSUS",
-        "version": "HEAD",
         "concept": [
           {
             "code": "0701",

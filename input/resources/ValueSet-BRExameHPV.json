@@ -1,12 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BRExameHPV",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRExameHPV</b></p><p>Title: BRExameHPV</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRExameHPV</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRExameHPV",
-  "version": "HEAD",
   "name": "BRExameHPV",
   "title": "BRExameHPV",
   "status": "active",
@@ -15,7 +10,6 @@
     "include": [
       {
         "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRExameHPVCEPHEID",
-        "version": "HEAD",
         "concept": [
           {
             "code": "OUT",
@@ -38,7 +32,6 @@
       },
       {
         "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCID10",
-        "version": "HEAD",
         "concept": [
           {
             "code": "M54.9",

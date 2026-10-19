@@ -1,17 +1,24 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRExameHPVCEPHEID",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRExameHPVCEPHEID</b></p><p>Title: BRExameHPVCEPHEID</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRExameHPVCEPHEID</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRExameHPVCEPHEID",
-  "version": "HEAD",
   "name": "BRExameHPVCEPHEID",
   "title": "BRExameHPVCEPHEID",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.0.0",
+  "count": 2,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "HPV1845",
+      "display": "Human papilloma virus 18+45 mRNA"
+    },
+    {
+      "code": "OUT",
+      "display": "Outros HPV ( 31, 33, 35, 39, 51, 52, 56, 58, 59, 66 e 68)"
+    }
+  ]
 }

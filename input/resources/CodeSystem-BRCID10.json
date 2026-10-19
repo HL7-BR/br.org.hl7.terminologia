@@ -1,20 +1,14 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRCID10",
-  "meta": {
-    "lastUpdated": "2025-07-16T16:48:42.951+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRCID10</b></p><p>Title: BRCID10</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRCID10</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCID10",
-  "version": "HEAD",
   "name": "BRCID10",
   "title": "BRCID10",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
+  "version": "20250905-RNDS",
+  "count": 14250,
   "content": "not-present"
 }

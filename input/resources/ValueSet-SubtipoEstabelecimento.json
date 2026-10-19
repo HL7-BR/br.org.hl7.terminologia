@@ -2,7 +2,6 @@
   "resourceType": "ValueSet",
   "id": "SubtipoEstabelecimento",
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/SubtipoEstabelecimento",
-  "version": "HEAD",
   "name": "BRSubtipoEstabelecimento",
   "title": "Subtipo Estabelecimento de Saúde",
   "status": "active",
@@ -12,18 +11,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/SubtipoEstabelecimento",
-        "version": "HEAD",
-        "concept": [
-          {
-            "code": "DSEI",
-            "display": "Distrito Sanitário Especial Indígena"
-          },
-          {
-            "code": "PoloBase",
-            "display": "Polo-base Saúde Indígena"
-          }
-        ]
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/SubtipoEstabelecimento"
       }
     ]
   }

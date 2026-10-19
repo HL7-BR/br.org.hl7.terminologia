@@ -1,20 +1,24 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRParentesco",
-  "meta": {
-    "lastUpdated": "2025-07-17T17:39:28.581+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRParentesco</b></p><p>Title: BRParentesco</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRParentesco</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRParentesco",
-  "version": "HEAD",
   "name": "BRParentesco",
   "title": "BRParentesco",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "201701A",
+  "count": 2,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "mother",
+      "display": "Mãe"
+    },
+    {
+      "code": "father",
+      "display": "Pai"
+    }
+  ]
 }

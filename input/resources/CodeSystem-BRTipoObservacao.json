@@ -1,20 +1,52 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRTipoObservacao",
-  "meta": {
-    "lastUpdated": "2025-07-17T17:40:00.008+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRTipoObservacao</b></p><p>Title: BRTipoObservacao</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao",
-  "version": "HEAD",
   "name": "BRTipoObservacao",
   "title": "BRTipoObservacao",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.0.0",
+  "count": 9,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "IAC",
+      "display": "Informações Adicionais/Complementares"
+    },
+    {
+      "code": "CA",
+      "display": "Circunferência Abdominal"
+    },
+    {
+      "code": "PC",
+      "display": "Perímetro Cefálico"
+    },
+    {
+      "code": "A",
+      "display": "Altura"
+    },
+    {
+      "code": "DF",
+      "display": "Dados do Desfecho"
+    },
+    {
+      "code": "RECIDI",
+      "display": "Resumo da evolução clínica do indivíduo durante a internação"
+    },
+    {
+      "code": "DSIA",
+      "display": "Declaração Subjetiva do Indivíudo para o Atendimento"
+    },
+    {
+      "code": "PA",
+      "display": "Pressão Arterial"
+    },
+    {
+      "code": "P",
+      "display": "Peso"
+    }
+  ]
 }

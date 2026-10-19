@@ -1,20 +1,56 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRLocalAfericao",
-  "meta": {
-    "lastUpdated": "2025-07-17T17:40:41.865+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRLocalAfericao</b></p><p>Title: BRLocalAfericao</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAfericao</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRLocalAfericao",
-  "version": "HEAD",
   "name": "BRLocalAfericao",
   "title": "BRLocalAfericao",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.0",
+  "count": 10,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "9",
+      "display": "Dedo da mão"
+    },
+    {
+      "code": "4",
+      "display": "Coxa esquerda"
+    },
+    {
+      "code": "8",
+      "display": "Tornozelo esquerdo"
+    },
+    {
+      "code": "6",
+      "display": "Pulso esquerdo"
+    },
+    {
+      "code": "3",
+      "display": "Coxa direita"
+    },
+    {
+      "code": "7",
+      "display": "Tornozelo direito"
+    },
+    {
+      "code": "2",
+      "display": "Braço esquerdo"
+    },
+    {
+      "code": "1",
+      "display": "Braço direito"
+    },
+    {
+      "code": "10",
+      "display": "Dedo do pé"
+    },
+    {
+      "code": "5",
+      "display": "Pulso direito"
+    }
+  ]
 }

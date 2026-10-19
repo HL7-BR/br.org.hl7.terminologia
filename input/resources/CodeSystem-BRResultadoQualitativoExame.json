@@ -1,20 +1,28 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRResultadoQualitativoExame",
-  "meta": {
-    "lastUpdated": "2025-07-16T16:51:04.640+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRResultadoQualitativoExame</b></p><p>Title: BRResultadoQualitativoExame</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRResultadoQualitativoExame</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRResultadoQualitativoExame",
-  "version": "HEAD",
   "name": "BRResultadoQualitativoExame",
   "title": "BRResultadoQualitativoExame",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "201701A",
+  "count": 3,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "2",
+      "display": "Não Detectável"
+    },
+    {
+      "code": "1",
+      "display": "Detectável"
+    },
+    {
+      "code": "3",
+      "display": "Inconclusivo"
+    }
+  ]
 }

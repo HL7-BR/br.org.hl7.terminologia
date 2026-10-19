@@ -1,12 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BRCondutaColposcopia",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRCondutaColposcopia</b></p><p>Title: BRCondutaColposcopia</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRCondutaColposcopia</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRCondutaColposcopia",
-  "version": "HEAD",
   "name": "BRCondutaColposcopia",
   "title": "BRCondutaColposcopia",
   "status": "active",
@@ -14,34 +9,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondutaColposcopia",
-        "version": "HEAD",
-        "concept": [
-          {
-            "code": "AESP",
-            "display": "Prosseguir investigação na Atenção Especializada"
-          },
-          {
-            "code": "AESPABL",
-            "display": "Prosseguir investigação na Atenção Especializada/Tratamento Ablativo"
-          },
-          {
-            "code": "ENCABL",
-            "display": "Encaminhamento para tratamento excisional/Tratamento ablativo"
-          },
-          {
-            "code": "ENCONC",
-            "display": "Encaminhamento para Centro de Referência em Oncologia"
-          },
-          {
-            "code": "REAV1",
-            "display": "Reavaliação em 1 (hum) ano"
-          },
-          {
-            "code": "ROT5",
-            "display": "Rotina em cinco anos"
-          }
-        ]
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondutaColposcopia"
       }
     ]
   }

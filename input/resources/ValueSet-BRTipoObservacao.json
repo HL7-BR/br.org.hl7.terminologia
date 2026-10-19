@@ -1,12 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BRTipoObservacao",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRTipoObservacao-1.0</b></p><p>Title: BRTipoObservacao-1.0</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoObservacao</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoObservacao",
-  "version": "HEAD",
   "name": "BRTipoObservacao",
   "title": "BR Tipo Observacao",
   "status": "active",
@@ -14,50 +9,10 @@
   "compose": {
     "include": [
       {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao",
-        "version": "HEAD",
-        "concept": [
-          {
-            "code": "IAC",
-            "display": "Informações Adicionais/Complementares"
-          },
-          {
-            "code": "RECIDI",
-            "display": "Resumo da evolução clínica do indivíduo durante a internação"
-          },
-          {
-            "code": "DSIA",
-            "display": "Declaração Subjetiva do Indivíudo para o Atendimento"
-          },
-          {
-            "code": "DF",
-            "display": "Dados do desfecho"
-          },
-          {
-            "code": "PC",
-            "display": "Perímetro Cefálico"
-          },
-          {
-            "code": "CA",
-            "display": "Circunferência Abdominal"
-          },
-          {
-            "code": "PA",
-            "display": "Pressão Arterial"
-          },
-          {
-            "code": "P",
-            "display": "Peso"
-          },
-          {
-            "code": "A",
-            "display": "Altura"
-          }
-        ]
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoObservacao"
       },
       {
         "system": "http://loinc.org",
-        "version": "HEAD",
         "concept": [
           {
             "code": "8652-0",

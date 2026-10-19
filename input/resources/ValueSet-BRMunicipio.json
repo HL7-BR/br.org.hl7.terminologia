@@ -1,12 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BRMunicipio",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRMunicipio-1.0</b></p><p>Title: BRMunicipio-1.0</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRMunicipio</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRMunicipio",
-  "version": "HEAD",
   "name": "BRMunicipio",
   "title": "BR Municipio",
   "status": "active",
@@ -15,7 +10,6 @@
     "include": [
       {
         "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRIBGE",
-        "version": "HEAD",
         "concept": [
           {
             "code": "1100015"

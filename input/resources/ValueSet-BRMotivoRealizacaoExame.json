@@ -1,12 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BRMotivoRealizacaoExame",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRMotivoRealizacaoExame</b></p><p>Title: BRMotivoRealizacaoExame</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRMotivoRealizacaoExame</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRMotivoRealizacaoExame",
-  "version": "HEAD",
   "name": "BRMotivoRealizacaoExame",
   "title": "BRMotivoRealizacaoExame",
   "status": "active",
@@ -14,38 +9,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoRealizacaoExame",
-        "version": "HEAD",
-        "concept": [
-          {
-            "code": "7",
-            "display": "Ignorado"
-          },
-          {
-            "code": "6",
-            "display": "Projeto"
-          },
-          {
-            "code": "5",
-            "display": "Protocolo"
-          },
-          {
-            "code": "4",
-            "display": "Programa"
-          },
-          {
-            "code": "3",
-            "display": "Investigação"
-          },
-          {
-            "code": "2",
-            "display": "Inquérito"
-          },
-          {
-            "code": "1",
-            "display": "Campanha"
-          }
-        ]
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRMotivoRealizacaoExame"
       }
     ]
   }

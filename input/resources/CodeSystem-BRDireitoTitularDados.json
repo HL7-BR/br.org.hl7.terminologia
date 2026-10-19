@@ -1,17 +1,52 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRDireitoTitularDados",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRDireitoTitularDados</b></p><p>Title: BRDireitoTitularDados</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRDireitoTitularDados</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDireitoTitularDados",
-  "version": "HEAD",
   "name": "BRDireitoTitularDados",
   "title": "BRDireitoTitularDados",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.0.1",
+  "count": 9,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "REVOG",
+      "display": "Revogação"
+    },
+    {
+      "code": "COMPINF",
+      "display": "Compartilhamento de Informacões"
+    },
+    {
+      "code": "PORTAB",
+      "display": "Portabilidade"
+    },
+    {
+      "code": "ELIMIN",
+      "display": "Eliminação"
+    },
+    {
+      "code": "BLOQUEIO",
+      "display": "Bloqueio"
+    },
+    {
+      "code": "ANONIM",
+      "display": "Anonimização"
+    },
+    {
+      "code": "CORRECAO",
+      "display": "Correção"
+    },
+    {
+      "code": "CONFIRM",
+      "display": "Confirmação"
+    },
+    {
+      "code": "ACESSO",
+      "display": "Acesso"
+    }
+  ]
 }

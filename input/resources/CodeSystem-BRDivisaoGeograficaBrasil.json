@@ -1,20 +1,162 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRDivisaoGeograficaBrasil",
-  "meta": {
-    "lastUpdated": "2025-07-17T17:37:28.792+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRDivisaoGeograficaBrasil</b></p><p>Title: BRDivisaoGeograficaBrasil</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRDivisaoGeograficaBrasil",
-  "version": "HEAD",
   "name": "BRDivisaoGeograficaBrasil",
   "title": "BRDivisaoGeograficaBrasil",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "201701A",
+  "count": 33,
+  "content": "complete",
+  "property": [
+    {
+      "code": "inactive",
+      "uri": "http://hl7.org/fhir/concept-properties#inactive",
+      "description": "Conceito inativo (retirado no OCL).",
+      "type": "boolean"
+    }
+  ],
+  "concept": [
+    {
+      "code": "315780",
+      "display": "Santa Luzia",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "28",
+      "display": "Sergipe"
+    },
+    {
+      "code": "27",
+      "display": "Alagoas"
+    },
+    {
+      "code": "53",
+      "display": "Distrito Federal"
+    },
+    {
+      "code": "26",
+      "display": "Pernambuco"
+    },
+    {
+      "code": "52",
+      "display": "Goiás"
+    },
+    {
+      "code": "25",
+      "display": "Paraíba"
+    },
+    {
+      "code": "51",
+      "display": "Mato Grosso"
+    },
+    {
+      "code": "24",
+      "display": "Rio Grande do Norte"
+    },
+    {
+      "code": "50",
+      "display": "Mato Grosso do Sul"
+    },
+    {
+      "code": "23",
+      "display": "Ceará"
+    },
+    {
+      "code": "5",
+      "display": "Centro-Oeste"
+    },
+    {
+      "code": "22",
+      "display": "Piauí"
+    },
+    {
+      "code": "43",
+      "display": "Rio Grande do Sul"
+    },
+    {
+      "code": "21",
+      "display": "Maranhão"
+    },
+    {
+      "code": "42",
+      "display": "Santa Catarina"
+    },
+    {
+      "code": "2",
+      "display": "Nordeste"
+    },
+    {
+      "code": "41",
+      "display": "Paraná"
+    },
+    {
+      "code": "17",
+      "display": "Tocantins"
+    },
+    {
+      "code": "4",
+      "display": "Sul"
+    },
+    {
+      "code": "16",
+      "display": "Amapá"
+    },
+    {
+      "code": "34",
+      "display": "São Paulo"
+    },
+    {
+      "code": "15",
+      "display": "Pará"
+    },
+    {
+      "code": "33",
+      "display": "Rio de Janeiro"
+    },
+    {
+      "code": "14",
+      "display": "Roraima"
+    },
+    {
+      "code": "32",
+      "display": "Espírito Santo"
+    },
+    {
+      "code": "13",
+      "display": "Amazonas"
+    },
+    {
+      "code": "12",
+      "display": "Acre"
+    },
+    {
+      "code": "31",
+      "display": "Minas Gerais"
+    },
+    {
+      "code": "11",
+      "display": "Rondônia"
+    },
+    {
+      "code": "3",
+      "display": "Sudeste"
+    },
+    {
+      "code": "1",
+      "display": "Norte"
+    },
+    {
+      "code": "29",
+      "display": "Bahia"
+    }
+  ]
 }

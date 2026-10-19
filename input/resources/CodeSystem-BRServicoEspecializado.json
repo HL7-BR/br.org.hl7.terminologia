@@ -1,20 +1,300 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRServicoEspecializado",
-  "meta": {
-    "lastUpdated": "2025-07-17T17:30:25.662+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRServicoEspecializado</b></p><p>Title: BRServicoEspecializado</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRServicoEspecializado</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRServicoEspecializado",
-  "version": "HEAD",
   "name": "BRServicoEspecializado",
   "title": "BRServicoEspecializado",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.0.0",
+  "count": 71,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "110",
+      "display": "SERVICO DE ATENCAO A SAUDE REPRODUTIVA"
+    },
+    {
+      "code": "115",
+      "display": "SERVICO DE ATENCAO PSICOSSOCIAL"
+    },
+    {
+      "code": "100",
+      "display": "ATENCAO A SAUDE NO SISTEMA PENITENCIARIO"
+    },
+    {
+      "code": "111",
+      "display": "SERVICO DE ATENCAO AO PACIENTE COM TUBERCULOSE"
+    },
+    {
+      "code": "128",
+      "display": "SERVICO DE HEMOTERAPIA"
+    },
+    {
+      "code": "134",
+      "display": "SERVICO DE PRATICAS INTEGRATIVAS E COMPLEMENTARES"
+    },
+    {
+      "code": "135",
+      "display": "SERVICO DE REABILITACAO"
+    },
+    {
+      "code": "133",
+      "display": "SERVICO DE PNEUMOLOGIA"
+    },
+    {
+      "code": "132",
+      "display": "SERVICO DE ONCOLOGIA"
+    },
+    {
+      "code": "129",
+      "display": "SERVICO DE LABORATORIO DE HISTOCOMPATIBILIDADE"
+    },
+    {
+      "code": "173",
+      "display": "LOGISTICA DE IMUNOBIOLOGICOS"
+    },
+    {
+      "code": "168",
+      "display": "ATENCAO A PESSOAS COM DOENCAS RARAS"
+    },
+    {
+      "code": "166",
+      "display": "SERV ANALISE LABORATORIAL DE PROD SUJEITOS A VIG SANITARIA"
+    },
+    {
+      "code": "165",
+      "display": "ATENCAO AS PESSOAS EM SITUACAO DE VIOLENCIA SEXUAL"
+    },
+    {
+      "code": "164",
+      "display": "SERVICO DE ORTESES, PROTESES E MAT ESPECIAIS EM REABILITACAO"
+    },
+    {
+      "code": "160",
+      "display": "TELECONSULTORIA"
+    },
+    {
+      "code": "159",
+      "display": "ATENCAO BASICA"
+    },
+    {
+      "code": "155",
+      "display": "SERVICO DE TRAUMATOLOGIA E ORTOPEDIA"
+    },
+    {
+      "code": "148",
+      "display": "HOSPITAL DIA"
+    },
+    {
+      "code": "146",
+      "display": "SERVICO DE VIDEOLAPAROSCOPIA"
+    },
+    {
+      "code": "145",
+      "display": "SERVICO DE DIAGNOSTICO DE LABORATORIO CLINICO"
+    },
+    {
+      "code": "144",
+      "display": "SERVICO POSTO DE COLETA DE MATERIAIS BIOLOGICOS"
+    },
+    {
+      "code": "143",
+      "display": "SERVICO MOVEL DE URGENCIA (EXCETO SAMU)"
+    },
+    {
+      "code": "142",
+      "display": "SERVICO DE ENDOSCOPIA"
+    },
+    {
+      "code": "141",
+      "display": "SERVICO DE VIGILANCIA EM SAUDE"
+    },
+    {
+      "code": "140",
+      "display": "SERVICO DE URGENCIA E EMERGENCIA"
+    },
+    {
+      "code": "120",
+      "display": "SERVICO DE DIAGNOSTICO POR ANATOMIA PATOLOGICA EOU CITOPATO"
+    },
+    {
+      "code": "109",
+      "display": "SERVICO DE ATENCAO A SAUDE DOS ADOLESCENTES EM CONFLITO COM"
+    },
+    {
+      "code": "108",
+      "display": "SERVICO DE ATENCAO A SAUDE DO TRABALHADOR"
+    },
+    {
+      "code": "119",
+      "display": "SERVICO DE CONTROLE DE TABAGISMO"
+    },
+    {
+      "code": "118",
+      "display": "SERVICO DE CIRURGIA TORACICA"
+    },
+    {
+      "code": "106",
+      "display": "SERVICO DE ATENCAO A DST/HIV/AIDS"
+    },
+    {
+      "code": "117",
+      "display": "SERVICO DE CIRURGIA REPARADORA"
+    },
+    {
+      "code": "105",
+      "display": "SERVICO DE ATENCAO EM NEUROLOGIA / NEUROCIRURGIA"
+    },
+    {
+      "code": "104",
+      "display": "REGULACAO DO ACESSO A ACOES E SERVICOS DE SAUDE"
+    },
+    {
+      "code": "103",
+      "display": "SERVICO DE ATENDIMENTO MOVEL DE URGENCIAS"
+    },
+    {
+      "code": "114",
+      "display": "SERVICO DE ATENCAO EM SAUDE BUCAL"
+    },
+    {
+      "code": "102",
+      "display": "ESTRATEGIA DE AGENTES COMUNITARIOS DE SAUDE"
+    },
+    {
+      "code": "113",
+      "display": "SERVICO DE ATENCAO DOMICILIAR"
+    },
+    {
+      "code": "101",
+      "display": "ESTRATEGIA DE SAUDE DA FAMILIA"
+    },
+    {
+      "code": "112",
+      "display": "SERVICO DE ATENCAO AO PRE-NATAL, PARTO E NASCIMENTO"
+    },
+    {
+      "code": "167",
+      "display": "ATENDIMENTO ITINERANTE DE ASSISTENCIA E ENSINO EM SAUDE"
+    },
+    {
+      "code": "169",
+      "display": "ATENCAO EM UROLOGIA"
+    },
+    {
+      "code": "170",
+      "display": "COMISSOES E COMITES"
+    },
+    {
+      "code": "174",
+      "display": "IMUNIZACAO"
+    },
+    {
+      "code": "121",
+      "display": "SERVICO DE DIAGNOSTICO POR IMAGEM"
+    },
+    {
+      "code": "127",
+      "display": "SERVICO DE ATENCAO A OBESIDADE"
+    },
+    {
+      "code": "126",
+      "display": "SERVICO DE FISIOTERAPIA"
+    },
+    {
+      "code": "125",
+      "display": "SERVICO DE FARMACIA"
+    },
+    {
+      "code": "124",
+      "display": "SERVICO DE ENDOCRINOLOGIA"
+    },
+    {
+      "code": "123",
+      "display": "SERVICO DE DISPENSACAO DE ORTESES PROTESES E MATERIAIS ESPE"
+    },
+    {
+      "code": "131",
+      "display": "SERVICO DE OFTALMOLOGIA"
+    },
+    {
+      "code": "130",
+      "display": "ATENCAO A DOENCA RENAL CRONICA"
+    },
+    {
+      "code": "147",
+      "display": "SERVICO DE APOIO A SAUDE DA FAMILIA"
+    },
+    {
+      "code": "151",
+      "display": "MEDICINA NUCLEAR"
+    },
+    {
+      "code": "150",
+      "display": "CIRURGIA VASCULAR"
+    },
+    {
+      "code": "149",
+      "display": "TRANSPLANTE"
+    },
+    {
+      "code": "152",
+      "display": "ATENCAO A SAUDE DE POPULACOES INDIGENAS"
+    },
+    {
+      "code": "154",
+      "display": "SERVICO DE BANCO DE TECIDOS"
+    },
+    {
+      "code": "153",
+      "display": "ATENCAO ESPECIALIZADA NO PROCESSO TRANSEXUALIZADOR"
+    },
+    {
+      "code": "156",
+      "display": "SERVICO DE ATENCAO A SAUDE DAS PESSOAS OSTOMIZADAS"
+    },
+    {
+      "code": "157",
+      "display": "SERVICO DE LABORATORIO DE PROTESE DENTARIA"
+    },
+    {
+      "code": "162",
+      "display": "SERVICO DE TERAPIA INTENSIVA"
+    },
+    {
+      "code": "161",
+      "display": "CONSULTORIO NA RUA"
+    },
+    {
+      "code": "136",
+      "display": "SERVICO DE SUPORTE NUTRICIONAL"
+    },
+    {
+      "code": "139",
+      "display": "SERVICO DE TRIAGEM NEONATAL"
+    },
+    {
+      "code": "122",
+      "display": "SERVICO DE DIAGNOSTICO POR METODOS GRAFICOS DINAMICOS"
+    },
+    {
+      "code": "107",
+      "display": "SERVICO DE ATENCAO A SAUDE AUDITIVA"
+    },
+    {
+      "code": "163",
+      "display": "SERVICO DE CUIDADOS INTERMEDIARIOS"
+    },
+    {
+      "code": "116",
+      "display": "SERVICO DE ATENCAO CARDIOVASCULAR / CARDIOLOGIA"
+    },
+    {
+      "code": "158",
+      "display": "SERVICO DE ATENCAO INTEGRAL EM HANSENIASE"
+    }
+  ]
 }

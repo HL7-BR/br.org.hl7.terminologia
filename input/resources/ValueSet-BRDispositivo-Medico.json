@@ -1,12 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BRDispositivo-Medico",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRDispositivo-Medico</b></p><p>Title: BRDispositivo_Medico</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRDispositivo-Medico</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRDispositivo-Medico",
-  "version": "HEAD",
   "name": "BRDispositivo_Medico",
   "title": "BRDispositivo_Medico",
   "status": "active",
@@ -15,7 +10,6 @@
     "include": [
       {
         "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS",
-        "version": "HEAD",
         "concept": [
           {
             "code": "0211020010",

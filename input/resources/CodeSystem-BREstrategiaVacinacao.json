@@ -1,20 +1,68 @@
 {
   "resourceType": "CodeSystem",
   "id": "BREstrategiaVacinacao",
-  "meta": {
-    "lastUpdated": "2025-07-17T17:39:42.268+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BREstrategiaVacinacao</b></p><p>Title: BREstrategiaVacinacao</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BREstrategiaVacinacao</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BREstrategiaVacinacao",
-  "version": "HEAD",
   "name": "BREstrategiaVacinacao",
   "title": "BREstrategiaVacinacao",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "01.01",
+  "count": 13,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "1",
+      "display": "Rotina"
+    },
+    {
+      "code": "4",
+      "display": "Intensificação"
+    },
+    {
+      "code": "5",
+      "display": "Campanha indiscriminada"
+    },
+    {
+      "code": "13",
+      "display": "Reexposição"
+    },
+    {
+      "code": "11",
+      "display": "Pré-exposição"
+    },
+    {
+      "code": "10",
+      "display": "Pesquisa"
+    },
+    {
+      "code": "9",
+      "display": "Monitoramento rápido de cobertura vacinal"
+    },
+    {
+      "code": "12",
+      "display": "Pós-exposição"
+    },
+    {
+      "code": "3",
+      "display": "Bloqueio"
+    },
+    {
+      "code": "2",
+      "display": "Especial"
+    },
+    {
+      "code": "8",
+      "display": "Serviço Privado"
+    },
+    {
+      "code": "7",
+      "display": "Soroterapia"
+    },
+    {
+      "code": "6",
+      "display": "Campanha seletiva"
+    }
+  ]
 }

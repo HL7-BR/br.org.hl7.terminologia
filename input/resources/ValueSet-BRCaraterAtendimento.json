@@ -1,12 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BRCaraterAtendimento",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRCaraterAtendimento</b></p><p>Title: BRCaraterAtendimento</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRCaraterAtendimento</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRCaraterAtendimento",
-  "version": "HEAD",
   "name": "BRCaraterAtendimento",
   "title": "BR Carater Atendimento",
   "status": "active",
@@ -14,38 +9,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCaraterAtendimento",
-        "version": "HEAD",
-        "concept": [
-          {
-            "code": "99",
-            "display": "Sem registro no modelo de informação de origem"
-          },
-          {
-            "code": "06",
-            "display": "Demanda espontânea (DE): atendimento de urgência"
-          },
-          {
-            "code": "05",
-            "display": "Demanda espontânea: consulta no dia"
-          },
-          {
-            "code": "04",
-            "display": "Consulta agendada programada: cuidado continuado"
-          },
-          {
-            "code": "03",
-            "display": "Consulta agendada"
-          },
-          {
-            "code": "02",
-            "display": "Urgência"
-          },
-          {
-            "code": "01",
-            "display": "Eletivo"
-          }
-        ]
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCaraterAtendimento"
       }
     ]
   }

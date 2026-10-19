@@ -1,12 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BRSinaisVitais",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRSinaisVitais</b></p><p>Title: BRSinaisVitais</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRSinaisVitais</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRSinaisVitais",
-  "version": "HEAD",
   "name": "BRSinaisVitais",
   "title": "BR Sinais Vitais",
   "status": "active",
@@ -15,7 +10,6 @@
     "include": [
       {
         "system": "http://loinc.org",
-        "version": "HEAD",
         "concept": [
           {
             "code": "9279-1",

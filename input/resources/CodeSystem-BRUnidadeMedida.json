@@ -1,20 +1,316 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRUnidadeMedida",
-  "meta": {
-    "lastUpdated": "2025-07-16T16:51:54.333+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRUnidadeMedida</b></p><p>Title: BRUnidadeMedida</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRUnidadeMedida</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRUnidadeMedida",
-  "version": "HEAD",
   "name": "BRUnidadeMedida",
   "title": "BRUnidadeMedida",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.0",
+  "count": 75,
+  "content": "complete",
+  "concept": [
+    {
+      "code": "43",
+      "display": "mg (Miligrama)"
+    },
+    {
+      "code": "42",
+      "display": "mEq (Miliequivalente)"
+    },
+    {
+      "code": "41",
+      "display": "m (Metro)"
+    },
+    {
+      "code": "9",
+      "display": "Bisnaga"
+    },
+    {
+      "code": "40",
+      "display": "Lata"
+    },
+    {
+      "code": "80",
+      "display": "Tubo"
+    },
+    {
+      "code": "4",
+      "display": "Aplicação"
+    },
+    {
+      "code": "8",
+      "display": "Barra"
+    },
+    {
+      "code": "39",
+      "display": "L (Litro)"
+    },
+    {
+      "code": "79",
+      "display": "Tubete"
+    },
+    {
+      "code": "38",
+      "display": "kg (Quilograma)"
+    },
+    {
+      "code": "78",
+      "display": "Tablete"
+    },
+    {
+      "code": "37",
+      "display": "Implante"
+    },
+    {
+      "code": "77",
+      "display": "Seringa preenchida"
+    },
+    {
+      "code": "36",
+      "display": "Hora"
+    },
+    {
+      "code": "76",
+      "display": "Sachê"
+    },
+    {
+      "code": "35",
+      "display": "Gota"
+    },
+    {
+      "code": "75",
+      "display": "Pote"
+    },
+    {
+      "code": "34",
+      "display": "Goma"
+    },
+    {
+      "code": "74",
+      "display": "Drágea"
+    },
+    {
+      "code": "33",
+      "display": "g (Grama)"
+    },
+    {
+      "code": "71",
+      "display": "Cartela"
+    },
+    {
+      "code": "70",
+      "display": "Cartão"
+    },
+    {
+      "code": "32",
+      "display": "Frasco-ampola"
+    },
+    {
+      "code": "7",
+      "display": "Bandagem"
+    },
+    {
+      "code": "31",
+      "display": "Frasco"
+    },
+    {
+      "code": "69",
+      "display": "Capsula inalante"
+    },
+    {
+      "code": "30",
+      "display": "Flaconete"
+    },
+    {
+      "code": "66",
+      "display": "Bastão"
+    },
+    {
+      "code": "3",
+      "display": "Anel"
+    },
+    {
+      "code": "64",
+      "display": "Óvulo"
+    },
+    {
+      "code": "29",
+      "display": "Filme"
+    },
+    {
+      "code": "63",
+      "display": "UTR (Unidade Redutora da Turbidez)"
+    },
+    {
+      "code": "28",
+      "display": "Estojo"
+    },
+    {
+      "code": "62",
+      "display": "Unidade"
+    },
+    {
+      "code": "27",
+      "display": "Envelope"
+    },
+    {
+      "code": "61",
+      "display": "UIC (Unidade Inibidora de Calicreína)"
+    },
+    {
+      "code": "26",
+      "display": "Enema"
+    },
+    {
+      "code": "60",
+      "display": "UI (Unidade Internacional)"
+    },
+    {
+      "code": "25",
+      "display": "Endosporos"
+    },
+    {
+      "code": "6",
+      "display": "Atomização"
+    },
+    {
+      "code": "24",
+      "display": "Emplastro"
+    },
+    {
+      "code": "59",
+      "display": "Supositório"
+    },
+    {
+      "code": "23",
+      "display": "Dose"
+    },
+    {
+      "code": "58",
+      "display": "Strip"
+    },
+    {
+      "code": "22",
+      "display": "Dispositivo de injeção pré-carregado"
+    },
+    {
+      "code": "57",
+      "display": "Seringa"
+    },
+    {
+      "code": "21",
+      "display": "Dispositivo"
+    },
+    {
+      "code": "56",
+      "display": "Saco"
+    },
+    {
+      "code": "20",
+      "display": "Desconhecido"
+    },
+    {
+      "code": "55",
+      "display": "Pílula"
+    },
+    {
+      "code": "2",
+      "display": "Ampola"
+    },
+    {
+      "code": "54",
+      "display": "Pastilha gomosa"
+    },
+    {
+      "code": "19",
+      "display": "Comprimido"
+    },
+    {
+      "code": "53",
+      "display": "Pastilha dura"
+    },
+    {
+      "code": "18",
+      "display": "cm² (Centímetro Quadrado)"
+    },
+    {
+      "code": "52",
+      "display": "Pastilha"
+    },
+    {
+      "code": "17",
+      "display": "cm (Centímetro)"
+    },
+    {
+      "code": "51",
+      "display": "nL (Nanolitro)"
+    },
+    {
+      "code": "50",
+      "display": "ng (Nanograma)"
+    },
+    {
+      "code": "16",
+      "display": "Catéter"
+    },
+    {
+      "code": "5",
+      "display": "Aplicador"
+    },
+    {
+      "code": "15",
+      "display": "Cartucho"
+    },
+    {
+      "code": "49",
+      "display": "mm (Milímetro)"
+    },
+    {
+      "code": "14",
+      "display": "Carpule"
+    },
+    {
+      "code": "48",
+      "display": "mL (Mililitro)"
+    },
+    {
+      "code": "13",
+      "display": "Cápsula"
+    },
+    {
+      "code": "47",
+      "display": "MUI (Milhões de unidades internacionais)"
+    },
+    {
+      "code": "12",
+      "display": "Caixa"
+    },
+    {
+      "code": "46",
+      "display": "Milhões"
+    },
+    {
+      "code": "11",
+      "display": "Bolsa"
+    },
+    {
+      "code": "10",
+      "display": "Blíster"
+    },
+    {
+      "code": "45",
+      "display": "Microlitro"
+    },
+    {
+      "code": "44",
+      "display": "Micrograma"
+    },
+    {
+      "code": "1",
+      "display": "Adesivo"
+    }
+  ]
 }

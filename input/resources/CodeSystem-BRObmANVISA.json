@@ -1,20 +1,14 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRObmANVISA",
-  "meta": {
-    "lastUpdated": "2025-07-17T17:34:10.494+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRObmANVISA</b></p><p>Title: BRObmANVISA</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRObmANVISA</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRObmANVISA",
-  "version": "HEAD",
   "name": "BRObmANVISA",
   "title": "BRObmANVISA",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
+  "version": "1.0.0",
+  "count": 11507,
   "content": "not-present"
 }

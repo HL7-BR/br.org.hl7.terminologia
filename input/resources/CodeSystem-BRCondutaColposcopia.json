@@ -1,17 +1,108 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRCondutaColposcopia",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRCondutaColposcopia</b></p><p>Title: BRCondutaColposcopia</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondutaColposcopia</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRCondutaColposcopia",
-  "version": "HEAD",
   "name": "BRCondutaColposcopia",
   "title": "BRCondutaColposcopia",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "version": "1.0.0",
+  "count": 12,
+  "content": "complete",
+  "property": [
+    {
+      "code": "inactive",
+      "uri": "http://hl7.org/fhir/concept-properties#inactive",
+      "description": "Conceito inativo (retirado no OCL).",
+      "type": "boolean"
+    }
+  ],
+  "concept": [
+    {
+      "code": "2663913",
+      "display": "Prosseguir investigação na Atenção Especializada",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "2663915",
+      "display": "Prosseguir investigação na Atenção Especializada/Tratamento Ablativo",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "2663917",
+      "display": "Encaminhamento para tratamento exclicional/Tratamento ablativo",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "2663919",
+      "display": "Encaminhamento para Centro de Referência em Oncologia",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "2663921",
+      "display": "Rotina em cinco anos",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "2663911",
+      "display": "Reavaliação em 1(hum) ano",
+      "property": [
+        {
+          "code": "inactive",
+          "valueBoolean": true
+        }
+      ]
+    },
+    {
+      "code": "ENCONC",
+      "display": "Encaminhamento para Centro de Referência em Oncologia"
+    },
+    {
+      "code": "ROT5",
+      "display": "Rotina em cinco anos"
+    },
+    {
+      "code": "AESP",
+      "display": "Prosseguir investigação na Atenção Especializada"
+    },
+    {
+      "code": "AESPABL",
+      "display": "Prosseguir investigação na Atenção Especializada/Tratamento Ablativo"
+    },
+    {
+      "code": "ENCABL",
+      "display": "Encaminhamento para tratamento excisional/Tratamento ablativo"
+    },
+    {
+      "code": "REAV1",
+      "display": "Reavaliação em 1 (hum) ano"
+    }
+  ]
 }

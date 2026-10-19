@@ -1,12 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BRCategoriaProcedimento",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRCategoriaProcedimento</b></p><p>Title: BRCategoriaProcedimento</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRCategoriaProcedimento</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRCategoriaProcedimento",
-  "version": "HEAD",
   "name": "BRCategoriaProcedimento",
   "title": "BR Categoria Procedimento",
   "status": "active",
@@ -15,7 +10,6 @@
     "include": [
       {
         "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRSubGrupoTabelaSUS",
-        "version": "HEAD",
         "concept": [
           {
             "code": "0202",
@@ -257,7 +251,6 @@
       },
       {
         "system": "https://fhir.ans.gov.br/CodeSystem/tuss-50",
-        "version": "HEAD",
         "concept": [
           {
             "code": "23",
@@ -351,7 +344,6 @@
       },
       {
         "system": "https://fhir.ans.gov.br/CodeSystem/tuss-51",
-        "version": "HEAD",
         "concept": [
           {
             "code": "3",

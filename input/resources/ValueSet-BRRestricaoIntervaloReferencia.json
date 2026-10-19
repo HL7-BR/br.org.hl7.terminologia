@@ -1,11 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\">Expanded ValueSet</div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRObservationRestricaoIntervaloReferencia",
-  "version": "HEAD",
   "status": "active",
   "expansion": {
     "timestamp": "2025-07-21T15:21:10+00:00",
@@ -58,7 +53,6 @@
     "include": [
       {
         "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRRacaCor",
-        "version": "HEAD",
         "concept": [
           {
             "code": "05",
@@ -84,7 +78,6 @@
       },
       {
         "system": "http://snomed.info/sct",
-        "version": "HEAD",
         "concept": [
           {
             "code": "77386006",

@@ -1,12 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BRBaseLegalLGPD",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRBaseLegalLGPD</b></p><p>Title: BRBaseLegalLGPD</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRBaseLegalLGPD</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRBaseLegalLGPD",
-  "version": "HEAD",
   "name": "BRBaseLegalLGPD",
   "title": "BRBaseLegalLGPD",
   "status": "active",
@@ -14,50 +9,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRBaseLegalLGPD",
-        "version": "HEAD",
-        "concept": [
-          {
-            "code": "PROTCRED",
-            "display": "Proteção do Crédito"
-          },
-          {
-            "code": "EXECONTRATO",
-            "display": "Execução de Contrato"
-          },
-          {
-            "code": "LEGINTER",
-            "display": "Legítimo Interesse"
-          },
-          {
-            "code": "TUTSAUDE",
-            "display": "Tutela da Saude"
-          },
-          {
-            "code": "PROTVIDA",
-            "display": "Proteção da Vida"
-          },
-          {
-            "code": "EXERDIREITO",
-            "display": "Exercício Regular de Direitos"
-          },
-          {
-            "code": "PESQUISA",
-            "display": "Estudos por órgão de pesquisa"
-          },
-          {
-            "code": "EXECPOLPUB",
-            "display": "Execução de Políticas Públicas"
-          },
-          {
-            "code": "OBRILEGAL",
-            "display": "Obrigação Legal ou Regulatória"
-          },
-          {
-            "code": "CONSENT",
-            "display": "Consentimento do Titular"
-          }
-        ]
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRBaseLegalLGPD"
       }
     ]
   }

@@ -1,12 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BRTipoDocumento",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRTipoDocumento-1.0</b></p><p>Title: BRTipoDocumento-1.0</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoDocumento</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRTipoDocumento",
-  "version": "HEAD",
   "name": "BRTipoDocumento",
   "title": "BR Tipo Documento",
   "status": "active",
@@ -14,46 +9,7 @@
   "compose": {
     "include": [
       {
-        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDocumento",
-        "version": "HEAD",
-        "concept": [
-          {
-            "code": "ATM",
-            "display": "Atestado Médico/Odontológico"
-          },
-          {
-            "code": "RA",
-            "display": "Regulação Assistencial"
-          },
-          {
-            "code": "REL",
-            "display": "Resultado de Exame(s) Laboratoriais(s)"
-          },
-          {
-            "code": "RDM",
-            "display": "Registro de Dispensação de Medicamento"
-          },
-          {
-            "code": "RPM",
-            "display": "Registro de Prescrição de Medicamento"
-          },
-          {
-            "code": "RIA",
-            "display": "Registro de Imunobiológico Administrado"
-          },
-          {
-            "code": "RAC",
-            "display": "Registro de Atendimento Clínico"
-          },
-          {
-            "code": "SA",
-            "display": "Sumário de Alta"
-          },
-          {
-            "code": "CMD",
-            "display": "Conjunto Mínimo de Dados"
-          }
-        ]
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDocumento"
       }
     ]
   }

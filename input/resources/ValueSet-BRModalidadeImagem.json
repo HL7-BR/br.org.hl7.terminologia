@@ -1,12 +1,7 @@
 {
   "resourceType": "ValueSet",
   "id": "BRModalidadeImagem",
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>ValueSet: BRModalidadeImagem</b></p><p>Title: BRModalidadeImagem</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/ValueSet/BRModalidadeImagem</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRModalidadeImagem",
-  "version": "HEAD",
   "name": "BRModalidadeImagem",
   "title": "BR Modalidade Imagem",
   "status": "active",
@@ -15,7 +10,6 @@
     "include": [
       {
         "system": "http://dicom.nema.org/resources/ontology/DCM",
-        "version": "HEAD",
         "concept": [
           {
             "code": "OAM",
