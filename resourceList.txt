@@ -83,3 +83,4 @@ https://oclapi2.ips.hsl.org.br/orgs/MS/sources/BRObmFormaFarmaceutica/
 https://oclapi2.ips.hsl.org.br/orgs/MS/sources/BRObmDisponibilidadeAMP/
 https://oclapi2.ips.hsl.org.br/orgs/MS/sources/BRObmStatusPrescricaoVMP/
 https://oclapi2.ips.hsl.org.br/orgs/MS/sources/BRTipoIntoleranciaAlergia/
+https://oclapi2.ips.hsl.org.br/orgs/MS/sources/BRGrupoAtendimento/

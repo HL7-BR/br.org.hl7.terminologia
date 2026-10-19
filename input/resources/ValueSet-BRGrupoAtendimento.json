@@ -1,0 +1,17 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRGrupoAtendimento",
+  "url": "https://terminologia.saude.gov.br/fhir/ValueSet/BRGrupoAtendimento",
+  "name": "BRGrupoAtendimento",
+  "title": "Grupo de Atendimento",
+  "status": "active",
+  "publisher": "MS",
+  "description": "Grupos de atendimento do PNI.",
+  "compose": {
+    "include": [
+      {
+        "system": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRGrupoAtendimento"
+      }
+    ]
+  }
+}

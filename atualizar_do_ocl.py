@@ -137,7 +137,7 @@ def atualizar_cs(caminho, maximo, seco):
         return {"arquivo": caminho.name, "erro": erro}
     conceitos = [limpar_conceito(c) for c in ocl.get("concept", [])]
     n = len(conceitos)
-    novo = {k: v for k, v in local.items() if k not in ("version", "content", "count", "concept", "property")}
+    novo = {k: v for k, v in local.items() if k not in ("version", "content", "count", "concept", "property", "text", "meta")}
     novo["version"] = ocl.get("version")
     novo["count"] = n
     if n and n <= maximo:
@@ -165,6 +165,11 @@ def atualizar_vs(caminho, cs_por_url, vs_todos, seco):
     for inc in vs.get("compose", {}).get("include", []):
         if inc.get("version") == "HEAD":
             del inc["version"]
+            mudou = True
+        if vs.get("version") == "HEAD" or "text" in vs:
+            vs.pop("text", None)
+            if vs.get("version") == "HEAD":
+                vs.pop("version")
             mudou = True
         cs = cs_por_url.get(inc.get("system"))
         if cs and inc.get("concept"):

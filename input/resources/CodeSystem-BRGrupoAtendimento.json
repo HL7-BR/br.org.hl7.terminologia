@@ -1,0 +1,14 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "BRGrupoAtendimento",
+  "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRGrupoAtendimento",
+  "version": "3.1",
+  "name": "BRGrupoAtendimento",
+  "title": "Grupo de Atendimento",
+  "status": "active",
+  "experimental": false,
+  "publisher": "MS",
+  "description": "Domínio que identifica o tipo de grupo de atendimento que o indivíduo apresentou para a vacinação.",
+  "caseSensitive": true,
+  "content": "not-present"
+}
