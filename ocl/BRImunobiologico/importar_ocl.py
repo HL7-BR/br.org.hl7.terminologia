@@ -8,6 +8,7 @@ Uso (PowerShell):
     python importar_ocl.py --rest         # atualiza e retira todos os que têm id
     python importar_ocl.py --corrigir-369 # corrige a fonte de destino do mapeamento do SAR
     python importar_ocl.py --versao 2026-10-16  # cria e libera a versão da fonte
+    python importar_ocl.py --retirar-atc  # retira os mapeamentos para o WHO ATC
 
 O token fica só na variável de ambiente; o script não grava nem imprime o token.
 """
@@ -140,7 +141,22 @@ def versao(ident):
     print("versão", ident, st, "" if st in (200, 201) else str(r)[:300])
 
 
+def retirar_atc():
+    """Retira os mapeamentos para o WHO ATC: todos os conceitos têm alvo SNOMED CT (decisão de 19/10/2026)."""
+    st, ms = chamar("GET", FONTE + "mappings/?limit=1000&verbose=true")
+    atc = [m for m in ms if "/WHO/" in (m.get("to_source_url") or "") and not m.get("retired")]
+    for m in atc:
+        st, r = chamar("DELETE", FONTE + f"mappings/{m['id']}/")
+        print(m["id"], m["from_concept_code"], "->", m["to_concept_code"], "DELETE", st, "" if st in (200, 204) else str(r)[:300])
+    st, ms = chamar("GET", FONTE + "mappings/?limit=1000&verbose=true")
+    resto = [m["id"] for m in ms if "/WHO/" in (m.get("to_source_url") or "") and not m.get("retired")]
+    print("ATC ativos depois:", resto or "nenhum")
+
+
 if __name__ == "__main__":
+    if "--retirar-atc" in sys.argv:
+        retirar_atc()
+        sys.exit(0)
     if "--corrigir-369" in sys.argv:
         corrigir_369()
         sys.exit(0)
