@@ -177,6 +177,8 @@ resources:
     description: "Categoria do Diagnóstico"
   CodeSystem/BRConclusaoColposcopia:
     description: "Conclusao Colposcopia"
+  CodeSystem/BRGrupoAtendimento:
+    description: "Grupo de Atendimento"
   CodeSystem/BRCondicaoMaternal:
     description: "Condição  Maternal"
   CodeSystem/BRCondutaColposcopia:
@@ -371,6 +373,8 @@ resources:
     description: "Categoria Procedimento"
   ValueSet/BRConclusaoColposcopia:
     description: "Conclusao Colposcopia"
+  ValueSet/BRGrupoAtendimento:
+    description: "Grupo de Atendimento"
   ValueSet/BRCondicaoMaternal:
     description: "Condição  Maternal"
   ValueSet/BRCondutaColposcopia:
