@@ -50,7 +50,14 @@ def fontes():
     """canonical_url -> URL da fonte no OCL (todas as organizações)."""
     global _FONTES
     if _FONTES is None:
-        lista, _h = _get("/sources/?limit=5000&verbose=true")
+        # limite acima de 500 o OCL ignora (devolve 25); pagina pelo cabeçalho next
+        lista, pagina = [], 1
+        while True:
+            lote, h = _get(f"/sources/?limit=500&page={pagina}&verbose=true")
+            lista += lote
+            if not h.get("next") or not lote:
+                break
+            pagina += 1
         _FONTES = {}
         for f in lista:
             can = (f.get("canonical_url") or "").rstrip("/")
@@ -66,7 +73,7 @@ def buscar_cs(url):
         fonte = fontes().get(url.rstrip("/"))
         if not fonte:
             return None, "não está no OCL"
-        versoes, _h = _get(fonte + "versions/?limit=200")
+        versoes, _h = _get(fonte + "versions/?limit=500")
         liberadas = [v for v in versoes if v.get("released") and v.get("id") != "HEAD"]
         if not liberadas:
             if "--usar-head" not in sys.argv:
