@@ -1,9 +1,0 @@
-{
-  "index-version" : 2,
-  "files" : [
-    {
-      "filename" : "onGenerate-validation.json",
-      "resourceType" : "OperationOutcome"
-    }
-  ]
-}
