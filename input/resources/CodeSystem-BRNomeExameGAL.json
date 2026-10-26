@@ -1,20 +1,203 @@
 {
   "resourceType": "CodeSystem",
   "id": "BRNomeExameGAL",
-  "meta": {
-    "lastUpdated": "2025-07-17T17:32:46.728+00:00"
-  },
-  "text": {
-    "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>CodeSystem: BRNomeExameGAL</b></p><p>Title: BRNomeExameGAL</p><p>Version: HEAD</p><p>URL: https://terminologia.saude.gov.br/fhir/CodeSystem/BRNomeExameGAL</p><p>Description: No description</p></div>"
-  },
   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRNomeExameGAL",
-  "version": "HEAD",
   "name": "BRNomeExameGAL",
   "title": "BRNomeExameGAL",
   "status": "active",
   "experimental": false,
   "publisher": "MS",
   "caseSensitive": true,
-  "content": "not-present"
+  "content": "complete",
+  "count": 47,
+  "concept": [
+    {
+      "code": "CHIKBM",
+      "display": "CHIKUNGUNYA, BIOLOGIA MOLECULAR"
+    },
+    {
+      "code": "CHIKG",
+      "display": "CHIKUNGUNYA, IGG"
+    },
+    {
+      "code": "CHIKM",
+      "display": "CHIKUNGUNYA, IGM"
+    },
+    {
+      "code": "CHIKTR",
+      "display": "CHIKUNGUNYA, TESTE RAPIDO IGM"
+    },
+    {
+      "code": "COVID",
+      "display": "COVID-19, Biologia Molecular"
+    },
+    {
+      "code": "CVIDGG",
+      "display": "COVID-19, IgG"
+    },
+    {
+      "code": "CVIDGM",
+      "display": "COVID-19, IgM"
+    },
+    {
+      "code": "DENAN",
+      "display": "DENGUE, DETECCAO DE ANTIGENO NS1"
+    },
+    {
+      "code": "DENGB",
+      "display": "DENGUE BIOLOGIA MOLECULAR"
+    },
+    {
+      "code": "DENGG",
+      "display": "DENGUE IGG"
+    },
+    {
+      "code": "DENGM",
+      "display": "DENGUE IGM"
+    },
+    {
+      "code": "DENGMS",
+      "display": "DENGUE IGM SOROLOGIA"
+    },
+    {
+      "code": "DENGTR",
+      "display": "DENGUE TESTE RAPIDO"
+    },
+    {
+      "code": "FAEAPV",
+      "display": "FEBRE AMARELA, EVENTO ADVERSO POS VACINAL/EAPV"
+    },
+    {
+      "code": "FAIMIG",
+      "display": "FEBRE AMARELA, TESTE RAPIDO IGM/IGG"
+    },
+    {
+      "code": "FEAMB",
+      "display": "FEBRE AMARELA BIOLOGIA MOLECULAR"
+    },
+    {
+      "code": "FEAMG",
+      "display": "FEBRE AMARELA, IGG"
+    },
+    {
+      "code": "FEAMM",
+      "display": "FEBRE AMARELA IGM"
+    },
+    {
+      "code": "FENLB",
+      "display": "Febre do Nilo Ocidental, Biologia Molecular"
+    },
+    {
+      "code": "FENLG",
+      "display": "Febre do Nilo Ocidental, IgG"
+    },
+    {
+      "code": "FENLM",
+      "display": "Febre do Nilo Ocidental, IgM"
+    },
+    {
+      "code": "INFSAZ",
+      "display": "Influenza"
+    },
+    {
+      "code": "MAYBIO",
+      "display": "Mayaro, Biologia Molecular"
+    },
+    {
+      "code": "MAYIGG",
+      "display": "Mayaro, IgG"
+    },
+    {
+      "code": "MAYIGM",
+      "display": "Mayaro, IgM"
+    },
+    {
+      "code": "OROBIO",
+      "display": "Oropouche, Biologia Molecular"
+    },
+    {
+      "code": "OROIGG",
+      "display": "Oropouche, IgG"
+    },
+    {
+      "code": "OROIGM",
+      "display": "Oropouche, IgM"
+    },
+    {
+      "code": "PEQARB",
+      "display": "PESQUISA DE ARBOVIRUS"
+    },
+    {
+      "code": "PEQZDC",
+      "display": "PESQUSA DE ARBOVIRUS (ZDC)"
+    },
+    {
+      "code": "RUBBM",
+      "display": "Rubéola, Biologia Molecular"
+    },
+    {
+      "code": "RUBG",
+      "display": "Rubéola, IgG"
+    },
+    {
+      "code": "RUBM",
+      "display": "Rubéola, IgM"
+    },
+    {
+      "code": "SARBM",
+      "display": "Sarampo, Biologia Molecular"
+    },
+    {
+      "code": "SARG",
+      "display": "Sarampo, IgG"
+    },
+    {
+      "code": "SARM",
+      "display": "Sarampo, IgM"
+    },
+    {
+      "code": "VARBIO",
+      "display": "Varicela, Biologia Molecular"
+    },
+    {
+      "code": "VARIG",
+      "display": "Varicela, IgG"
+    },
+    {
+      "code": "VARIM",
+      "display": "Varicela, IgM"
+    },
+    {
+      "code": "VARIOL",
+      "display": "Varíola"
+    },
+    {
+      "code": "VARZOS",
+      "display": "Varicela Zoster, Biologia Molecular"
+    },
+    {
+      "code": "VRSRT",
+      "display": "Vírus Respiratórios"
+    },
+    {
+      "code": "ZIKABM",
+      "display": "ZIKA BIOLOGIA MOLECULAR"
+    },
+    {
+      "code": "ZIKAGG",
+      "display": "ZIKA IGG"
+    },
+    {
+      "code": "ZIKAGM",
+      "display": "ZIKA IGM"
+    },
+    {
+      "code": "ZIKATR",
+      "display": "ZIKA TESTE RAPIDO IGG E IGM"
+    },
+    {
+      "code": "coronavirusnCoV",
+      "display": "Novo coronavírus (2019-nCoV)"
+    }
+  ]
 }
