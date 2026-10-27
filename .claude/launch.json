@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "ria-output",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8765", "--directory", "C:\\Users\\jussa\\OneDrive\\Github\\ig_InspiraRIA\\output"],
+      "port": 8765
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+﻿**********************
+Início da transcrição do Windows PowerShell
+Hora de início: 20261021170006
+Nome de Usuário: DESKJUSSARA\jussa
+Executar como Usuário: DESKJUSSARA\jussa
+Nome da Configuração: 
+Computador: DESKJUSSARA (Microsoft Windows NT 10.0.26200.0)
+Aplicativo Host: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File .\ocl\HL7-v2-0443\importar_ocl.ps1
+ID do Processo: 48492
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Usuário: jussararotzsch
+PS>TerminatingError(Invoke-WebRequest): "{"detail":"Not found."}"
+PS>TerminatingError(Invoke-WebRequest): "{"detail":"Not found."}"
+POST fonte: 201
+POST conceito AD: 201
+POST conceito AI: 201
+POST conceito AP: 201
+POST conceito AT: 201
+POST conceito CLP: 201
+POST conceito CP: 201
+POST conceito DP: 201
+POST conceito EP: 201
+POST conceito FHCP: 201
+POST conceito IP: 201
+POST conceito MDIR: 201
+POST conceito OP: 201
+POST conceito PH: 201
+POST conceito PI: 201
+POST conceito PP: 201
+POST conceito RO: 201
+POST conceito RP: 201
+POST conceito RT: 201
+POST conceito TN: 201
+POST conceito TR: 201
+POST conceito VP: 201
+POST conceito VPS: 201
+POST conceito VTS: 201
+POST versão 2.9.0: 201
+POST coleção: 201
+PUT referências: 200
+POST versão 4.0.1: 201
+FHIR /fhir/CodeSystem/?url=http://terminology.hl7.org/CodeSystem/v2-0443: 200, total 1
+FHIR /fhir/ValueSet/?url=http://hl7.org/fhir/ValueSet/immunization-function: 200, total 1
+Conferência: OK
+**********************
+Fim da transcrição do Windows PowerShell
+Hora de término: 20261021170028
+**********************

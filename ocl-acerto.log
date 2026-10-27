@@ -1,0 +1,47 @@
+﻿**********************
+Início da transcrição do Windows PowerShell
+Hora de início: 20261019120332
+Nome de Usuário: DESKJUSSARA\jussa
+Executar como Usuário: DESKJUSSARA\jussa
+Nome da Configuração: 
+Computador: DESKJUSSARA (Microsoft Windows NT 10.0.26200.0)
+Aplicativo Host: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -ExecutionPolicy Bypass -File .\acertar_ocl.ps1
+ID do Processo: 64308
+PSVersion: 5.1.26100.9711
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9711
+BuildVersion: 10.0.26100.9711
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+
+1/4 URLs canônicas
+0 fontes com canonical_url divergente corrigidas
+
+2/4 Plano das versões (nada é gravado ainda)
+BROrgaoExpedidor | liberar 201701A
+BRCondicaoMaternal | liberar 1.0
+BRUnidadeMedida | liberar 1.0
+
+3/4 Aplicando
+BROrgaoExpedidor | liberar 201701A
+    liberar 201701A 400 {"content_type":["Value 'CodeSystem' is not a valid choice."]} -> corrigindo content_type para complete
+    liberar 201701A 200
+BRCondicaoMaternal | liberar 1.0
+    liberar 1.0 400 {"content_type":["Value 'CodeSystem' is not a valid choice."]} -> corrigindo content_type para complete
+    liberar 1.0 200
+BRUnidadeMedida | liberar 1.0
+    liberar 1.0 400 {"content_type":["Value 'CodeSystem' is not a valid choice."]} -> corrigindo content_type para complete
+    liberar 1.0 200
+
+4/4 Simulação do pacote
+PS>TerminatingError(): "O pipeline foi interrompido."
+>> TerminatingError(): "O pipeline foi interrompido."
+>> $global:?
+True
+**********************
+Fim da transcrição do Windows PowerShell
+Hora de término: 20261019122636
+**********************

@@ -1,0 +1,40 @@
+{
+ "codesystems": [
+  {
+   "arquivo": "CodeSystem-BRTabelaSUS.json",
+   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTabelaSUS",
+   "versao_antes": "HEAD",
+   "versao_ocl": "1.0.0",
+   "conceitos": 10175,
+   "content": "not-present",
+   "inativos": 5101
+  },
+  {
+   "arquivo": "CodeSystem-BRTipoAmostraGAL.json",
+   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoAmostraGAL",
+   "versao_antes": "HEAD",
+   "versao_ocl": "1.2",
+   "conceitos": 51,
+   "content": "complete",
+   "inativos": 0
+  },
+  {
+   "arquivo": "CodeSystem-BRTipoDadoPessoalLGPD.json",
+   "url": "https://terminologia.saude.gov.br/fhir/CodeSystem/BRTipoDadoPessoalLGPD",
+   "versao_antes": "HEAD",
+   "versao_ocl": "1.0.0",
+   "conceitos": 3,
+   "content": "complete",
+   "inativos": 0
+  }
+ ],
+ "valuesets": [
+  {
+   "arquivo": "ValueSet-BRTipoDadoPessoalLGPD.json",
+   "mudou": true,
+   "notas": [
+    "passa a incluir o CodeSystem inteiro"
+   ]
+  }
+ ]
+}
