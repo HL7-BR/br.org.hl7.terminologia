@@ -48,3 +48,11 @@ firebase.json
 *.pem
 *.jks
 deploy.bat
+
+# Saídas locais (logs, transcrições do PowerShell, cache)
+__pycache__/
+.claude/
+ocl-acerto.log
+ocl-acerto.txt
+ocl-atualizacao.json
+ocl/**/importacao.txt

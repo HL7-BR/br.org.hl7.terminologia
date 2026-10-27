@@ -1,0 +1,48 @@
+{
+ "id": "4b100f1d-9a97-419d-a883-1a3b3436e89e-jussararotzsch~bulk_import_1",
+ "state": "SUCCESS",
+ "name": "core.common.tasks.bulk_import_parallel_inline",
+ "queue": "bulk_import_1",
+ "username": "jussararotzsch",
+ "task": "4b100f1d-9a97-419d-a883-1a3b3436e89e-jussararotzsch~bulk_import_1",
+ "created_at": "2026-10-16T19:14:37.515623Z",
+ "started_at": "2026-10-16T19:14:37.594490Z",
+ "finished_at": "2026-10-16T19:14:42.648369Z",
+ "runtime": 5.053879,
+ "summary": {
+  "total": 84,
+  "processed": 84
+ },
+ "children": [
+  "b8c9660f-5788-4191-9cc5-0d83a3ab3a6e",
+  "4aa1cdd1-a459-443b-8dfd-a606a287a9b2",
+  "e2821238-9fca-4496-a4a0-46acaf521f83",
+  "59a368ea-c240-4624-bc36-c7212695328c",
+  "0aa7f9a3-f6a7-4e27-9ea3-264eee8fb8d3"
+ ],
+ "message": "Started: 2026-10-16 19:14:37.598491 | Processed: 84/84 | Created: 32 | Updated: 1 | Time: 5.0455secs",
+ "report": {
+  "total": 84,
+  "processed": 84,
+  "created": 32,
+  "updated": 1,
+  "invalid": 2,
+  "exists": 0,
+  "failed": 49,
+  "exception": 0,
+  "deleted": 0,
+  "others": 0,
+  "unknown": 0,
+  "permission_denied": 0,
+  "unchanged": 0,
+  "elapsed_seconds": 5.0455,
+  "start_time": "2026-10-16 19:14:37.598491",
+  "child_resource_time_distribution": {
+   "mapping": 5.0353
+  }
+ },
+ "kwargs": {},
+ "error_message": null,
+ "traceback": null,
+ "retry": 0
+}
