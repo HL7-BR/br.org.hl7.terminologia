@@ -18,3 +18,4 @@ Title: "BR Alergenos"
 * include codes from system BRImunobiologico
 * include codes from system BRMedicamento
 * include codes from system BRAlergenosCBARA
+* include codes from system BRAlergenosNaoMapeados
