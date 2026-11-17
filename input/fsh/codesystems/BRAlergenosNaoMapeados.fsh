@@ -2,7 +2,7 @@ CodeSystem: BRAlergenosNaoMapeados
 Id: BRAlergenosNaoMapeados
 Title: "BRAlergenosNaoMapeados"
 Description: "Códigos para substâncias informadas no sistema de origem que não possuem correspondências definidas na terminologia de alérgenos."
-* ^url = "http://fhir.nuti.ic.ufmt.br/fhir/CodeSystem/BRAlergenosNaoMapeados"
+* ^url = "https://terminologia.nuti.ic.ufmt.br/fhir/CodeSystem/BRAlergenosNaoMapeados"
 * ^version = "1.0.0"
 * ^status = #active
 * ^experimental = false
